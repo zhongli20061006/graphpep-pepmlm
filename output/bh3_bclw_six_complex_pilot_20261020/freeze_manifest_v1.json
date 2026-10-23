@@ -1,0 +1,123 @@
+{
+  "schema": "bclw_six_complex_pilot_freeze_manifest_v1",
+  "created_at_local": "2026-10-20T16:48:03+08:00",
+  "config_sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+  "files": [
+    {
+      "path": "run_config_frozen_v1.json",
+      "sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+      "bytes": 21435
+    },
+    {
+      "path": "runtime_preflight_v1.json",
+      "sha256": "758a0bfef085071601286037fad6702278624ee2b460ab52efcdcee74e61dfca",
+      "bytes": 5076
+    },
+    {
+      "path": "run_config_freeze_report_zh.md",
+      "sha256": "20e9af422af15ae1300487d4b8d6be3f9db564f7f533099cbc86b9af49aa5b21",
+      "bytes": 4129
+    },
+    {
+      "path": "complexes.fasta",
+      "sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "bytes": 639
+    },
+    {
+      "path": "peptide_sequences.fasta",
+      "sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "bytes": 150
+    },
+    {
+      "path": "graphpep_inputs.csv",
+      "sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "bytes": 2528
+    },
+    {
+      "path": "foldx_protocol_template.json",
+      "sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "bytes": 952
+    },
+    {
+      "path": "esm_pll.py",
+      "sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "bytes": 5417
+    },
+    {
+      "path": "test_esm_pll.py",
+      "sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "bytes": 2562
+    },
+    {
+      "path": "graphpep_patches/resmap_compat.py",
+      "sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "bytes": 3873
+    },
+    {
+      "path": "colabfold_batch_help.txt",
+      "sha256": "8837452d777c3d0ddebe2d5d4a3125136a5e28ae55efb49eb45b3de04c06cf77",
+      "bytes": 16734
+    },
+    {
+      "path": "relax_feedback_panel_help.txt",
+      "sha256": "281296bf0bd9eaed67dcfd78bdb6cda80434d3290d9fd4a5673a5015c3dfcf2e",
+      "bytes": 214
+    },
+    {
+      "path": "step3_graphpep_help.txt",
+      "sha256": "179afb8562a6597909a3e5badf83e73285be6fc160ec65daa4d6451f68b6a34f",
+      "bytes": 773
+    },
+    {
+      "path": "esm_pll_help.txt",
+      "sha256": "f4a3d56001586e468e59dd765b113af532f03bb644fd1145035255e46288e4cf",
+      "bytes": 342
+    },
+    {
+      "path": "../../pipeline/step3_graphpep.py",
+      "sha256": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "bytes": 11632
+    },
+    {
+      "path": "../../pipeline/relax_feedback_panel.py",
+      "sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "bytes": 4278
+    },
+    {
+      "path": "../../pipeline/make_resmap_compat.py",
+      "sha256": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad",
+      "bytes": 5422
+    },
+    {
+      "path": "../../output/bh3_bclw_source_audit_20261020/input_representation_frozen_pilot_v1.json",
+      "sha256": "76846081e949dab5d2e126b0d7260985ec6bb988c8d6ce1f560261659c7be43c",
+      "bytes": 2537
+    },
+    {
+      "path": "../../output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+      "bytes": 7282
+    },
+    {
+      "path": "../../output/bh3_second_background_audit_20261020/report_zh.md",
+      "sha256": "988cf78f3786dd6af2bb5d112d09690e42f98cddc2f450cdb06582401ee5df9c",
+      "bytes": 5042
+    },
+    {
+      "path": "../../output/bh3_second_background_audit_20261020/supplement_followup_zh.md",
+      "sha256": "3cef648f0cadd1af31c1a40ef57edd21eef351ff1bc465fd7a1686ea9c7de058",
+      "bytes": 2356
+    },
+    {
+      "path": "../../output/bh3_second_background_audit_20261020/raw/Dutta2013_Supplement.pdf",
+      "sha256": "0a14618a4bf54545f7e0b661129e8784c532d6dd51809b0e8253fb3f0021602f",
+      "bytes": 1119324
+    },
+    {
+      "path": "../../output/bh3_second_background_audit_20261020/raw/Dutta2013_Supplement_extracted.txt",
+      "sha256": "6bd7a639b05b462919bc070e9671f6f31d4adb21d6a5c5898b99aaf9d05f52a9",
+      "bytes": 3254
+    }
+  ],
+  "note": "Manifest excludes itself and its detached checksum. Hashes identify frozen files; they do not establish scientific validity or authorize execution."
+}

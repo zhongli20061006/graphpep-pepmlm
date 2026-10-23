@@ -1,0 +1,801 @@
+{
+  "query_id" : "ba4e9021-ce53-407d-9ea4-2dbe61e8ef9c",
+  "result_type" : "polymer_entity",
+  "total_count" : 265,
+  "result_set" : [ {
+    "identifier" : "1QAV_1",
+    "score" : 1.0
+  }, {
+    "identifier" : "1Z86_1",
+    "score" : 1.0
+  }, {
+    "identifier" : "1Z87_1",
+    "score" : 1.0
+  }, {
+    "identifier" : "2PDZ_1",
+    "score" : 1.0
+  }, {
+    "identifier" : "4HOP_1",
+    "score" : 0.944
+  }, {
+    "identifier" : "7P70_2",
+    "score" : 0.768
+  }, {
+    "identifier" : "7PC4_1",
+    "score" : 0.768
+  }, {
+    "identifier" : "2VRF_1",
+    "score" : 0.696
+  }, {
+    "identifier" : "7QQL_1",
+    "score" : 0.456
+  }, {
+    "identifier" : "7PC7_1",
+    "score" : 0.344
+  }, {
+    "identifier" : "7PC8_1",
+    "score" : 0.344
+  }, {
+    "identifier" : "7QQN_1",
+    "score" : 0.344
+  }, {
+    "identifier" : "2DC2_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "2LOB_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4E34_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4E35_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOE_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOF_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOG_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOH_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOJ_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOK_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOP_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4JOR_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4K6Y_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4K72_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4K75_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4K76_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMO_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMP_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMQ_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMR_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMS_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMT_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4NMV_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4Q6H_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4Q6S_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "5IC3_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "5K4F_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "6OV7_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "6V84_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "6XNJ_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "7JZO_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "7JZP_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "7JZQ_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "7JZR_1",
+    "score" : 0.272
+  }, {
+    "identifier" : "4K78_1",
+    "score" : 0.264
+  }, {
+    "identifier" : "3I4W_1",
+    "score" : 0.144
+  }, {
+    "identifier" : "3K82_1",
+    "score" : 0.144
+  }, {
+    "identifier" : "8AH8_1",
+    "score" : 0.144
+  }, {
+    "identifier" : "1TP3_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "1TP5_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "1TQ3_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "1UEZ_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "1UM7_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "2XKX_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "3JXT_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "5D13_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "5HDY_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "5HEB_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "5HED_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "5JXB_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "6QJD_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "6QJI_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "6QJJ_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "7CQF_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "8AH4_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "8AH5_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "8AH6_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "8AH7_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "9A2E_3",
+    "score" : 0.136
+  }, {
+    "identifier" : "9A2F_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "9TNF_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "9TNG_1",
+    "score" : 0.136
+  }, {
+    "identifier" : "1BE9_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "1BFE_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "1ZOK_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "2DM8_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "2OPG_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "6IRD_2",
+    "score" : 0.128
+  }, {
+    "identifier" : "6QJK_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "6QJL_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "6QJN_1",
+    "score" : 0.128
+  }, {
+    "identifier" : "1N7E_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "1N7F_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "2DKR_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "2HE2_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "3RL7_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "6QJF_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "6QJG_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "8BPM_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "8CN1_1",
+    "score" : 0.12
+  }, {
+    "identifier" : "2EEH_1",
+    "score" : 0.112
+  }, {
+    "identifier" : "2QT5_1",
+    "score" : 0.112
+  }, {
+    "identifier" : "5MZ7_1",
+    "score" : 0.112
+  }, {
+    "identifier" : "5W72_1",
+    "score" : 0.112
+  }, {
+    "identifier" : "1UHP_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "2CS5_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "2EHR_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "2VPH_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "3K1R_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "3NFK_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "3NFL_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5EYZ_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5EZ0_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5F3X_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HET_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HEY_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HF1_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HF4_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HFB_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "5HFC_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "7VZE_1",
+    "score" : 0.104
+  }, {
+    "identifier" : "1IU0_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "1IU2_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "1KEF_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "1RGR_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "1WFV_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "2FE5_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "2KA9_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "2MHO_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "2WL7_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "3GSL_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "3ZRT_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "4H11_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "6SPV_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "6SPZ_1",
+    "score" : 0.096
+  }, {
+    "identifier" : "1WHA_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "2FNE_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "2QG1_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "2R4H_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "4WYT_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "4WYU_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "5VWI_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "6XA6_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "6XA7_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7JO7_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7QRT_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7QS8_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7QSA_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7QSB_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "7QTU_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "8B8O_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "8B9T_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "8BJ0_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "9WHC_1",
+    "score" : 0.088
+  }, {
+    "identifier" : "1I16_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "1QLC_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "1UF1_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "2FCF_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "2I1N_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "2IWQ_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "5FB8_3",
+    "score" : 0.072
+  }, {
+    "identifier" : "5HFD_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "5HFE_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "5HFF_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "6HKS_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "6T36_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "6X1P_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "6X1R_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "8BOJ_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "8BUW_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "8BV7_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "8CQY_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "8OEP_1",
+    "score" : 0.072
+  }, {
+    "identifier" : "1B8Q_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "1GM1_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "1QAU_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "1QAV_2",
+    "score" : 0.064
+  }, {
+    "identifier" : "1VJ6_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2CSJ_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2H2B_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2H2C_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2H3M_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2RRM_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "4HOP_2",
+    "score" : 0.064
+  }, {
+    "identifier" : "4OEO_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "4OEP_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "4YYX_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "7PC5_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "8T1J_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "8T1K_1",
+    "score" : 0.064
+  }, {
+    "identifier" : "2ENO_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "2IWO_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "2IWP_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "2JIK_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "2JIN_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "6EEY_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "7P73_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "7P74_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "7PC9_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "7R2M_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "7R2T_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "8AEL_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "8BP5_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "8C1T_1",
+    "score" : 0.048
+  }, {
+    "identifier" : "1D5G_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "1OZI_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "1X6D_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "3LNX_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "3LNY_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "3PDZ_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "7QCX_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "7QCY_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "7XTY_1",
+    "score" : 0.04
+  }, {
+    "identifier" : "1Q7X_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "1X5N_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "1X5Q_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "2IWN_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "2KBS_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "2Q3G_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "2W4F_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "5VWC_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "5VWK_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6ESP_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6MS1_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6MTU_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6MTV_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6MYE_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6MYF_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "6XA8_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7QRS_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7QS9_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7QTO_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7QTP_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7RM8_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "7X2E_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "8B82_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "8B87_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "8BIA_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "8CD3_1",
+    "score" : 0.032
+  }, {
+    "identifier" : "1UJU_1",
+    "score" : 0.024
+  }, {
+    "identifier" : "2DJT_1",
+    "score" : 0.024
+  }, {
+    "identifier" : "1UEW_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "5WOU_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6NEK_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6Y38_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6Y9N_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6Y9O_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6Y9P_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "6Y9Q_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "7D6F_1",
+    "score" : 0.016
+  }, {
+    "identifier" : "1RGW_1",
+    "score" : 0.008
+  }, {
+    "identifier" : "1WJL_1",
+    "score" : 0.008
+  }, {
+    "identifier" : "2M0Z_1",
+    "score" : 0.008
+  }, {
+    "identifier" : "2M10_1",
+    "score" : 0.008
+  }, {
+    "identifier" : "4YDP_1",
+    "score" : 0.008
+  }, {
+    "identifier" : "1P1D_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "1UJD_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "2KG2_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "2L4S_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "2L4T_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "2PKT_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "2VZ5_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "3DIW_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "3DJ1_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "3DJ3_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "3GJ9_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "3SFJ_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "4E3B_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "4NNL_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "4NNM_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "6GBD_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "6GBE_1",
+    "score" : 0.0
+  }, {
+    "identifier" : "6X1N_1",
+    "score" : 0.0
+  } ]
+}

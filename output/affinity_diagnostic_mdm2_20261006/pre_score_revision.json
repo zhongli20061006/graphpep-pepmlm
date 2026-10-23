@@ -1,0 +1,6 @@
+{
+  "reason": "Pre-score review: remove inherited full-structure score fields from cropped coordinate input to ensure correct resume/cache behavior",
+  "superseded_protocol_sha256": "d7788a623cb208e2479dfaa9bc86ab3d0bd27efab93c18671d8932c3014d3f68",
+  "any_benchmark_scores_computed": false,
+  "sampling_and_analysis_rules_changed": false
+}

@@ -1,0 +1,107 @@
+{
+  "settings": {
+    "max_iterations": 200,
+    "tolerance": 2.39,
+    "stiffness": 10.0,
+    "max_outer_iterations": 3,
+    "use_gpu": false
+  },
+  "models": [
+    {
+      "source_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "relaxed_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I2dM_loss_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "source_sha256": "22f0659095e8eb56890aa59af00c91bccd6c458df5ec2394479396f150c9ce67",
+      "relaxed_sha256": "449476d90e5489d660580e8bf7f7fe27fd92977e803c60cb4532b1c19a65e82e",
+      "confidence_sha256_unchanged": "72561764874ea45ee46b26bdd0362eb095b2d2bbf773c8ebfa2ed96cdfd9fdcd",
+      "settings": {
+        "max_iterations": 200,
+        "tolerance": 2.39,
+        "stiffness": 10.0,
+        "max_outer_iterations": 3,
+        "use_gpu": false
+      },
+      "before": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWMTQELRRIGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 0.8066685361961833,
+        "clashing_atom_pairs_lt_1p5A": 8
+      },
+      "after": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWMTQELRRIGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 2.422848066559722,
+        "clashing_atom_pairs_lt_1p5A": 0
+      },
+      "all_chain_CA_displacement_RMS_A": 0.23358969390392303,
+      "seconds": 8.67123638199999
+    },
+    {
+      "source_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "relaxed_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I3dL_gain_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "source_sha256": "33d6cba4c83ccb019c77f79107b650feca23ed2d6c7c32f3dac3ddab463f8ade",
+      "relaxed_sha256": "258b5f11c4045f65486b4b502663844e183fb9a96fe4f08134342feed6e8d357",
+      "confidence_sha256_unchanged": "54a19b42fa9ac1213689f03b6113f94cda0956c7ba87b33ca8eec5a8fb61f723",
+      "settings": {
+        "max_iterations": 200,
+        "tolerance": 2.39,
+        "stiffness": 10.0,
+        "max_outer_iterations": 3,
+        "use_gpu": false
+      },
+      "before": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWITQELRRLGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 0.9848052743360477,
+        "clashing_atom_pairs_lt_1p5A": 3
+      },
+      "after": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWITQELRRLGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 2.4848494501098464,
+        "clashing_atom_pairs_lt_1p5A": 0
+      },
+      "all_chain_CA_displacement_RMS_A": 0.19772395491600037,
+      "seconds": 5.107061141000003
+    },
+    {
+      "source_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "relaxed_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "source_sha256": "96e479ca0e2f2dab86f0f6be6b128d7c3465ceb12f2311fbf864ccd53711473f",
+      "relaxed_sha256": "86b0db6ab8fb65442956ba35ff5374c10229fe499c91bd01d291ee9e4f83a7c7",
+      "confidence_sha256_unchanged": "2ae9334e735ee5ba382ebcaef61a2bd03c442da88ead12dddf72efa1c86c034a",
+      "settings": {
+        "max_iterations": 200,
+        "tolerance": 2.39,
+        "stiffness": 10.0,
+        "max_outer_iterations": 3,
+        "use_gpu": false
+      },
+      "before": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWITQELRRIGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 0.6670722812910961,
+        "clashing_atom_pairs_lt_1p5A": 16
+      },
+      "after": {
+        "sequences": {
+          "A": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "B": "RPEIWITQELRRIGDEFNAYYAR"
+        },
+        "minimum_heavyatom_distance": 2.40522821015866,
+        "clashing_atom_pairs_lt_1p5A": 0
+      },
+      "all_chain_CA_displacement_RMS_A": 0.24059893190860748,
+      "seconds": 5.874465244999982
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+test_complex_unpaired_rows_have_correct_chain_lengths (test_msa_core.MsaCoreTests.test_complex_unpaired_rows_have_correct_chain_lengths) ... ok
+test_duplicates_cannot_inflate_effective_depth (test_msa_core.MsaCoreTests.test_duplicates_cannot_inflate_effective_depth) ... ok
+test_farthest_first_selects_diversity_before_near_duplicate (test_msa_core.MsaCoreTests.test_farthest_first_selects_diversity_before_near_duplicate) ... ok
+test_floor_failure_is_retained (test_msa_core.MsaCoreTests.test_floor_failure_is_retained) ... ok
+test_identity_does_not_count_gap_gap (test_msa_core.MsaCoreTests.test_identity_does_not_count_gap_gap) ... ok
+test_neff_counts_redundancy_and_greedy_clusters (test_msa_core.MsaCoreTests.test_neff_counts_redundancy_and_greedy_clusters) ... ok
+test_projection_excludes_tail_and_chain_boundary_insertions (test_msa_core.MsaCoreTests.test_projection_excludes_tail_and_chain_boundary_insertions) ... ok
+test_projection_records_deletion_without_shifting_numbering (test_msa_core.MsaCoreTests.test_projection_records_deletion_without_shifting_numbering) ... ok
+test_readthrough_and_fragments_are_excluded (test_msa_core.MsaCoreTests.test_readthrough_and_fragments_are_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.026s
+
+OK

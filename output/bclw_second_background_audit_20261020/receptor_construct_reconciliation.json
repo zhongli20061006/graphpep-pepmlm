@@ -1,0 +1,79 @@
+{
+  "status": "PUBLIC_CONSTRUCT_SEQUENCE_RESOLVED_FOR_DEBARTOLO2014_AND_FOIGHT2015_NOT_DIRECTLY_CONFIRMED_FOR_FOIGHT2014_BATCH",
+  "published_core_sequence": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+  "core_length": 164,
+  "published_post_TEV_prefix": "GSEQKLISEEDLGGSGGTS",
+  "prefix_length": 19,
+  "post_TEV_full_sequence": "GSEQKLISEEDLGGSGGTSMATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+  "post_TEV_full_length": 183,
+  "source_sequence_agreement": "DeBartolo2014 Table S6 full myc-Bcl-w matches Foight2015 Table S7 core plus the post-TEV tag inferred from its pSVM tag sequence.",
+  "canonical_differences": [
+    {
+      "core_position_1based": 133,
+      "UniProt_Q92843_canonical": "Q",
+      "published_construct": "R"
+    }
+  ],
+  "UniProt_variant": {
+    "type": "Natural variant",
+    "location": {
+      "start": {
+        "value": 133,
+        "modifier": "EXACT"
+      },
+      "end": {
+        "value": 133,
+        "modifier": "EXACT"
+      }
+    },
+    "description": "in dbSNP:rs910332",
+    "featureCrossReferences": [
+      {
+        "database": "dbSNP",
+        "id": "rs910332"
+      }
+    ],
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "PubMed",
+        "id": "14702039"
+      },
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "PubMed",
+        "id": "15489334"
+      },
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "PubMed",
+        "id": "8761287"
+      },
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "PubMed",
+        "id": "9039502"
+      },
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "Reference",
+        "id": "Ref.3"
+      },
+      {
+        "evidenceCode": "ECO:0000269",
+        "source": "Reference",
+        "id": "Ref.6"
+      }
+    ],
+    "featureId": "VAR_048418",
+    "alternativeSequence": {
+      "originalSequence": "Q",
+      "alternativeSequences": [
+        "R"
+      ]
+    }
+  },
+  "Foight2014_direct_evidence_limit": "Foight2014 refers to earlier expression methods but does not directly give this clone sequence. Transferring R133 and the 19-aa prefix to its exact assay batch is an inference, not a verified batch identity.",
+  "effect_on_existing_input": "The prepared canonical-Q133 core-only FASTA omits both the tag and the R133 sequence in related published constructs. It remains an explicit unverified proxy and must not be called exact assay input. No silent replacement or new prediction was performed.",
+  "biological_effect": "No affinity effect of receptor Q133R is asserted or computed. Natural-variant annotation is not proof of unchanged binding."
+}

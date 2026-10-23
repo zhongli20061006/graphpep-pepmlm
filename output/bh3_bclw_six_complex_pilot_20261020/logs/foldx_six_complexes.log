@@ -1,0 +1,10 @@
+
+[2026-10-20T19:44:18+08:00] START foldx_six_complexes
+CMD: ['/home/g/miniconda3/envs/graphpep_env/bin/python', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_foldx_six_complexes.py']
+BCLW_Bim_A2eT_parent seed20261008: ok -4.52363
+BCLW_Bim_A2eT_I3dL_gain seed20261008: ok -7.45219
+BCLW_Bim_A2eT_I2dM_loss seed20261008: ok -9.98916
+BCLW_Bim_A2eT_parent seed20261009: ok -8.21784
+BCLW_Bim_A2eT_I3dL_gain seed20261009: ok -5.48642
+BCLW_Bim_A2eT_I2dM_loss seed20261009: ok -10.1564
+[2026-10-20T19:52:23+08:00] END foldx_six_complexes rc=0 reason=None

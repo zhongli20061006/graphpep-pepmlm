@@ -1,0 +1,14 @@
+/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/alphafold/model/modules_multimer.py:114: UserWarning: Explicitly requested dtype int64 requested in broadcasted_iota is not available, and will be truncated to dtype int32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/jax-ml/jax#current-gotchas for more.
+  iota = jax.lax.broadcasted_iota(jnp.int64, logits.shape, axis)
+2026-10-22 11:04:07,198 Running colabfold 1.6.3
+2026-10-22 11:04:07,731 Running on GPU
+2026-10-22 11:04:07,832 Found 2 citations for tools or databases
+2026-10-22 11:04:07,832 Query 1/1: BCLW_Bim_A2eT_parent (length 187)
+2026-10-22 11:04:25,087 alphafold2_multimer_v3_model_1_seed_20261009 recycle=0 pLDDT=38.6 pTM=0.26 ipTM=0.128
+2026-10-22 11:04:25,854 alphafold2_multimer_v3_model_1_seed_20261009 recycle=1 pLDDT=39 pTM=0.258 ipTM=0.163 tol=4
+2026-10-22 11:04:26,602 alphafold2_multimer_v3_model_1_seed_20261009 recycle=2 pLDDT=39.7 pTM=0.263 ipTM=0.239 tol=3.05
+2026-10-22 11:04:27,345 alphafold2_multimer_v3_model_1_seed_20261009 recycle=3 pLDDT=41.1 pTM=0.261 ipTM=0.247 tol=2.07
+2026-10-22 11:04:27,347 alphafold2_multimer_v3_model_1_seed_20261009 took 15.2s (3 recycles)
+2026-10-22 11:04:27,390 reranking models by 'multimer' metric
+2026-10-22 11:04:27,393 rank_001_alphafold2_multimer_v3_model_1_seed_20261009 pLDDT=41.1 pTM=0.261 ipTM=0.247 ipSAE=0.00659 pDockQ2=0.0118
+2026-10-22 11:04:27,694 Done

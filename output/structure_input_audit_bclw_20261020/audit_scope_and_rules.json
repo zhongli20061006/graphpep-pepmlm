@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20 Asia/Shanghai",
+  "workspace": "/mnt/e/Users/graphpep与pepmlm",
+  "handoff_read": "PROJECT_HANDOFF_2026-10-20.md, full",
+  "rules": {
+    "E:/AGENTS.md": "Read; FastAPI-specific. No FastAPI application or API modifications in this research audit.",
+    "E:/Users/AGENTS.md": "absent",
+    "workspace/AGENTS.md": "absent",
+    "workspace_descendants": "rg --files --hidden -g AGENTS.md found no file",
+    "wsl_package_ancestors": "Checked /, /home, /home/g and colabfold batch.py ancestor chain; no AGENTS found",
+    "wsl_mount_parent": "/mnt/AGENTS.md absent; /mnt/e/AGENTS.md maps to already-read E:/AGENTS.md"
+  },
+  "skills": [
+    "systematic-debugging",
+    "verification-before-completion",
+    "python-dev",
+    "pdf read-only source workflow"
+  ],
+  "mutation_boundary": "Only new files under this audit directory; no original outputs, frozen files, package installations or long-term memories changed.",
+  "analysis_boundary": "Small local parsing, hashing and confidence/geometric audit of existing structures are not new model/reward inference.",
+  "database_scope": "5 Q92843 accession-linked RCSB entries + 3FDL + 4K5A/4K5B primary-paper references; 8 unique entries. Not an exhaustive proof of nonexistence.",
+  "retrieval_failure": "EuropePMC PMC4276867 XML HTTP500 retained as failed; primary PMC HTML and RCSB data obtained. No Dutta2013 supplement redownload.",
+  "memory_use": "Old memory used only for boundary/path orientation; current handoff and raw evidence supersede old HOLD and not-started fields."
+}

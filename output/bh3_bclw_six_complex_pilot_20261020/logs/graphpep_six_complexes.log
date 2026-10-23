@@ -1,0 +1,17 @@
+
+[2026-10-20T19:41:20+08:00] START graphpep_six_complexes
+CMD: ['/home/g/miniconda3/envs/graphpep_env/bin/python', '/mnt/e/Users/graphpep与pepmlm/pipeline/step3_graphpep.py', '--lists', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs.csv', '--pdb-dir', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020', '--scores', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/graphpep.csv', '--graphpep-dir', '/home/g/GraphPep_v1.3', '--patched-resmap', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py', '--blue-threshold', '0.70']
+scoring BCLW_Bim_A2eT_parent / seed20261008
+  ok: -3.0099
+scoring BCLW_Bim_A2eT_I3dL_gain / seed20261008
+  ok: -2.9444
+scoring BCLW_Bim_A2eT_I2dM_loss / seed20261008
+  ok: -2.5427
+scoring BCLW_Bim_A2eT_parent / seed20261009
+  ok: -2.7362
+scoring BCLW_Bim_A2eT_I3dL_gain / seed20261009
+  ok: -2.6184
+scoring BCLW_Bim_A2eT_I2dM_loss / seed20261009
+  ok: -2.7269
+wrote 6 model rows: /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/graphpep.csv; lower raw score is better
+[2026-10-20T19:43:25+08:00] END graphpep_six_complexes rc=0 reason=None

@@ -1,0 +1,12 @@
+﻿parent,variant,mutation_local_1based,orientation_basis,parent_Kd_nM_reported,variant_Kd_nM_reported,ratio_variant_over_parent,point_candidate,marginal_endpoint_envelope_low_NOT_joint95,marginal_endpoint_envelope_high_NOT_joint95,edge_identity_already_in_Foight2014,formal_v2_label_released
+Bim,Bim_R3bS,R11S,Table 1; named R3bS mutant,2.6 ± 2.1,18 ± 5.3,6.9230769230769225,loss_candidate,2.702127659574468,46.6,False,False
+Bim,Bim_A2eT,A7T,Table 1; named A2eT mutant,2.6 ± 2.1,40 ± 9.3,15.384615384615383,loss_candidate,6.531914893617021,98.6,True,False
+Bim_A2eT,Bim_A2eT_E2gG,E9G,Table 1; named E2gG mutant,40 ± 9.3,98 ± 35,2.45,loss_candidate,1.2778904665314403,4.3322475570032575,True,False
+BL6-19,BL_d,E16R,Main text explicitly describes E3g-to-arginine substitution,72 ± 15,620 ± 170,8.61111111111111,loss_candidate,5.172413793103448,13.859649122807017,False,False
+BL_c,BL_b,E16R,Main text explicitly describes E3g-to-arginine substitution,>1000,>1000,,not_identifiable_both_censored,,,False,False
+KL6-7,KL6-7_G3eC,G14C,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False
+KL6-7,KL6-7_Y4eK,Y21K,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False
+KL6-7,KL6-7_D3fA,D15A,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False
+KL6-7,KL6-7_I2dR,I6R,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False
+BL6-22,BL6-22_G3eC,G14C,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False
+BL6-22,BL6-22_Y4eK,Y21K,Named single mutant in Table S6,>1000,>3000,,not_identifiable_both_censored,,,False,False

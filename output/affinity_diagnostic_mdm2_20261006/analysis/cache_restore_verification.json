@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "restored_rows_checked": 30,
+  "unchanged_fields": [
+    "binding_score",
+    "n_contacts",
+    "contact_pairs_6A",
+    "structure_sha256",
+    "contact_feedback_path"
+  ],
+  "raw_scoring_rerun": false
+}

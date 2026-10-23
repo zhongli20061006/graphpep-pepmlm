@@ -1,0 +1,739 @@
+{
+  "query_scope": "RCSB accession-linked Q92843 entries, at most 30, plus three handoff references; experimental only checked from exptl. Not a proof against unlinked/homologous structures.",
+  "total_query_count": 5,
+  "entries": [
+    {
+      "pdb_id": "1MK3",
+      "title": "SOLUTION STRUCTURE OF HUMAN BCL-W PROTEIN",
+      "method": [
+        {
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "resolution": null,
+      "citation": {
+        "country": "US",
+        "id": "primary",
+        "journal_abbrev": "J.BIOL.CHEM.",
+        "journal_id_ASTM": "JBCHA3",
+        "journal_id_CSD": "0071",
+        "journal_id_ISSN": "0021-9258",
+        "journal_volume": "278",
+        "page_first": "21124",
+        "page_last": "21128",
+        "pdbx_database_id_DOI": "10.1074/jbc.M301798200",
+        "pdbx_database_id_PubMed": 12651847,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Denisov, A.Y.",
+          "Madiraju, M.S.",
+          "Chen, G.",
+          "Khadir, A.",
+          "Beauparlant, P.",
+          "Attardo, G.",
+          "Shore, G.C.",
+          "Gehring, K."
+        ],
+        "rcsb_journal_abbrev": "J Biol Chem",
+        "title": "Solution structure of human BCL-w: modulation of ligand binding by the C-terminal helix",
+        "year": 2003
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Apoptosis regulator Bcl-W",
+          "chains": "A",
+          "sequence": "ATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEVLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLREGNWASVRLEHHHHHH",
+          "length": 178,
+          "mutation": "P116V",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9550561797752809,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.8808290155440415
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 170,
+                  "ref_beg_seq_id": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "1O0L",
+      "title": "THE STRUCTURE OF BCL-W REVEALS A ROLE FOR THE C-TERMINAL RESIDUES IN MODULATING BIOLOGICAL ACTIVITY",
+      "method": [
+        {
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "resolution": null,
+      "citation": {
+        "country": "UK",
+        "id": "primary",
+        "journal_abbrev": "Embo J.",
+        "journal_id_ASTM": "EMJODG",
+        "journal_id_CSD": "0897",
+        "journal_id_ISSN": "0261-4189",
+        "journal_volume": "22",
+        "page_first": "1497",
+        "page_last": "1507",
+        "pdbx_database_id_DOI": "10.1093/emboj/cdg144",
+        "pdbx_database_id_PubMed": 12660157,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Hinds, M.G.",
+          "Lackmann, M.",
+          "Skea, G.L.",
+          "Harrison, P.J.",
+          "Huang, D.C.S.",
+          "Day, C.L."
+        ],
+        "rcsb_journal_abbrev": "EMBO J",
+        "title": "The structure of Bcl-w reveals a role for the C-terminal residues in modulating biological activity",
+        "year": 2003
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Apoptosis regulator Bcl-W",
+          "chains": "A",
+          "sequence": "GPLGSMATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYGDGALEEARRLREGNWASVRTVLTGAVALGAL",
+          "length": 188,
+          "mutation": "A128E",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.973404255319149,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.9481865284974094
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 6,
+                  "length": 183,
+                  "ref_beg_seq_id": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "1ZY3",
+      "title": "Structural model of complex of Bcl-w protein with Bid BH3-peptide",
+      "method": [
+        {
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "resolution": null,
+      "citation": {
+        "country": "US",
+        "id": "primary",
+        "journal_abbrev": "Biochemistry",
+        "journal_id_ASTM": "BICHAW",
+        "journal_id_CSD": "0033",
+        "journal_id_ISSN": "0006-2960",
+        "journal_volume": "45",
+        "page_first": "2250",
+        "page_last": "2256",
+        "pdbx_database_id_DOI": "10.1021/bi052332s",
+        "pdbx_database_id_PubMed": 16475813,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Denisov, A.Y.",
+          "Chen, G.",
+          "Sprules, T.",
+          "Moldoveanu, T.",
+          "Beauparlant, P.",
+          "Gehring, K."
+        ],
+        "rcsb_journal_abbrev": "Biochemistry",
+        "title": "Structural Model of the BCL-w-BID Peptide Complex and Its Interactions with Phospholipid Micelles.",
+        "year": 2006
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Apoptosis regulator Bcl-W",
+          "chains": "A",
+          "sequence": "ATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEVLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLREGNWASVRLEHHHHHH",
+          "length": 178,
+          "mutation": "P116V",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9550561797752809,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.8808290155440415
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 170,
+                  "ref_beg_seq_id": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "entity_id": "2",
+          "description": "BH3-peptide from BH3 interacting domain death agonist protein",
+          "chains": "B",
+          "sequence": "IIKNIARHLAQVGDSMDRSI",
+          "length": 20,
+          "mutation": "R203K",
+          "references": [
+            {
+              "database_accession": "P55957",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 1.0,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.10256410256410256
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "P55957",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 20,
+                  "ref_beg_seq_id": 82
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "2Y6W",
+      "title": "Structure of a Bcl-w dimer",
+      "method": [
+        {
+          "crystals_number": 1,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "resolution": [
+        2.0
+      ],
+      "citation": {
+        "country": "UK",
+        "id": "primary",
+        "journal_abbrev": "Structure",
+        "journal_id_ASTM": "STRUE6",
+        "journal_id_CSD": "2005",
+        "journal_id_ISSN": "0969-2126",
+        "journal_volume": "19",
+        "page_first": "1467",
+        "pdbx_database_id_DOI": "10.1016/J.STR.2011.07.015",
+        "pdbx_database_id_PubMed": 22000515,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Lee, E.F.",
+          "Dewson, G.",
+          "Smith, B.J.",
+          "Evangelista, M.",
+          "Pettikiriarachchi, A.",
+          "Dogovski, C.",
+          "Perugini, M.A.",
+          "Colman, P.M.",
+          "Fairlie, W.D."
+        ],
+        "rcsb_journal_abbrev": "Structure",
+        "title": "Crystal Structure of a Bcl-W Domain-Swapped Dimer: Implications for the Function of Bcl-2 Family Proteins.",
+        "year": 2011
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "BCL-2-LIKE PROTEIN 2",
+          "chains": "A,B",
+          "sequence": "MGSHHHHHHGARQMATPASAPDTRALVADFVGYKLRQKGYVSGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "length": 177,
+          "mutation": "YES",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9265536723163842,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.8497409326424871
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 14,
+                  "length": 164,
+                  "ref_beg_seq_id": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "3FDL",
+      "title": "Bim BH3 peptide in complex with Bcl-xL",
+      "method": [
+        {
+          "crystals_number": 1,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "resolution": [
+        1.78
+      ],
+      "citation": {
+        "country": "GE",
+        "id": "primary",
+        "journal_abbrev": "Angew.Chem.Int.Ed.Engl.",
+        "journal_id_CSD": "9999",
+        "journal_id_ISSN": "1433-7851",
+        "journal_volume": "48",
+        "page_first": "4318",
+        "page_last": "4322",
+        "pdbx_database_id_DOI": "10.1002/anie.200805761",
+        "pdbx_database_id_PubMed": 19229915,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Lee, E.F.",
+          "Sadowsky, J.D.",
+          "Smith, B.J.",
+          "Czabotar, P.E.",
+          "Peterson-Kaufman, K.J.",
+          "Colman, P.M.",
+          "Gellman, S.H.",
+          "Fairlie, W.D."
+        ],
+        "rcsb_journal_abbrev": "Angew Chem Int Ed Engl",
+        "title": "High-Resolution Structural Characterization of a Helical alpha/beta-Peptide Foldamer Bound to the Anti-Apoptotic Protein Bcl-x(L)",
+        "year": 2009
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Apoptosis regulator Bcl-X",
+          "chains": "A",
+          "sequence": "GPLGSMSQSNRELVVDFLSYKLSQKGYSWSQMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAAAESRKGQER",
+          "length": 158,
+          "mutation": null,
+          "references": [
+            {
+              "database_accession": "Q07817",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9683544303797469,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.6566523605150214
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q07817",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 6,
+                  "length": 153,
+                  "ref_beg_seq_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "entity_id": "2",
+          "description": "Bcl-2-like protein 11",
+          "chains": "B",
+          "sequence": "DMRPEIWIAQELRRIGDEFNAYYARR",
+          "length": 26,
+          "mutation": null,
+          "references": [
+            {
+              "database_accession": "O43521",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 1.0,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.13131313131313133
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "O43521",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 26,
+                  "ref_beg_seq_id": 141
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "4CIM",
+      "title": "Complex of a Bcl-w BH3 mutant with a BH3 domain",
+      "method": [
+        {
+          "crystals_number": 1,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "resolution": [
+        1.5
+      ],
+      "citation": {
+        "country": "US",
+        "id": "primary",
+        "journal_abbrev": "J.Biol.Chem.",
+        "journal_id_ASTM": "JBCHA3",
+        "journal_id_CSD": "0071",
+        "journal_id_ISSN": "0021-9258",
+        "journal_volume": "289",
+        "page_first": "36001",
+        "pdbx_database_id_DOI": "10.1074/JBC.M114.610758",
+        "pdbx_database_id_PubMed": 25371206,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Lee, E.F.",
+          "Dewson, G.",
+          "Evangelista, M.",
+          "Pettikiriarachchi, A.",
+          "Zhu, H.",
+          "Colman, P.M.",
+          "Fairlie, W.D."
+        ],
+        "rcsb_journal_abbrev": "J Biol Chem",
+        "title": "The Functional Differences of Pro-Survival and Pro-Apoptotic B Cell Lymphoma 2 (Bcl-2) Proteins Depend on Structural Differences in Their Bcl-2 Homology 3 (Bh3) Domains",
+        "year": 2014
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "BCL-2-LIKE PROTEIN 2",
+          "chains": "A,B",
+          "sequence": "MATPASAPDTRALVADFVGYKLRQKGYVSGAGPGEGPAADPLGQALRAIGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYGDGALEEARRLR",
+          "length": 163,
+          "mutation": "YES",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 1.0,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.844559585492228
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 163,
+                  "ref_beg_seq_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "entity_id": "2",
+          "description": "BCL-2-LIKE PROTEIN 2",
+          "chains": "P,Q",
+          "sequence": "AADPLGQALRAIGDEFETRFR",
+          "length": 21,
+          "mutation": "YES",
+          "references": [
+            {
+              "database_accession": "Q92843",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 1.0,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.10880829015544041
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q92843",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 1,
+                  "length": 21,
+                  "ref_beg_seq_id": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdb_id": "4K5A",
+      "title": "Co-crystallization with conformation-specific designed ankyrin repeat proteins explains the conformational flexibility of BCL-W",
+      "method": [
+        {
+          "crystals_number": 1,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "resolution": [
+        1.5
+      ],
+      "citation": {
+        "country": "UK",
+        "id": "primary",
+        "journal_abbrev": "J.Mol.Biol.",
+        "journal_id_ASTM": "JMOBAK",
+        "journal_id_CSD": "0070",
+        "journal_id_ISSN": "0022-2836",
+        "journal_volume": "426",
+        "page_first": "2346",
+        "page_last": "2362",
+        "pdbx_database_id_DOI": "10.1016/j.jmb.2014.04.010",
+        "pdbx_database_id_PubMed": 24747052,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Schilling, J.",
+          "Schoppe, J.",
+          "Sauer, E.",
+          "Pluckthun, A."
+        ],
+        "rcsb_journal_abbrev": "J Mol Biol",
+        "title": "Co-Crystallization with Conformation-Specific Designed Ankyrin Repeat Proteins Explains the Conformational Flexibility of BCL-W",
+        "year": 2014
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Bcl-2-like protein 2",
+          "chains": "A",
+          "sequence": "MRGSHHHHHHGSATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEVLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLREGNWASVREA",
+          "length": 184,
+          "mutation": "P128V",
+          "references": [
+            {
+              "database_accession": "Q1RMX3",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9239130434782609,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.8808290155440415
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q1RMX3",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 13,
+                  "length": 170,
+                  "ref_beg_seq_id": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "entity_id": "2",
+          "description": "Designed Ankyrin Repeat Protein 013_D12",
+          "chains": "B",
+          "sequence": "MRGSHHHHHHGSDLGKKLLEAANVGQHDEVRILMANGADVNAADKYGDTPLHLAAMNGHLEIVEVLLKTGADVNAVDFMGRTPLHLAADNGHLEIVEVLLKHGADVNAQAFWGKTPLHLAAQQGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+          "length": 169,
+          "mutation": null,
+          "references": null,
+          "align": []
+        }
+      ]
+    },
+    {
+      "pdb_id": "4K5B",
+      "title": "Co-crystallization with conformation-specific designed ankyrin repeat proteins explains the conformational flexibility of BCL-W",
+      "method": [
+        {
+          "crystals_number": 1,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "resolution": [
+        1.85
+      ],
+      "citation": {
+        "country": "UK",
+        "id": "primary",
+        "journal_abbrev": "J.Mol.Biol.",
+        "journal_id_ASTM": "JMOBAK",
+        "journal_id_CSD": "0070",
+        "journal_id_ISSN": "0022-2836",
+        "journal_volume": "426",
+        "page_first": "2346",
+        "page_last": "2362",
+        "pdbx_database_id_DOI": "10.1016/j.jmb.2014.04.010",
+        "pdbx_database_id_PubMed": 24747052,
+        "rcsb_ORCID_identifiers": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "rcsb_authors": [
+          "Schilling, J.",
+          "Schoppe, J.",
+          "Sauer, E.",
+          "Pluckthun, A."
+        ],
+        "rcsb_journal_abbrev": "J Mol Biol",
+        "title": "Co-Crystallization with Conformation-Specific Designed Ankyrin Repeat Proteins Explains the Conformational Flexibility of BCL-W",
+        "year": 2014
+      },
+      "entities": [
+        {
+          "entity_id": "1",
+          "description": "Apoptosis regulator BCL-W",
+          "chains": "A,B",
+          "sequence": "MRGSHHHHHHGSDLGKKLLEAARAGQDDEVRILMANGADVNAKDRFGWTPLHLAAMEGHLEIVEVLLKTGADVNAWADLGTTPLHLAAMKGHLEIVEVLLKAGADVNAEAIVGYTPLHLAAWEGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+          "length": 169,
+          "mutation": null,
+          "references": null,
+          "align": []
+        },
+        {
+          "entity_id": "2",
+          "description": "Bcl-2-like protein 2",
+          "chains": "C,D",
+          "sequence": "MRGSHHHHHHGSATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEVLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLREGNWASVREA",
+          "length": 184,
+          "mutation": "P128V",
+          "references": [
+            {
+              "database_accession": "Q1RMX3",
+              "database_name": "UniProt",
+              "entity_sequence_coverage": 0.9239130434782609,
+              "provenance_source": "SIFTS",
+              "reference_sequence_coverage": 0.8808290155440415
+            }
+          ],
+          "align": [
+            {
+              "provenance_source": "SIFTS",
+              "reference_database_accession": "Q1RMX3",
+              "reference_database_name": "UniProt",
+              "aligned_regions": [
+                {
+                  "entity_beg_seq_id": 13,
+                  "length": 170,
+                  "ref_beg_seq_id": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

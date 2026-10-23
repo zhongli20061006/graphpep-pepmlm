@@ -1,0 +1,17 @@
+{
+  "reference_accession": "Q92843",
+  "reference_length": 193,
+  "receptor_sequence": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+  "peptide_sequence": "RPEIWITQELRRIGDEFNAYYAR",
+  "receptor_length": 164,
+  "peptide_length": 23,
+  "Q133_unchanged": true,
+  "matches_old_fasta_and_core_audit": true,
+  "model_representation": "Unchanged 1-164 core + standard parent 23mer; not exact assay chemistry.",
+  "omissions": [
+    "N-terminal fluorescein",
+    "C-terminal amidation",
+    "N-terminal receptor c-myc/TEV junction of unrecovered complete sequence"
+  ],
+  "uncertainty": "Assay clone Q133 identity not independently recovered; do not silently change to R133."
+}

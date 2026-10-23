@@ -1,0 +1,44 @@
+{
+  "method_id": "homer1_ratio_interval_v1",
+  "source": "Singer et al. 2024, Homer1 EVH1 BLI Tables 2-3; means +/- SD, n=3 technical replicates",
+  "interval_type": "approximate technical-replicate uncertainty interval; not a biological-replicate confidence interval",
+  "critical_t_df2_975": 4.3026527299,
+  "pairs": [
+    {
+      "background": "DVL3",
+      "variant": "Y4F (Y25F)",
+      "wt_kd_uM": 46.0,
+      "wt_sd_uM": 6.0,
+      "variant_kd_uM": 14.0,
+      "variant_sd_uM": 1.0,
+      "n_technical": 3,
+      "ratio_variant_over_wt": 0.30434782608695654,
+      "expected_direction": "gain",
+      "independent_means_interval": [0.21034520291996894, 0.44035993195004713],
+      "max_adverse_covariance_interval": [0.1843276428395824, 0.5025160514013017],
+      "passes_frozen_direction_rule_under_both_intervals": true
+    },
+    {
+      "background": "DVL3",
+      "variant": "P0A (P21A)",
+      "wt_kd_uM": 46.0,
+      "wt_sd_uM": 6.0,
+      "variant_kd_uM": 115.0,
+      "variant_sd_uM": 10.0,
+      "n_technical": 3,
+      "ratio_variant_over_wt": 2.5,
+      "expected_direction": "loss",
+      "independent_means_interval": [1.6936222966467736, 3.6903151383720343],
+      "max_adverse_covariance_interval": [1.4568270167332131, 4.290145589155117],
+      "passes_frozen_direction_rule_under_both_intervals": true
+    }
+  ],
+  "limitations": [
+    "The source does not provide the replicate-level Kd values, so covariance and outlier sensitivity cannot be re-estimated.",
+    "These intervals reflect technical repeat dispersion only; they do not establish independent-preparation reproducibility or biological generalization.",
+    "The full biotin-BAP/His/SUMO/linker/peptide fusion sequence used in the 2024 assay remains unrecovered, so prediction input correspondence is unresolved."
+  ],
+  "scores_seen": false,
+  "prediction_jobs_started": 0,
+  "scoring_jobs_started": 0
+}

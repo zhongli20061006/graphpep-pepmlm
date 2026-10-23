@@ -1,0 +1,139 @@
+{
+  "repository": "/home/g/GraphPep_v1.3",
+  "inspected_lists": [
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+      "size_bytes": 15617
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+      "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+      "size_bytes": 769178
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+      "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+      "size_bytes": 85650
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+      "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+      "size_bytes": 495
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+      "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+      "size_bytes": 265
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+      "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+      "size_bytes": 310
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+      "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+      "size_bytes": 320
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+      "sha256": "bcb8fd11b05515bbda1ba502f183f82244a5d4afa11125c1ccf7a858ea5a5238",
+      "size_bytes": 1331
+    }
+  ],
+  "pdb_id_matches": {
+    "5UMM": [
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/list",
+        "target": "5umm_B",
+        "first_line": 1837,
+        "rows": 1
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+        "target": "5umm_B",
+        "first_line": 5750,
+        "rows": 21
+      }
+    ],
+    "5UML": [],
+    "3EQY": [],
+    "3EQS": [],
+    "3LNZ": [],
+    "1YCR": [],
+    "2PQK": [],
+    "3KZ0": [],
+    "3KJ0": [],
+    "3KJ1": [],
+    "3KJ2": [],
+    "3KZE": [
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/list",
+        "target": "3kze_D",
+        "first_line": 773,
+        "rows": 1
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+        "target": "3kze_D",
+        "first_line": 30829,
+        "rows": 12
+      }
+    ],
+    "4GVD": []
+  },
+  "training_targets_in_local_list": 2231,
+  "core_source_hashes": [
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/config.py",
+      "sha256": "2c39eac8b200b502d2ef8b596ab7feaa8f90e3737631df6a998990ea14015013"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/core.py",
+      "sha256": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/data.py",
+      "sha256": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/getmodel.py",
+      "sha256": "89666a4064eb160b9755e1a93b68ba068de9c61e09d8b49eee55563723277073"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/model.py",
+      "sha256": "1bd423d4e587bd1c9026ac64f36e2c03cfb59833cee7c74125ff8b40aa81eaf0"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/pdb2sdf.py",
+      "sha256": "6ee2f8f6dffdbe874a2d3845380a276b6e7c2592f9a3064cf2fdb217918c8661"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/pre.py",
+      "sha256": "656942ca3e208326aff0f9d2f1e1011b096e512d30e6afb0138b57aa00d70677"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/predict.py",
+      "sha256": "8ea8eaa11ad6a574b64ff9e7406373caf2201df10e4e313e0ee6462afc831f8e"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/res_gated_graph_conv.py",
+      "sha256": "dfbfea2f0d69226c4a35ef1ef4357eb4f50c1a12890757799c2b2ce714b18fcb"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/resmap.py",
+      "sha256": "6635fd810cae881675be4c1c9cd2d8b46671383fb1884bed1059be9ce239d070"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/type.py",
+      "sha256": "e69767e29a4c6290f0c6b0569ac4e40cd4f3e2af36d49b55847713af3e7164e8"
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/bin/utils.py",
+      "sha256": "c5a8cd3987e1e226c0b04bd04f2cc1784694633ee1566ef6a264069e33211d68"
+    }
+  ],
+  "scope": "Exact PDB ID audit of installed lists; no exhaustive homolog/sequence or AFM/ESM/PepMLM training audit",
+  "training_clean_claim_allowed": false
+}

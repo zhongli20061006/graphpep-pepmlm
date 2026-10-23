@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pilot_structures": 48,
+  "hydrated_sources": 24,
+  "raw_tables": 96,
+  "condition_pairs": 24,
+  "within_repeat_contrasts": 12,
+  "maximum_frozen_displacement_A": 0.0,
+  "maximum_flexible_backbone_displacement_A": 1.4800354770110398,
+  "audit_script_sha256": "dd003052c618ed99d87623881fc1bce84fb51e437b63708745f32b5c1bc54225",
+  "does_not_validate_affinity": true
+}

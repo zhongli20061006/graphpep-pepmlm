@@ -1,0 +1,355 @@
+{
+  "source_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/independent_direction_audit_20261020/pdz_ligand_input_audit.csv",
+  "source_sha256": "00a9be9e25c3708c2a1bf2944a04fd09c885c31850fc94a7339441d65adc3d40",
+  "source_rows": 18,
+  "queries": [
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSRETDL",
+      "core10": "CLDTSRETDL",
+      "full13": "NNGCLDTSRETDL"
+    },
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSKETDL",
+      "core10": "CLDTSKETDL",
+      "full13": "NNGCLDTSKETDL"
+    },
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSRDTDL",
+      "core10": "CLDTSRDTDL",
+      "full13": "NNGCLDTSRDTDL"
+    },
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSRESDL",
+      "core10": "CLDTSRESDL",
+      "full13": "NNGCLDTSRESDL"
+    },
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSRETWL",
+      "core10": "CLDTSRETWL",
+      "full13": "NNGCLDTSRETWL"
+    },
+    {
+      "ligand_id": "a1syn_Kv1.5_CLDTSRETDV",
+      "core10": "CLDTSRETDV",
+      "full13": "NNGCLDTSRETDV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDRESIV",
+      "core10": "SPDRDRESIV",
+      "full13": "NNGSPDRDRESIV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDMESIV",
+      "core10": "SPDRDMESIV",
+      "full13": "NNGSPDRDMESIV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDRRSIV",
+      "core10": "SPDRDRRSIV",
+      "full13": "NNGSPDRDRRSIV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDRETIV",
+      "core10": "SPDRDRETIV",
+      "full13": "NNGSPDRDRETIV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDRESDV",
+      "core10": "SPDRDRESDV",
+      "full13": "NNGSPDRDRESDV"
+    },
+    {
+      "ligand_id": "a1syn_Nav1.5_SPDRDRESIL",
+      "core10": "SPDRDRESIL",
+      "full13": "NNGSPDRDRESIL"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGRETTV",
+      "core10": "NLKAGRETTV",
+      "full13": "NNGNLKAGRETTV"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGTETTV",
+      "core10": "NLKAGTETTV",
+      "full13": "NNGNLKAGTETTV"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGRSTTV",
+      "core10": "NLKAGRSTTV",
+      "full13": "NNGNLKAGRSTTV"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGREYTV",
+      "core10": "NLKAGREYTV",
+      "full13": "NNGNLKAGREYTV"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGRETQV",
+      "core10": "NLKAGRETQV",
+      "full13": "NNGNLKAGRETQV"
+    },
+    {
+      "ligand_id": "a1syn_KIF1B_NLKAGRETTL",
+      "core10": "NLKAGRETTL",
+      "full13": "NNGNLKAGRETTL"
+    }
+  ],
+  "native_peptide_files": 2509,
+  "native_chains": 2509,
+  "scan_results": [
+    {
+      "query": "CLDTSKETDL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "CLDTSRDTDL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "CLDTSRESDL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "CLDTSRETDL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "CLDTSRETDV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "CLDTSRETWL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGRETQV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGRETTL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGRETTV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGREYTV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGRSTTV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NLKAGTETTV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSKETDL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSRDTDL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSRESDL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSRETDL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSRETDV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGCLDTSRETWL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGRETQV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGRETTL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGRETTV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGREYTV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGRSTTV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGNLKAGTETTV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDMESIV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDRESDV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDRESIL",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDRESIV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDRETIV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "NNGSPDRDRRSIV",
+      "length": 13,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDMESIV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDRESDV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDRESIL",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDRESIV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDRETIV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "SPDRDRRSIV",
+      "length": 10,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    }
+  ],
+  "direction_note": "Exact query==native and query-in-native reported separately. Native fragment in query (>=6aa) is exploratory structural motif exposure, not exact full assay sequence membership.",
+  "source_refresh_note": "After receptor-description-only parent CSV revision, all 18 ordered row IDs and 36 core10/full13 query strings were re-read and asserted exactly equal to scanned queries; native scan results unchanged."
+}

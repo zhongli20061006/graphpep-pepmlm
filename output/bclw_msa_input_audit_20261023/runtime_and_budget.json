@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-23T04:14:06.098208+00:00",
+  "finished_utc": "2026-10-23T04:14:18.729542+00:00",
+  "worker_wall_seconds": 12.631333101,
+  "cpu_worker_wall_seconds_max": 300,
+  "worker_wall_budget_pass": true,
+  "output_bytes_at_worker_completion": 638179,
+  "output_bytes_max": 16777216,
+  "output_budget_pass": true,
+  "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+  "executable": "/home/g/miniconda3/envs/graphpep_env/bin/python",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "biopython": "1.88",
+  "forbidden_runtime_modules_loaded": [],
+  "source_scope": "Existing local files only; no subprocess, network call, model inference, feature generation or GPU runtime import."
+}

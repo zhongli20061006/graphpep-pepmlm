@@ -1,0 +1,406 @@
+{
+  "scope": "bounded primary-source screen; no models or scores",
+  "sources": [
+    {
+      "pmcid": "PMC152889",
+      "slug": "Hinds_2003_Bclw_C_terminal",
+      "title": "The structure of Bcl-w reveals a role for the C-terminal residues in modulating biological activity",
+      "ids": {
+        "pmcid": "PMC152889",
+        "pmcid-ver": "PMC152889.1",
+        "pmcaid": "152889",
+        "pmcaiid": "152889",
+        "pmid": "12660157",
+        "doi": "10.1093/emboj/cdg144",
+        "publisher-id": "cdg144"
+      },
+      "status": "metadata_only_jats",
+      "has_fulltext_body": false,
+      "path": "raw/PMC152889.xml",
+      "bytes": 7264,
+      "sha256": "120dfe4fe6c291fc495b8f60ffe387962a5683be69967751b3e2a5117f79e3b1",
+      "retrieved_utc": "2026-10-20T08:13:27.606917+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC152889/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC152889/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=152889",
+          "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=152889",
+          "ok": true
+        }
+      ],
+      "tables": 0,
+      "supplements": []
+    },
+    {
+      "pmcid": "PMC2781529",
+      "slug": "Lee_2009_randomized_BH3",
+      "title": "Novel Bcl-2 Homology-3 Domain-like Sequences Identified from Screening Randomized Peptide Libraries for Inhibitors of the Pro-survival Bcl-2 Proteins*",
+      "ids": {
+        "pmcid": "PMC2781529",
+        "pmcid-ver": "PMC2781529.1",
+        "pmcaid": "2781529",
+        "pmcaiid": "2781529",
+        "pmid": "19748896",
+        "doi": "10.1074/jbc.M109.048009",
+        "publisher-id": "M109.048009"
+      },
+      "status": "metadata_only_jats",
+      "has_fulltext_body": false,
+      "path": "raw/PMC2781529.xml",
+      "bytes": 9760,
+      "sha256": "28c9dd6d0c0feb68e5007ff03079cdfa7c15daad886ae2bf20dc594d5426458e",
+      "retrieved_utc": "2026-10-20T08:13:25.994727+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2781529/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2781529/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2781529",
+          "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2781529",
+          "ok": true
+        }
+      ],
+      "tables": 0,
+      "supplements": []
+    },
+    {
+      "pmcid": "PMC3600422",
+      "slug": "DeBartolo_2012_binding_models",
+      "title": "Predictive Bcl-2 Family Binding Models Rooted in Experiment or Structure",
+      "ids": {
+        "pmcid": "PMC3600422",
+        "pmcid-ver": "PMC3600422.1",
+        "pmcaid": "3600422",
+        "pmcaiid": "3600422",
+        "manuscript-id": "NIHMS380367",
+        "pmid": "22617328",
+        "doi": "10.1016/j.jmb.2012.05.022",
+        "manuscript-id-alternative": "NIHPA380367"
+      },
+      "status": "archived_fulltext_jats",
+      "has_fulltext_body": true,
+      "path": "raw/PMC3600422.xml",
+      "bytes": 205541,
+      "sha256": "aa335e599357d5b8dec207b8fa8ab576e15d726d93d292b1301f5109beab2b12",
+      "retrieved_utc": "2026-10-20T08:13:30.069269+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3600422/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3600422/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3600422",
+          "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3600422",
+          "ok": true
+        }
+      ],
+      "tables": 6,
+      "supplements": [
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-01.doc",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-02.jpg",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-03.jpg",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-04.jpg",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-05.jpg",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-06.jpg",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS380367-supplement-07.doc",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC3631442",
+      "slug": "Dutta_2013_Bfl1_ligands",
+      "title": "Peptide ligands for pro-survival protein Bfl-1 from computationally guided library screening",
+      "ids": {
+        "pmcid": "PMC3631442",
+        "pmcid-ver": "PMC3631442.1",
+        "pmcaid": "3631442",
+        "pmcaiid": "3631442",
+        "manuscript-id": "NIHMS443232",
+        "pmid": "23363053",
+        "doi": "10.1021/cb300679a",
+        "manuscript-id-alternative": "NIHPA443232"
+      },
+      "status": "archived_fulltext_jats",
+      "has_fulltext_body": true,
+      "path": "raw/PMC3631442.xml",
+      "bytes": 135836,
+      "sha256": "2fe04cc180a5b4e318f641f2caa80beddaed84066fb2d96bd806edb639ea7f22",
+      "retrieved_utc": "2026-10-20T08:13:31.494233+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3631442/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3631442/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3631442",
+          "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3631442",
+          "ok": true
+        }
+      ],
+      "tables": 2,
+      "supplements": [
+        {
+          "tag": "media",
+          "href": "NIHMS443232-supplement-1_si_001.pdf",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4072508",
+      "slug": "DeBartolo_2014_genome_wide",
+      "title": "Genome-Wide Prediction and Validation of Peptides That Bind Human Prosurvival Bcl-2 Proteins",
+      "ids": {
+        "pmcid": "PMC4072508",
+        "pmcid-ver": "PMC4072508.1",
+        "pmcaid": "4072508",
+        "pmcaiid": "4072508",
+        "pmid": "24967846",
+        "doi": "10.1371/journal.pcbi.1003693",
+        "publisher-id": "PCOMPBIOL-D-13-02206"
+      },
+      "status": "archived_fulltext_jats",
+      "has_fulltext_body": true,
+      "path": "raw/PMC4072508.xml",
+      "bytes": 142645,
+      "sha256": "998d6b799eaa5a75eb50dc62953c2e8363a87e8be9db675db4595f81c8825bb4",
+      "retrieved_utc": "2026-10-20T08:13:30.074270+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4072508/fullTextXML",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4072508/fullTextXML",
+          "ok": true
+        }
+      ],
+      "tables": 0,
+      "supplements": [
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s001.pdf",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s002.pdf",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s003.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s004.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s005.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s006.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s007.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s008.docx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s009.xlsx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s010.xlsx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s011.xlsx",
+          "text": "Click here for additional data file."
+        },
+        {
+          "tag": "media",
+          "href": "pcbi.1003693.s012.docx",
+          "text": "Click here for additional data file."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4520770",
+      "slug": "Foight_2015_viral_landscape",
+      "title": "Locating herpesvirus Bcl-2 homologs in the specificity landscape of anti-apoptotic Bcl-2 proteins",
+      "ids": {
+        "pmcid": "PMC4520770",
+        "pmcid-ver": "PMC4520770.1",
+        "pmcaid": "4520770",
+        "pmcaiid": "4520770",
+        "manuscript-id": "NIHMS694099",
+        "pmid": "26009469",
+        "doi": "10.1016/j.jmb.2015.05.015",
+        "manuscript-id-alternative": "NIHPA694099"
+      },
+      "status": "archived_fulltext_jats",
+      "has_fulltext_body": true,
+      "path": "raw/PMC4520770.xml",
+      "bytes": 213623,
+      "sha256": "491306225ba1a82a7f73e75b416f9c396e7528194491f7256cd3116baa5ea377",
+      "retrieved_utc": "2026-10-20T08:13:34.816216+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4520770/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4520770/fullTextXML",
+          "ok": false,
+          "error": "HTTP Error 500: "
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4520770",
+          "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4520770",
+          "ok": true
+        }
+      ],
+      "tables": 2,
+      "supplements": [
+        {
+          "tag": "media",
+          "href": "NIHMS694099-supplement-1.docx",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "NIHMS694099-supplement-2.docx",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5464773",
+      "slug": "Jenson_2017_PUMA_epistasis",
+      "title": "Epistatic mutations in PUMA BH3 drive an alternate binding mode to potently and selectively inhibit anti-apoptotic Bfl-1",
+      "ids": {
+        "pmcid": "PMC5464773",
+        "pmcid-ver": "PMC5464773.1",
+        "pmcaid": "5464773",
+        "pmcaiid": "5464773",
+        "pmid": "28594323",
+        "doi": "10.7554/eLife.25541",
+        "publisher-id": "25541"
+      },
+      "status": "archived_fulltext_jats",
+      "has_fulltext_body": true,
+      "path": "raw/PMC5464773.xml",
+      "bytes": 250890,
+      "sha256": "7a5701bc6a039c1bec588a96780593788e2c0063f03eaf9c7e85c217cad80dd2",
+      "retrieved_utc": "2026-10-20T08:13:31.501248+00:00",
+      "attempts": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5464773/fullTextXML",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5464773/fullTextXML",
+          "ok": true
+        }
+      ],
+      "tables": 0,
+      "supplements": [
+        {
+          "tag": "media",
+          "href": "elife-25541-fig2-data1.xlsx",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "elife-25541-fig3-code1.zip",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "elife-25541-fig4-data1.xlsx",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "elife-25541-fig7-data1.xlsx",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "elife-25541-fig8-data1.xlsx",
+          "text": ""
+        },
+        {
+          "tag": "media",
+          "href": "elife-25541-supp1.xlsx",
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

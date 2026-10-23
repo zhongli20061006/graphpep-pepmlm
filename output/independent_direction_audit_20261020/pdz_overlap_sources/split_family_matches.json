@@ -1,0 +1,51 @@
+{
+  "train": {
+    "target_count": 35,
+    "targets": [
+      "1be9_B",
+      "1tp3_B",
+      "2qt5_X",
+      "3diw_C",
+      "3nfk_C",
+      "3nfl_E",
+      "3rl7_G",
+      "3sfj_B",
+      "4e34_C",
+      "4e35_C",
+      "4e3b_C",
+      "4joe_C",
+      "4jof_C",
+      "4jog_C",
+      "4joh_D",
+      "4joj_C",
+      "4jok_C",
+      "4jor_C",
+      "4k6y_C",
+      "4k72_C",
+      "4k75_B",
+      "4k76_E",
+      "4k78_B",
+      "4nnl_C",
+      "4wyu_D",
+      "5eyz_E",
+      "5hed_B",
+      "5hey_B",
+      "5hf1_B",
+      "5hfb_B",
+      "5k4f_C",
+      "5vwi_C",
+      "6ms1_D",
+      "6ov7_C",
+      "6spz_P"
+    ]
+  },
+  "valid": {
+    "target_count": 4,
+    "targets": [
+      "4jop_C",
+      "5ez0_E",
+      "5wou_V",
+      "6hks_G"
+    ]
+  }
+}

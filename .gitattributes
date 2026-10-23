@@ -1,0 +1,3 @@
+# Preserve exact bytes: frozen inputs and execution manifests use SHA-256.
+# In particular, do not convert LF/CRLF during add or checkout.
+* -text

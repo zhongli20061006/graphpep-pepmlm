@@ -1,0 +1,11 @@
+﻿first_name_lexical_no_parent_claim,second_name_lexical_no_parent_claim,local_position_1based,first_aa,second_aa,first_Kd_nM_reported,second_Kd_nM_reported,point_fold_difference_if_both_finite,source_directed_edge_in_previous_table,count_as_new_v2_gain,note
+BL6-11,BL6-19,11,T,G,110 ± 22,72 ± 15,1.5277777777777777,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL6-11,BL_a,11,T,S,110 ± 22,79 ± 11,1.3924050632911393,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL6-19,BL_a,11,G,S,72 ± 15,79 ± 11,1.0972222222222223,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL6-19,BL_c,17,F,E,72 ± 15,>1000,,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL6-19,BL_d,16,E,R,72 ± 15,620 ± 170,8.61111111111111,True,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL6prime-16,BL_a,13,A,V,11 ± 1.3,79 ± 11,7.181818181818182,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL8-9,BL_a,7,G,A,400 ± 170,79 ± 11,5.063291139240507,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL_b,BL_c,16,R,E,>1000,>1000,,True,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+BL_b,BL_d,17,E,F,>1000,620 ± 170,,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.
+KL8-16,KL8-7,9,Q,R,28 ± 8.0,40 ± 9.2,1.4285714285714286,False,False,Sequence-neighbour audit only. No parent is inferred from Kd or alphabetic order.

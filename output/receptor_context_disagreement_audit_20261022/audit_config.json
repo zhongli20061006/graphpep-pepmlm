@@ -1,0 +1,147 @@
+{
+  "audit_id": "EXISTING_CONTEXT_DISAGREEMENTS_20261022",
+  "frozen_at_utc": "2026-10-22T12:50:42.267023+00:00",
+  "authorization": "User 行，继续尝试吧 authorizes existing-score disagreement mining and local record matching only",
+  "new_model_inputs": 0,
+  "new_structure_jobs": 0,
+  "new_reward_calls": 0,
+  "downloads": 0,
+  "training": 0,
+  "numeric_tolerance_nats": 0.0001,
+  "rules": "Reuse existing d sign and two-control H consensus; distinguish strict opposition from H abstention",
+  "derived_arithmetic": "CPU d/H recomputation from saved distributions; no new model calls",
+  "matching": "Exact full parent AND full variant AND receptor; no truncation or L10A-background transfer",
+  "local_source_scope": [
+    "Li2010 Table1/3 prior row audit",
+    "Li2021 MDM2 L10A forward pairs",
+    "SKEMPI named 3EQS_A_B / 3LNZ_A_B / 3EQY_A_C only"
+  ],
+  "posthoc_development_only": true,
+  "primary_formal_metrics": null,
+  "cpu_wall_seconds_max": 120.0,
+  "disk_bytes_max": 16777216,
+  "preservation_before": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/artifact_manifest.json",
+      "manifest_sha256": "c86049c4909077c6e575ca9e5cc5a0b303d478dfaf49f0ecc06ba189c63ea608",
+      "files": 22,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/artifact_manifest.json",
+      "manifest_sha256": "781194e54d449cae3ca245103510f1ff2136668776b30248cdf236dd038fc293",
+      "files": 24,
+      "mismatches": []
+    }
+  ],
+  "input_files": [
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/run_config.json",
+      "sha256": "5e5fff263cede2be0358913e451aec66eef69e4d147c9dac3ab9b6649aba56f4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/raw_masked_distributions.jsonl",
+      "sha256": "db91be96011fa1779b46ad1d411d9af83a3f5aa6bff6cd752040fff6e28502d7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/numeric_consistency.json",
+      "sha256": "77d02dc7dc2b54c13c4a0dfb1d4354f4d52969e8d3ff51acf6d11d9a82474038"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/run_config.json",
+      "sha256": "80a7bb5dc3851bb3f261c541564fbf743a25510456732037009aceb67270dc1b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/new_distributions.jsonl",
+      "sha256": "629c0da08bb90ec4b21cd230e4a52bca18b98b9b72be217ebf29b2cb9d6c0a50"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/source_input_audit.csv",
+      "sha256": "922ade3f4ba8cf0c52bd18015b2f779ba51b66d73e6e8d85322451fa7354d175"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/summary.json",
+      "sha256": "18c6336263cb6368a4f671d958df82b92080c8010eb6cff5a572e965801cffca"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/paired_comparison.csv",
+      "sha256": "cf78875ba8fe434f367be8a6551defa264ace05c1a1177ca54ea3d3408986458"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/numeric_consistency.json",
+      "sha256": "5023301951bdb0dd054c31d58b83f24960ba3ac5cf0d52c82a9d45576ed5d28b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/independent_affinity_validation_20261007/candidate_affinity.csv",
+      "sha256": "633e6f41f02fd02072fc3c3f4e545706d1a36580b418f18985cacb53667ca841"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/independent_affinity_validation_20261007/literature_table2.csv",
+      "sha256": "9d76a8ab25756c992fbbc8af9d56464a472478a6de23c23aa0d525dd479566bd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/independent_affinity_validation_20261007/sources/PMC8463443.html",
+      "sha256": "523f300d9c0496b8f6572e4212ba9b3af3182edddff7613008d7063b1b3d7519"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/skempi_index_screen.json",
+      "sha256": "6f930ca4e17af7ce61b20376c715eb580bc33830ae3d18cb4857a888a5ffc7ad"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/raw/skempi_v2.csv",
+      "sha256": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    }
+  ],
+  "code_files": [
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_disagreement_audit_20261022/plan_zh.md",
+      "sha256": "0437b029c331f0214638732f6d8ac29b9774726a9101e09b8bdcd3d1ddd54c0c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_disagreement_audit_20261022/test_audit.py",
+      "sha256": "597f05dc1075ae83962e7be2164c4afeff5e2764a26fc9dc240ab1255e35869c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_disagreement_audit_20261022/audit_core.py",
+      "sha256": "37c90f45d45e0bc95266865e7f91bfca5afefbf6a4ce4533b282e27c43189df3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_disagreement_audit_20261022/audit_disagreements.py",
+      "sha256": "4cc8f1f8b9e68312a49a7ef4cf9160e37e8c4c9693199b77da45013326c881f4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/probe_core.py",
+      "sha256": "705e08cc4489cd827d316d67058c7886de8d7044ecce8955a8e99bf8f0f9c576"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/probe_run.py",
+      "sha256": "07d068bd8ef6cbd77f5a7ed1ac01f2b54f113c208723c2bb1ff9ec7d81b37dbc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/paired_core.py",
+      "sha256": "76ff801ab06ba26a2eb83b4062e8e6067e5830c631aaa9ea7b2e81437cd674cf"
+    }
+  ]
+}

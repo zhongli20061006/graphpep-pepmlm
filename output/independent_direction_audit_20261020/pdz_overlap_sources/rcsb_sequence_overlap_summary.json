@@ -1,0 +1,123 @@
+{
+  "remote_polymer_hits": 265,
+  "remote_entry_hits": 263,
+  "local_matches": [
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "matches": [
+        "1be9",
+        "1tp3",
+        "2qt5",
+        "3diw",
+        "3nfk",
+        "3nfl",
+        "3rl7",
+        "3sfj",
+        "4e34",
+        "4e35",
+        "4e3b",
+        "4joe",
+        "4jof",
+        "4jog",
+        "4joh",
+        "4joj",
+        "4jok",
+        "4jop",
+        "4jor",
+        "4k6y",
+        "4k72",
+        "4k75",
+        "4k76",
+        "4k78",
+        "4nnl",
+        "4wyu",
+        "5eyz",
+        "5ez0",
+        "5hed",
+        "5hey",
+        "5hf1",
+        "5hfb",
+        "5k4f",
+        "5vwi",
+        "5wou",
+        "6hks",
+        "6ms1",
+        "6ov7",
+        "6spz"
+      ]
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+      "matches": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+      "matches": [
+        "1n7f",
+        "3lny",
+        "3nfk",
+        "4nnm",
+        "4q6h"
+      ]
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+      "matches": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+      "matches": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+      "matches": [
+        "1n7f",
+        "1tp5"
+      ]
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "matches": [
+        "1be9",
+        "1tp3",
+        "2qt5",
+        "3diw",
+        "3nfk",
+        "3nfl",
+        "3rl7",
+        "3sfj",
+        "4e34",
+        "4e35",
+        "4e3b",
+        "4joe",
+        "4jof",
+        "4jog",
+        "4joh",
+        "4joj",
+        "4jok",
+        "4jop",
+        "4jor",
+        "4k6y",
+        "4k72",
+        "4k75",
+        "4k76",
+        "4k78",
+        "4nnl",
+        "4wyu",
+        "5eyz",
+        "5ez0",
+        "5hed",
+        "5hey",
+        "5hf1",
+        "5hfb",
+        "5k4f",
+        "5vwi",
+        "5wou",
+        "6hks",
+        "6ms1",
+        "6ov7",
+        "6spz"
+      ]
+    }
+  ]
+}

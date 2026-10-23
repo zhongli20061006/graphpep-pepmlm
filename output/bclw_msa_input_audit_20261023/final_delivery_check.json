@@ -1,0 +1,31 @@
+{
+  "status": "DELIVERY_VERIFIED_INPUT_GO_PREPARATION_ONLY",
+  "started_utc": "2026-10-23T04:30:07.336645+00:00",
+  "finished_utc": "2026-10-23T04:30:12.649489+00:00",
+  "unit_tests_run": 9,
+  "unit_tests_failures": 0,
+  "unit_tests_errors": 0,
+  "independent_delivery_checks": "24/24 PASS; separate arithmetic implementation, not external biological validation",
+  "original_files_checked": 335,
+  "original_file_mismatches": [],
+  "manifest_files": 40,
+  "manifest_sha256": "cdded74a247233ecb4784d58e2112e8408e67408ed5c5f508c23727810c072a2",
+  "artifact_mismatches": [],
+  "output_bytes_before_this_final_check": 764531,
+  "output_bytes_max": 16777216,
+  "forbidden_runtime_modules_loaded": [],
+  "new_predictions": 0,
+  "new_relaxations": 0,
+  "new_model_scores": 0,
+  "new_downloads": 0,
+  "new_training": 0,
+  "prepared_commands_launched": 0,
+  "future_output_root_created": false,
+  "limits": [
+    "MSA small and predominantly unreviewed",
+    "Assay chemistry and junction omitted",
+    "Alignment simultaneous combinations not enumerated",
+    "Full feature generation and predictions not tested",
+    "No H/affinity validation"
+  ]
+}

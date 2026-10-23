@@ -1,0 +1,166 @@
+{
+  "finished_utc": "2026-10-07T05:15:09.580Z",
+  "implementation_hashes": {
+    "pipeline/backbone_analysis.py": "6928254e2811cf63b34ae34e3edd6db67a806517794e6400b735f2ba83625c48",
+    "pipeline/backbone_diagnostic.py": "7572ab76b6df247f7c058edbfbf8e1d93833fb2b3aa95c4e05e35e2e73f87f1a",
+    "pipeline/backbone_geometry.py": "7559c2bb1b48e58abdd56a6da65a396e4b876ce8e318ef5f9fce3ecc31aae2a2",
+    "pipeline/backbone_relax.py": "d0e62e7ca4544d7d7a3682fccc254ed5db1a6f6c1fbbd8d83fb969d47ed60d20",
+    "tests/test_backbone_diagnostic.py": "7334654ba863b71baaf0b547daff4aa24c60122a1e8017ae0e142b3df69c608f"
+  },
+  "independent_audit_script_sha256_at_start": "dd003052c618ed99d87623881fc1bce84fb51e437b63708745f32b5c1bc54225",
+  "phase": "complete",
+  "pilot_gate_uses_score_direction": false,
+  "stages": [
+    {
+      "finished_utc": "2026-10-07T09:27:17.215014+08:00",
+      "name": "prepare",
+      "result": {
+        "contrast_count": 60,
+        "pair_count": 120,
+        "source_count": 120,
+        "structure_job_count": 240
+      },
+      "started_utc": "2026-10-07T09:27:10.022406+08:00",
+      "status": "completed"
+    },
+    {
+      "finished_utc": "2026-10-07T09:27:17.883241+08:00",
+      "name": "baseline",
+      "result": {
+        "alignment": "A CA Kabsch only for independently folded structures",
+        "energy_term_sum_asserted": false,
+        "independent_structures": 18,
+        "original_matched_pairs": 60,
+        "summary_tables_excluded": true
+      },
+      "started_utc": "2026-10-07T09:27:17.226474+08:00",
+      "status": "completed"
+    },
+    {
+      "finished_utc": "2026-10-07T09:54:12.022216+08:00",
+      "name": "pilot",
+      "result": {
+        "complete_pairs": 24,
+        "converged_structures": 6,
+        "expand_to_full": true,
+        "expected_pairs": 24,
+        "expected_structures": 48,
+        "failure_reasons": [],
+        "gate_uses_score_direction": false,
+        "nonconverged_structures": 42,
+        "observed_structures": 48,
+        "phase": "pilot",
+        "technical_pass": true,
+        "valid_structures": 48
+      },
+      "started_utc": "2026-10-07T09:27:17.890472+08:00",
+      "status": "completed"
+    },
+    {
+      "finished_utc": "2026-10-07T11:41:20.039275+08:00",
+      "name": "full",
+      "result": {
+        "biological_replicates": false,
+        "complete": true,
+        "complete_contrasts": 60,
+        "complete_pairs": 120,
+        "converged_structures": 35,
+        "diagnostic_directions": [
+          {
+            "condition": "fixed",
+            "diagnostic_direction": "correct",
+            "peptide_id": "P53_L22A",
+            "seed": 20261011
+          },
+          {
+            "condition": "fixed",
+            "diagnostic_direction": "correct",
+            "peptide_id": "P53_L22A",
+            "seed": 20261012
+          },
+          {
+            "condition": "flexible",
+            "diagnostic_direction": "correct",
+            "peptide_id": "P53_L22A",
+            "seed": 20261011
+          },
+          {
+            "condition": "flexible",
+            "diagnostic_direction": "correct",
+            "peptide_id": "P53_L22A",
+            "seed": 20261012
+          },
+          {
+            "condition": "fixed",
+            "diagnostic_direction": "incorrect",
+            "peptide_id": "P53_P27A",
+            "seed": 20261011
+          },
+          {
+            "condition": "fixed",
+            "diagnostic_direction": "inconclusive",
+            "peptide_id": "P53_P27A",
+            "seed": 20261012
+          },
+          {
+            "condition": "flexible",
+            "diagnostic_direction": "incorrect",
+            "peptide_id": "P53_P27A",
+            "seed": 20261011
+          },
+          {
+            "condition": "flexible",
+            "diagnostic_direction": "inconclusive",
+            "peptide_id": "P53_P27A",
+            "seed": 20261012
+          }
+        ],
+        "expected_contrasts": 60,
+        "expected_pairs": 120,
+        "expected_structures": 240,
+        "failure_reasons": [],
+        "gate_uses_score_direction": false,
+        "nonconverged_structures": 205,
+        "observed_structures": 240,
+        "phase": "full",
+        "technical_pass": true,
+        "valid_structures": 240
+      },
+      "started_utc": "2026-10-07T09:54:12.030321+08:00",
+      "status": "completed"
+    },
+    {
+      "finished_utc": "2026-10-07T11:42:31.508825+08:00",
+      "name": "verify",
+      "result": {
+        "complete": true,
+        "converged_structures": 35,
+        "expected_structures": 240,
+        "failure_reasons": [],
+        "gate_uses_score_direction": false,
+        "nonconverged_structures": 205,
+        "observed_structures": 240,
+        "technical_pass": true,
+        "tracked_jobs": 240,
+        "valid_structures": 240,
+        "verification": "all tracked actual outputs/hash/coordinate checks passed"
+      },
+      "started_utc": "2026-10-07T11:41:20.047842+08:00",
+      "status": "completed"
+    }
+  ],
+  "started_utc": "2026-10-07T09:27:09.984414+08:00",
+  "status": "complete",
+  "finalization": {
+    "independent_audit_status": "passed",
+    "independent_audit_sha256": "bb2c2d17a6173919f452d94acb37685479ba919720ecd418e7fc37a2e723d1f3",
+    "interpretation_summary_sha256": "5a0b8dc8cca394fc0e413abf3b1d72fa9d880191fa85cc9a860a14d33f18de8b",
+    "interpretation_report_sha256": "38a46c807d85e88d5acd9082d5246b933056ec375170a3cd7be15b8c5da0e0df",
+    "figure_png_sha256": "05384f512851fcff065195d0150bd4376b701441dd09d9933acff2ec96a043c5",
+    "figure_svg_sha256": "e075cc97260977b2605e918c0504c77a3f22e46450d505dcb0de519973679087",
+    "geometry_summary_sha256": "9bb2c3912c94245b9899573ab54a526fe799b47d0bc3f5fa89649f85881093eb",
+    "geometry_script_sha256": "f4630ea3eb0c14639049b805e292ae032804b886501ff17382003a73ee73afcb",
+    "readme_sha256": "301ba6f489ab3bb3ea47d0471135307da12609b5892addb47a93dbf18820403a",
+    "plan_sha256": "7d0478f86794a16df9387acc4c7fe883f10dbb39fbb671f7b2c3abbab8808676"
+  }
+}

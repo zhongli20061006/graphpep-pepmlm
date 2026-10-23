@@ -1,0 +1,417 @@
+{
+  "structures": [
+    {
+      "pdb_id": "2PQK",
+      "sha256": "6f2f82fd5b88f948a636978eb5b7c9d319f45695a01b2da622e47ee654c62117",
+      "entity_sequences": {
+        "1": "GSDELYRQSLEIISRYLREQATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEGG",
+        "2": "GGSGRPEIWIAQELRRIGDEFNAYYARRV"
+      },
+      "chains": [
+        {
+          "auth_chain": "A",
+          "entity_id": "1",
+          "full_sequence": "GSDELYRQSLEIISRYLREQATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEGG",
+          "full_length": 158,
+          "resolved_residue_count": 145,
+          "missing_label_positions": [
+            1,
+            2,
+            29,
+            30,
+            31,
+            32,
+            33,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158
+          ],
+          "resolved_sequence": "DELYRQSLEIISRYLREQATGAKDTKGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHV",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "B",
+          "entity_id": "2",
+          "full_sequence": "GGSGRPEIWIAQELRRIGDEFNAYYARRV",
+          "full_length": 29,
+          "resolved_residue_count": 23,
+          "missing_label_positions": [
+            1,
+            2,
+            3,
+            27,
+            28,
+            29
+          ],
+          "resolved_sequence": "GRPEIWIAQELRRIGDEFNAYYA",
+          "OXT_label_positions": []
+        }
+      ],
+      "deposited_sequence_differences": [],
+      "resolution_A": [
+        "2.000"
+      ],
+      "use": "source/construct audit only; no new native scores; not exact structures for primary candidates"
+    },
+    {
+      "pdb_id": "3EQY",
+      "sha256": "f8673ee87f29256ddf606203ae02d0d5bf5269af0338955bfdeaf1a469c194bd",
+      "entity_sequences": {
+        "1": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+        "2": "TSFAEYWNLLSP"
+      },
+      "chains": [
+        {
+          "auth_chain": "A",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 84,
+          "missing_label_positions": [
+            1
+          ],
+          "resolved_sequence": "NQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "B",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 84,
+          "missing_label_positions": [
+            1
+          ],
+          "resolved_sequence": "NQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "C",
+          "entity_id": "2",
+          "full_sequence": "TSFAEYWNLLSP",
+          "full_length": 12,
+          "resolved_residue_count": 12,
+          "missing_label_positions": [],
+          "resolved_sequence": "TSFAEYWNLLSP",
+          "OXT_label_positions": [
+            12
+          ]
+        },
+        {
+          "auth_chain": "D",
+          "entity_id": "2",
+          "full_sequence": "TSFAEYWNLLSP",
+          "full_length": 12,
+          "resolved_residue_count": 12,
+          "missing_label_positions": [],
+          "resolved_sequence": "TSFAEYWNLLSP",
+          "OXT_label_positions": [
+            12
+          ]
+        }
+      ],
+      "deposited_sequence_differences": [],
+      "resolution_A": [
+        "1.63"
+      ],
+      "use": "source/construct audit only; no new native scores; not exact structures for primary candidates"
+    },
+    {
+      "pdb_id": "3KZ0",
+      "sha256": "b2e596e535444d6bcc45ac1fcac1093a1c40ef7301edd23cfe720d59e5cfc52c",
+      "entity_sequences": {
+        "1": "GSDELYRQSLEIISRYLREQATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEGG",
+        "2": "RPEIWAAQEIRRIGDENNAYYAR"
+      },
+      "chains": [
+        {
+          "auth_chain": "A",
+          "entity_id": "1",
+          "full_sequence": "GSDELYRQSLEIISRYLREQATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEGG",
+          "full_length": 158,
+          "resolved_residue_count": 143,
+          "missing_label_positions": [
+            1,
+            2,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158
+          ],
+          "resolved_sequence": "DELYRQSLEIISRYLREQATGAKDGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHV",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "B",
+          "entity_id": "1",
+          "full_sequence": "GSDELYRQSLEIISRYLREQATGAKDTKPMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEGG",
+          "full_length": 158,
+          "resolved_residue_count": 145,
+          "missing_label_positions": [
+            1,
+            2,
+            27,
+            28,
+            29,
+            30,
+            31,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158
+          ],
+          "resolved_sequence": "DELYRQSLEIISRYLREQATGAKDRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHV",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "C",
+          "entity_id": "2",
+          "full_sequence": "RPEIWAAQEIRRIGDENNAYYAR",
+          "full_length": 23,
+          "resolved_residue_count": 23,
+          "missing_label_positions": [],
+          "resolved_sequence": "RPEIWAAQEIRRIGDENNAYYAR",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "D",
+          "entity_id": "2",
+          "full_sequence": "RPEIWAAQEIRRIGDENNAYYAR",
+          "full_length": 23,
+          "resolved_residue_count": 23,
+          "missing_label_positions": [],
+          "resolved_sequence": "RPEIWAAQEIRRIGDENNAYYAR",
+          "OXT_label_positions": []
+        }
+      ],
+      "deposited_sequence_differences": [],
+      "resolution_A": [
+        "2.349"
+      ],
+      "use": "source/construct audit only; no new native scores; not exact structures for primary candidates"
+    },
+    {
+      "pdb_id": "5UML",
+      "sha256": "5bf3fb7222918ab6af6e2654f29b193e68d30b1991ef30e1bbe9bc14d6f16048",
+      "entity_sequences": {
+        "1": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+        "2": "LTFLEYWAQLMQ"
+      },
+      "chains": [
+        {
+          "auth_chain": "A",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 84,
+          "missing_label_positions": [
+            1
+          ],
+          "resolved_sequence": "NQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "B",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 84,
+          "missing_label_positions": [
+            1
+          ],
+          "resolved_sequence": "NQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "C",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 11,
+          "missing_label_positions": [
+            12
+          ],
+          "resolved_sequence": "LTFLEYWAQLM",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "D",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 11,
+          "missing_label_positions": [
+            12
+          ],
+          "resolved_sequence": "LTFLEYWAQLM",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "E",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 83,
+          "missing_label_positions": [
+            1,
+            2
+          ],
+          "resolved_sequence": "QVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "F",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 11,
+          "missing_label_positions": [
+            12
+          ],
+          "resolved_sequence": "LTFLEYWAQLM",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "G",
+          "entity_id": "1",
+          "full_sequence": "INQVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "full_length": 85,
+          "resolved_residue_count": 83,
+          "missing_label_positions": [
+            1,
+            2
+          ],
+          "resolved_sequence": "QVRPKLPLLKILHAAGAQGEMFTVKEVMHYLGQYIMVKQLYDAAAQHMVYCGGDLLGELLGRQSFSVKDPSPLYDMLRKNLVT",
+          "OXT_label_positions": [
+            85
+          ]
+        },
+        {
+          "auth_chain": "H",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 11,
+          "missing_label_positions": [
+            12
+          ],
+          "resolved_sequence": "LTFLEYWAQLM",
+          "OXT_label_positions": []
+        }
+      ],
+      "deposited_sequence_differences": [],
+      "resolution_A": [
+        "3.00"
+      ],
+      "use": "source/construct audit only; no new native scores; not exact structures for primary candidates"
+    },
+    {
+      "pdb_id": "5UMM",
+      "sha256": "28c196788b08cc867b49432bf50d52c52e3645e3d320e83f0cb6b2e5ca54fb37",
+      "entity_sequences": {
+        "1": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+        "2": "LTFLEYWAQLMQ"
+      },
+      "chains": [
+        {
+          "auth_chain": "A",
+          "entity_id": "1",
+          "full_sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+          "full_length": 85,
+          "resolved_residue_count": 82,
+          "missing_label_positions": [
+            1,
+            2,
+            85
+          ],
+          "resolved_sequence": "LVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLV",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "B",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 12,
+          "missing_label_positions": [],
+          "resolved_sequence": "LTFLEYWAQLMQ",
+          "OXT_label_positions": [
+            12
+          ]
+        },
+        {
+          "auth_chain": "C",
+          "entity_id": "1",
+          "full_sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+          "full_length": 85,
+          "resolved_residue_count": 82,
+          "missing_label_positions": [
+            1,
+            2,
+            85
+          ],
+          "resolved_sequence": "LVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLV",
+          "OXT_label_positions": []
+        },
+        {
+          "auth_chain": "D",
+          "entity_id": "2",
+          "full_sequence": "LTFLEYWAQLMQ",
+          "full_length": 12,
+          "resolved_residue_count": 11,
+          "missing_label_positions": [
+            12
+          ],
+          "resolved_sequence": "LTFLEYWAQLM",
+          "OXT_label_positions": []
+        }
+      ],
+      "deposited_sequence_differences": [],
+      "resolution_A": [
+        "1.65"
+      ],
+      "use": "source/construct audit only; no new native scores; not exact structures for primary candidates"
+    }
+  ],
+  "MDMX_deposited_vs_WT": [
+    {
+      "uniprot_position": 68,
+      "WT": "Q",
+      "deposited": "A"
+    },
+    {
+      "uniprot_position": 69,
+      "WT": "Q",
+      "deposited": "A"
+    },
+    {
+      "uniprot_position": 70,
+      "WT": "E",
+      "deposited": "A"
+    }
+  ]
+}

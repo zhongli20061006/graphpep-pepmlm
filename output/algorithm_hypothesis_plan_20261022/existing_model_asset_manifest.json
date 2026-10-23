@@ -1,0 +1,33 @@
+{
+  "model_dir": "/home/g/pepmlm_pipeline/models/PepMLM-650M",
+  "runtime": "/home/g/miniconda3/envs/graphpep_env/bin/python",
+  "runtime_exists": true,
+  "assets": [
+    {
+      "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/config.json",
+      "bytes": 775,
+      "sha256": "a31763470199c0234da80c6d8cb01afd4e2ba375c190eff1383b95983b741ac0"
+    },
+    {
+      "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/pytorch_model.bin",
+      "bytes": 2609625722,
+      "sha256": "8a3225bca1f9acd9f701ca2e46597c12bab92320e32b68f380ddf3b6d3b20770"
+    },
+    {
+      "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/special_tokens_map.json",
+      "bytes": 125,
+      "sha256": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1"
+    },
+    {
+      "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/tokenizer_config.json",
+      "bytes": 135,
+      "sha256": "fac07b1a114706503e83ee3888669b233ade3fe7b12cc02fe6c655c32987b0a2"
+    },
+    {
+      "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/vocab.txt",
+      "bytes": 93,
+      "sha256": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+    }
+  ],
+  "weights_loaded": false
+}

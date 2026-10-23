@@ -1,0 +1,14 @@
+{
+  "input_source_path": "/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/input.py",
+  "input_source_sha256": "eb37d44e1db2a922448512a9d0f5a261073c0ba47118ba49aab51600a4db1f87",
+  "checks": {
+    "exactly_one_parent_job": true,
+    "query_sequence_exact": true,
+    "custom_a3m_loaded_not_none": true,
+    "complex_recognized": true,
+    "chain_sequences_preserved": true,
+    "installed_serialize_roundtrip_exact": true
+  },
+  "all_pass": true,
+  "scope": "Installed get_queries/parse_fasta and A3M roundtrip only; no complete feature generation, JAX import or prediction was executed."
+}

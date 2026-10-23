@@ -1,0 +1,122 @@
+{
+  "schema": "bclw_six_complex_pilot_runtime_preflight_v1",
+  "checked_at_local": "2026-10-20T16:48:03+08:00",
+  "config_status": "FROZEN_PRE_SCORE_NOT_RUN",
+  "run_authorization": "NOT_STARTED",
+  "config_sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+  "artifact_hash_checks": [
+    {
+      "path": "complexes.fasta",
+      "exists": true,
+      "expected_sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "observed_sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "pass": true
+    },
+    {
+      "path": "peptide_sequences.fasta",
+      "exists": true,
+      "expected_sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "observed_sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "pass": true
+    },
+    {
+      "path": "graphpep_inputs.csv",
+      "exists": true,
+      "expected_sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "observed_sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "pass": true
+    },
+    {
+      "path": "foldx_protocol_template.json",
+      "exists": true,
+      "expected_sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "observed_sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "pass": true
+    },
+    {
+      "path": "esm_pll.py",
+      "exists": true,
+      "expected_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "observed_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "pass": true
+    },
+    {
+      "path": "test_esm_pll.py",
+      "exists": true,
+      "expected_sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "observed_sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "pass": true
+    },
+    {
+      "path": "graphpep_patches/resmap_compat.py",
+      "exists": true,
+      "expected_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "observed_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "pass": true
+    },
+    {
+      "path": "pipeline/step3_graphpep.py",
+      "exists": true,
+      "expected_sha256": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "observed_sha256": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "pass": true
+    },
+    {
+      "path": "pipeline/relax_feedback_panel.py",
+      "exists": true,
+      "expected_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "observed_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "pass": true
+    },
+    {
+      "path": "pipeline/make_resmap_compat.py",
+      "exists": true,
+      "expected_sha256": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad",
+      "observed_sha256": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad",
+      "pass": true
+    },
+    {
+      "path": "output\\bh3_bclw_source_audit_20261020\\input_representation_frozen_pilot_v1.json",
+      "exists": true,
+      "expected_sha256": "76846081E949DAB5D2E126B0D7260985EC6BB988C8D6CE1F560261659C7BE43C",
+      "observed_sha256": "76846081e949dab5d2e126b0d7260985ec6bb988c8d6ce1f560261659c7be43c",
+      "pass": true
+    },
+    {
+      "path": "output\\reward_direction_benchmark_20261008\\frozen_direction_criteria_v2.json",
+      "exists": true,
+      "expected_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+      "observed_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+      "pass": true
+    }
+  ],
+  "all_hash_checks_pass": true,
+  "sequence_manifest": {
+    "records": 3,
+    "expected_23aa_peptides_present": true,
+    "receptor_chain_length_aa": 164,
+    "peptide_chain_length_aa": 23
+  },
+  "prediction_or_score_output_paths_present": {
+    "seed_20261008/structures": false,
+    "seed_20261009/structures": false,
+    "seed_20261008/relaxed": false,
+    "seed_20261009/relaxed": false,
+    "scores": false
+  },
+  "prediction_or_score_output_found": false,
+  "test_validation": {
+    "command": "WSL /home/g/miniconda3/envs/graphpep_env/bin/python -m unittest discover -s <pilot-dir> -p test_esm_pll.py -v",
+    "passed": 5,
+    "failed": 0,
+    "scope": "wrapper helpers and masked-position pseudo-log-likelihood logic using a fake model; no ESM checkpoint loaded"
+  },
+  "preflight_limits": {
+    "free_gpu_memory_rechecked": false,
+    "disk_headroom_rechecked": false,
+    "real_model_checkpoint_loaded": false,
+    "real_prediction_or_scoring": false,
+    "remote_msa_or_service_used": false
+  },
+  "note": "GPU memory and disk headroom are launch-time checks and were intentionally deferred. This record is not authorization to execute."
+}

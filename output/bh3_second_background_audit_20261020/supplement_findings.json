@@ -1,0 +1,15 @@
+{
+  "source": "Dutta et al. 2013, DOI 10.1021/cb300679a.s001",
+  "figshare_article_id": 2422270,
+  "file": "raw/Dutta2013_Supplement.pdf",
+  "file_bytes": 1119324,
+  "pages": 10,
+  "sha256": "0a14618a4bf54545f7e0b661129e8784c532d6dd51809b0e8253fb3f0021602f",
+  "retrieved_and_text_checked": true,
+  "contains_variant_direct_kd_table": false,
+  "contains_raw_direct_binding_curves": false,
+  "contains_variant_kd_uncertainty": false,
+  "confirms_23mer_fluorescent_mutants": true,
+  "terminal_chemistry_fully_resolved_for_fig4c": false,
+  "decision": "QUALITATIVE_ONLY_EXCLUDE_FROM_QUANTITATIVE_PRIMARY_ANALYSIS"
+}

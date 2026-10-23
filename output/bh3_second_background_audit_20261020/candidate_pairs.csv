@@ -1,0 +1,4 @@
+source,background,variant,assay,receptor,mutation,quantitative_Kd_pair_available,reported_direction,reported_effect,uncertainty,eligibility,reason
+Dutta et al. 2013 Figure 4c,Bim_D3fK,Bim_D3fK_E3gV,direct fluorescence polarization/anisotropy,Bcl-w,E3gV,true,weakening,approximately 2.5-fold weaker affinity to Bcl-w,not reported in text for this pair; figure has no recoverable numerical CI,qualitative_only,one direction only; exact values and errors absent
+Dutta et al. 2013 Figure 4c,Bim_D3fK,Bim_D3fK_F4aL,direct fluorescence polarization/anisotropy,Bcl-w,F4aL,false,qualitative weakening vs Bcl-w,not quantified,not reported,qualitative_only,exact ratio and uncertainty absent
+Dutta et al. 2013 Figure 4c,Bim_D3fK,Bim_D3fK_I3dA,direct fluorescence polarization/anisotropy,Bcl-w,I3dA,false,ambiguous/tolerated,not reported,not reported,ambiguous,not eligible under frozen direction threshold

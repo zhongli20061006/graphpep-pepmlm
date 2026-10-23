@@ -1,0 +1,28 @@
+{
+  "finding": "释放肽主链后，P27A 的方向仍未在两个种子的全部模型中一致恢复；存在混合或种子依赖结果。本方案不足以稳定复现这个关键正向对照。",
+  "direction_correct_seed_counts": {
+    "fixed": {
+      "P53_P27A": 0,
+      "P53_L22A": 2
+    },
+    "flexible": {
+      "P53_P27A": 0,
+      "P53_L22A": 2
+    }
+  },
+  "force_acceptance": {
+    "minimum": 8.106714061850683,
+    "median": 10.719736597581148,
+    "maximum": 11.473566399490215,
+    "threshold": 10,
+    "accepted": 35,
+    "not_accepted": 205,
+    "reporter_iteration_caps_reached": 0,
+    "units": "kJ/mol/nm"
+  },
+  "original_continuation_pass": false,
+  "no_new_Kd": true,
+  "no_holdout_validation": true,
+  "independent_audit_sha256": "bb2c2d17a6173919f452d94acb37685479ba919720ecd418e7fc37a2e723d1f3",
+  "script_sha256": "f4613cb597e4ad018f0d1124d634aa0fbc406c7db95bdff7700850251def7e88"
+}

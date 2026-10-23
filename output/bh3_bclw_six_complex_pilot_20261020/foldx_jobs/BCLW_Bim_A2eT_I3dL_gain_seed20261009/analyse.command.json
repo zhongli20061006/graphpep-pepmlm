@@ -1,0 +1,9 @@
+{
+  "command": [
+    "/mnt/e/Users/graphpep\u4e0epepmlm/tools/foldx/foldx5_Linux/foldx_20261231",
+    "-f",
+    "analyse.cfg"
+  ],
+  "returncode": 0,
+  "error": ""
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PRE_RETRIEVAL_SCOPE_FROZEN",
+  "date": "2026-10-20",
+  "task": "Find an additional source-defined Bcl-w peptide background with confidently supported gain and loss single-substitution directions in a matched direct Kd assay; audit comparability before adding any pair.",
+  "primary_scope": "Citation-neighbourhood of Foight 2014 plus targeted searches for Bcl-w BH3 peptide point mutations; do not claim an exhaustive literature survey.",
+  "budget": {"source_audit_hours_max": 4, "new_predictions": 0, "new_scorer_executions": 0},
+  "criteria_reference": "output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+  "criteria_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "fixed_constraints": [
+    "A pair must share exact receptor construct, assay, peptide length and terminal chemistry; affinity must be Kd with interpretable uncertainty and repeat structure.",
+    "Retain source-defined parent-to-mutant direction. Never reverse a loss edge to manufacture a gain or count both directions of one measurement pair.",
+    "Do not pool raw affinities across receptor, assay, construct, peptide chemistry or unverified paper batches.",
+    "SPOT intensity, display enrichment, IC50, Ki, functional activity and protein/receptor mutations are separate evidence types; not direct peptide-mutation Kd labels.",
+    "Existing Foight 2014 Bcl-w audit has 7 source-defined pairs, 2 gain point candidates and 5 loss point candidates, with formal v2 labels still unreleased.",
+    "Existing parent backgrounds are Bim, Bim_A2eT, A12 and B3; gain candidates occur only in Bim_A2eT. The current shortfall is qualifying pair count, gain count and distribution across backgrounds, not the mere existence of a second background.",
+    "Source selection is label-aware and publicly exposed; no blind-test claim."
+  ],
+  "stop": "Complete the bounded source table and a GO/HOLD decision. If no usable new matched pair is supported, report precisely which fields fail and stop this Bcl-w expansion round without changing frozen criteria."
+}

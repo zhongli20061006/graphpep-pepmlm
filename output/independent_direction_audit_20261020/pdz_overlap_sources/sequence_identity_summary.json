@@ -1,0 +1,473 @@
+{
+  "train": {
+    "highest_identity_hits": [
+      {
+        "entity": "4E34_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4E35_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOE_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOF_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOG_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOH_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOJ_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOK_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      }
+    ],
+    "all_hits": [
+      {
+        "entity": "4E34_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4E35_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOE_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOF_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOG_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOH_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOJ_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOK_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4JOR_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4K6Y_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4K72_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4K75_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4K76_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "5K4F_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 7.681e-16
+      },
+      {
+        "entity": "6OV7_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "4K78_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.99e-15
+      },
+      {
+        "entity": "1TP3_1",
+        "identity": 0.42100000000000004,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 1.23e-09
+      },
+      {
+        "entity": "5HED_1",
+        "identity": 0.42100000000000004,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 1.23e-09
+      },
+      {
+        "entity": "1BE9_1",
+        "identity": 0.42100000000000004,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 1.69e-09
+      },
+      {
+        "entity": "3RL7_1",
+        "identity": 0.431,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 88,
+        "query_beg": 4,
+        "query_end": 86,
+        "evalue": 3.189e-09
+      },
+      {
+        "entity": "2QT5_1",
+        "identity": 0.37,
+        "query_coverage": 0.9418604651162791,
+        "alignment_length": 81,
+        "query_beg": 4,
+        "query_end": 84,
+        "evalue": 8.27e-09
+      },
+      {
+        "entity": "3NFK_1",
+        "identity": 0.32799999999999996,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 2.946e-08
+      },
+      {
+        "entity": "3NFL_1",
+        "identity": 0.32799999999999996,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 2.946e-08
+      },
+      {
+        "entity": "5EYZ_1",
+        "identity": 0.32799999999999996,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 2.946e-08
+      },
+      {
+        "entity": "5HEY_1",
+        "identity": 0.42100000000000004,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 1.561e-08
+      },
+      {
+        "entity": "5HF1_1",
+        "identity": 0.42100000000000004,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 1.561e-08
+      },
+      {
+        "entity": "5HFB_1",
+        "identity": 0.409,
+        "query_coverage": 0.9651162790697675,
+        "alignment_length": 83,
+        "query_beg": 2,
+        "query_end": 84,
+        "evalue": 2.946e-08
+      },
+      {
+        "entity": "6SPZ_1",
+        "identity": 0.428,
+        "query_coverage": 0.9186046511627907,
+        "alignment_length": 84,
+        "query_beg": 4,
+        "query_end": 82,
+        "evalue": 4.048e-08
+      },
+      {
+        "entity": "4WYU_1",
+        "identity": 0.46,
+        "query_coverage": 0.7674418604651163,
+        "alignment_length": 76,
+        "query_beg": 6,
+        "query_end": 71,
+        "evalue": 1.05e-07
+      },
+      {
+        "entity": "5VWI_1",
+        "identity": 0.46,
+        "query_coverage": 0.7674418604651163,
+        "alignment_length": 76,
+        "query_beg": 6,
+        "query_end": 71,
+        "evalue": 1.05e-07
+      },
+      {
+        "entity": "6MS1_1",
+        "identity": 0.423,
+        "query_coverage": 0.8255813953488372,
+        "alignment_length": 78,
+        "query_beg": 12,
+        "query_end": 82,
+        "evalue": 3.191e-05
+      },
+      {
+        "entity": "3DIW_1",
+        "identity": 0.34,
+        "query_coverage": 0.8953488372093024,
+        "alignment_length": 91,
+        "query_beg": 3,
+        "query_end": 79,
+        "evalue": 0.0005559
+      },
+      {
+        "entity": "3SFJ_1",
+        "identity": 0.34,
+        "query_coverage": 0.8953488372093024,
+        "alignment_length": 91,
+        "query_beg": 3,
+        "query_end": 79,
+        "evalue": 0.0005559
+      },
+      {
+        "entity": "4E3B_1",
+        "identity": 0.34,
+        "query_coverage": 0.8953488372093024,
+        "alignment_length": 91,
+        "query_beg": 3,
+        "query_end": 79,
+        "evalue": 0.0005559
+      },
+      {
+        "entity": "4NNL_1",
+        "identity": 0.34,
+        "query_coverage": 0.8953488372093024,
+        "alignment_length": 91,
+        "query_beg": 3,
+        "query_end": 79,
+        "evalue": 0.0005559
+      }
+    ]
+  },
+  "valid": {
+    "highest_identity_hits": [
+      {
+        "entity": "4JOP_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "5WOU_1",
+        "identity": 0.397,
+        "query_coverage": 0.8372093023255814,
+        "alignment_length": 78,
+        "query_beg": 11,
+        "query_end": 82,
+        "evalue": 0.0001137
+      },
+      {
+        "entity": "6HKS_1",
+        "identity": 0.35700000000000004,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 3.74e-07
+      },
+      {
+        "entity": "5EZ0_1",
+        "identity": 0.32799999999999996,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 2.946e-08
+      }
+    ],
+    "all_hits": [
+      {
+        "entity": "4JOP_1",
+        "identity": 0.5,
+        "query_coverage": 0.9767441860465116,
+        "alignment_length": 84,
+        "query_beg": 2,
+        "query_end": 85,
+        "evalue": 1.055e-15
+      },
+      {
+        "entity": "5EZ0_1",
+        "identity": 0.32799999999999996,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 2.946e-08
+      },
+      {
+        "entity": "6HKS_1",
+        "identity": 0.35700000000000004,
+        "query_coverage": 0.8023255813953488,
+        "alignment_length": 70,
+        "query_beg": 4,
+        "query_end": 72,
+        "evalue": 3.74e-07
+      },
+      {
+        "entity": "5WOU_1",
+        "identity": 0.397,
+        "query_coverage": 0.8372093023255814,
+        "alignment_length": 78,
+        "query_beg": 11,
+        "query_end": 82,
+        "evalue": 0.0001137
+      }
+    ]
+  }
+}

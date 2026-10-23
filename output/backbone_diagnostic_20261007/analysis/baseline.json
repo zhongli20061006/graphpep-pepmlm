@@ -1,0 +1,7 @@
+{
+  "alignment": "A CA Kabsch only for independently folded structures",
+  "energy_term_sum_asserted": false,
+  "independent_structures": 18,
+  "original_matched_pairs": 60,
+  "summary_tables_excluded": true
+}

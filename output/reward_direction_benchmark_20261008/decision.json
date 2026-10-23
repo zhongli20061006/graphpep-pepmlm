@@ -1,0 +1,28 @@
+{
+  "status": "HOLD_NO_PILOT",
+  "as_of": "2026-10-08",
+  "new_prediction_jobs_started": 0,
+  "reason": [
+    "the 2021 PMI-L10A Table 2 reports Kd for 22 single variants selected from 94 candidates by an FP screen favoring increased binding; it has no qualifying measured two-direction Kd panel, undefined ± semantics, and unresolved analyte terminal chemistry",
+    "PMI-L10A is in the same MDM2-PMI family already used in current method selection; it is an enriched development/stress panel, not an independent system",
+    "a1-syntrophin PDZ is the closest external candidate, but its PMC page exposes NIHMS90286 supplement links while the source files return cache miss here; per-row Kd, error semantics, gain/loss counts, and exact terminal chemistry remain unverified",
+    "the PDZ parent peptides were among the source model's high-affinity training ligands and the mutation panel tested that source predictor; it can only be a disclosed development/method-selection panel",
+    "SPSB2-iNOS has same-assay ITC Kd and explicit Ac/NH2 chemistry, but the audited point mutations are loss/near-neutral only and the available co-complex structure differs in species and peptide length from the affinity assay",
+    "GraphPep training overlap cannot be cleared: local workspace exact-ID search had no hit, while read access to the WSL training list was denied"
+  ],
+  "source_audit_status": {
+    "PMI_supplement": "audited against the primary paper and existing project CSVs; gain-enriched only, not a direction-balanced candidate",
+    "external_candidates": ["a1-syntrophin PDZ", "SPSB2-iNOS"],
+    "independent_bidirectional_systems_passing": 0,
+    "configuration_freeze": "all four scoring candidates are peers; exact executable/checkpoint hashes and commands are a hard pre-run gate"
+  },
+  "next_action": "continue a bounded primary-source search for one genuinely new receptor-assay family with same-assay bidirectional single-mutant Kd data, defined uncertainty, documented peptide end chemistry, and an exact or defensible complex structure; in parallel, attempt lawful retrieval of NIHMS90286 supplements to decide whether PDZ can serve only as disclosed method-selection data",
+  "explicit_non_actions": [
+    "no AFM/ColabFold run",
+    "no GraphPep/FoldX/ESM scoring",
+    "no full-pool generation or prediction",
+    "no additional P27A minimization",
+    "no environment installation or model download"
+  ],
+  "decision_boundary": "Only after the source and input gates are satisfied can the frozen six-structure pilot be considered. Pilot success would establish feasibility, not independent validation."
+}

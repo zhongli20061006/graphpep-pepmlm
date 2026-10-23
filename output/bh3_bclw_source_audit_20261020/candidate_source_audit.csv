@@ -1,0 +1,15 @@
+﻿source,receptor,parent,variant,mutation_local_1based,mutation,parent_Kd_nM_reported_95fitCI,variant_Kd_nM_reported_95fitCI,ratio_variant_over_parent,point_direction,approx_adverse_covariance_fit_interval_low,approx_adverse_covariance_fit_interval_high,marginal_endpoint_envelope_low_NOT_joint95,marginal_endpoint_envelope_high_NOT_joint95,fit_sensitivity_direction_supported,formal_v2_label_released
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,Bim,Bim_A2eT,7,A7T,1.75 ± 1.0,39 ± 9.4,22.2857,loss,9.88968,50.2193,10.7636,64.5333,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,Bim_A2eT,Bim_A2eT_I2dM,6,I6M,39 ± 9.4,260 ± 52,6.66667,loss,4.28917,10.362,4.29752,10.5405,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,Bim_A2eT,Bim_A2eT_E2gG,9,E9G,39 ± 9.4,94 ± 36,2.41026,loss,1.2914,4.49847,1.19835,4.39189,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,Bim_A2eT,Bim_A2eT_I3dL,13,I13L,39 ± 9.4,12 ± 2.6,0.307692,gain,0.19469,0.486284,0.194215,0.493243,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,Bim_A2eT,Bim_A2eT_F4aI,17,F17I,39 ± 9.4,16 ± 4.1,0.410256,gain,0.249512,0.674558,0.245868,0.679054,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,A12,MS1,7,G7T,210 ± 110,1300 ± 230,6.19048,loss,3.07185,12.4752,3.34375,15.3,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-w,B3,MS2,7,G7T,16 ± 6.2,250 ± 76,15.625,loss,7.82538,31.1986,7.83784,33.2653,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,Bim,Bim_A2eT,7,A7T,2.6 ± 1.9,17 ± 4.8,6.53846,loss,2.37401,18.0081,2.71111,31.1429,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,Bim_A2eT,Bim_A2eT_I2dM,6,I6M,17 ± 4.8,83 ± 53,4.88235,loss,1.94395,12.2624,1.37615,11.1475,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,Bim_A2eT,Bim_A2eT_E2gG,9,E9G,17 ± 4.8,37 ± 7.0,2.17647,loss,1.3582,3.48771,1.37615,3.60656,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,Bim_A2eT,Bim_A2eT_I3dL,13,I13L,17 ± 4.8,7.6 ± 3.8,0.447059,gain,0.204453,0.977544,0.174312,0.934426,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,Bim_A2eT,Bim_A2eT_F4aI,17,F17I,17 ± 4.8,110 ± 62,6.47059,loss,2.77674,15.0783,2.20183,14.0984,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,A12,MS1,7,G7T,9.8 ± 3.1,1600 ± 1000,163.265,loss,63.6914,418.511,46.5116,388.06,True,False
+"Foight et al. 2014, DOI 10.1021/cb500340w, Table 1-2",Bcl-xL,B3,MS2,7,G7T,4.2 ± 2.1,1400 ± 500,333.333,loss,141.458,785.473,142.857,904.762,True,False

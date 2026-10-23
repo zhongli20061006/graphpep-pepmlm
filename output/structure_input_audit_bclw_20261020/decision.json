@@ -1,0 +1,20 @@
+{
+  "audit_status": "COMPLETE_WITH_CAUSAL_UNCERTAINTY",
+  "new_prediction_jobs_started": 0,
+  "new_reward_calls": 0,
+  "historical_pilot": "COMPLETED; 0/6 frozen quality gate; not zero direction accuracy",
+  "go": "GO_TO_REVIEW_PREPARED_TWO_PARENT_KERNEL_DIAGNOSTIC_ONLY",
+  "execution": "HOLD_THIS_TURN; user authorized preparation and read-only audit only",
+  "msa_branch": "HOLD_NO_AUDITED_RECEPTOR_HOMOLOG_MSA_INPUT; do not fabricate homolog rows from six pilot A3Ms",
+  "experimental_pose_branch": "HOLD_NO_EXACT_ASSAY_COMPLEX; related structures must not be relabeled as Bcl-w:Bim_A2eT",
+  "full_benchmark_and_design": "HOLD; data/structure/reward gates not passed",
+  "root_cause": "Not established; limited evidence disfavors mapping corruption and downstream scoring as causes of initial low confidence.",
+  "unresolved": [
+    "MSA effect",
+    "target-specific numerical/runtime effects",
+    "Q133/R133 assay clone",
+    "full tag/linker",
+    "chemical/aggregation effects",
+    "full independent bidirectional benchmark"
+  ]
+}

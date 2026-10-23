@@ -1,0 +1,294 @@
+{
+  "protocol_id": "BCLW_PARENT_LOCAL_MSA_DIAGNOSTIC_V1",
+  "status": "PREPARED_NOT_STARTED_REQUIRES_FUTURE_EXPLICIT_START",
+  "prepared_date_local": "2026-10-23 Asia/Shanghai",
+  "question": "Under the completed no-fast-kernel baseline settings and original fixed seeds, is this small local receptor MSA sufficient to recover parent complex engineering readiness?",
+  "not_tested": [
+    "H/d effectiveness",
+    "experimental affinity direction",
+    "mutant effects",
+    "full binding free energy",
+    "general MSA utility or all causes of prior prediction failure"
+  ],
+  "input_a3m": "/mnt/e/Users/graphpep与pepmlm/output/bclw_msa_input_audit_20261023/prepared_inputs/BCLW_Bim_A2eT_parent.a3m",
+  "input_a3m_sha256": "1e70052883968e45bd1aa12091942b6126cc08b381108b8deac0465b450fffe5",
+  "input_representation": {
+    "reference_accession": "Q92843",
+    "reference_length": 193,
+    "receptor_sequence": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+    "peptide_sequence": "RPEIWITQELRRIGDEFNAYYAR",
+    "receptor_length": 164,
+    "peptide_length": 23,
+    "Q133_unchanged": true,
+    "matches_old_fasta_and_core_audit": true,
+    "model_representation": "Unchanged 1-164 core + standard parent 23mer; not exact assay chemistry.",
+    "omissions": [
+      "N-terminal fluorescein",
+      "C-terminal amidation",
+      "N-terminal receptor c-myc/TEV junction of unrecovered complete sequence"
+    ],
+    "uncertainty": "Assay clone Q133 identity not independently recovered; do not silently change to R133."
+  },
+  "input_audit_decision_sha256": "54772d31d76e0c8b329e6c856c54db12d3309fcdd7ae1b7e06d31e38af263be0",
+  "inherited_msa_rules_sha256": "f5a290e2b47d584e642cfe25b433bf01e30fb36ccd1ddfb17dac4c23f999910d",
+  "implementation_freeze_sha256": "b822188d8e5aa65c6ab7d12d7a933068808fd3a969a8f2c8a4775615768a1538",
+  "planned_output_root": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1",
+  "planned_output_root_absent_when_prepared": true,
+  "baseline": {
+    "directory": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1",
+    "status": "COMPLETED_0_OF_2",
+    "comparison": "Existing same-seed no-fast-kernel parent jobs; reuse confidence/geometry, never rerun or rescore baseline.",
+    "rows": [
+      {
+        "seed": 20261008,
+        "iptm": 0.12,
+        "ptm": 0.26,
+        "receptor_mean_plddt": 40.49493902439024,
+        "peptide_mean_plddt": 36.45478260869566,
+        "interface_pae_max_directed_A": 30.09,
+        "all_diagnostic_gates_pass": false
+      },
+      {
+        "seed": 20261009,
+        "iptm": 0.25,
+        "ptm": 0.26,
+        "receptor_mean_plddt": 40.91585365853658,
+        "peptide_mean_plddt": 42.28260869565218,
+        "interface_pae_max_directed_A": 29.86,
+        "all_diagnostic_gates_pass": false
+      }
+    ]
+  },
+  "intervention": "Local receptor MSA plus necessary non-single MSA ingestion/effective-depth changes; all other prediction and relaxation settings held fixed relative to kernel branch.",
+  "prediction_settings": {
+    "python": "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+    "cli": "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+    "versions": {
+      "colabfold": "1.6.3",
+      "jax": "0.10.2",
+      "jaxlib": "0.10.2",
+      "openmm": "8.6.1"
+    },
+    "model_type": "alphafold2_multimer_v3",
+    "model_number": 1,
+    "model_parameter_file": "/home/g/.cache/colabfold/params/params_model_1_multimer_v3.npz",
+    "model_parameter_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+    "templates": false,
+    "recycles": 3,
+    "recycle_early_stop_tolerance": 0,
+    "max_seq": 256,
+    "max_extra_seq": 512,
+    "num_ensemble": 1,
+    "pair_mode": "unpaired",
+    "num_relax_in_colabfold": 0,
+    "seeds": [
+      20261008,
+      20261009
+    ],
+    "msa_policy": {
+      "input": "Local source-audited A3M containing 22 receptor homologs + receptor query; peptide query only.",
+      "cli_mode": "mmseqs2_uniref_env",
+      "enum_interpretation": "This installed CLI has no 'custom' enum; non-single mode preserves provided A3M. Exact .a3m file input bypasses get_msa_and_templates; the enum does NOT authorize MMseqs/remote search.",
+      "remote_service_allowed": false,
+      "templates_allowed": false,
+      "requested_max_seq": 256,
+      "requested_max_extra_seq": 512,
+      "effective_difference": "Old single_sequence clamped these to 1/1 and discarded homolog rows. New non-single mode removes this clamp. This necessary MSA feature-depth change is part of the intervention, not a claim that only the file path changes.",
+      "query_pairing": "Only the concatenated query is paired; no inferred receptor-peptide homolog pairing."
+    },
+    "use_fast_kernels": false
+  },
+  "constant_relax_settings": {
+    "max_iterations": 200,
+    "tolerance": 2.39,
+    "stiffness": 10.0,
+    "max_outer_iterations": 3,
+    "use_gpu": false
+  },
+  "commands": [
+    {
+      "seed": 20261008,
+      "environment": {
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_msa_input_audit_20261023/prepared_inputs/BCLW_Bim_A2eT_parent.a3m",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261008/structures",
+        "--msa-mode",
+        "mmseqs2_uniref_env",
+        "--model-type",
+        "alphafold2_multimer_v3",
+        "--num-models",
+        "1",
+        "--model-order",
+        "1",
+        "--num-seeds",
+        "1",
+        "--random-seed",
+        "20261008",
+        "--num-recycle",
+        "3",
+        "--recycle-early-stop-tolerance",
+        "0",
+        "--num-ensemble",
+        "1",
+        "--max-seq",
+        "256",
+        "--max-extra-seq",
+        "512",
+        "--num-relax",
+        "0",
+        "--pair-mode",
+        "unpaired",
+        "--disable-unified-memory",
+        "--no-use-fast-kernels",
+        "--compile-mode",
+        "fast",
+        "--sort-queries-by",
+        "none"
+      ],
+      "relax_argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+        "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261008/structures",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261008/relaxed"
+      ]
+    },
+    {
+      "seed": 20261009,
+      "environment": {
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_msa_input_audit_20261023/prepared_inputs/BCLW_Bim_A2eT_parent.a3m",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261009/structures",
+        "--msa-mode",
+        "mmseqs2_uniref_env",
+        "--model-type",
+        "alphafold2_multimer_v3",
+        "--num-models",
+        "1",
+        "--model-order",
+        "1",
+        "--num-seeds",
+        "1",
+        "--random-seed",
+        "20261009",
+        "--num-recycle",
+        "3",
+        "--recycle-early-stop-tolerance",
+        "0",
+        "--num-ensemble",
+        "1",
+        "--max-seq",
+        "256",
+        "--max-extra-seq",
+        "512",
+        "--num-relax",
+        "0",
+        "--pair-mode",
+        "unpaired",
+        "--disable-unified-memory",
+        "--no-use-fast-kernels",
+        "--compile-mode",
+        "fast",
+        "--sort-queries-by",
+        "none"
+      ],
+      "relax_argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+        "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261009/structures",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_local_msa_diagnostic_v1/seed_20261009/relaxed"
+      ]
+    }
+  ],
+  "code_and_asset_checks": {
+    "batch_source_path": "/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/batch.py",
+    "batch_source_sha256": "a65a1fb4301ae82de8b307a8d698f327a79b8fa66c8f053f4ddeff52c87020c4",
+    "input_source_path": "/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/input.py",
+    "input_source_sha256": "eb37d44e1db2a922448512a9d0f5a261073c0ba47118ba49aab51600a4db1f87",
+    "relax_source_path": "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+    "relax_source_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+    "model_parameter_file": "/home/g/.cache/colabfold/params/params_model_1_multimer_v3.npz",
+    "model_parameter_expected_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+    "model_parameter_verification": "Expected hash reused from prior actual run; bulk parameter file must be hashed again at future launch. No weight loading/hash claimed in this input audit."
+  },
+  "budget": {
+    "new_prediction_jobs_max": 2,
+    "raw_final_structures_max": 2,
+    "restrained_relaxed_structures_max": 2,
+    "run_serially": true,
+    "gpu_tagged_process_wall_seconds_max": 1800,
+    "cpu_relax_wall_seconds_max": 900,
+    "disk_bytes_max": 536870912,
+    "accounting": "Sum each child wall time once; wall time is not GPU-utilization integral. Watchdog enforces aggregate active+completed time and output cap.",
+    "new_reward_calls_max": 0,
+    "new_downloads_max": 0,
+    "training_jobs_max": 0
+  },
+  "quality_gate_unchanged": {
+    "iptm_min": 0.7,
+    "peptide_mean_plddt_min": 70,
+    "interface_pae_max_A": 10,
+    "minimum_interchain_distance_min_A": 1.5,
+    "interface_pae_definition": "Maximum PAE over all directed receptor-to-peptide and peptide-to-receptor residue pairs; pass only if <=10 A.",
+    "peptide_plddt_definition": "Mean C-alpha pLDDT over all peptide-chain residues; pass only if >=70.",
+    "iptm_definition": "AFM summary ipTM; pass only if >=0.70.",
+    "clash_definition": "Minimum heavy-atom interchain distance must be >=1.5 A; otherwise fail the structural gate."
+  },
+  "other_required_gates": [
+    "Exact A164/B23 sequences and contiguous numbering",
+    "At least one unique heavy-atom-defined residue contact <=6 A",
+    "After identical restrained Amber relaxation, minimum interchain heavy-atom distance >=1.5 A"
+  ],
+  "additional_diagnostic_gate": {
+    "receptor_mean_plddt_min": 70,
+    "note": "Added engineering readiness check; never retroactively changes original pilot pass count."
+  },
+  "analysis_freeze": {
+    "chain_mapping": "A=unchanged 164-aa receptor; B=unchanged 23-aa peptide; exact sequences and contiguous 1-based numbering in raw and relaxed PDB.",
+    "confidence": "Raw score JSON ipTM; raw CA pLDDT means for A/B; maximum over ALL A->B and B->A PAE entries, not contact-restricted or median.",
+    "geometry": "After identical CPU restrained relaxation, minimum cross-chain heavy-atom distance >=1.5 A and >=1 unique cross-chain residue pair with any heavy atoms <=6 A. Also retain raw geometry and heavy-atom pair count separately.",
+    "consistency": "Cross-check JSON pLDDT against raw CA B factors and score PAE against exported PAE; report exact tolerances from serialization, fail on inconsistent identity/array shapes/nonfinite values.",
+    "reference_code": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/summarize_kernel_ablation.py",
+    "reference_code_sha256": "033b0983daa5cc8239a0c7e838f70aabdca4a10d38669c22dad91f0d0a2e06a0",
+    "reference_use": "Reuse metric definitions or isolated pure helpers in a NEW output-directed evaluator. Existing runner and summarizer contain old hardcoded output paths and must not be directly launched for this protocol.",
+    "paired_changes": "For each fixed seed report new-minus-existing-baseline confidence and geometry; never pool two seeds into a pass."
+  },
+  "preflight_before_future_start": [
+    "Require a future explicit instruction to start this prepared protocol. Current authorization is preparation only.",
+    "Verify applicable AGENTS, protocol/input SHA256, old source/pilot/kernel integrity and inherited unchanged frozen criteria.",
+    "Verify exact installed code/version/executable/model hashes, GPU availability and disk capacity; do not reinstall, download, kill unrelated jobs or change precision/options on OOM.",
+    "Require a clean new output root. Freeze any necessary unique path change before launch and preserve old outputs.",
+    "Repeat installed A3M ingestion checks and ensure a3m_lines is provided and templates disabled. Deny any fallback to remote MSA/template services or weight downloads.",
+    "Use a new budget wrapper/evaluator bound to this protocol and new output root. Do not directly reuse old scripts with hardcoded kernel paths. Count each child interval once.",
+    "Verify saved A3M still contains 22 receptor homologs, query-only peptide, unchanged chain sequences, and no single_sequence clamp. Record actual config and MSA feature depth; lost homologs are an execution failure."
+  ],
+  "frozen_decision": {
+    "2_of_2_all_original_and_auxiliary_gates_pass": "GO_TO_SEPARATE_REVIEW_ONLY; evidence of parent readiness under this MSA+settings bundle, not affinity or H validation. No mutant run automatically follows.",
+    "1_of_2_pass": "HOLD_SEED_SENSITIVE; keep denominator 2, no reroll.",
+    "0_of_2_pass": "HOLD_THIS_MSA_DIAGNOSTIC; no gate loosening or expansion; does not prove that all other MSAs, constructs or runtime factors are ineffective.",
+    "input_runtime_budget_or_execution_failure": "Stop, preserve failed jobs/logs and denominator; no automatic fallback, new seed, precision, template or additional compute.",
+    "better_confidence_but_gate_failure": "Descriptive improvement only, classified as gate failure."
+  },
+  "scope_exclusions": [
+    "GraphPep",
+    "FoldX",
+    "ESM2",
+    "PepMLM",
+    "mutant predictions",
+    "full panel",
+    "MD/P27A minimization",
+    "training",
+    "chemical reconstruction",
+    "wet lab",
+    "paid services",
+    "remote MSA service",
+    "template search",
+    "baseline rerun"
+  ],
+  "formal_direction_criteria": "Unchanged v2. No formal Kd labels or direction metrics are released. Existing failures/ties and GraphPep/FoldX 0.05 bands remain preserved."
+}

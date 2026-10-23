@@ -1,0 +1,509 @@
+{
+  "reference_sequence": "RRRVTVRKADAGGLGISIKGGRENKMPILISKIFKGLAADQTEALFVGDAILSVNGEDLSSATHDEAVQALKKTGKEVVLEVKYMK",
+  "reference_length": 86,
+  "reference_note": "2PDZ RCSB FASTA plus published tutorial sequence; not proof of full assay construct",
+  "query_core10": [
+    "CLDTSRETDL",
+    "SPDRDRESIV",
+    "NLKAGRETTV"
+  ],
+  "query_full13": [
+    "NNGCLDTSRETDL",
+    "NNGSPDRDRESIV",
+    "NNGNLKAGRETTV"
+  ],
+  "lists": [
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+      "line_count": 2231,
+      "unique_targets": 2231,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+      "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+      "line_count": 32667,
+      "unique_targets": 2007,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+      "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+      "line_count": 3636,
+      "unique_targets": 224,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+      "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+      "line_count": 99,
+      "unique_targets": 99,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+      "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+      "line_count": 53,
+      "unique_targets": 53,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+      "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+      "line_count": 64,
+      "unique_targets": 64,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+      "sha256": "bcb8fd11b05515bbda1ba502f183f82244a5d4afa11125c1ccf7a858ea5a5238",
+      "line_count": 121,
+      "unique_targets": 121,
+      "exact_pdb_2pdz": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+      "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+      "line_count": 62,
+      "unique_targets": 62,
+      "exact_pdb_2pdz": []
+    }
+  ],
+  "group_counts": {
+    "Training_set": 2231,
+    "LEADS-PEP_docking_decoys": 53,
+    "ADCP99_decoys": 99,
+    "nr_epitope_minus_AF3_decoys": 64,
+    "Local_62_docking_decoys": 62
+  },
+  "total_structure_pairs": 2509,
+  "exact_receptor_matches": [],
+  "exact_peptide_matches": [],
+  "substring_peptide_matches": [],
+  "top_receptor_candidates": [
+    {
+      "group": "Training_set",
+      "target": "4e34_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "ANSRWPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4e35_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "RWPTSIL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4joe_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "ANSRAPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4jof_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "RLPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4jog_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "SRVPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4joh_D",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "D": "PTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4joj_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "SRFPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4jok_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "NSRYPTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4jop_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "TRRETQL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4jor_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "RLQRRRETQV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4k6y_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "SRWQTSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4k72_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "DSII"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4k75_B",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "B": "RWQDTRL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4k76_E",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "E": "SRWPTTRL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "4k78_B",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISAIHPGQPADRGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "B": "ANSRWQDTRL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "5k4f_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRAGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "RRETQV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "6ov7_C",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "C": "NSRWQVTRV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "LEADS-PEP_docking_decoys",
+      "target": "4Q6H",
+      "receptor_sequences": {
+        "A": "GPIRKVLLLKEDHEGLGISITGGKEHGVPILISEIHPGQPADRCGGLHVGDAILAVNGVNLRDTKHKEAVTILSQQRGEIEFEVVYV"
+      },
+      "peptide_sequences": {
+        "B": "VQDTRL"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 5
+    },
+    {
+      "group": "Training_set",
+      "target": "6ms1_D",
+      "receptor_sequences": {
+        "A": "IEEEELTLTILRQTGGLGISIAGGKGSTPYKGDDEGIFISRVSEEGPAARAGVRVGDKLLEVNGVALQGAEHHEAVEALRGAGTAVQMRVWRER"
+      },
+      "peptide_sequences": {
+        "D": "GSYLVTSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 3
+    },
+    {
+      "group": "Training_set",
+      "target": "1be9_B",
+      "receptor_sequences": {
+        "A": "FLGEEDIPREPRRIVIHRGSTGLGFNIIGGEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVNSSGRIVTN"
+      },
+      "peptide_sequences": {
+        "B": "KQTSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "1tp3_B",
+      "receptor_sequences": {
+        "A": "FLGEEDIPREPRRIVIHRGSTGLGFNIVGGEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "KKETPV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "2jd5_C",
+      "receptor_sequences": {
+        "A": "FHPAFKGEPYKDARYILVRKLGWGHFSTVWLAKDMVNNTHVAMKIVRGDKVYTEAAEDEIKLLQRVNDADNTKEDSMGANHILKLLDHFNHKGPNGVHVVMVFEVLGENLLALIKKYEHRGIPLIYVKQISKQLLLGLDYMHRRCGIIHTDIKPENVLMEIVDSPENLIQIKIADLGNACWYDEHYTNSIQTREYRSPEVLLGAPWGCGADIWSTACLIFELITGDFLFTKDDDHIAQIIELLGELPSYLLRNGKYTRTFFNSLLRNISKLKFWPLEDVLTEKYKFSKDEAKEISDFLSPMLQLDPRKRADAGGLVNHPWLKDTLGMEEIRVPDRELYGSGSDIPGWFEEVRD",
+        "B": "PAFKGEPYKDARYILVRKLGWGHFSTVWLAKDMVNNTHVAMKIVRGDKVYTEAAEDEIKLLQRVNDADNTKEDSMGANHILKLLDHFNHKGPNGVHVVMVFEVLGENLLALIKKYEHRGIPLIYVKQISKQLLLGLDYMHRRCGIIHTDIKPENVLMEIVDSPENLIQIKIADLGNACWYDEHYTNSIQTREYRSPEVLLGAPWGCGADIWSTACLIFELITGDFLFEPDEGHSYTKDDDHIAQIIELLGELPSYLLRNGKYTRTFFNSRGLLRNISKLKFWPLEDVLTEKYKFSKDEAKEISDFLSPMLQLDPRKRADAGGLVNHPWLKDTLGMEEIRVPDRELYGSGSDIPGWFEEVR"
+      },
+      "peptide_sequences": {
+        "C": "RERSP"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "5hed_B",
+      "receptor_sequences": {
+        "A": "SPEFLGEEDIPREPRRIVIHRGSTGLGFNIVGGEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "KNYKQFSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "5hey_B",
+      "receptor_sequences": {
+        "A": "GSPEFLGEEDIPREPRRIVIHRGSTGLGFNIVGTEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "KNYKQTSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "5hf1_B",
+      "receptor_sequences": {
+        "A": "PEFLGEEDIPREPRRIVIHRGSTGLGFNIVGTEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "NYKQFSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "5hfb_B",
+      "receptor_sequences": {
+        "A": "PEFLGEEDIPREPRRIVIHRGSTGLGFNIVGGEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASAEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "YKQTSV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "5yt0_B",
+      "receptor_sequences": {
+        "A": "LRQPIVVVLGHVDHGKTTLLDKIRRTAVAAKGITQHIGASIVPADVIEKIAEPLKKVIPVKLVIPGLLFIDTPGHELFSNLRRRGSVADFAILVVDIMEGFKPQTYEALELLKERRVPFLIAANKIDRIPGWKPNPDAPFIETIRRQDPKVREILEQRVYEIVGKMYEAGLPAELFTRIKDFRRKIAIVPVSARTGEGIPELLAVLAGLTQTYLKERLRYAEGPAKGVVLEVKEMQGFGTVVDAVIYDGVLKKEDIIVVGGREGPIVTRVRALLMPAPFVQVDRVYAAAGVRIAAPGLDDVIAGSPIYAAESEEEARKLMEAVQREIEELR"
+      },
+      "peptide_sequences": {
+        "B": "DLSGLSGMFGF"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Local_62_docking_decoys",
+      "target": "1TP5",
+      "receptor_sequences": {
+        "A": "FLGEEDIPREPRRIVIHRGSTGLGFNIVGGEDGEGIFISFILAGGPADLSGELRKGDQILSVNGVDLRNASHEQAAIALKNAGQTVTIIAQYKPEEYSRFEANSRVDSSGRIVTD"
+      },
+      "peptide_sequences": {
+        "B": "KKETWV"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 2
+    },
+    {
+      "group": "Training_set",
+      "target": "1a1m_C",
+      "receptor_sequences": {
+        "A": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRPPWIEQEGPEYWDRNTQIFKTNTQTYRENLRIALRYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPHH"
+      },
+      "peptide_sequences": {
+        "C": "TPYDINQML"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 1
+    },
+    {
+      "group": "Training_set",
+      "target": "1a1n_C",
+      "receptor_sequences": {
+        "A": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRPPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+      },
+      "peptide_sequences": {
+        "C": "VPLRPMTY"
+      },
+      "exact_core_or_full_peptide": [],
+      "substring_core_or_full_peptide": [],
+      "exact_reference_receptor_chains": [],
+      "max_shared_reference_5mers": 1
+    }
+  ],
+  "family_method": "Count shared unique 5-mers versus 2PDZ/tutorial alpha1-syntrophin; candidate screen, not exhaustive homology classification; no no-overlap claim",
+  "local62_receptor_file": "recb.pdb (bound), not receptor.pdb"
+}

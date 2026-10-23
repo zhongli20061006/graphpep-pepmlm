@@ -1,0 +1,255 @@
+[
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3Y(−3)A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQAPPPPHPYNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 18,
+        "from": "Y",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 104.0,
+    "variant_sd_uM": 8.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 2.260869565217391,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3P(−2)A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYAPPPHPYNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 19,
+        "from": "P",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 145.0,
+    "variant_sd_uM": 20.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 3.152173913043478,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3P(−1)A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPAPPHPYNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 20,
+        "from": "P",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 80.0,
+    "variant_sd_uM": 20.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 1.7391304347826086,
+    "direction_point_estimate_2fold_only": "uncertain",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3P0A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPPAPHPYNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 21,
+        "from": "P",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 115.0,
+    "variant_sd_uM": 10.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 2.5,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3P1A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPPPAHPYNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 22,
+        "from": "P",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": null,
+    "variant_sd_uM": null,
+    "variant_kd_lower_bound_uM": 150.0,
+    "variant_censored": true,
+    "ratio_point_estimate_or_lower_bound": 3.260869565217391,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3Y4F",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPFNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 25,
+        "from": "Y",
+        "to": "F"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 14.0,
+    "variant_sd_uM": 1.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 0.30434782608695654,
+    "direction_point_estimate_2fold_only": "gain",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3Y4W",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPWNPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 25,
+        "from": "Y",
+        "to": "W"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": 51.0,
+    "variant_sd_uM": 4.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 1.108695652173913,
+    "direction_point_estimate_2fold_only": "uncertain",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "DVL3",
+    "mutation_name_as_source": "DVL3Y4A",
+    "parent_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+    "variant_sequence": "PLPHPGAAPWPMAFPYQYPPPPHPANPHPGFPELGY",
+    "changes": [
+      {
+        "position_1based": 25,
+        "from": "Y",
+        "to": "A"
+      }
+    ],
+    "parent_kd_uM": 46.0,
+    "parent_sd_uM": 6.0,
+    "variant_kd_uM": null,
+    "variant_sd_uM": null,
+    "variant_kd_lower_bound_uM": 150.0,
+    "variant_censored": true,
+    "ratio_point_estimate_or_lower_bound": 3.260869565217391,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 2
+  },
+  {
+    "background": "ABI3",
+    "mutation_name_as_source": "ABI3G5P",
+    "parent_sequence": "GDELGLPPPPPGFGPDEPSW",
+    "variant_sequence": "GDELGLPPPPPGFPPDEPSW",
+    "changes": [
+      {
+        "position_1based": 14,
+        "from": "G",
+        "to": "P"
+      }
+    ],
+    "parent_kd_uM": 3.9,
+    "parent_sd_uM": 0.1,
+    "variant_kd_uM": 140.0,
+    "variant_sd_uM": 10.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 35.8974358974359,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 3
+  },
+  {
+    "background": "DBN1",
+    "mutation_name_as_source": "DBN1C5P",
+    "parent_sequence": "LNFDELPEPPATFCDPEEVE",
+    "variant_sequence": "LNFDELPEPPATFPDPEEVE",
+    "changes": [
+      {
+        "position_1based": 14,
+        "from": "C",
+        "to": "P"
+      }
+    ],
+    "parent_kd_uM": 12.0,
+    "parent_sd_uM": 1.0,
+    "variant_kd_uM": null,
+    "variant_sd_uM": null,
+    "variant_kd_lower_bound_uM": 150.0,
+    "variant_censored": true,
+    "ratio_point_estimate_or_lower_bound": 12.5,
+    "direction_point_estimate_2fold_only": "loss",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 3
+  },
+  {
+    "background": "FAT1",
+    "mutation_name_as_source": "FAT1P5G",
+    "parent_sequence": "DIESDFPPPPEDFPAADELP",
+    "variant_sequence": "DIESDFPPPPEDFGAADELP",
+    "changes": [
+      {
+        "position_1based": 14,
+        "from": "P",
+        "to": "G"
+      }
+    ],
+    "parent_kd_uM": 98.0,
+    "parent_sd_uM": 7.0,
+    "variant_kd_uM": 15.0,
+    "variant_sd_uM": 1.0,
+    "variant_kd_lower_bound_uM": null,
+    "variant_censored": false,
+    "ratio_point_estimate_or_lower_bound": 0.15306122448979592,
+    "direction_point_estimate_2fold_only": "gain",
+    "frozen_label_status": "not_assigned; uncertainty and protocol gate audit delegated to parent; no invented CI",
+    "source_table": 3
+  }
+]

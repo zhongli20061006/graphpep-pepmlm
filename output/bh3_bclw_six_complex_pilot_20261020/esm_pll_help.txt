@@ -1,0 +1,13 @@
+usage: esm_pll.py [-h] --checkpoint CHECKPOINT [--device {auto,cpu,cuda}]
+                  input_fasta output_csv
+
+ESM-2 masked pseudo-log-likelihood for peptide sequences
+
+positional arguments:
+  input_fasta
+  output_csv
+
+options:
+  -h, --help            show this help message and exit
+  --checkpoint CHECKPOINT
+  --device {auto,cpu,cuda}

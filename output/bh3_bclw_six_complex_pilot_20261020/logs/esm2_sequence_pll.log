@@ -1,0 +1,23 @@
+
+[2026-10-20T19:52:35+08:00] START esm2_sequence_pll
+CMD: ['/home/g/miniconda3/envs/graphpep_env/bin/python', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/esm_pll.csv', '--checkpoint', '/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt', '--device', 'cuda']
+Traceback (most recent call last):
+  File "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py", line 131, in <module>
+    main()
+  File "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py", line 127, in main
+    run(args.input_fasta, args.output_csv, args.checkpoint, args.device)
+  File "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py", line 100, in run
+    model, alphabet = esm.pretrained.load_model_and_alphabet_local(str(checkpoint))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/miniconda3/envs/graphpep_env/lib/python3.11/site-packages/esm/pretrained.py", line 70, in load_model_and_alphabet_local
+    model_data = torch.load(str(model_location), map_location="cpu")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/miniconda3/envs/graphpep_env/lib/python3.11/site-packages/torch/serialization.py", line 1524, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL argparse.Namespace was not an allowed global by default. Please use `torch.serialization.add_safe_globals([argparse.Namespace])` or the `torch.serialization.safe_globals([argparse.Namespace])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+[2026-10-20T19:52:42+08:00] END esm2_sequence_pll rc=1 reason=None

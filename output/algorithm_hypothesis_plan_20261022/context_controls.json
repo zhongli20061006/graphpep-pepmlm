@@ -1,0 +1,22 @@
+{
+  "controls": [
+    {
+      "id": "MDM2_target",
+      "sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "role": "target_context"
+    },
+    {
+      "id": "shuffled_context_2026102201",
+      "sequence": "YGTGLKMCYLILQLSEVMDQHYGQLHELDKINRRPVLKRKQTKLLELFRVKKLIYKNDEPVSYDGTFTIYKVAPTVVLMFSYSVL",
+      "role": "ARTIFICIAL_ORDER_CONTROL_NOT_EXPERIMENTAL_NONBINDER",
+      "seed": 2026102201
+    },
+    {
+      "id": "shuffled_context_2026102202",
+      "sequence": "TMRVTGLSTVILKVVKRQLLYSYLKYLNFFSDQYDEKPKGRHLLNQKFKYDETKVQKRLYDVISMGLVGLPAMPILICEVHYLET",
+      "role": "ARTIFICIAL_ORDER_CONTROL_NOT_EXPERIMENTAL_NONBINDER",
+      "seed": 2026102202
+    }
+  ],
+  "claim_limit": "Composition- and length-matched shuffled sequences test context order sensitivity; they do not establish biological specificity and are not experimental nonbinding examples."
+}

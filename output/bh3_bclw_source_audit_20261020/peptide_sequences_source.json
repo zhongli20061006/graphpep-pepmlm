@@ -1,0 +1,160 @@
+{
+  "records": [
+    {
+      "name": "MS1",
+      "sequence": "RPEIWMTQGLRRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "MS2",
+      "sequence": "RPEIWLTQSLQRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "MS3",
+      "sequence": "RPEIWLTQHLQRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "A12",
+      "sequence": "RPEIWMGQGLRRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "B3",
+      "sequence": "RPEIWLGQSLQRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "G9",
+      "sequence": "RPEIWLGQHLQRLGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "NoxaA",
+      "sequence": "AELPPEFAAQLRKIGDKVYC",
+      "length": 20,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim",
+      "sequence": "RPEIWIAQELRRIGDEFNAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim_A2eT",
+      "sequence": "RPEIWITQELRRIGDEFNAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim_A2eT_I2dM",
+      "sequence": "RPEIWMTQELRRIGDEFNAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim_A2eT_E2gG",
+      "sequence": "RPEIWITQGLRRIGDEFNAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim_A2eT_I3dL",
+      "sequence": "RPEIWITQELRRLGDEFNAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    },
+    {
+      "name": "Bim_A2eT_F4aI",
+      "sequence": "RPEIWITQELRRIGDEINAYYAR",
+      "length": 23,
+      "source": "Table 1, visually checked in figures/Table1_sequences.png",
+      "chemistry": "Bim variants: N-terminal 5/6-fluorescein amidite, C-terminal amide; NoxaA uses a different FITC-AHA construct and is not used in mutation pairs"
+    }
+  ],
+  "edges": [
+    {
+      "parent": "Bim",
+      "variant": "Bim_A2eT",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "A",
+        "to": "T"
+      }
+    },
+    {
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I2dM",
+      "mutation": {
+        "local_position_1based": 6,
+        "from": "I",
+        "to": "M"
+      }
+    },
+    {
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_E2gG",
+      "mutation": {
+        "local_position_1based": 9,
+        "from": "E",
+        "to": "G"
+      }
+    },
+    {
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I3dL",
+      "mutation": {
+        "local_position_1based": 13,
+        "from": "I",
+        "to": "L"
+      }
+    },
+    {
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_F4aI",
+      "mutation": {
+        "local_position_1based": 17,
+        "from": "F",
+        "to": "I"
+      }
+    },
+    {
+      "parent": "A12",
+      "variant": "MS1",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      }
+    },
+    {
+      "parent": "B3",
+      "variant": "MS2",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      }
+    }
+  ]
+}

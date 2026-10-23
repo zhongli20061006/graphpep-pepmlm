@@ -1,0 +1,8 @@
+{
+  "pilot_manifest_entries": 265,
+  "all_match": true,
+  "mismatches": [],
+  "prepared_input_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+  "prepared_input_expected_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+  "prepared_input_match": true
+}

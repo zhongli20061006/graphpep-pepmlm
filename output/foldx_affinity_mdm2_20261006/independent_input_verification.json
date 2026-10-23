@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "prepared_inputs_only_not_affinity_validation",
+  "reference_peptides": 10,
+  "prepared_models": 60,
+  "all_source_structure_hashes_match": true,
+  "all_heavy_atom_coordinates_unchanged": true,
+  "all_receptor_peptide_sequences_complete_85_plus_12": true,
+  "all_configurations_match_fixed_conditions": true,
+  "removed_hydrogens_total": 50214,
+  "verification_script_sha256": "ba17e2ebadc52b25e16a3ab9ac46ae2132e97b2c2bc92f6fe437879bfe9e92ac"
+}

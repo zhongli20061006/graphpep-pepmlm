@@ -1,0 +1,375 @@
+{
+  "stage": "controlled_offspring_and_msas_ready",
+  "seed": 20261010,
+  "receptor_sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+  "parents": [
+    {
+      "peptide_id": "P53WT_1YCR",
+      "sequence": "ETFSDLWKLLPEN",
+      "pdb": "1YCR",
+      "full_sequence": "ETFSDLWKLLPEN",
+      "chain_rec": "A",
+      "chain_pep": "B",
+      "receptor_range": "25-109",
+      "peptide_range": "17-29",
+      "source_coordinate_path": "/mnt/e/Users/graphpep与pepmlm/output/experiment0/expanded_validation/POSCTRL_MDM2_P53_native.pdb",
+      "native_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/native_complexes/P53WT_1YCR_native.pdb",
+      "native_receptor_sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "native_peptide_coordinate_sequence": "ETFSDLWKLLPEN",
+      "native_peptide_unresolved_positions": [],
+      "source_sha256": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9",
+      "msa_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/parent_msa/P53WT_1YCR.a3m",
+      "msa_sha256": "445075d480901db8d7198ff20be52bfc751fb9d533cc8cf10c1f99b8376aa28b",
+      "msa_stats": {
+        "source_records": 1636,
+        "receptor_only_records": 1633,
+        "discarded_non_receptor_records": 2,
+        "source_peptide_length": 13,
+        "peptide_length": 13,
+        "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+        "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+      },
+      "native_feedback_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/native_graphpep/graphpep_inputs/0000_P53WT_1YCR_1YCR/residue_feedback.csv",
+      "native_contact_feedback_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/native_graphpep/graphpep_inputs/0000_P53WT_1YCR_1YCR/contact_feedback.csv",
+      "native_graphpep_score": -3.8286,
+      "native_contacts": 69,
+      "native_profile_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/native_graphpep/graphpep_inputs/0000_P53WT_1YCR_1YCR/residue_feedback.csv",
+      "predicted_ensemble_profile_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/P53WT_1YCR_predicted_ensemble_feedback.csv",
+      "native_eligible_positions": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "native_guided_positions": [
+        4,
+        8
+      ],
+      "predicted_eligible_positions": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "predicted_guided_positions": [
+        1,
+        13
+      ],
+      "predicted_profile_coverage": 11,
+      "predicted_feedback_model_ids": [
+        "model_1",
+        "model_3",
+        "model_2"
+      ],
+      "native_predicted_feedback_common_positions": 11,
+      "native_predicted_feedback_pearson": 0.12267798793160298,
+      "native_predicted_feedback_spearman": 0.06363636363636364,
+      "selected_site_overlap": 0
+    }
+  ],
+  "native_scores_sha256": "d14ded41a1c3052bbb050479c477ca6d3492f2809b74b35099c57a519259d1fd",
+  "comparison_protocol": {
+    "model_gate": {
+      "iptm_min": 0.7,
+      "peptide_plddt_min": 70.0,
+      "interface_pae_max": 10.0,
+      "minimum_distance_min": 1.5
+    },
+    "minimum_common_passing_models": 2,
+    "minimum_score_gain": 0.05,
+    "minimum_matched_passing_models_improved": 2,
+    "afm_model_type": "alphafold2_multimer_v3",
+    "afm_models": [
+      1,
+      2,
+      3
+    ],
+    "afm_recycles": 3,
+    "afm_recycle_early_stop_tolerance": 0,
+    "max_seq": 256,
+    "max_extra_seq": 512,
+    "templates": false,
+    "relaxation": false,
+    "afm_seed": 20261010
+  },
+  "source_a3m_sha256": "31d086b3f9f68e408237009fe220a0c9b122d0b9dc947d91c11c8b99070ea88c",
+  "native_graphpep_source_hashes": {
+    "/home/g/GraphPep_v1.3/GraphPep.sh": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+    "/home/g/GraphPep_v1.3/bin/core.py": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+    "/home/g/GraphPep_v1.3/bin/data.py": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c"
+  },
+  "parent_model_score_sha256": "2389482507aea9c3d156fe288349b1f2de33ea4edfcfa81a72877437b8bff17c",
+  "sampling_protocol": {
+    "groups": [
+      "native_guided",
+      "native_random",
+      "predicted_guided",
+      "predicted_random"
+    ],
+    "children_per_group_parent": 3,
+    "mutations_per_child": 2,
+    "top_k": 3,
+    "temperature": 1.0,
+    "random_sites_sampled_from_each_feedback_source_eligible_set": true,
+    "generation_seed": 20261010,
+    "predicted_feedback": "contact-weighted mean across quality-passing AFM parent models 1-3"
+  },
+  "candidate_sha256": "82399689e746994b0b5d47624a3dfa34d4402e5e811ec5db2c6079887acd9ee0",
+  "protocol_sha256": "fdd541fb03aa7f91de1d75c97c6d81e0e1ee5f0947f4c0980d559ae59911cd8e",
+  "candidate_msa_hashes": {
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/P53WT_1YCR.a3m": "445075d480901db8d7198ff20be52bfc751fb9d533cc8cf10c1f99b8376aa28b",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_01.a3m": "8861727bf852512361f3063a5dd6d79ba3da08aa1b60477ed842a348012831d7",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_02.a3m": "22597239076c5c58a1eff6f82fd2e7deeb9e03d1de389a0fbd126ff9996bd9fb",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_03.a3m": "67459079c891177478e819819528069aab0308bf12f64a61e469f32e3c22a9b4",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_04.a3m": "1359752ff532f9c0c6868d4c453cb5628c5df837c80143f9842da73c228992fc",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_05.a3m": "ccf37b378a606be4d4c917c67deb56b7b56dd45ed994883f460a248cfcc4d5b6",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_06.a3m": "ea0d73d6dea44f770c5104171abb05d8136761703e2287e060c759f003eae020",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_07.a3m": "bc381f3239ac957d71fa1c6e10e5cbe1c91bb8640d5643c150db91213dd882b6",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_08.a3m": "88e7118eb54d70359bcea97aebf815a226d44aed79a41a4236c1b2313ad94ee3",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_09.a3m": "ca6b658fafe8acfd7cdef0dbed1223d8aa44de830f9f022ad12c5f2a33a65e27",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_GUIDED_P53WT_1YCR_10.a3m": "9d93856c598148ff500ce8d9735810b890bd157d58c72b131bbc952cffc97768",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_01.a3m": "646e31ad027215d394bcf8adcdaca577bf6033ae6fdd38b6a60551d85f867f26",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_02.a3m": "c483b706366686220a21fbdd1aaf45881dad4eac259527c2052aa04035133aeb",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_03.a3m": "40dcc89ba587aa6e71e607882ba4f3fe05e800e3ed446c41e9be12e45ca20e50",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_04.a3m": "46bf10de93eea5b3e3b039867fa8f0111ce88fa020a0c82d34afe33e9f4d68f8",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_05.a3m": "f8f2c8364f0f4d67d142af47e120ed9c3b9c431f5c65c99cb51974eb30f70ab2",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_06.a3m": "541087f24a674bac97158c61892097bd2d34445d6eb29f7b76e24ac4b2df79cc",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_07.a3m": "b35baf1ac64ac39ce55baa7b4fe149c4debc03b87cc952f1d959aba59214ab92",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_08.a3m": "e1fba42eddeb875661594168c588ff09a397e28260d3609b5e272a60210b4360",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_09.a3m": "491f0257cc9452d40364f676d4edc4638609046b480c0c4d6a4bb90e796f973c",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/candidate_msa/PREDICTED_RANDOM_P53WT_1YCR_10.a3m": "f69bd4530612b7f3a0c6722dcac7269b210aa4e67dadecbbae4818d52ea89679"
+  },
+  "msa_records": [
+    {
+      "peptide_id": "P53WT_1YCR",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_01",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_02",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_03",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_04",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_05",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_06",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_07",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_08",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_09",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_10",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_01",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_02",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_03",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_04",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_05",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_06",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_07",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_08",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_09",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_10",
+      "source_records": 1636,
+      "receptor_only_records": 1633,
+      "discarded_non_receptor_records": 2,
+      "source_peptide_length": 13,
+      "peptide_length": 13,
+      "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+      "common_receptor_rows_sha256": "55d697e995add48fd3f855902734c06730f2686fdd31f8e939d971deafb99d9e"
+    }
+  ],
+  "receptor_alignment_sha256": "bbdaed87c4eace0bdf79d875c7f7e535e73e0e5a516a6f551724c95938715da6",
+  "pepmlm_device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "software": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4"
+  }
+}

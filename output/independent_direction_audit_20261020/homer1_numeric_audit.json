@@ -1,0 +1,20 @@
+{
+  "raw_pairs": 11,
+  "finite_quantitative_pairs": 8,
+  "reported_censored_pairs": 3,
+  "point_screen": {
+    "loss": 7,
+    "uncertain": 2,
+    "gain": 2
+  },
+  "finite_point_screen": {
+    "loss": 4,
+    "uncertain": 2,
+    "gain": 2
+  },
+  "maximum_label_candidates_before_uncertainty_if_all_censored_valid": 9,
+  "strict_primary_labels_released": 0,
+  "pilot_fragment_rows_not_jobs": 3,
+  "all_one_substitution_verified": true,
+  "new_predictions_or_model_scores": 0
+}

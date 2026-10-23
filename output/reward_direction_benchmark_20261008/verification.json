@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-10-08",
+  "validation": {
+    "criteria_v1_valid_json": true,
+    "criteria_v2_valid_json": true,
+    "decision_valid_json": true,
+    "candidate_source_audit_rows": 3,
+    "expected_csv_columns": 13,
+    "all_rows_have_13_columns": true,
+    "duplicate_system_ids": 0,
+    "new_prediction_jobs_started": 0,
+    "new_scoring_jobs_started": 0
+  },
+  "sha256": [
+    {
+      "file": "protocol_draft_zh.md",
+      "sha256": "06da88d0b6e414de0bec54fc57e3f715029519127ba1c8b2277bcae724b0abc4"
+    },
+    {
+      "file": "candidate_source_audit.csv",
+      "sha256": "9f99b90d21ecf1fa34d367f1308db58e691dabd0b2780db6bc88cf097f143279"
+    },
+    {
+      "file": "frozen_direction_criteria_v1.json",
+      "sha256": "85f4d2a9d72471e0482d346cfc4a6a0079513cfbec0566ce74e9448d50b1c827"
+    },
+    {
+      "file": "frozen_direction_criteria_v2.json",
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    },
+    {
+      "file": "decision.json",
+      "sha256": "45ac1e40ca800e43e145f71909fa456af074bab34d60aa5955b657275539e313"
+    },
+    {
+      "file": "pmi_supplement_audit_zh.md",
+      "sha256": "a1416c10692c2e31d13f068001d2a58cfe2f94f10bfedf51f76256c29014ff6b"
+    }
+  ]
+}

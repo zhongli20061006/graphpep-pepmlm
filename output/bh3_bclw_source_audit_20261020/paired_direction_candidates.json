@@ -1,0 +1,632 @@
+{
+  "scope": "seven source-defined single-substitution edges, audited separately for Bcl-w and Bcl-xL; no pooled metric, no reverse edges",
+  "counts": {
+    "Bcl-w": {
+      "loss": 5,
+      "gain": 2
+    },
+    "Bcl-xL": {
+      "loss": 6,
+      "gain": 1
+    }
+  },
+  "pairs": [
+    {
+      "receptor": "Bcl-w",
+      "parent": "Bim",
+      "variant": "Bim_A2eT",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "A",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "Bim",
+        "receptor": "Bcl-w",
+        "raw": "1.75 ± 1.0",
+        "status": "finite",
+        "kd_nM": 1.75,
+        "reported_95CI_halfwidth_nM": 1.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-w",
+        "raw": "39 ± 9.4",
+        "status": "finite",
+        "kd_nM": 39.0,
+        "reported_95CI_halfwidth_nM": 9.4,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 22.285714285714285,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        11.986311160352027,
+        41.43502154919058
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        9.889678581265377,
+        50.21933292810243
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        10.763636363636364,
+        64.53333333333333
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I2dM",
+      "mutation": {
+        "local_position_1based": 6,
+        "from": "I",
+        "to": "M"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-w",
+        "raw": "39 ± 9.4",
+        "status": "finite",
+        "kd_nM": 39.0,
+        "reported_95CI_halfwidth_nM": 9.4,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_I2dM",
+        "receptor": "Bcl-w",
+        "raw": "260 ± 52",
+        "status": "finite",
+        "kd_nM": 260.0,
+        "reported_95CI_halfwidth_nM": 52.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 6.666666666666667,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        4.874031364909521,
+        9.118620935519871
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        4.289174730237141,
+        10.362003704611771
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        4.297520661157025,
+        10.54054054054054
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_E2gG",
+      "mutation": {
+        "local_position_1based": 9,
+        "from": "E",
+        "to": "G"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-w",
+        "raw": "39 ± 9.4",
+        "status": "finite",
+        "kd_nM": 39.0,
+        "reported_95CI_halfwidth_nM": 9.4,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_E2gG",
+        "receptor": "Bcl-w",
+        "raw": "94 ± 36",
+        "status": "finite",
+        "kd_nM": 94.0,
+        "reported_95CI_halfwidth_nM": 36.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 2.41025641025641,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        1.5329933991571587,
+        3.7895374933617423
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        1.291402415566258,
+        4.49847072698468
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        1.1983471074380165,
+        4.391891891891892
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I3dL",
+      "mutation": {
+        "local_position_1based": 13,
+        "from": "I",
+        "to": "L"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-w",
+        "raw": "39 ± 9.4",
+        "status": "finite",
+        "kd_nM": 39.0,
+        "reported_95CI_halfwidth_nM": 9.4,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_I3dL",
+        "receptor": "Bcl-w",
+        "raw": "12 ± 2.6",
+        "status": "finite",
+        "kd_nM": 12.0,
+        "reported_95CI_halfwidth_nM": 2.6,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 0.3076923076923077,
+      "point_effect_direction": "gain",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        0.22251731526933669,
+        0.4254705127033505
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        0.19468988804498144,
+        0.4862838905693141
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        0.19421487603305787,
+        0.4932432432432432
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_F4aI",
+      "mutation": {
+        "local_position_1based": 17,
+        "from": "F",
+        "to": "I"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-w",
+        "raw": "39 ± 9.4",
+        "status": "finite",
+        "kd_nM": 39.0,
+        "reported_95CI_halfwidth_nM": 9.4,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_F4aI",
+        "receptor": "Bcl-w",
+        "raw": "16 ± 4.1",
+        "status": "finite",
+        "kd_nM": 16.0,
+        "reported_95CI_halfwidth_nM": 4.1,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 0.41025641025641024,
+      "point_effect_direction": "gain",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        0.2885852753009392,
+        0.5832256062994224
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        0.24951192610435174,
+        0.6745582256700814
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        0.24586776859504134,
+        0.6790540540540541
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "A12",
+      "variant": "MS1",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "A12",
+        "receptor": "Bcl-w",
+        "raw": "210 ± 110",
+        "status": "finite",
+        "kd_nM": 210.0,
+        "reported_95CI_halfwidth_nM": 110.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "MS1",
+        "receptor": "Bcl-w",
+        "raw": "1300 ± 230",
+        "status": "finite",
+        "kd_nM": 1300.0,
+        "reported_95CI_halfwidth_nM": 230.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 6.190476190476191,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        3.5613165584438744,
+        10.760625975242565
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        3.0718482368546463,
+        12.475224200558685
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        3.34375,
+        15.3
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-w",
+      "parent": "B3",
+      "variant": "MS2",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "B3",
+        "receptor": "Bcl-w",
+        "raw": "16 ± 6.2",
+        "status": "finite",
+        "kd_nM": 16.0,
+        "reported_95CI_halfwidth_nM": 6.2,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "MS2",
+        "receptor": "Bcl-w",
+        "raw": "250 ± 76",
+        "status": "finite",
+        "kd_nM": 250.0,
+        "reported_95CI_halfwidth_nM": 76.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 15.625,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        9.548231482216202,
+        25.569198385556263
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        7.825379202398491,
+        31.19856797804387
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        7.837837837837838,
+        33.265306122448976
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "Bim",
+      "variant": "Bim_A2eT",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "A",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "Bim",
+        "receptor": "Bcl-xL",
+        "raw": "2.6 ± 1.9",
+        "status": "finite",
+        "kd_nM": 2.6,
+        "reported_95CI_halfwidth_nM": 1.9,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-xL",
+        "raw": "17 ± 4.8",
+        "status": "finite",
+        "kd_nM": 17.0,
+        "reported_95CI_halfwidth_nM": 4.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 6.538461538461538,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        2.987037003522478,
+        14.31233668666506
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        2.3740081449601314,
+        18.008143476971426
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        2.711111111111111,
+        31.142857142857135
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I2dM",
+      "mutation": {
+        "local_position_1based": 6,
+        "from": "I",
+        "to": "M"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-xL",
+        "raw": "17 ± 4.8",
+        "status": "finite",
+        "kd_nM": 17.0,
+        "reported_95CI_halfwidth_nM": 4.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_I2dM",
+        "receptor": "Bcl-xL",
+        "raw": "83 ± 53",
+        "status": "finite",
+        "kd_nM": 83.0,
+        "reported_95CI_halfwidth_nM": 53.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 4.882352941176471,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        2.4288876614635475,
+        9.814109816775604
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        1.9439463456759716,
+        12.26236017019571
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        1.3761467889908257,
+        11.147540983606557
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_E2gG",
+      "mutation": {
+        "local_position_1based": 9,
+        "from": "E",
+        "to": "G"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-xL",
+        "raw": "17 ± 4.8",
+        "status": "finite",
+        "kd_nM": 17.0,
+        "reported_95CI_halfwidth_nM": 4.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_E2gG",
+        "receptor": "Bcl-xL",
+        "raw": "37 ± 7.0",
+        "status": "finite",
+        "kd_nM": 37.0,
+        "reported_95CI_halfwidth_nM": 7.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 2.176470588235294,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        1.5493391941665298,
+        3.057448129685752
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        1.358202912696699,
+        3.487714668530617
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        1.3761467889908257,
+        3.6065573770491803
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_I3dL",
+      "mutation": {
+        "local_position_1based": 13,
+        "from": "I",
+        "to": "L"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-xL",
+        "raw": "17 ± 4.8",
+        "status": "finite",
+        "kd_nM": 17.0,
+        "reported_95CI_halfwidth_nM": 4.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_I3dL",
+        "receptor": "Bcl-xL",
+        "raw": "7.6 ± 3.8",
+        "status": "finite",
+        "kd_nM": 7.6,
+        "reported_95CI_halfwidth_nM": 3.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 0.44705882352941173,
+      "point_effect_direction": "gain",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        0.2517596609521561,
+        0.7938586783109906
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        0.20445282024999675,
+        0.977543823807952
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        0.17431192660550457,
+        0.9344262295081966
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "Bim_A2eT",
+      "variant": "Bim_A2eT_F4aI",
+      "mutation": {
+        "local_position_1based": 17,
+        "from": "F",
+        "to": "I"
+      },
+      "parent_measurement": {
+        "peptide": "Bim_A2eT",
+        "receptor": "Bcl-xL",
+        "raw": "17 ± 4.8",
+        "status": "finite",
+        "kd_nM": 17.0,
+        "reported_95CI_halfwidth_nM": 4.8,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "Bim_A2eT_F4aI",
+        "receptor": "Bcl-xL",
+        "raw": "110 ± 62",
+        "status": "finite",
+        "kd_nM": 110.0,
+        "reported_95CI_halfwidth_nM": 62.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 6.470588235294118,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        3.444790455029262,
+        12.154153542082717
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        2.7767403865146028,
+        15.078295512991941
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        2.2018348623853212,
+        14.098360655737705
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "A12",
+      "variant": "MS1",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "A12",
+        "receptor": "Bcl-xL",
+        "raw": "9.8 ± 3.1",
+        "status": "finite",
+        "kd_nM": 9.8,
+        "reported_95CI_halfwidth_nM": 3.1,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "MS1",
+        "receptor": "Bcl-xL",
+        "raw": "1600 ± 1000",
+        "status": "finite",
+        "kd_nM": 1600.0,
+        "reported_95CI_halfwidth_nM": 1000.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 163.26530612244898,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        81.03536317725268,
+        328.93738163364486
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        63.69142842704863,
+        418.51094945669064
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        46.51162790697674,
+        388.0597014925373
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    },
+    {
+      "receptor": "Bcl-xL",
+      "parent": "B3",
+      "variant": "MS2",
+      "mutation": {
+        "local_position_1based": 7,
+        "from": "G",
+        "to": "T"
+      },
+      "parent_measurement": {
+        "peptide": "B3",
+        "receptor": "Bcl-xL",
+        "raw": "4.2 ± 2.1",
+        "status": "finite",
+        "kd_nM": 4.2,
+        "reported_95CI_halfwidth_nM": 2.1,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "variant_measurement": {
+        "peptide": "MS2",
+        "receptor": "Bcl-xL",
+        "raw": "1400 ± 500",
+        "status": "finite",
+        "kd_nM": 1400.0,
+        "reported_95CI_halfwidth_nM": 500.0,
+        "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+      },
+      "ratio_variant_over_parent": 333.3333333333333,
+      "point_effect_direction": "loss",
+      "fit_conditional_approximate_log_ratio_interval_independent": [
+        180.3124511033767,
+        616.2143015149237
+      ],
+      "fit_conditional_approximate_log_ratio_interval_adverse_covariance": [
+        141.45761522564996,
+        785.472814127887
+      ],
+      "marginal_95CI_endpoint_envelope_NOT_joint95CI": [
+        142.85714285714283,
+        904.7619047619047
+      ],
+      "direction_supported_under_declared_fit_sensitivity": true,
+      "formal_benchmark_label_released": false
+    }
+  ],
+  "scores_seen": false
+}

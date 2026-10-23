@@ -1,0 +1,145 @@
+{
+  "status": "DEVELOPMENT_CONDITIONAL_COMPARISON_COMPLETED",
+  "development_pairs": 7,
+  "point_effect_gains": 1,
+  "point_effect_losses": 6,
+  "new_logical_inputs": 19,
+  "reused_distributions": 9,
+  "total_base_distributions": 21,
+  "numeric": {
+    "passed": true,
+    "tolerance_nats": 0.0001,
+    "checks": [
+      {
+        "site": 10,
+        "max_logp_delta": 3.337860107421875e-06,
+        "max_d_delta": 3.6507844924926758e-06,
+        "reference_was_reused": false
+      },
+      {
+        "site": 8,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 4.351139068603516e-06,
+        "reference_was_reused": true
+      },
+      {
+        "site": 7,
+        "max_logp_delta": 1.9073486328125e-06,
+        "max_d_delta": 1.9073486328125e-06,
+        "reference_was_reused": false
+      },
+      {
+        "site": 6,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 2.86102294921875e-06,
+        "reference_was_reused": true
+      },
+      {
+        "site": 5,
+        "max_logp_delta": 4.291534423828125e-06,
+        "max_d_delta": 4.887580871582031e-06,
+        "reference_was_reused": false
+      },
+      {
+        "site": 3,
+        "max_logp_delta": 3.337860107421875e-06,
+        "max_d_delta": 2.9206275939941406e-06,
+        "reference_was_reused": false
+      },
+      {
+        "site": 2,
+        "max_logp_delta": 3.814697265625e-06,
+        "max_d_delta": 4.5299530029296875e-06,
+        "reference_was_reused": true
+      }
+    ],
+    "max_logp_delta": 4.291534423828125e-06,
+    "max_d_delta": 4.887580871582031e-06
+  },
+  "max_wt_self_difference": 0.0,
+  "comparison": {
+    "n": 7,
+    "d_correct": 7,
+    "h_correct": 7,
+    "both_correct": 7,
+    "h_only_correct": 0,
+    "d_only_correct": 0,
+    "neither_correct": 0,
+    "d_tie_or_failure": 0,
+    "h_abstain_or_failure": 0,
+    "by_direction": {
+      "gain": {
+        "n": 1,
+        "d_correct": 1,
+        "h_correct": 1,
+        "both_correct": 1,
+        "h_only_correct": 0,
+        "d_only_correct": 0,
+        "neither_correct": 0,
+        "d_tie_or_failure": 0,
+        "h_abstain_or_failure": 0
+      },
+      "loss": {
+        "n": 6,
+        "d_correct": 6,
+        "h_correct": 6,
+        "both_correct": 6,
+        "h_only_correct": 0,
+        "d_only_correct": 0,
+        "neither_correct": 0,
+        "d_tie_or_failure": 0,
+        "h_abstain_or_failure": 0
+      }
+    }
+  },
+  "raw_H_sign_diagnostic_correct": 7,
+  "development_paired_gain_observed": false,
+  "decision": "NO_OBSERVED_DEVELOPMENT_GAIN_HOLD_EXPANSION",
+  "formal_labels_released": 0,
+  "primary_formal_metrics": null,
+  "formal_method_difference_95_CI": null,
+  "paired_uncertainty": {
+    "description": "Observed paired correctness table only; no credible formal gain CI from one exposed parent and one gain",
+    "exact_n_and_raw_repeats": "not recovered",
+    "independent_error_sensitivity_is_not_source_CI": true
+  },
+  "affinity_validation": "HOLD",
+  "closed_loop": "HOLD",
+  "training": 0,
+  "new_structures": 0,
+  "new_GraphPep_FoldX_ESM2_calls": 0,
+  "budget": {
+    "status": "completed",
+    "returncode": 0,
+    "wall_seconds": 21.892745421,
+    "output_bytes": 184065,
+    "pid": 452
+  },
+  "preservation_after": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/artifact_manifest.json",
+      "manifest_sha256": "c86049c4909077c6e575ca9e5cc5a0b303d478dfaf49f0ecc06ba189c63ea608",
+      "files": 22,
+      "mismatches": []
+    }
+  ],
+  "claim_limit": "Direction agreement with seven exposed point-effect examples under stated uncertainty assumptions; not calibrated affinity or independent superiority"
+}

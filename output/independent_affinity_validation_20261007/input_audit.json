@@ -1,0 +1,555 @@
+{
+  "audit_kind": "Preparation/source/input audit; NOT new-score or biological verification",
+  "checked_at_utc": "2026-10-07T12:49:17.990508+00:00",
+  "source_table2_rows": 23,
+  "selected_target_peptide_rows": 10,
+  "unique_selected_peptide_sequences": 6,
+  "primary_pair_rows": 8,
+  "planned_structures_total_max": 60,
+  "actually_predicted_structures": 0,
+  "actually_scored_new_structures": 0,
+  "historical_sequence_csvs_inspected": [
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/graphpep_seed20261011/scores.csv",
+      "sha256": "246eb8eccadc68b8f3693b5573c1ad710771981dc28ccd39fa1ca300757c3f2f",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/graphpep_seed20261012/scores.csv",
+      "sha256": "f9422dee030730efc38acb4dc0dce0b5fef552a3d71ee83e21cf02e8ab2e5bad",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/model_metrics_seed20261011.csv",
+      "sha256": "65650786afa4b3af81d7641852ff2b12d5654d56c9761e556f05a609e77fa128",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/model_metrics_seed20261012.csv",
+      "sha256": "9e8bc73ef6bf1b3036f54987720913f220e8fc4cdc196f580f2992dae431a1fe",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/model_results.csv",
+      "sha256": "048535cb17725c7ddb012de84134a282c83f36064c20682d8af0fb0463b15523",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/model_results_seed20261011.csv",
+      "sha256": "246eb8eccadc68b8f3693b5573c1ad710771981dc28ccd39fa1ca300757c3f2f",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/model_results_seed20261012.csv",
+      "sha256": "f9422dee030730efc38acb4dc0dce0b5fef552a3d71ee83e21cf02e8ab2e5bad",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/native_graphpep/scores.csv",
+      "sha256": "eaf13e308c030ae849732a2b7a702fd54b00a470143401f2a245e33f4a584a3b",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/native_results.csv",
+      "sha256": "a4742aec5e23fe3270df637ff9f5331fcc9d95589500956e07e51568877810ad",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/predicted_common_graphpep/scores.csv",
+      "sha256": "de0d5702524158afcd662b69837b757c54686acd4b777e9c2144e1115b34a215",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/predicted_common_results.csv",
+      "sha256": "45a6a45a9adbb776aa69c67d34d28b9e250434ee2b307d4cab35a75a80e38d18",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/analysis/sequence_summary.csv",
+      "sha256": "2784392b3be1a6cd6f1cb1cb4b90af94ba969c021ecaf118dc18f8333dabaf29",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/native_manifest.csv",
+      "sha256": "a64c7fb95c7b1bc59f839968ac2d42b1c42f5a5433c7262b794abaed6b22c9ae",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/reference_affinity.csv",
+      "sha256": "5596f4861f1c38c8a569a156153a01070db186c2c8718aeb85593c23362d994c",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/backbone_diagnostic_20261007/job_manifest.csv",
+      "sha256": "514c86e6af767ac9cbe09bcc4ff669f845b2528213bdaed40798afb0cd56b923",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/backbone_diagnostic_20261007/source_manifest.csv",
+      "sha256": "07441af0c4321c51ebcd6cd17c962c23eed2b3b22b058a08539a281b4b0d96ad",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/expanded_validation/analysis/candidate_structure_metrics.csv",
+      "sha256": "76816d6cfcc694319dad1dc63e82952c302d0c07efe17d748e8b15d3f62bb535",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/expanded_validation/analysis/graphpep_validation_manifest.csv",
+      "sha256": "f3835bd4b5535df2af9e93935767bd938458c1db0365cd282fd2e5d6bca02cdd",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/expanded_validation/analysis/graphpep_validation_scores.csv",
+      "sha256": "44572d0737aa09fe7572f662e861eb05dbfeb675662f7eaea47b199d37fa50b5",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/expanded_validation/graphpep_models.csv",
+      "sha256": "e4c16f2dd6f69d01331beb57cd6a60ab2539aacc2a33851d618084efa91022d9",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/generated_peptides_snapshot.csv",
+      "sha256": "2d42648edefadfa792ba93562197cc97df0762e8ccda4c316e9f61ed69f23b46",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_ensemble/graphpep_models.csv",
+      "sha256": "f56eb42c125b9bf9ab3a715b130bd3ed1cbcb81229ebea8f26562c0847eacd81",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_ensemble/positive_control/native_graphpep_scores.csv",
+      "sha256": "45e8f876e2dcf0a44eecdafbbf9df7ada444655ec89db41cfbb8083831fa1300",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_ensemble/positive_control/native_manifest.csv",
+      "sha256": "7266b0cbde4b7300a2a6983cfb35c11af7733a4cad8b35eac6362337479247c8",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_trial/experiment0_results.csv",
+      "sha256": "278dac5f778de1782c6625673f1930f9d87241d02264f3b0ca952054d329188d",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_trial/graphpep_models.csv",
+      "sha256": "43bb2cc954187660857a121068cd5c60d958a39627feabf927e3d9a95c372e0e",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/local_trial/graphpep_scores.csv",
+      "sha256": "1d753f6a049a8b4281d66813a8e020a3140d82a042dbf639f134b60d606bd550",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/pilot_candidates.csv",
+      "sha256": "ea787b7eb5666288fb3ef9dbf5124c1a731f9e98252e4929ed48bac1353e8c35",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/results_template.csv",
+      "sha256": "aead0ac9e82175784a9707fd09f677165e476f0adadc72caae380b2b0315e512",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/experiment0/software_control/control_score.csv",
+      "sha256": "c06ebed075277f198a7881340596a3002ef523892e93955a67f1f3cf6517e22f",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/analysis/model_metrics.csv",
+      "sha256": "bddb8fa9a4d1c0a73a715c5f4a0adb677a3e47b060c945fb24b61c9b5ba4be9e",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/analysis/model_results.csv",
+      "sha256": "ef5198c17971d954f629a14b86eb60913f63164aced0b6b4169df7e62c3ac651",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/analysis/offspring_graphpep/scores.csv",
+      "sha256": "5245a98e392b97a97d9529957acd16d99b9abb5dfbe570e3e00438935f84d804",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/analysis/sequence_summary.csv",
+      "sha256": "b84425fbe309eb013f91537e6b2d81b6d8e317fc327d1e5a5d450d0c21ce4355",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/candidates.csv",
+      "sha256": "82399689e746994b0b5d47624a3dfa34d4402e5e811ec5db2c6079887acd9ee0",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/experiment_record.csv",
+      "sha256": "4e8b90925f5cb2b7b5fad83cbe8c8488156f5848a2d7ca2db1c183a1573c69f3",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/native_graphpep/scores.csv",
+      "sha256": "d14ded41a1c3052bbb050479c477ca6d3492f2809b74b35099c57a519259d1fd",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/native_manifest.csv",
+      "sha256": "77d8d25b651329adf38c6aa8a25bd07c22a119813968ae3cd1dac8a5a429f893",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/native_scores.csv",
+      "sha256": "d14ded41a1c3052bbb050479c477ca6d3492f2809b74b35099c57a519259d1fd",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/parent_model_metrics.csv",
+      "sha256": "197440794ad18b4a8af6ddd5d4fef6d660314a05d9479c30a52b5a0fc5cfaa78",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/parent_model_scores.csv",
+      "sha256": "2389482507aea9c3d156fe288349b1f2de33ea4edfcfa81a72877437b8bff17c",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/parent_relaxed_graphpep/scores.csv",
+      "sha256": "2389482507aea9c3d156fe288349b1f2de33ea4edfcfa81a72877437b8bff17c",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/parent_structure_validation.csv",
+      "sha256": "21f767c6a67068d8731ca9cbf264ab95bfcb904c6d3beb2c95ac4389cfdcfc62",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/analysis/model_metrics.csv",
+      "sha256": "c67b33c85876d991c6afdd4e3e7ca34fae77d7e8e04b7e982689394779e1e22f",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/analysis/model_results.csv",
+      "sha256": "e088337c1cdd9b4a02210be4283cd16a452b8b3260f0f7c4263363c0074b4b91",
+      "columns": [
+        "peptide_sequence",
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/analysis/offspring_graphpep/scores.csv",
+      "sha256": "50e444c128875b6ddee9612c791941020f8b4658b321cab343cf2a76b2046814",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/analysis/sequence_summary.csv",
+      "sha256": "beec28b62d4645c51390aac78330358e97645ff4bf80955182bde83f90cbf293",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/candidates.csv",
+      "sha256": "3ef0238a9f05dac9c746e3541ff3f31a15d1574ffde672fbb6c0f0cf53cbddb1",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/experiment_record.csv",
+      "sha256": "c8879305d2e302028c79231a6cbb94f241103a0f81b307336a2774e6686d3673",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/native_graphpep/scores.csv",
+      "sha256": "48ced69c0e6a0f3b4b3d6fc1ee22270017f9696fdfad55b2ee2070498e44fbb5",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/native_manifest.csv",
+      "sha256": "e74b1ded299bc210131d24241755319bb92291439a2e6fc27600b1d8bd3774df",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/native_scores.csv",
+      "sha256": "48ced69c0e6a0f3b4b3d6fc1ee22270017f9696fdfad55b2ee2070498e44fbb5",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/parent_model_graphpep/scores.csv",
+      "sha256": "7884b3dcfb85310c8b26b514d09fb70c831387e18ec1bfbe52e809fa751a3e7d",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/parent_model_metrics.csv",
+      "sha256": "18050beeef0cd34b6f4a054922c64b5cdb00bfe56832952c4412462100cdf20d",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/parent_model_scores.csv",
+      "sha256": "28d5fec1b64af1a06d6f442f422d4c21d2347673467eadc93508a7f7920f7f6a",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/parent_relaxed_graphpep/scores.csv",
+      "sha256": "28d5fec1b64af1a06d6f442f422d4c21d2347673467eadc93508a7f7920f7f6a",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/parent_structure_validation.csv",
+      "sha256": "b2247f94866d0950a0839aa41e71f64c7f4794a017b34496fff59be9d20cf652",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/unrelaxed_parent_diagnostics/parent_model_metrics.csv",
+      "sha256": "96ea2ddbae58473d0ff49a0b220b0c2fc4b69fa58948852e59bc7e63bc9fb928",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_panel_mdm2_20261005/unrelaxed_parent_diagnostics/parent_model_scores.csv",
+      "sha256": "7884b3dcfb85310c8b26b514d09fb70c831387e18ec1bfbe52e809fa751a3e7d",
+      "columns": [
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_pilot_mdm2_20261005/analysis/graphpep_manifest.csv",
+      "sha256": "2e4a3a105f889e63628581126aa8cd5de7fe978eb69668be8e9848a763399312",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_pilot_mdm2_20261005/analysis/model_results.csv",
+      "sha256": "20a032da8c32828f7ea6b8e9b3bde634c436e98ff9475bfceb29956158f17a0a",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_pilot_mdm2_20261005/analysis/sequence_summary.csv",
+      "sha256": "079a84952bfa54b7c68fee33faef8ec16d9f237e55397dacef4f01ce4db131a4",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_pilot_mdm2_20261005/analysis/structure_metrics.csv",
+      "sha256": "2e4a3a105f889e63628581126aa8cd5de7fe978eb69668be8e9848a763399312",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_pilot_mdm2_20261005/candidates.csv",
+      "sha256": "ecbea8ccbb906e6a8eef36dd0c0917cfe7d8d2f2ba0cf333e92161b0653f8c40",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_seed_retest_mdm2_20261005/cross_seed_sequences.csv",
+      "sha256": "b872d9fb29c1f827dcda71b21033ba3b5416c95601c3ddea36714f7afecc84ef",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_seed_retest_mdm2_20261005/graphpep/scores.csv",
+      "sha256": "5354e23acac9834129a71ac3a50f17a7f6f5a72cb50db9a7791f46d1e9aa7ff6",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_seed_retest_mdm2_20261005/model_results.csv",
+      "sha256": "5354e23acac9834129a71ac3a50f17a7f6f5a72cb50db9a7791f46d1e9aa7ff6",
+      "columns": [
+        "sequence",
+        "peptide_sequence"
+      ]
+    },
+    {
+      "path": "output/feedback_seed_retest_mdm2_20261005/sequence_summary.csv",
+      "sha256": "f52295acb16bebd2c197854a7cda7e27c3e03c450ea6ba694d73bb2897a094fc",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/foldx_affinity_mdm2_20261006/analysis/model_results.csv",
+      "sha256": "a60d7b286546caca0f84f3fb126e7e80855ed2275f8bab6206e6d6683de7f3ea",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/foldx_affinity_mdm2_20261006/input_manifest.csv",
+      "sha256": "6e0e65fe162853dc5742459afcbadf7c592d34ea40884683b2b9987a3aa171e3",
+      "columns": [
+        "sequence"
+      ]
+    },
+    {
+      "path": "output/foldx_matched_diagnostic_20261006/input_manifest.csv",
+      "sha256": "fdb31b8cb703d7006473b44e37647d069258e92aeb943ec1755d55b3cc278583",
+      "columns": [
+        "sequence",
+        "parent_sequence"
+      ]
+    }
+  ],
+  "exact_candidate_project_exposure": {
+    "TSFAEYWNLASQ": [],
+    "TSFAEYWALASP": [],
+    "TSFLEYWNLASP": [],
+    "TSFAEYWNLAMP": [],
+    "TSFAEYWNLASP": [],
+    "LSFAEYWNLASP": []
+  },
+  "exposure_scope_limit": "CSV sequence columns in Windows workspace output; not all external WSL history, communications or every model-training corpus",
+  "source_numeric_extraction_pass": true,
+  "sequence_length_and_single_mutation_pass": true,
+  "unit_and_assay_separation_pass": true,
+  "error_definition_resolved": false,
+  "peptide_terminal_chemistry_resolved": false,
+  "MDM2_receptor_sequence_consistent": true,
+  "MDMX_exact_assay_receptor_resolved": false,
+  "graphpep_training_overlap_known": true,
+  "GraphPep_AF_or_ESM_training_clean": "not_established",
+  "scientific_entry_gate_pass": false,
+  "new_prediction_warranted_now": false,
+  "interpretation": "Concrete small-panel preparation is complete; independent-affinity objective validity is not established."
+}

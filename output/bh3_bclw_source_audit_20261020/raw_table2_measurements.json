@@ -1,0 +1,636 @@
+{
+  "source": "Foight et al. 2014 DOI 10.1021/cb500340w, Table 2",
+  "unit": "nM",
+  "cell_count": 72,
+  "status_counts": {
+    "finite": 58,
+    "censored": 9,
+    "not_determined": 5
+  },
+  "records": [
+    {
+      "peptide": "MS1",
+      "receptor": "Mcl-1",
+      "raw": "1.9 ± 1.0",
+      "status": "finite",
+      "kd_nM": 1.9,
+      "reported_95CI_halfwidth_nM": 1.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS1",
+      "receptor": "Bfl-1",
+      "raw": "5000 ± 3200",
+      "status": "finite",
+      "kd_nM": 5000.0,
+      "reported_95CI_halfwidth_nM": 3200.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS1",
+      "receptor": "Bcl-w",
+      "raw": "1300 ± 230",
+      "status": "finite",
+      "kd_nM": 1300.0,
+      "reported_95CI_halfwidth_nM": 230.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS1",
+      "receptor": "Bcl-xL",
+      "raw": "1600 ± 1000",
+      "status": "finite",
+      "kd_nM": 1600.0,
+      "reported_95CI_halfwidth_nM": 1000.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS1",
+      "receptor": "Bcl-2",
+      "raw": "2300 ± 1500",
+      "status": "finite",
+      "kd_nM": 2300.0,
+      "reported_95CI_halfwidth_nM": 1500.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS1",
+      "receptor": "KSBcl-2",
+      "raw": "2.9 ± 0.68",
+      "status": "finite",
+      "kd_nM": 2.9,
+      "reported_95CI_halfwidth_nM": 0.68,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "Mcl-1",
+      "raw": "1.5 ± 1.2",
+      "status": "finite",
+      "kd_nM": 1.5,
+      "reported_95CI_halfwidth_nM": 1.2,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "Bfl-1",
+      "raw": "3100 ± 2300",
+      "status": "finite",
+      "kd_nM": 3100.0,
+      "reported_95CI_halfwidth_nM": 2300.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "Bcl-w",
+      "raw": "250 ± 76",
+      "status": "finite",
+      "kd_nM": 250.0,
+      "reported_95CI_halfwidth_nM": 76.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "Bcl-xL",
+      "raw": "1400 ± 500",
+      "status": "finite",
+      "kd_nM": 1400.0,
+      "reported_95CI_halfwidth_nM": 500.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "Bcl-2",
+      "raw": "6200 ± 4100",
+      "status": "finite",
+      "kd_nM": 6200.0,
+      "reported_95CI_halfwidth_nM": 4100.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS2",
+      "receptor": "KSBcl-2",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "Mcl-1",
+      "raw": "2.0 ± 1.2",
+      "status": "finite",
+      "kd_nM": 2.0,
+      "reported_95CI_halfwidth_nM": 1.2,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "Bfl-1",
+      "raw": "790 ± 140",
+      "status": "finite",
+      "kd_nM": 790.0,
+      "reported_95CI_halfwidth_nM": 140.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "Bcl-w",
+      "raw": "340 ± 69",
+      "status": "finite",
+      "kd_nM": 340.0,
+      "reported_95CI_halfwidth_nM": 69.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "Bcl-xL",
+      "raw": "2300 ± 1000",
+      "status": "finite",
+      "kd_nM": 2300.0,
+      "reported_95CI_halfwidth_nM": 1000.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "Bcl-2",
+      "raw": ">3000",
+      "status": "censored",
+      "relation": ">",
+      "bound_nM": 3000.0
+    },
+    {
+      "peptide": "MS3",
+      "receptor": "KSBcl-2",
+      "raw": "3.3 ± 1.6",
+      "status": "finite",
+      "kd_nM": 3.3,
+      "reported_95CI_halfwidth_nM": 1.6,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "Mcl-1",
+      "raw": "2.4 ± 2.3",
+      "status": "finite",
+      "kd_nM": 2.4,
+      "reported_95CI_halfwidth_nM": 2.3,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "Bfl-1",
+      "raw": "22 ± 6.6",
+      "status": "finite",
+      "kd_nM": 22.0,
+      "reported_95CI_halfwidth_nM": 6.6,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "Bcl-w",
+      "raw": "210 ± 110",
+      "status": "finite",
+      "kd_nM": 210.0,
+      "reported_95CI_halfwidth_nM": 110.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "Bcl-xL",
+      "raw": "9.8 ± 3.1",
+      "status": "finite",
+      "kd_nM": 9.8,
+      "reported_95CI_halfwidth_nM": 3.1,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "Bcl-2",
+      "raw": "42 ± 8.9",
+      "status": "finite",
+      "kd_nM": 42.0,
+      "reported_95CI_halfwidth_nM": 8.9,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "A12",
+      "receptor": "KSBcl-2",
+      "raw": "4.0 ± 2.6",
+      "status": "finite",
+      "kd_nM": 4.0,
+      "reported_95CI_halfwidth_nM": 2.6,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "B3",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "B3",
+      "receptor": "Bfl-1",
+      "raw": "26 ± 7.7",
+      "status": "finite",
+      "kd_nM": 26.0,
+      "reported_95CI_halfwidth_nM": 7.7,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "B3",
+      "receptor": "Bcl-w",
+      "raw": "16 ± 6.2",
+      "status": "finite",
+      "kd_nM": 16.0,
+      "reported_95CI_halfwidth_nM": 6.2,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "B3",
+      "receptor": "Bcl-xL",
+      "raw": "4.2 ± 2.1",
+      "status": "finite",
+      "kd_nM": 4.2,
+      "reported_95CI_halfwidth_nM": 2.1,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "B3",
+      "receptor": "Bcl-2",
+      "raw": "35 ± 11",
+      "status": "finite",
+      "kd_nM": 35.0,
+      "reported_95CI_halfwidth_nM": 11.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "B3",
+      "receptor": "KSBcl-2",
+      "raw": "1.43 ± 1.39",
+      "status": "finite",
+      "kd_nM": 1.43,
+      "reported_95CI_halfwidth_nM": 1.39,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "Mcl-1",
+      "raw": "46 ± 11",
+      "status": "finite",
+      "kd_nM": 46.0,
+      "reported_95CI_halfwidth_nM": 11.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "Bfl-1",
+      "raw": "ND",
+      "status": "not_determined"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "Bcl-w",
+      "raw": "ND",
+      "status": "not_determined"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "Bcl-xL",
+      "raw": "ND",
+      "status": "not_determined"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "Bcl-2",
+      "raw": "ND",
+      "status": "not_determined"
+    },
+    {
+      "peptide": "NoxaA",
+      "receptor": "KSBcl-2",
+      "raw": "ND",
+      "status": "not_determined"
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "Bfl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "Bcl-w",
+      "raw": "1.75 ± 1.0",
+      "status": "finite",
+      "kd_nM": 1.75,
+      "reported_95CI_halfwidth_nM": 1.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "Bcl-xL",
+      "raw": "2.6 ± 1.9",
+      "status": "finite",
+      "kd_nM": 2.6,
+      "reported_95CI_halfwidth_nM": 1.9,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "Bcl-2",
+      "raw": "1.9 ± 1.3",
+      "status": "finite",
+      "kd_nM": 1.9,
+      "reported_95CI_halfwidth_nM": 1.3,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim",
+      "receptor": "KSBcl-2",
+      "raw": "1.2 ± 0.79",
+      "status": "finite",
+      "kd_nM": 1.2,
+      "reported_95CI_halfwidth_nM": 0.79,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "Bfl-1",
+      "raw": "31 ± 6.8",
+      "status": "finite",
+      "kd_nM": 31.0,
+      "reported_95CI_halfwidth_nM": 6.8,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "Bcl-w",
+      "raw": "39 ± 9.4",
+      "status": "finite",
+      "kd_nM": 39.0,
+      "reported_95CI_halfwidth_nM": 9.4,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "Bcl-xL",
+      "raw": "17 ± 4.8",
+      "status": "finite",
+      "kd_nM": 17.0,
+      "reported_95CI_halfwidth_nM": 4.8,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "Bcl-2",
+      "raw": "43 ± 12",
+      "status": "finite",
+      "kd_nM": 43.0,
+      "reported_95CI_halfwidth_nM": 12.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT",
+      "receptor": "KSBcl-2",
+      "raw": "1.8 ± 0.81",
+      "status": "finite",
+      "kd_nM": 1.8,
+      "reported_95CI_halfwidth_nM": 0.81,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "Bfl-1",
+      "raw": "150 ± 69",
+      "status": "finite",
+      "kd_nM": 150.0,
+      "reported_95CI_halfwidth_nM": 69.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "Bcl-w",
+      "raw": "260 ± 52",
+      "status": "finite",
+      "kd_nM": 260.0,
+      "reported_95CI_halfwidth_nM": 52.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "Bcl-xL",
+      "raw": "83 ± 53",
+      "status": "finite",
+      "kd_nM": 83.0,
+      "reported_95CI_halfwidth_nM": 53.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "Bcl-2",
+      "raw": "210 ± 71",
+      "status": "finite",
+      "kd_nM": 210.0,
+      "reported_95CI_halfwidth_nM": 71.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I2dM",
+      "receptor": "KSBcl-2",
+      "raw": "0.75 ± 0.37",
+      "status": "finite",
+      "kd_nM": 0.75,
+      "reported_95CI_halfwidth_nM": 0.37,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "Mcl-1",
+      "raw": "1.6 ± 0.57",
+      "status": "finite",
+      "kd_nM": 1.6,
+      "reported_95CI_halfwidth_nM": 0.57,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "Bfl-1",
+      "raw": "250 ± 63",
+      "status": "finite",
+      "kd_nM": 250.0,
+      "reported_95CI_halfwidth_nM": 63.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "Bcl-w",
+      "raw": "94 ± 36",
+      "status": "finite",
+      "kd_nM": 94.0,
+      "reported_95CI_halfwidth_nM": 36.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "Bcl-xL",
+      "raw": "37 ± 7.0",
+      "status": "finite",
+      "kd_nM": 37.0,
+      "reported_95CI_halfwidth_nM": 7.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "Bcl-2",
+      "raw": "150 ± 27",
+      "status": "finite",
+      "kd_nM": 150.0,
+      "reported_95CI_halfwidth_nM": 27.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_E2gG",
+      "receptor": "KSBcl-2",
+      "raw": "0.66 ± 0.31",
+      "status": "finite",
+      "kd_nM": 0.66,
+      "reported_95CI_halfwidth_nM": 0.31,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "Bfl-1",
+      "raw": "120 ± 27",
+      "status": "finite",
+      "kd_nM": 120.0,
+      "reported_95CI_halfwidth_nM": 27.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "Bcl-w",
+      "raw": "12 ± 2.6",
+      "status": "finite",
+      "kd_nM": 12.0,
+      "reported_95CI_halfwidth_nM": 2.6,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "Bcl-xL",
+      "raw": "7.6 ± 3.8",
+      "status": "finite",
+      "kd_nM": 7.6,
+      "reported_95CI_halfwidth_nM": 3.8,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "Bcl-2",
+      "raw": "37 ± 14",
+      "status": "finite",
+      "kd_nM": 37.0,
+      "reported_95CI_halfwidth_nM": 14.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_I3dL",
+      "receptor": "KSBcl-2",
+      "raw": "1.0 ± 0.38",
+      "status": "finite",
+      "kd_nM": 1.0,
+      "reported_95CI_halfwidth_nM": 0.38,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "Mcl-1",
+      "raw": "<1",
+      "status": "censored",
+      "relation": "<",
+      "bound_nM": 1.0
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "Bfl-1",
+      "raw": "7.9 ± 2.1",
+      "status": "finite",
+      "kd_nM": 7.9,
+      "reported_95CI_halfwidth_nM": 2.1,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "Bcl-w",
+      "raw": "16 ± 4.1",
+      "status": "finite",
+      "kd_nM": 16.0,
+      "reported_95CI_halfwidth_nM": 4.1,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "Bcl-xL",
+      "raw": "110 ± 62",
+      "status": "finite",
+      "kd_nM": 110.0,
+      "reported_95CI_halfwidth_nM": 62.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "Bcl-2",
+      "raw": "150 ± 43",
+      "status": "finite",
+      "kd_nM": 150.0,
+      "reported_95CI_halfwidth_nM": 43.0,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    },
+    {
+      "peptide": "Bim_A2eT_F4aI",
+      "receptor": "KSBcl-2",
+      "raw": "1.7 ± 0.80",
+      "status": "finite",
+      "kd_nM": 1.7,
+      "reported_95CI_halfwidth_nM": 0.8,
+      "uncertainty_type": "Matlab confint on nonlinear fit to mean anisotropy curve; not replicate SD or SEM"
+    }
+  ]
+}

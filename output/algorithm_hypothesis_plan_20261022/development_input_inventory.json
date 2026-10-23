@@ -1,0 +1,96 @@
+{
+  "scope": "Existing native PDB geometry plus source-supported sequences; no affinity labels are attached to these engineering inputs.",
+  "inputs": [
+    {
+      "parent_id": "P53WT_1YCR",
+      "full_sequence": "ETFSDLWKLLPEN",
+      "full_sequence_length": 13,
+      "observed_coordinate_sequence": "ETFSDLWKLLPEN",
+      "observed_coordinate_length": 13,
+      "unresolved_positions": [],
+      "native_pdb": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/P53WT_1YCR_native.pdb",
+      "native_pdb_sha256": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9",
+      "geometry_contact_positions_le6A": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "protected_positions": [
+        3,
+        7,
+        10
+      ],
+      "protocol_excluded_positions": [
+        11
+      ],
+      "eligible_positions": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        12,
+        13
+      ],
+      "eligible_count": 8,
+      "receptor_sequence_for_PepMLM": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "receptor_length": 85,
+      "role": "TECHNICAL_DEVELOPMENT_ONLY_NO_AFFINITY_LABELS",
+      "note": "Full parent sequence is not automatically identical to the historical 12mer assay. PMI terminal P is sequence-supported but unresolved and cannot be masked in this proposal."
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "full_sequence": "TSFAEYWNLLSP",
+      "full_sequence_length": 12,
+      "observed_coordinate_sequence": "TSFAEYWNLLS",
+      "observed_coordinate_length": 11,
+      "unresolved_positions": [
+        12
+      ],
+      "native_pdb": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/PMI_3EQS_native.pdb",
+      "native_pdb_sha256": "59afb9659f5ed802a39f9c4f2729a58bb60369a6c196105262727a45a14ca089",
+      "geometry_contact_positions_le6A": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "protected_positions": [
+        3,
+        7,
+        10
+      ],
+      "protocol_excluded_positions": [],
+      "eligible_positions": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "eligible_count": 7,
+      "receptor_sequence_for_PepMLM": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "receptor_length": 85,
+      "role": "TECHNICAL_DEVELOPMENT_ONLY_NO_AFFINITY_LABELS",
+      "note": "Full parent sequence is not automatically identical to the historical 12mer assay. PMI terminal P is sequence-supported but unresolved and cannot be masked in this proposal."
+    }
+  ]
+}

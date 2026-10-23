@@ -1,0 +1,26 @@
+{
+  "unique_reference_peptides": 10,
+  "afm_models": 60,
+  "passing_afm_models": 60,
+  "finite_graphpep_scores": 60,
+  "crystal_complexes": 9,
+  "protocol_sha256": "d2b1ae31986a9b5be58cf5b0489f2da472dc1cd6e6b2bbb9bae82d446579980d",
+  "frozen_sources_unchanged": true,
+  "seed_checks": [
+    {
+      "seed": 20261011,
+      "continuation_rule_pass": false,
+      "clear_directions_correct": 5,
+      "clear_directions_comparable": 7
+    },
+    {
+      "seed": 20261012,
+      "continuation_rule_pass": false,
+      "clear_directions_correct": 5,
+      "clear_directions_comparable": 7
+    }
+  ],
+  "continue_current_affinity_objective": false,
+  "new_peptides_generated": 0,
+  "experimental_Kd_of_new_children_measured": false
+}

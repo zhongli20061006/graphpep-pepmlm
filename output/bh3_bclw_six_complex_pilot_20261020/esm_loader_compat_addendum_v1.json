@@ -1,0 +1,32 @@
+{
+  "schema": "bclw_six_complex_esm_loader_compat_addendum_v1",
+  "status": "FROZEN_PRE_SCORE_NOT_RUN",
+  "frozen_at_local": "2026-10-20T19:55:58+08:00",
+  "base_config_sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+  "original_frozen_script_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+  "compatibility_script": "esm_pll_pytorch27.py",
+  "compatibility_script_sha256": "018f06cebd0840d44dae5f251f0a950fcaa083a65a33d94ac137b8b1c784a55c",
+  "compatibility_test": "test_esm_pll_pytorch27_compat.py",
+  "compatibility_test_sha256": "791b69626391814436238d09e6584a6718fe3d6fb8a800adf3870b771958888f",
+  "checkpoint_path": "/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt",
+  "checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+  "root_cause": "fair-esm 2.0.0 load_model_and_alphabet_local calls torch.load without an explicit weights_only argument; PyTorch 2.7.1 defaults to weights_only=True and rejects argparse.Namespace stored in this local ESM checkpoint.",
+  "static_unsafe_globals": [
+    "argparse.Namespace"
+  ],
+  "compatibility_change": "Wrap only the existing local fair-esm loader in torch.serialization.safe_globals([argparse.Namespace]); preserve the default weights_only safe unpickler. No weights_only=False, external code, new checkpoint, PLL formula, sequence, or model setting.",
+  "original_failed_attempt": {
+    "label": "esm2_sequence_pll",
+    "returncode": 1,
+    "log": "logs/esm2_sequence_pll.log",
+    "no_score_file_written": true
+  },
+  "tests_before_retry": {
+    "test_count": 6,
+    "passed": 6,
+    "failed": 0,
+    "includes_allowlist_scope_and_context_test": true
+  },
+  "frozen_before_compatibility_retry": true,
+  "retry_execution_status": "NOT_STARTED"
+}

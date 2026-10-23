@@ -1,0 +1,13 @@
+test_bad_sequence_and_site_are_rejected (__main__.ProbeTests.test_bad_sequence_and_site_are_rejected) ... ok
+test_control_disagreement_abstains_and_nan_fails (__main__.ProbeTests.test_control_disagreement_abstains_and_nan_fails) ... ok
+test_job_budget_is_45_plus_15_unique_job_ids (__main__.ProbeTests.test_job_budget_is_45_plus_15_unique_job_ids) ... ok
+test_log_odds_formula_and_self_substitution (__main__.ProbeTests.test_log_odds_formula_and_self_substitution) ... ok
+test_single_mask_has_correct_boundary_and_preserves_receptor (__main__.ProbeTests.test_single_mask_has_correct_boundary_and_preserves_receptor) ... ok
+test_suggestion_limits_and_historical_exclusions (__main__.ProbeTests.test_suggestion_limits_and_historical_exclusions) ... ok
+test_watchdog_detects_output_cap (__main__.ProbeTests.test_watchdog_detects_output_cap) ... ok
+test_watchdog_times_once_and_stops_only_its_child (__main__.ProbeTests.test_watchdog_times_once_and_stops_only_its_child) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.507s
+
+OK

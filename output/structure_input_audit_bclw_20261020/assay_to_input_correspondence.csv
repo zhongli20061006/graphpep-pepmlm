@@ -1,0 +1,11 @@
+﻿component,assay,current_model,correspondence,evidence,remaining_limit
+受体核心,人Bcl-w 1-164；方法未给完整克隆序列,Q92843 canonical 1-164，164 aa,名义区间一致；不是经克隆序列核验的完全相同分子,Foight2014 main Methods; Dutta2010 PMC2896288 Methods; actual FASTA; UniProt Q92843,Q133R为rs910332天然变体；旧结构多为R133，assay身份未知；不能擅自改成R133
+受体标签,MBP经TEV切割后N端c-myc；完整接头/切割残基未恢复,省略标签、接头和切割残基,明确省略,Dutta2010 protein-expression methods; frozen input mapping,不凭常见c-myc序列猜接头；没有标签导致低置信度的直接证据
+亲本,Bim_A2eT荧光23-mer,RPEIWITQELRRIGDEFNAYYAR,氨基酸核心一致,Foight2014 Table1; frozen FASTA; 12 raw/relaxed PDB chain checks,工程亲本不是天然WT；化学身份见端基行
+增强候选,I3dL，工程亲本背景,I13L，23-mer，其余同亲本,单点核心一致,Foight2014 Tables1/2; FASTA/A3M/PDB,源方向候选不等于本项目正式v2标签或reward验证
+减弱候选,I2dM，工程亲本背景,I6M，23-mer，其余同亲本,单点核心一致,Foight2014 Tables1/2; FASTA/A3M/PDB,同上；不跨亲本或assay合并
+肽N端,N-5/6-fluorescein amidite,标准氨基酸链；无染料原子,明确省略,Foight2014 Methods; input_representation_frozen_pilot_v1.json; PDB,染料可能改变测量/结合；没有本组带/不带染料配对结构，不能定为预测失败根因
+肽C端,C-terminal amide,标准残基链；未显式建酰胺,明确省略,Foight2014 Methods; PDB; FoldX noCterm=false,不是精确电荷/化学复现；AFM置信度不能从FoldX端基设置推断
+实验条件,25 C，pH7.8，50mM NaCl，EDTA，Triton，5%DMSO,AFM未编码溶液条件；FoldX 298K/pH7.4/ionStrength0.15M,代理设置差异,Foight2014 Methods; frozen FoldX protocol,不作完整ΔG(binding)，不把条件差异直接当AFM失败解释
+聚集状态,Foight样品活性/寡聚比例未提供；Dutta2010制备曾报道混合状态,1受体核心+1肽,单体代理,Dutta2010 methods; actual A/B chains,Dutta2010比例不能移植成2014该批样品实测值
+直接Kd vs竞争Ki,Table2为带荧光肽直接结合Kd,作为外部来源方向候选,只用直接Kd,Foight2014 Table2 and Supplement Methods,未标记N-acetyl/C-amide竞争Ki另存；不得混成同一标签

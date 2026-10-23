@@ -1,0 +1,13 @@
+{
+  "frozen_gpu_process_wall_cap_seconds": 1800,
+  "actual_gpu_process_wall_seconds_from_completed_child_events": 50.471199917999996,
+  "frozen_cpu_relax_wall_cap_seconds": 900,
+  "actual_cpu_relax_wall_seconds_from_completed_child_events": 27.657641509,
+  "max_disk_bytes": 536870912,
+  "final_output_tree_bytes_before_manifest": 2556543,
+  "monitor_aggregate_counter_reported": {
+    "gpu": 72.303042745,
+    "cpu": 43.903039846999974
+  },
+  "note": "Watchdog aggregate fields conservatively counted the active child wall interval a second time at child completion; per-child wall_seconds events are authoritative for actual work and remained below the frozen caps. The remaining-budget calculation used the larger aggregate, so enforcement was conservative."
+}

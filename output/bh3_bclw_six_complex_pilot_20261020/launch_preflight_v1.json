@@ -1,0 +1,218 @@
+{
+  "schema": "bclw_six_complex_pilot_launch_preflight_v1",
+  "config_sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+  "hash_checks": [
+    {
+      "label": "complexes.fasta",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta",
+      "exists": true,
+      "expected_sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "observed_sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "pass": true
+    },
+    {
+      "label": "peptide_sequences.fasta",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta",
+      "exists": true,
+      "expected_sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "observed_sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "pass": true
+    },
+    {
+      "label": "graphpep_inputs.csv",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs.csv",
+      "exists": true,
+      "expected_sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "observed_sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "pass": true
+    },
+    {
+      "label": "foldx_protocol_template.json",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_protocol_template.json",
+      "exists": true,
+      "expected_sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "observed_sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "pass": true
+    },
+    {
+      "label": "esm_pll.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py",
+      "exists": true,
+      "expected_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "observed_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "pass": true
+    },
+    {
+      "label": "test_esm_pll.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/test_esm_pll.py",
+      "exists": true,
+      "expected_sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "observed_sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "pass": true
+    },
+    {
+      "label": "graphpep_patches/resmap_compat.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py",
+      "exists": true,
+      "expected_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "observed_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "pass": true
+    },
+    {
+      "label": "pipeline/step3_graphpep.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/step3_graphpep.py",
+      "exists": true,
+      "expected_sha256": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "observed_sha256": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "pass": true
+    },
+    {
+      "label": "pipeline/relax_feedback_panel.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+      "exists": true,
+      "expected_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "observed_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "pass": true
+    },
+    {
+      "label": "pipeline/make_resmap_compat.py",
+      "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/make_resmap_compat.py",
+      "exists": true,
+      "expected_sha256": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad",
+      "observed_sha256": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad",
+      "pass": true
+    },
+    {
+      "label": "frozen_input_mapping",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_source_audit_20261020/input_representation_frozen_pilot_v1.json",
+      "exists": true,
+      "expected_sha256": "76846081E949DAB5D2E126B0D7260985EC6BB988C8D6CE1F560261659C7BE43C",
+      "observed_sha256": "76846081e949dab5d2e126b0d7260985ec6bb988c8d6ce1f560261659c7be43c",
+      "pass": true
+    },
+    {
+      "label": "frozen_direction_criteria",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "exists": true,
+      "expected_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+      "observed_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+      "pass": true
+    },
+    {
+      "label": "AF2 model parameters",
+      "path": "/home/g/.cache/colabfold/params/params_model_1_multimer_v3.npz",
+      "exists": true,
+      "expected_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+      "observed_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+      "pass": true
+    },
+    {
+      "label": "GraphPep checkpoint",
+      "path": "/home/g/GraphPep_v1.3/ckpt/model_param.ckpt",
+      "exists": true,
+      "expected_sha256": "a32ad61df5bcabd3addbaa32f0825f9a0eb572937f31c05aa66a6be71b488e9b",
+      "observed_sha256": "a32ad61df5bcabd3addbaa32f0825f9a0eb572937f31c05aa66a6be71b488e9b",
+      "pass": true
+    },
+    {
+      "label": "ESM2 checkpoint",
+      "path": "/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt",
+      "exists": true,
+      "expected_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "observed_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "pass": true
+    },
+    {
+      "label": "FoldX executable",
+      "path": "/mnt/e/Users/graphpep与pepmlm/tools/foldx/foldx5_Linux/foldx_20261231",
+      "exists": true,
+      "expected_sha256": "faed5e54e47744ab6ab75f8f9ad1a1f2e2cdbeac4f0f98d4e36c97049eb14268",
+      "observed_sha256": "faed5e54e47744ab6ab75f8f9ad1a1f2e2cdbeac4f0f98d4e36c97049eb14268",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/GraphPep.sh",
+      "path": "/home/g/GraphPep_v1.3/GraphPep.sh",
+      "exists": true,
+      "expected_sha256": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+      "observed_sha256": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/core.py",
+      "path": "/home/g/GraphPep_v1.3/bin/core.py",
+      "exists": true,
+      "expected_sha256": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+      "observed_sha256": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/data.py",
+      "path": "/home/g/GraphPep_v1.3/bin/data.py",
+      "exists": true,
+      "expected_sha256": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c",
+      "observed_sha256": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/predict.py",
+      "path": "/home/g/GraphPep_v1.3/bin/predict.py",
+      "exists": true,
+      "expected_sha256": "8ea8eaa11ad6a574b64ff9e7406373caf2201df10e4e313e0ee6462afc831f8e",
+      "observed_sha256": "8ea8eaa11ad6a574b64ff9e7406373caf2201df10e4e313e0ee6462afc831f8e",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/model.py",
+      "path": "/home/g/GraphPep_v1.3/bin/model.py",
+      "exists": true,
+      "expected_sha256": "1bd423d4e587bd1c9026ac64f36e2c03cfb59833cee7c74125ff8b40aa81eaf0",
+      "observed_sha256": "1bd423d4e587bd1c9026ac64f36e2c03cfb59833cee7c74125ff8b40aa81eaf0",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/resmap.py",
+      "path": "/home/g/GraphPep_v1.3/bin/resmap.py",
+      "exists": true,
+      "expected_sha256": "6635fd810cae881675be4c1c9cd2d8b46671383fb1884bed1059be9ce239d070",
+      "observed_sha256": "6635fd810cae881675be4c1c9cd2d8b46671383fb1884bed1059be9ce239d070",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/bin/itpot.csv",
+      "path": "/home/g/GraphPep_v1.3/bin/itpot.csv",
+      "exists": true,
+      "expected_sha256": "57546735b1c198a88ea319466d34f6ac5d57e56f799d00724f78814d55ba43a6",
+      "observed_sha256": "57546735b1c198a88ea319466d34f6ac5d57e56f799d00724f78814d55ba43a6",
+      "pass": true
+    },
+    {
+      "label": "GraphPep/compat_mapper",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py",
+      "exists": true,
+      "expected_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "observed_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "pass": true
+    }
+  ],
+  "hashes_pass": true,
+  "gpu_snapshot": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 7342 MiB, 13 %",
+  "active_gpu_compute_apps": "",
+  "active_gpu_compute_apps_found": false,
+  "other_colabfold_processes": [],
+  "disk_bytes_free": {
+    "workspace_mount_E": 118071533568,
+    "wsl_root": 949861154816
+  },
+  "pilot_output_baseline_bytes": 158228,
+  "planned_output_dirs": {
+    "seed_20261008/structures": false,
+    "seed_20261009/structures": false,
+    "seed_20261008/relaxed": false,
+    "seed_20261009/relaxed": false,
+    "scores": false
+  },
+  "expected_output_dirs_clean": true,
+  "minimum_E_headroom_pass": true,
+  "execution_status_before_launch": "NOT_STARTED"
+}

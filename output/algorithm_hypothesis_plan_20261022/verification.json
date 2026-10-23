@@ -1,0 +1,98 @@
+{
+  "checks": [
+    {
+      "name": "two_development_parents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "eligible_sites_15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "60_future_inputs_not_executed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P27_site_not_masked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PMI_unresolved_terminal_not_masked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_masks_observed_and_nonanchor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shuffled_contexts_distinct_same_length_composition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_affinity_labels_in_technical_inventory",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source_reuse_inputs_unchanged",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "frozen_criteria_sha_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "model_config_matches_historical_snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_exists_weights_not_loaded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bh3_bclw_six_complex_pilot_20261020",
+      "pass": true,
+      "detail": {
+        "files": 265,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "preserved_bclw_parent_kernel_ablation_v1",
+      "pass": true,
+      "detail": {
+        "files": 46,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "csv_width_and_rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "technical_and_affinity_gates_explicit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "proposal_not_run_ready",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "check_count": 17,
+  "failed_count": 0,
+  "scientific_scope": "Document/input and source-integrity checks only; no algorithm, model or affinity validation."
+}

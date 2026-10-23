@@ -1,0 +1,210 @@
+1036: def unserialize_msa(
+1037:     a3m_lines: List[str], query_sequence: Union[List[str], str]
+1038: ) -> Tuple[
+1039:     Optional[List[str]],
+1040:     Optional[List[str]],
+1041:     List[str],
+1042:     List[int],
+1043:     List[Dict[str, Any]],
+1044: ]:
+1045:     a3m_lines = a3m_lines[0].replace("\x00", "").splitlines()
+1046:     a3m_lines = normalize_a3m(a3m_lines)
+1047:     if not a3m_lines[0].startswith("#") or len(a3m_lines[0][1:].split("\t")) != 2:
+1048:         assert isinstance(query_sequence, str)
+1049:         return (
+1050:             ["\n".join(a3m_lines)],
+1051:             None,
+1052:             [query_sequence],
+1053:             [1],
+1054:             [mk_mock_template(query_sequence)],
+1055:         )
+1056: 
+1057:     if len(a3m_lines) < 3:
+1058:         raise ValueError(f"Unknown file format a3m")
+1059:     tab_sep_entries = a3m_lines[0][1:].split("\t")
+1060:     query_seq_len = tab_sep_entries[0].split(",")
+1061:     query_seq_len = list(map(int, query_seq_len))
+1062:     query_seqs_cardinality = tab_sep_entries[1].split(",")
+1063:     query_seqs_cardinality = list(map(int, query_seqs_cardinality))
+1064:     num_chains = len(query_seq_len)
+1065:     is_homooligomer = (
+1066:         True if num_chains == 1 and query_seqs_cardinality[0] > 1 else False
+1067:     )
+1068:     is_single_protein = (
+1069:         True if num_chains == 1 and query_seqs_cardinality[0] == 1 else False
+1070:     )
+1071: 
+1072:     query_seqs_unique = []
+1073:     qcat = a3m_lines[2]
+1074:     prev = 0
+1075:     for qlen in query_seq_len:
+1076:         nxt = prev + max(int(qlen), 0)
+1077:         query_seqs_unique.append(qcat[prev:nxt])
+1078:         prev = nxt
+1079: 
+1080:     paired_chunks = [[] for _ in range(num_chains)]
+1081:     unpaired_chunks = [[] for _ in range(num_chains)]
+1082:     already_in = set()
+1083: 
+1084:     qlens_local = query_seq_len
+1085:     def _split_by_aln(s):
+1086:         segments = [""] * num_chains
+1087:         has_aa = [False] * num_chains
+1088:         seg_idx = 0
+1089:         aln_count = 0
+1090:         start = 0
+1091:         curr_has_aa = False
+1092: 
+1093:         dash = '-'
+1094:         A, Z = 'A', 'Z'
+1095:         a, z = 'a', 'z'
+1096:         n = len(s)
+1097:         i = 0
+1098:         while i < n and seg_idx < num_chains:
+1099:             c = s[i]
+1100:             # non-lowercase are aligned columns
+1101:             if not (a <= c <= z):
+1102:                 if c != dash and (A <= c <= Z):
+1103:                     curr_has_aa = True
+1104:                 aln_count += 1
+1105:                 if aln_count == qlens_local[seg_idx]:
+1106:                     # close current segment
+1107:                     segments[seg_idx] = s[start:i+1]
+1108:                     has_aa[seg_idx] = curr_has_aa
+1109:                     seg_idx += 1
+1110:                     aln_count = 0
+1111:                     start = i + 1
+1112:                     curr_has_aa = False
+1113:             i += 1
+1114:         return segments, has_aa
+1115: 
+1116:     i = 1
+1117:     end = len(a3m_lines)
+1118:     while i + 1 < end:
+1119:         header = a3m_lines[i]
+1120:         seq = a3m_lines[i + 1]
+1121:         i += 2
+1122: 
+1123:         key = (header, seq)
+1124:         if key in already_in:
+1125:             continue
+1126:         already_in.add(key)
+1127: 
+1128:         segments, has_aa = _split_by_aln(seq)
+1129: 
+1130:         # Paired if multi-chain (not single protein), not homo-oligomer, >=2 segments have AA
+1131:         if (not is_single_protein) and (not is_homooligomer) and (sum(has_aa) > 1):
+1132:             header_no_gt = header.replace(">", "")
+1133:             header_fields = header_no_gt.split("\t")
+1134:             for j, seg in enumerate(segments):
+1135:                 label = header_fields[j] if j < len(header_fields) else (header_fields[-1] if header_fields else "")
+1136:                 pc = paired_chunks[j]
+1137:                 pc.append(">")
+1138:                 pc.append(label)
+1139:                 pc.append("\n")
+1140:                 pc.append(seg)
+1141:                 pc.append("\n")
+1142:         else:
+1143:             for j, seg in enumerate(segments):
+1144:                 if has_aa[j]:
+1145:                     uc = unpaired_chunks[j]
+1355:     set_if = lambda x,y: y if x is None else x
+1356:     if model_type in ["alphafold2_multimer_v1","alphafold2_multimer_v2"]:
+1357:         (max_seq, max_extra_seq) = (set_if(max_seq,252), set_if(max_extra_seq,1152))
+1358:     elif model_type == "alphafold2_multimer_v3":
+1359:         (max_seq, max_extra_seq) = (set_if(max_seq,508), set_if(max_extra_seq,2048))
+1360:     else:
+1361:         (max_seq, max_extra_seq) = (set_if(max_seq,512), set_if(max_extra_seq,5120))
+1362: 
+1363:     if msa_mode == "single_sequence":
+1364:         num_seqs = 1
+1365:         if is_complex and "multimer" not in model_type: num_seqs += max_num
+1366:         if use_templates: num_seqs += 4
+1367:         max_seq = min(num_seqs, max_seq)
+1368:         max_extra_seq = max(min(num_seqs - max_seq, max_extra_seq), 1)
+1369: 
+1370:     # sort model order
+1371:     model_order.sort()
+1372: 
+1480:         try:
+1481:             pickled_msa_and_templates = result_dir.joinpath(f"{jobname}.pickle")
+1482:             if pickled_msa_and_templates.is_file():
+1483:                 with open(pickled_msa_and_templates, 'rb') as f:
+1484:                     (unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features) = pickle.load(f)
+1485:                 logger.info(f"Loaded {pickled_msa_and_templates}")
+1486: 
+1487:             else:
+1488:                 if a3m_lines is None:
+1489:                     (unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features) \
+1490:                     = get_msa_and_templates(
+1491:                         jobname, query_sequence, a3m_lines, result_dir, msa_mode, use_templates,
+1492:                         custom_template_path, pair_mode, pairing_strategy, host_url, user_agent,
+1493:                         max_template_date=max_template_date, max_template_hits=max_template_hits,
+1494:                     )
+1495: 
+1496:                 elif a3m_lines is not None:
+1497:                     if(isinstance(a3m_lines, Path)):
+1498:                         a3m_lines = [a3m_lines.read_text()]
+1499:                     (unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features) \
+1500:                     = unserialize_msa(a3m_lines, query_sequence)
+1501:                     if use_templates:
+1502:                         (_, _, _, _, template_features) \
+1503:                             = get_msa_and_templates(
+1504:                                 jobname, query_seqs_unique, unpaired_msa, result_dir, 'single_sequence', use_templates,
+1505:                                 custom_template_path, pair_mode, pairing_strategy, host_url, user_agent,
+1506:                                 max_template_date=max_template_date, max_template_hits=max_template_hits,
+1507:                             )
+1508: 
+1509:                 if num_models == 0:
+1510:                     with open(pickled_msa_and_templates, 'wb') as f:
+1511:                         pickle.dump((unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features), f)
+1512:                     logger.info(f"Saved {pickled_msa_and_templates}")
+1513: 
+1514:             # a3m input and pickles bypass get_msa_and_templates, and num_extra_msa=1 would then sample a random homolog per seed
+1515:             if msa_mode == "single_sequence" and unpaired_msa is not None:
+1516:                 unpaired_msa = [f">{101 + i}\n{seq}" for i, seq in enumerate(query_seqs_unique)]
+1517:                 paired_msa = None
+1518: 
+1519:             # save a3m
+1520:             if not 'msa' in skip_output:
+1521:                 msa = msa_to_str(unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality)
+1522:                 result_dir.joinpath(f"{jobname}.a3m").write_text(msa)
+1523: 
+1524:         except Exception as e:
+1525:             logger.exception(f"Could not get MSA/templates for {jobname}: {e}")
+1526:             continue
+1527: 
+1528:         #######################
+1529:         # generate features
+1530:         #######################
+1780:         # generate MSA (a3m_lines) and templates
+1781:         ###########################################
+1782:         try:
+1783:             if a3m_lines is None:
+1784:                 (unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features) \
+1785:                 = get_msa_and_templates(
+1786:                     jobname, query_sequences, a3m_lines, result_dir, msa_mode, use_templates,
+1787:                     custom_template_path, pair_mode, pairing_strategy, host_url, user_agent,
+1788:                     max_template_date=max_template_date, max_template_hits=max_template_hits,
+1789:                 )
+1790: 
+1791:             elif a3m_lines is not None:
+1792:                 (unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features) \
+1793:                 = unserialize_msa(a3m_lines, query_sequences)
+1794:                 # if use_templates:
+1795:                 #     (_, _, _, _, template_features) \
+1796:                 #         = get_msa_and_templates(
+1797:                 #               jobname, query_seqs_unique, unpaired_msa, result_dir, 'single_sequence', use_templates,
+1798:                 #               custom_template_path, pair_mode, pairing_strategy, host_url, user_agent,
+1799:                 #               max_template_date=max_template_date, max_template_hits=max_template_hits,
+1800:                 #           )
+1801: 
+1802:             # save json
+1803:             af3 = AF3Utils(jobname, query_seqs_unique, query_seqs_cardinality, unpaired_msa, paired_msa, other_molecules)
+1804:             with open(result_dir.joinpath(f"{jobname}.json"), "w") as f:
+1805:                 f.write(json.dumps(af3.content, indent = 4))
+1806:                 
+1807:             # save a3m
+1808:             msa = msa_to_str(unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality)
+1809:             result_dir.joinpath(f"{jobname}.a3m").write_text(msa)
+1810: 

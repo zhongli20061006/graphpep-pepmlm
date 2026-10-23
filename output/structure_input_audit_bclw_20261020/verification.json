@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-20 Asia/Shanghai",
+  "verification_scope": "file identity, numeric cross-checks, source mappings and prepared-only protocol; not model or biological validity",
+  "check_count": 36,
+  "failed_checks": 0,
+  "checks": [
+    {
+      "check": "original_265_files_still_unchanged",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "direction_criteria_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:actual_a3m_audit.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:assay_to_input_correspondence.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:confidence_and_geometry_audit.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:configuration_consistency.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:deposited_sequence_mapping.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:recycle_trace.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:residue_correspondence.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:root_cause_hypotheses_evidence.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "csv_row_width:structure_source_input_map.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_json_parse",
+      "pass": true,
+      "detail": [
+        "audit_scope_and_rules.json",
+        "coordinate_observation_audit.json",
+        "decision.json",
+        "historical_positive_setup_comparison.json",
+        "input_audit_summary.json",
+        "next_compute_protocol_prepared_v1.json",
+        "original_integrity_check.json",
+        "source_retrieval_manifest.json",
+        "structure_database_inventory.json",
+        "sources/Q92843_current.json",
+        "sources/q92843_search.json",
+        "sources/rcsb_1mk3_entity1.json",
+        "sources/rcsb_1mk3_entry.json",
+        "sources/rcsb_1o0l_entity1.json",
+        "sources/rcsb_1o0l_entry.json",
+        "sources/rcsb_2y6w_entity1.json",
+        "sources/rcsb_2y6w_entry.json",
+        "sources/rcsb_4k5a_entity1.json",
+        "sources/rcsb_4k5a_entity2.json",
+        "sources/rcsb_4k5a_entry.json",
+        "sources/rcsb_4k5b_entity1.json",
+        "sources/rcsb_4k5b_entity2.json",
+        "sources/rcsb_4k5b_entry.json"
+      ]
+    },
+    {
+      "check": "audit_scripts_compile_without_inference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "six_rows_keep_failure_denominator",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_identity_and_old_table_agreement",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "confidence_exports_exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reported_receptor_means",
+      "pass": true,
+      "detail": {
+        "minimum": 39.91823170731708,
+        "maximum": 41.32384146341463
+      }
+    },
+    {
+      "check": "no_receptor_residue_ge70",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "msa_queries_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "34_effective_setting_checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_recycle_steps_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "eight_entry_bounded_structure_review",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1ZY3_current_numbering_differences",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "4K5B_role_resolved_by_sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Q133R_natural_variant_primary_record",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_reused_and_new_primary_source_hashes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "prepared_input_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "planned_only_kernel_option_changed:20261008",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "planned_only_kernel_option_changed:20261009",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "old_quality_gates_kept",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extra_receptor_gate_tightens_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_new_run_directory_exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_new_inference_or_reward_calls_reported",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bounded_proposal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "markdown_local_links_resolve",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "hypotheses_and_assay_tables_present",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

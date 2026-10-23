@@ -1,0 +1,13 @@
+{
+  "protocol_id": "BCLW_PARENT_KERNEL_ABLATION_V1",
+  "completed_prediction_jobs": 2,
+  "completed_relaxation_jobs": 2,
+  "reward_calls": 0,
+  "mutant_predictions": 0,
+  "all_diagnostic_quality_gate_pass_count": 0,
+  "decision": "HOLD; disabling fast kernels alone did not recover the parent under these two seeds; this does not establish that other runtime or input factors are innocent or causal.",
+  "affinity_direction_accuracy": "NOT_ASSESSED",
+  "experimental_Kd_or_complete_binding_deltaG": "NOT_GENERATED",
+  "caveat": "The quality gate assesses prediction readiness only; a failure does not show the peptide fails to bind experimentally.",
+  "input_scope": "Q92843 1-164 core plus standard Bim_A2eT 23mer; omitted tags/labels/terminal chemistry remain omitted as frozen."
+}

@@ -1,0 +1,20 @@
+{
+  "created_at_local": "2026-10-20T20:47:22+08:00",
+  "files": [
+    {
+      "path": "E:\\Users\\graphpep与pepmlm\\PROJECT_HANDOFF_2026-10-20.md",
+      "bytes": 26693,
+      "sha256": "ddd3cba4aff000f38230198084dcdf264026b5f732eafa01a4c437469c00f402"
+    },
+    {
+      "path": "E:\\Users\\graphpep与pepmlm\\NEW_SESSION_PROMPT_2026-10-20.txt",
+      "bytes": 7535,
+      "sha256": "60155022491ecd2d9e6df780db46696c91828a07dae10e8d61349801d216e407"
+    },
+    {
+      "path": "E:\\Users\\graphpep与pepmlm\\output\\project_handoff_20261020\\verification.json",
+      "bytes": 7206,
+      "sha256": "90e4819cbeee3f77b21c109824085c28d8149da16a3e417df9f3e1d393fbf99d"
+    }
+  ]
+}

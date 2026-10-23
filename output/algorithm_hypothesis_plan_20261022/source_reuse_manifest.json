@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/parent_metadata.json",
+      "bytes": 42092,
+      "sha256": "5c363df9d3ed054f7b7ac3ef5fb45d9574847604dd62340570d7d9b7579f995d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/feedback_control_1ycr.py",
+      "bytes": 28872,
+      "sha256": "e6cf87e763f96f0d7e827f52fb54a1eacb4b2379f6075bb5a61ffb6e9fe0a0de"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/step1_generate.py",
+      "bytes": 13502,
+      "sha256": "b92bc0cf7f9374144359af2f0182a881bc73c0cbd1bd50e97ab247684493b14f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "bytes": 7282,
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/report_zh.md",
+      "bytes": 8203,
+      "sha256": "ceb979da66e97d79da04151013188373c59aae51ace1527996abb98824a84d25"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/raw/skempi_v2.csv",
+      "bytes": 1602208,
+      "sha256": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/decision.json",
+      "bytes": 784,
+      "sha256": "e12bf48f35dc2bab916c305ec804e4397609352bf53092e4053b921d384792b7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/P53WT_1YCR_native.pdb",
+      "bytes": 66429,
+      "sha256": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/PMI_3EQS_native.pdb",
+      "bytes": 62547,
+      "sha256": "59afb9659f5ed802a39f9c4f2729a58bb60369a6c196105262727a45a14ca089"
+    }
+  ],
+  "all_reads_only": true
+}

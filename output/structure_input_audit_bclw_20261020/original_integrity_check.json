@@ -1,0 +1,1066 @@
+{
+  "checked": 265,
+  "mismatch_count": 0,
+  "rows": [
+    {
+      "path": "audit_six_complex_structures.py",
+      "match": true
+    },
+    {
+      "path": "colabfold_batch_help.txt",
+      "match": true
+    },
+    {
+      "path": "complexes.fasta",
+      "match": true
+    },
+    {
+      "path": "esm_loader_compat_addendum_v1.json",
+      "match": true
+    },
+    {
+      "path": "esm_pll.py",
+      "match": true
+    },
+    {
+      "path": "esm_pll_help.txt",
+      "match": true
+    },
+    {
+      "path": "esm_pll_pytorch27.py",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input_Repair.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input_Repair.pdb",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Interaction_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.cfg",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.command.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/result.json",
+      "match": true
+    },
+    {
+      "path": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Summary_input_Repair_AC.fxout",
+      "match": true
+    },
+    {
+      "path": "foldx_protocol_template.json",
+      "match": true
+    },
+    {
+      "path": "freeze_esm_loader_addendum.py",
+      "match": true
+    },
+    {
+      "path": "freeze_manifest_v1.json",
+      "match": true
+    },
+    {
+      "path": "freeze_manifest_v1.sha256",
+      "match": true
+    },
+    {
+      "path": "freeze_run_config.py",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/contact_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/decoys.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/graphpep_patched.sh",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/protein.pdb",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/residue_feedback.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/residue_mapping.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/run.log",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/score.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/score_each.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_inputs.csv",
+      "match": true
+    },
+    {
+      "path": "graphpep_patches/resmap_compat.py",
+      "match": true
+    },
+    {
+      "path": "launch_preflight_v1.json",
+      "match": true
+    },
+    {
+      "path": "logs/afm_seed_20261008.log",
+      "match": true
+    },
+    {
+      "path": "logs/afm_seed_20261009.log",
+      "match": true
+    },
+    {
+      "path": "logs/esm2_sequence_pll.log",
+      "match": true
+    },
+    {
+      "path": "logs/esm2_sequence_pll_safe_loader_compat.log",
+      "match": true
+    },
+    {
+      "path": "logs/foldx_six_complexes.log",
+      "match": true
+    },
+    {
+      "path": "logs/graphpep_six_complexes.log",
+      "match": true
+    },
+    {
+      "path": "logs/relax_seed_20261008.log",
+      "match": true
+    },
+    {
+      "path": "logs/relax_seed_20261009.log",
+      "match": true
+    },
+    {
+      "path": "paired_proxy_summary_v1.csv",
+      "match": true
+    },
+    {
+      "path": "paired_proxy_summary_v1.json",
+      "match": true
+    },
+    {
+      "path": "peptide_sequences.fasta",
+      "match": true
+    },
+    {
+      "path": "pilot_budgeted_command.py",
+      "match": true
+    },
+    {
+      "path": "pilot_runtime_preflight.py",
+      "match": true
+    },
+    {
+      "path": "relax_feedback_panel_help.txt",
+      "match": true
+    },
+    {
+      "path": "RUN_CONFIG_AUDIT_zh.md",
+      "match": true
+    },
+    {
+      "path": "run_config_draft.json",
+      "match": true
+    },
+    {
+      "path": "run_config_freeze_report_zh.md",
+      "match": true
+    },
+    {
+      "path": "run_config_frozen_v1.json",
+      "match": true
+    },
+    {
+      "path": "run_execution_record_v1.json",
+      "match": true
+    },
+    {
+      "path": "run_foldx_six_complexes.py",
+      "match": true
+    },
+    {
+      "path": "run_result_report_zh.md",
+      "match": true
+    },
+    {
+      "path": "runtime_preflight_v1.json",
+      "match": true
+    },
+    {
+      "path": "scores/esm_pll.csv",
+      "match": true
+    },
+    {
+      "path": "scores/foldx.csv",
+      "match": true
+    },
+    {
+      "path": "scores/foldx_execution.json",
+      "match": true
+    },
+    {
+      "path": "scores/graphpep.csv",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_I2dM_loss_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_I3dL_gain_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/relaxed/relaxation_manifest.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/cite.bibtex",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/config.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261008/structures/log.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_I2dM_loss_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_I3dL_gain_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/relaxed/relaxation_manifest.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent.a3m",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/cite.bibtex",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/config.json",
+      "match": true
+    },
+    {
+      "path": "seed_20261009/structures/log.txt",
+      "match": true
+    },
+    {
+      "path": "step3_graphpep_help.txt",
+      "match": true
+    },
+    {
+      "path": "structure_gate_audit_v1.csv",
+      "match": true
+    },
+    {
+      "path": "structure_gate_audit_v1.json",
+      "match": true
+    },
+    {
+      "path": "summarize_pilot_results.py",
+      "match": true
+    },
+    {
+      "path": "test_esm_pll.py",
+      "match": true
+    },
+    {
+      "path": "test_esm_pll_pytorch27_compat.py",
+      "match": true
+    }
+  ]
+}

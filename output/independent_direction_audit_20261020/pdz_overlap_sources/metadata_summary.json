@@ -1,0 +1,232 @@
+[
+  {
+    "pdb": "4e34",
+    "title": "Crystal structure of CFTR Associated Ligand (CAL) PDZ domain bound to iCAL36 (ANSRWPTSII) peptide",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Golgi-associated PDZ and coiled-coil motif-containing protein",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q9HD26",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.18831168831168832
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "decameric peptide, iCAL36",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": null
+      }
+    ]
+  },
+  {
+    "pdb": "4joe",
+    "title": "CFTR Associated Ligand (CAL) PDZ domain bound to peptide A-iCAL36 (ANSRAPTSII)",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Golgi-associated PDZ and coiled-coil motif-containing protein",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q9HD26",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.18831168831168832
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "A-iCAL36 peptide",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": null
+      }
+    ]
+  },
+  {
+    "pdb": "4k6y",
+    "title": "CFTR Associated Ligand (CAL) PDZ domain bound to peptide iCAL36-Q (ANSRWQTSII)",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Golgi-associated PDZ and coiled-coil motif-containing protein",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q9HD26",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.18831168831168832
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "iCAL36-Q peptide",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": null
+      }
+    ]
+  },
+  {
+    "pdb": "5k4f",
+    "title": "CAL PDZ mutant C319A with a peptide",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Golgi-associated PDZ and coiled-coil motif-containing protein",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q9HD26",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.18831168831168832
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "HPV18E6 peptide",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": [
+          {
+            "database_accession": "P06463",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.06329113924050633
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pdb": "6ov7",
+    "title": "CFTR Associated Ligand (CAL) PDZ domain bound to peptide kCAL01",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Golgi-associated PDZ and coiled-coil motif-containing protein",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q9HD26",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.18831168831168832
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "kCAL01 peptide",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": null
+      }
+    ]
+  },
+  {
+    "pdb": "6ms1",
+    "title": "Crystal structure of the human Scribble PDZ1 domain bound to the PDZ-binding motif of APC",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "Protein scribble homolog",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "reference": [
+          {
+            "database_accession": "Q14160",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 1.0,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.056797583081571
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "APC C-terminus peptide",
+        "chains": [
+          "C",
+          "D"
+        ],
+        "reference": null
+      }
+    ]
+  },
+  {
+    "pdb": "1be9",
+    "title": "THE THIRD PDZ DOMAIN FROM THE SYNAPTIC PROTEIN PSD-95 IN COMPLEX WITH A C-TERMINAL PEPTIDE DERIVED FROM CRIPT.",
+    "entities": [
+      {
+        "entity": "1",
+        "description": "PSD-95",
+        "chains": [
+          "A"
+        ],
+        "reference": [
+          {
+            "database_accession": "P31016",
+            "database_name": "UniProt",
+            "entity_sequence_coverage": 0.9831932773109243,
+            "provenance_source": "SIFTS",
+            "reference_sequence_coverage": 0.16160220994475138
+          }
+        ]
+      },
+      {
+        "entity": "2",
+        "description": "CRIPT",
+        "chains": [
+          "B"
+        ],
+        "reference": null
+      }
+    ]
+  }
+]

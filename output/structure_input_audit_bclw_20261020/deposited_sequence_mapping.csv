@@ -1,0 +1,14 @@
+﻿pdb_id,entity,author_chains,deposited_description,deposited_length,deposited_mutation_annotation,assigned_role,target_mapping,target_positions_covered,identical_positions,substitutions_relative_to_current_input,unmapped_target_positions,extra_deposited_residues
+1MK3,1,A,Apoptosis regulator Bcl-W,178,P116V,Bcl-w related receptor,Q92843 1-164,163,161,P117V;Q133R,1,164;165;166;167;168;169;170;171;172;173;174;175;176;177;178
+1O0L,1,A,Apoptosis regulator Bcl-W,188,A128E,Bcl-w related receptor,Q92843 1-164,164,162,A128E;Q133R,,1;2;3;4;5;170;171;172;173;174;175;176;177;178;179;180;181;182;183;184;185;186;187;188
+1ZY3,1,A,Apoptosis regulator Bcl-W,178,P116V,Bcl-w related receptor,Q92843 1-164,163,161,P117V;Q133R,1,164;165;166;167;168;169;170;171;172;173;174;175;176;177;178
+1ZY3,2,B,BH3-peptide from BH3 interacting domain death agonist protein,20,R203K,other partner,not aligned to assay component,,,,,
+2Y6W,1,"A,B",BCL-2-LIKE PROTEIN 2,177,YES,Bcl-w related receptor,Q92843 1-164,164,161,C29S;A128E;Q133R,,1;2;3;4;5;6;7;8;9;10;11;12;13
+3FDL,1,A,Apoptosis regulator Bcl-X,158,,other partner,not aligned to assay component,,,,,
+3FDL,2,B,Bcl-2-like protein 11,26,,Bim related peptide,Bim_A2eT 23mer,23,22,T7A,,1;2;26
+4CIM,1,"A,B",BCL-2-LIKE PROTEIN 2,163,YES,Bcl-w related receptor,Q92843 1-164,163,157,C29S;H43G;M46L;A49I;A128E;Q133R,164,
+4CIM,2,"P,Q",BCL-2-LIKE PROTEIN 2,21,YES,other partner,not aligned to assay component,,,,,
+4K5A,1,A,Bcl-2-like protein 2,184,P128V,Bcl-w related receptor,Q92843 1-164,163,161,P117V;Q133R,1,1;2;3;4;5;6;7;8;9;10;11;12;176;177;178;179;180;181;182;183;184
+4K5A,2,B,Designed Ankyrin Repeat Protein 013_D12,169,,other partner,not aligned to assay component,,,,,
+4K5B,1,"A,B",Apoptosis regulator BCL-W,169,,other partner,not aligned to assay component,,,,,
+4K5B,2,"C,D",Bcl-2-like protein 2,184,P128V,Bcl-w related receptor,Q92843 1-164,163,161,P117V;Q133R,1,1;2;3;4;5;6;7;8;9;10;11;12;176;177;178;179;180;181;182;183;184

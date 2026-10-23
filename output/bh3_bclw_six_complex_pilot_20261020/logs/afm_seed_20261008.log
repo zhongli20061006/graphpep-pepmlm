@@ -1,0 +1,37 @@
+
+[2026-10-20T19:37:18+08:00] START afm_seed_20261008
+CMD: ['/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures', '--msa-mode', 'single_sequence', '--model-type', 'alphafold2_multimer_v3', '--num-models', '1', '--model-order', '1', '--num-seeds', '1', '--random-seed', '20261008', '--num-recycle', '3', '--recycle-early-stop-tolerance', '0', '--num-ensemble', '1', '--max-seq', '256', '--max-extra-seq', '512', '--num-relax', '0', '--pair-mode', 'unpaired', '--disable-unified-memory', '--use-fast-kernels', '--compile-mode', 'fast', '--sort-queries-by', 'none']
+/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/alphafold/model/modules_multimer.py:114: UserWarning: Explicitly requested dtype int64 requested in broadcasted_iota is not available, and will be truncated to dtype int32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/jax-ml/jax#current-gotchas for more.
+  iota = jax.lax.broadcasted_iota(jnp.int64, logits.shape, axis)
+E1020 19:37:34.131149     594 cuda_timer.cc:88] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E1020 19:37:34.293029     594 cuda_timer.cc:88] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E1020 19:37:34.499008     578 cuda_timer.cc:88] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-10-20 19:37:19,857 Running colabfold 1.6.3
+2026-10-20 19:37:21,876 Running on GPU
+2026-10-20 19:37:22,143 Found 2 citations for tools or databases
+2026-10-20 19:37:22,145 Query 1/3: BCLW_Bim_A2eT_parent (length 187)
+2026-10-20 19:37:37,746 alphafold2_multimer_v3_model_1_seed_20261008 recycle=0 pLDDT=39.4 pTM=0.286 ipTM=0.14
+2026-10-20 19:37:38,123 alphafold2_multimer_v3_model_1_seed_20261008 recycle=1 pLDDT=39.7 pTM=0.271 ipTM=0.115 tol=4.36
+2026-10-20 19:37:38,494 alphafold2_multimer_v3_model_1_seed_20261008 recycle=2 pLDDT=40.3 pTM=0.263 ipTM=0.114 tol=3.79
+2026-10-20 19:37:38,860 alphafold2_multimer_v3_model_1_seed_20261008 recycle=3 pLDDT=40.2 pTM=0.268 ipTM=0.119 tol=4.49
+2026-10-20 19:37:38,864 alphafold2_multimer_v3_model_1_seed_20261008 took 10.5s (3 recycles)
+2026-10-20 19:37:38,880 reranking models by 'multimer' metric
+2026-10-20 19:37:38,881 rank_001_alphafold2_multimer_v3_model_1_seed_20261008 pLDDT=40.2 pTM=0.268 ipTM=0.119 ipSAE=0.00575 pDockQ2=0.0095
+2026-10-20 19:37:39,154 Query 2/3: BCLW_Bim_A2eT_I3dL_gain (length 187)
+2026-10-20 19:37:39,725 alphafold2_multimer_v3_model_1_seed_20261008 recycle=0 pLDDT=39.2 pTM=0.282 ipTM=0.137
+2026-10-20 19:37:40,115 alphafold2_multimer_v3_model_1_seed_20261008 recycle=1 pLDDT=39.8 pTM=0.271 ipTM=0.114 tol=4.7
+2026-10-20 19:37:40,492 alphafold2_multimer_v3_model_1_seed_20261008 recycle=2 pLDDT=40.5 pTM=0.26 ipTM=0.239 tol=4.59
+2026-10-20 19:37:40,859 alphafold2_multimer_v3_model_1_seed_20261008 recycle=3 pLDDT=40.7 pTM=0.268 ipTM=0.202 tol=4.68
+2026-10-20 19:37:40,860 alphafold2_multimer_v3_model_1_seed_20261008 took 1.5s (3 recycles)
+2026-10-20 19:37:40,880 reranking models by 'multimer' metric
+2026-10-20 19:37:40,883 rank_001_alphafold2_multimer_v3_model_1_seed_20261008 pLDDT=40.7 pTM=0.268 ipTM=0.202 ipSAE=0.00625 pDockQ2=0.0115
+2026-10-20 19:37:41,165 Query 3/3: BCLW_Bim_A2eT_I2dM_loss (length 187)
+2026-10-20 19:37:41,715 alphafold2_multimer_v3_model_1_seed_20261008 recycle=0 pLDDT=39.2 pTM=0.285 ipTM=0.136
+2026-10-20 19:37:42,120 alphafold2_multimer_v3_model_1_seed_20261008 recycle=1 pLDDT=39.8 pTM=0.275 ipTM=0.118 tol=3.72
+2026-10-20 19:37:42,497 alphafold2_multimer_v3_model_1_seed_20261008 recycle=2 pLDDT=39.7 pTM=0.258 ipTM=0.106 tol=6.22
+2026-10-20 19:37:42,870 alphafold2_multimer_v3_model_1_seed_20261008 recycle=3 pLDDT=39.9 pTM=0.264 ipTM=0.114 tol=4.15
+2026-10-20 19:37:42,871 alphafold2_multimer_v3_model_1_seed_20261008 took 1.5s (3 recycles)
+2026-10-20 19:37:42,886 reranking models by 'multimer' metric
+2026-10-20 19:37:42,887 rank_001_alphafold2_multimer_v3_model_1_seed_20261008 pLDDT=39.9 pTM=0.264 ipTM=0.114 ipSAE=0.00549 pDockQ2=0.0094
+2026-10-20 19:37:43,171 Done
+[2026-10-20T19:37:48+08:00] END afm_seed_20261008 rc=0 reason=None

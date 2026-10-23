@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "reference_peptides": 10,
+  "afm_models": 60,
+  "sequence_summaries_recomputed": 20,
+  "mutation_directions_recomputed": 16,
+  "all_crystal_copies_retained": true,
+  "cropped_score_contact_paths_consistent": true,
+  "units_and_score_direction_verified": true,
+  "frozen_sources_verified": true,
+  "nonfinite_confidence_rejected": true,
+  "scored_structure_hashes_verified": true,
+  "identical_native_input_groups_with_identical_scores": 2
+}

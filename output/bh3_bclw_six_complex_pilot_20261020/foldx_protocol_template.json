@@ -1,0 +1,13 @@
+{
+  "scope": "six relaxed AFM complexes; RepairPDB then AnalyseComplex only; no BuildModel",
+  "foldx_executable": "/mnt/e/Users/graphpep与pepmlm/tools/foldx/foldx5_Linux/foldx_20261231",
+  "repair_config_template": "command=RepairPDB\npdb=input.pdb\ntemperature=298\npH=7.4\nionStrength=0.15\nwater=-IGNORE\nscreen=false\nnoNterm=false\nnoCterm=false\n",
+  "analyse_config_template": "command=AnalyseComplex\npdb=input_Repair.pdb\nanalyseComplexChains=A,B\ntemperature=298\npH=7.4\nionStrength=0.15\nwater=-IGNORE\nscreen=false\nnoNterm=false\nnoCterm=false\n",
+  "commands": [
+    "foldx -f repair.cfg",
+    "foldx -f analyse.cfg"
+  ],
+  "score_field": "actual AnalyseComplex A/B Interaction Energy (kcal/mol)",
+  "orientation": "lower energy is favorable; report parent energy minus variant energy within seed",
+  "failure": "missing/ambiguous Interaction output or command/input error is failed; never substitute BuildModel energy"
+}

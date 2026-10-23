@@ -1,0 +1,2062 @@
+{
+  "seed": 20261010,
+  "top_k": 4,
+  "temperature": 1.0,
+  "proposals": [
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_01",
+      "arm": "predicted_guided",
+      "replicate": 1,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262011,
+      "mutation_summary": "E1T;N13A",
+      "sampling_trace": {
+        "seed": 20262011,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEA",
+            0.33725923645995337
+          ],
+          [
+            "LTFSDLWKLLPES",
+            0.1496578800190118
+          ],
+          [
+            "LTFSDLWKLLPEP",
+            0.0913055153630502
+          ],
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPEA",
+            0.07474003767566906
+          ],
+          [
+            "TTFSDLWKLLPES",
+            0.03316569090439092
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.33725920002468807,
+          0.14965786385096072,
+          0.09130550549900404,
+          0.07268854176601224,
+          0.09292467908801823,
+          0.041235076671980585,
+          0.02515731163699359,
+          0.020027798845778707,
+          0.07474002960124794,
+          0.03316568732138824,
+          0.02023421802356444,
+          0.016108511681417775,
+          0.013210125645469532,
+          0.005861957761742433,
+          0.0035763507701988845,
+          0.002847141811534544
+        ],
+        "selected_index": 8
+      },
+      "sequence": "TTFSDLWKLLPEA"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_02",
+      "arm": "predicted_guided",
+      "replicate": 2,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262012,
+      "mutation_summary": "E1L;N13A",
+      "sampling_trace": {
+        "seed": 20262012,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEA",
+            0.33725923645995337
+          ],
+          [
+            "LTFSDLWKLLPES",
+            0.1496578800190118
+          ],
+          [
+            "LTFSDLWKLLPEP",
+            0.0913055153630502
+          ],
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPES",
+            0.03316569090439092
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.3645020975881428,
+          0.1617468264475592,
+          0.09868092041164908,
+          0.07856012806291211,
+          0.10043088651935435,
+          0.04456593605169132,
+          0.027189452091126068,
+          0.02164559095445087,
+          0.035844722977797346,
+          0.02186868412219785,
+          0.017409714238989085,
+          0.014277204318886148,
+          0.006335471056006185,
+          0.0038652388351542027,
+          0.00307712632408331
+        ],
+        "selected_index": 0
+      },
+      "sequence": "LTFSDLWKLLPEA"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_03",
+      "arm": "predicted_guided",
+      "replicate": 3,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262013,
+      "mutation_summary": "E1L;N13S",
+      "sampling_trace": {
+        "seed": 20262013,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPES",
+            0.1496578800190118
+          ],
+          [
+            "LTFSDLWKLLPEP",
+            0.0913055153630502
+          ],
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPES",
+            0.03316569090439092
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.25451984315556936,
+          0.15528126849377918,
+          0.1236198070280937,
+          0.158034961465957,
+          0.07012758953657217,
+          0.042784487545806195,
+          0.03406083776563383,
+          0.05640415623994757,
+          0.03441189032914394,
+          0.027395392137275848,
+          0.022466170643051616,
+          0.009969302859949104,
+          0.006082221232335707,
+          0.004842071566884681
+        ],
+        "selected_index": 0
+      },
+      "sequence": "LTFSDLWKLLPES"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_04",
+      "arm": "predicted_guided",
+      "replicate": 4,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262014,
+      "mutation_summary": "E1L;N13P",
+      "sampling_trace": {
+        "seed": 20262014,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEP",
+            0.0913055153630502
+          ],
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPES",
+            0.03316569090439092
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.2082969842565291,
+          0.16582575121968154,
+          0.2119908357251369,
+          0.09407036376852435,
+          0.05739185295945391,
+          0.04568979798176139,
+          0.07566151254609207,
+          0.046160705973459115,
+          0.036748653717677444,
+          0.030136510592246302,
+          0.013372995603462499,
+          0.008158796953203096,
+          0.006495238702772262
+        ],
+        "selected_index": 0
+      },
+      "sequence": "LTFSDLWKLLPEP"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_05",
+      "arm": "predicted_guided",
+      "replicate": 5,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262015,
+      "mutation_summary": "E1T;N13S",
+      "sampling_trace": {
+        "seed": 20262015,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPES",
+            0.03316569090439092
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.20945448977980488,
+          0.26776560340124633,
+          0.11882026706717157,
+          0.07249164373279351,
+          0.057710779260901394,
+          0.09556804892935769,
+          0.0583055830981149,
+          0.04641722083522391,
+          0.03806542351483374,
+          0.01689142940917588,
+          0.010305375615553706,
+          0.008204135355822444
+        ],
+        "selected_index": 5
+      },
+      "sequence": "TTFSDLWKLLPES"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_06",
+      "arm": "predicted_guided",
+      "replicate": 6,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262016,
+      "mutation_summary": "E1T;N13P",
+      "sampling_trace": {
+        "seed": 20262016,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPEP",
+            0.020234220209536247
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.23158678718930514,
+          0.2960594250172969,
+          0.13137557438844938,
+          0.08015157320236183,
+          0.06380886830964444,
+          0.06446652291429368,
+          0.05132196046399782,
+          0.04208765896624164,
+          0.0186762855836531,
+          0.011394307336615516,
+          0.009071036628140577
+        ],
+        "selected_index": 5
+      },
+      "sequence": "TTFSDLWKLLPEP"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_07",
+      "arm": "predicted_guided",
+      "replicate": 7,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262017,
+      "mutation_summary": "E1D;N13P",
+      "sampling_trace": {
+        "seed": 20262017,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEP",
+            0.025157314354824045
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.24754516311989652,
+          0.316460535372348,
+          0.14042851229407557,
+          0.08567472481267388,
+          0.06820586314924439,
+          0.05485849701912495,
+          0.044987870554188514,
+          0.019963246683413042,
+          0.01217947579183386,
+          0.009696111203201293
+        ],
+        "selected_index": 3
+      },
+      "sequence": "DTFSDLWKLLPEP"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_08",
+      "arm": "predicted_guided",
+      "replicate": 8,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262018,
+      "mutation_summary": "E1D;N13E",
+      "sampling_trace": {
+        "seed": 20262018,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "DTFSDLWKLLPEE",
+            0.02002780100945034
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.2707408072790941,
+          0.34611373431354814,
+          0.15358703965096523,
+          0.0745969350297906,
+          0.059998884978746315,
+          0.04920335440248159,
+          0.0218338563147814,
+          0.013320725263050984,
+          0.010604662767541632
+        ],
+        "selected_index": 3
+      },
+      "sequence": "DTFSDLWKLLPEE"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_09",
+      "arm": "predicted_guided",
+      "replicate": 9,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262019,
+      "mutation_summary": "E1D;N13A",
+      "sampling_trace": {
+        "seed": 20262019,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPEA",
+            0.09292468912698926
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.29256528050056735,
+          0.3740140349812762,
+          0.16596772310875102,
+          0.06483540767252353,
+          0.053169647113785544,
+          0.02359388804864643,
+          0.01439451171850161,
+          0.011459506855948242
+        ],
+        "selected_index": 1
+      },
+      "sequence": "DTFSDLWKLLPEA"
+    },
+    {
+      "peptide_id": "PREDICTED_GUIDED_P53WT_1YCR_10",
+      "arm": "predicted_guided",
+      "replicate": 10,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        13
+      ],
+      "sampling_seed": 20262020,
+      "mutation_summary": "E1L;N13E",
+      "sampling_trace": {
+        "seed": 20262020,
+        "positions": [
+          1,
+          13
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPEE",
+            0.07268854961880411
+          ],
+          [
+            "DTFSDLWKLLPES",
+            0.04123508112674701
+          ],
+          [
+            "TTFSDLWKLLPEE",
+            0.016108513421675408
+          ],
+          [
+            "QTFSDLWKLLPEA",
+            0.013210127072604605
+          ],
+          [
+            "QTFSDLWKLLPES",
+            0.005861958395029787
+          ],
+          [
+            "QTFSDLWKLLPEP",
+            0.0035763511565642947
+          ],
+          [
+            "QTFSDLWKLLPEE",
+            0.0028471421191210156
+          ]
+        ],
+        "normalized_probabilities": [
+          0.4673671565333202,
+          0.26513010256354036,
+          0.10357326089664687,
+          0.08493744282620648,
+          0.037690762041191636,
+          0.022994943214215764,
+          0.018306331924878665
+        ],
+        "selected_index": 0
+      },
+      "sequence": "LTFSDLWKLLPEE"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_01",
+      "arm": "predicted_random",
+      "replicate": 1,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        6,
+        12
+      ],
+      "sampling_seed": 20263011,
+      "mutation_summary": "L6Y;E12P",
+      "sampling_trace": {
+        "seed": 20263011,
+        "positions": [
+          6,
+          12
+        ],
+        "alternatives": [
+          [
+            "ETFSDYWKLLPPN",
+            0.47501165949299207
+          ],
+          [
+            "ETFSDYWKLLPSN",
+            0.22569821528161782
+          ],
+          [
+            "ETFSDYWKLLPLN",
+            0.13229297394032002
+          ],
+          [
+            "ETFSDYWKLLPAN",
+            0.06978161802853933
+          ],
+          [
+            "ETFSDEWKLLPPN",
+            0.026824506912944024
+          ],
+          [
+            "ETFSDEWKLLPSN",
+            0.012745462590377121
+          ],
+          [
+            "ETFSDEWKLLPLN",
+            0.007470750923848413
+          ],
+          [
+            "ETFSDEWKLLPAN",
+            0.003940655892954115
+          ],
+          [
+            "ETFSDFWKLLPPN",
+            0.01479944052558091
+          ],
+          [
+            "ETFSDFWKLLPSN",
+            0.007031842791722753
+          ],
+          [
+            "ETFSDFWKLLPLN",
+            0.0041217135635612245
+          ],
+          [
+            "ETFSDFWKLLPAN",
+            0.002174112751031132
+          ],
+          [
+            "ETFSDWWKLLPPN",
+            0.009527284267779379
+          ],
+          [
+            "ETFSDWWKLLPSN",
+            0.004526817421731444
+          ],
+          [
+            "ETFSDWWKLLPLN",
+            0.0026533933308177104
+          ],
+          [
+            "ETFSDWWKLLPAN",
+            0.0013996063008918647
+          ]
+        ],
+        "normalized_probabilities": [
+          0.47501163383442674,
+          0.2256982030901436,
+          0.13229296679428929,
+          0.06978161425916615,
+          0.026824505463972508,
+          0.01274546190190921,
+          0.007470750520303053,
+          0.003940655680092863,
+          0.014799439726163875,
+          0.007031842411885766,
+          0.004121713340919833,
+          0.002174112633592722,
+          0.009527283753146862,
+          0.004526817177207676,
+          0.002653393187490142,
+          0.001399606225289742
+        ],
+        "selected_index": 0
+      },
+      "sequence": "ETFSDYWKLLPPN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_02",
+      "arm": "predicted_random",
+      "replicate": 2,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        2,
+        6
+      ],
+      "sampling_seed": 20263012,
+      "mutation_summary": "T2S;L6Y",
+      "sampling_trace": {
+        "seed": 20263012,
+        "positions": [
+          2,
+          6
+        ],
+        "alternatives": [
+          [
+            "ESFSDYWKLLPEN",
+            0.29905811120993775
+          ],
+          [
+            "ESFSDEWKLLPEN",
+            0.020074815217646647
+          ],
+          [
+            "ESFSDWWKLLPEN",
+            0.01252574842131926
+          ],
+          [
+            "ESFSDDWKLLPEN",
+            0.0038407107770749294
+          ],
+          [
+            "EEFSDYWKLLPEN",
+            0.25455198189748174
+          ],
+          [
+            "EEFSDEWKLLPEN",
+            0.017087260998215892
+          ],
+          [
+            "EEFSDWWKLLPEN",
+            0.010661653925707393
+          ],
+          [
+            "EEFSDDWKLLPEN",
+            0.0032691323309840814
+          ],
+          [
+            "ELFSDYWKLLPEN",
+            0.2433700809331718
+          ],
+          [
+            "ELFSDEWKLLPEN",
+            0.01633665572376819
+          ],
+          [
+            "ELFSDWWKLLPEN",
+            0.010193311242125302
+          ],
+          [
+            "ELFSDDWKLLPEN",
+            0.0031255266372008372
+          ],
+          [
+            "EQFSDYWKLLPEN",
+            0.09440195072260238
+          ],
+          [
+            "EQFSDEWKLLPEN",
+            0.006336901243956805
+          ],
+          [
+            "EQFSDWWKLLPEN",
+            0.003953930827855112
+          ],
+          [
+            "EQFSDDWKLLPEN",
+            0.0012123750399221644
+          ]
+        ],
+        "normalized_probabilities": [
+          0.2990580672038511,
+          0.020074812263658693,
+          0.012525746578168549,
+          0.0038407102119183763,
+          0.2545519444404252,
+          0.0170872584838434,
+          0.010661652356856226,
+          0.0032691318499346957,
+          0.24337004512152025,
+          0.016336653319846475,
+          0.01019330974219027,
+          0.0031255261772828785,
+          0.09440193683145458,
+          0.006336900311488449,
+          0.003953930246038347,
+          0.001212374861522452
+        ],
+        "selected_index": 0
+      },
+      "sequence": "ESFSDYWKLLPEN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_03",
+      "arm": "predicted_random",
+      "replicate": 3,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        6
+      ],
+      "sampling_seed": 20263013,
+      "mutation_summary": "E1Q;L6Y",
+      "sampling_trace": {
+        "seed": 20263013,
+        "positions": [
+          1,
+          6
+        ],
+        "alternatives": [
+          [
+            "LTFSDYWKLLPEN",
+            0.5289497943446975
+          ],
+          [
+            "LTFSDWWKLLPEN",
+            0.05017037949077263
+          ],
+          [
+            "LTFSDEWKLLPEN",
+            0.009316909468707557
+          ],
+          [
+            "LTFSDKWKLLPEN",
+            0.005207208464077406
+          ],
+          [
+            "TTFSDYWKLLPEN",
+            0.17122248276590923
+          ],
+          [
+            "TTFSDWWKLLPEN",
+            0.016240287886604143
+          ],
+          [
+            "TTFSDEWKLLPEN",
+            0.003015908859391181
+          ],
+          [
+            "TTFSDKWKLLPEN",
+            0.0016855875000453685
+          ],
+          [
+            "DTFSDYWKLLPEN",
+            0.16402109889348537
+          ],
+          [
+            "DTFSDWWKLLPEN",
+            0.015557243549313426
+          ],
+          [
+            "DTFSDEWKLLPEN",
+            0.0028890638500800314
+          ],
+          [
+            "DTFSDKWKLLPEN",
+            0.0016146939909553182
+          ],
+          [
+            "QTFSDYWKLLPEN",
+            0.026828057664620708
+          ],
+          [
+            "QTFSDWWKLLPEN",
+            0.0025446154784913855
+          ],
+          [
+            "QTFSDEWKLLPEN",
+            0.00047254878847660664
+          ],
+          [
+            "QTFSDKWKLLPEN",
+            0.0002641068971754486
+          ]
+        ],
+        "normalized_probabilities": [
+          0.5289498007487968,
+          0.0501703800981953,
+          0.009316909581509216,
+          0.005207208527122105,
+          0.17122248483893354,
+          0.016240288083228506,
+          0.0030159088959053836,
+          0.0016855875204531082,
+          0.16402110087932112,
+          0.015557243737668038,
+          0.0028890638850584964,
+          0.0016146940105047363,
+          0.026828057989433284,
+          0.002544615509299546,
+          0.0004725487941978479,
+          0.0002641069003730428
+        ],
+        "selected_index": 12
+      },
+      "sequence": "QTFSDYWKLLPEN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_04",
+      "arm": "predicted_random",
+      "replicate": 4,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        2,
+        9
+      ],
+      "sampling_seed": 20263014,
+      "mutation_summary": "T2S;L9Q",
+      "sampling_trace": {
+        "seed": 20263014,
+        "positions": [
+          2,
+          9
+        ],
+        "alternatives": [
+          [
+            "ESFSDLWKQLPEN",
+            0.369858501926668
+          ],
+          [
+            "ESFSDLWKRLPEN",
+            0.02359812673791495
+          ],
+          [
+            "ESFSDLWKSLPEN",
+            0.023028976491018427
+          ],
+          [
+            "ESFSDLWKKLPEN",
+            0.017812802960490814
+          ],
+          [
+            "EEFSDLWKQLPEN",
+            0.24977047759513482
+          ],
+          [
+            "EEFSDLWKRLPEN",
+            0.015936135995187062
+          ],
+          [
+            "EEFSDLWKSLPEN",
+            0.015551781091216466
+          ],
+          [
+            "EEFSDLWKKLPEN",
+            0.012029228149612603
+          ],
+          [
+            "ELFSDLWKQLPEN",
+            0.14783966370132795
+          ],
+          [
+            "ELFSDLWKRLPEN",
+            0.009432631946382497
+          ],
+          [
+            "ELFSDLWKSLPEN",
+            0.00920513148158747
+          ],
+          [
+            "ELFSDLWKKLPEN",
+            0.0071201250898353385
+          ],
+          [
+            "EQFSDLWKQLPEN",
+            0.08415427685141541
+          ],
+          [
+            "EQFSDLWKRLPEN",
+            0.005369305505571492
+          ],
+          [
+            "EQFSDLWKSLPEN",
+            0.005239806177590983
+          ],
+          [
+            "EQFSDLWKKLPEN",
+            0.004052964969111533
+          ]
+        ],
+        "normalized_probabilities": [
+          0.3698585253497841,
+          0.023598128232382855,
+          0.023028977949442087,
+          0.017812804088574524,
+          0.24977049341308374,
+          0.01593613700442157,
+          0.0155517820761098,
+          0.012029228911422878,
+          0.14783967306400472,
+          0.009432632543750496,
+          0.009205132064547877,
+          0.007120125540752421,
+          0.08415428218090057,
+          0.005369305845609278,
+          0.005239806509427585,
+          0.004052965225785554
+        ],
+        "selected_index": 0
+      },
+      "sequence": "ESFSDLWKQLPEN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_05",
+      "arm": "predicted_random",
+      "replicate": 5,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        9,
+        12
+      ],
+      "sampling_seed": 20263015,
+      "mutation_summary": "L9Q;E12P",
+      "sampling_trace": {
+        "seed": 20263015,
+        "positions": [
+          9,
+          12
+        ],
+        "alternatives": [
+          [
+            "ETFSDLWKQLPPN",
+            0.24351599388880985
+          ],
+          [
+            "ETFSDLWKQLPSN",
+            0.2225916317806913
+          ],
+          [
+            "ETFSDLWKQLPQN",
+            0.09752839742707042
+          ],
+          [
+            "ETFSDLWKQLPLN",
+            0.06187185876076562
+          ],
+          [
+            "ETFSDLWKSLPPN",
+            0.07677550991338489
+          ],
+          [
+            "ETFSDLWKSLPSN",
+            0.07017849529923748
+          ],
+          [
+            "ETFSDLWKSLPQN",
+            0.030748667978323985
+          ],
+          [
+            "ETFSDLWKSLPLN",
+            0.019506905603151825
+          ],
+          [
+            "ETFSDLWKKLPPN",
+            0.04010382496978382
+          ],
+          [
+            "ETFSDLWKKLPSN",
+            0.036657862582723855
+          ],
+          [
+            "ETFSDLWKKLPQN",
+            0.016061621733908127
+          ],
+          [
+            "ETFSDLWKKLPLN",
+            0.010189467043507205
+          ],
+          [
+            "ETFSDLWKALPPN",
+            0.02891392189924291
+          ],
+          [
+            "ETFSDLWKALPSN",
+            0.02642946343668351
+          ],
+          [
+            "ETFSDLWKALPQN",
+            0.01158005443967769
+          ],
+          [
+            "ETFSDLWKALPLN",
+            0.007346367946520216
+          ]
+        ],
+        "normalized_probabilities": [
+          0.2435159830027973,
+          0.22259162183007059,
+          0.09752839306721159,
+          0.061871855994878176,
+          0.07677550648125236,
+          0.07017849216201447,
+          0.030748666603751498,
+          0.019506904731125246,
+          0.040103823177003256,
+          0.0366578609439898,
+          0.01606162101589773,
+          0.010189466588002563,
+          0.02891392060668996,
+          0.026429462255194502,
+          0.01158005392200895,
+          0.0073463676181119986
+        ],
+        "selected_index": 0
+      },
+      "sequence": "ETFSDLWKQLPPN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_06",
+      "arm": "predicted_random",
+      "replicate": 6,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        4,
+        13
+      ],
+      "sampling_seed": 20263016,
+      "mutation_summary": "S4E;N13S",
+      "sampling_trace": {
+        "seed": 20263016,
+        "positions": [
+          4,
+          13
+        ],
+        "alternatives": [
+          [
+            "ETFADLWKLLPEP",
+            0.12980102512331815
+          ],
+          [
+            "ETFADLWKLLPEA",
+            0.09731146374122268
+          ],
+          [
+            "ETFADLWKLLPES",
+            0.09440965221381781
+          ],
+          [
+            "ETFADLWKLLPEE",
+            0.043181701042773746
+          ],
+          [
+            "ETFFDLWKLLPEP",
+            0.10470625919302545
+          ],
+          [
+            "ETFFDLWKLLPEA",
+            0.07849798824979182
+          ],
+          [
+            "ETFFDLWKLLPES",
+            0.07615719140609123
+          ],
+          [
+            "ETFFDLWKLLPEE",
+            0.03483327175178186
+          ],
+          [
+            "ETFEDLWKLLPEP",
+            0.10248071194439135
+          ],
+          [
+            "ETFEDLWKLLPEA",
+            0.07682950173218472
+          ],
+          [
+            "ETFEDLWKLLPES",
+            0.07453845887659583
+          ],
+          [
+            "ETFEDLWKLLPEE",
+            0.03409288533452681
+          ],
+          [
+            "ETFQDLWKLLPEP",
+            0.018920035360289522
+          ],
+          [
+            "ETFQDLWKLLPEA",
+            0.014184297336606422
+          ],
+          [
+            "ETFQDLWKLLPES",
+            0.013761323969059935
+          ],
+          [
+            "ETFQDLWKLLPEE",
+            0.006294243900389351
+          ]
+        ],
+        "normalized_probabilities": [
+          0.1298010236726792,
+          0.09731146265368275,
+          0.09440965115870813,
+          0.043181700560180815,
+          0.10470625802284227,
+          0.07849798737250878,
+          0.07615719055496863,
+          0.034833271362489863,
+          0.10248071079908058,
+          0.07682950087354846,
+          0.07453845804356396,
+          0.034092884953509275,
+          0.018920035148841732,
+          0.014184297178084608,
+          0.013761323815265215,
+          0.006294243830045721
+        ],
+        "selected_index": 10
+      },
+      "sequence": "ETFEDLWKLLPES"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_07",
+      "arm": "predicted_random",
+      "replicate": 7,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        12
+      ],
+      "sampling_seed": 20263017,
+      "mutation_summary": "E1D;E12S",
+      "sampling_trace": {
+        "seed": 20263017,
+        "positions": [
+          1,
+          12
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKLLPSN",
+            0.2712881232887483
+          ],
+          [
+            "LTFSDLWKLLPPN",
+            0.2568504383805532
+          ],
+          [
+            "LTFSDLWKLLPAN",
+            0.07409364976668398
+          ],
+          [
+            "LTFSDLWKLLPMN",
+            0.04502793248315751
+          ],
+          [
+            "DTFSDLWKLLPSN",
+            0.08946132366449788
+          ],
+          [
+            "DTFSDLWKLLPPN",
+            0.08470028073021751
+          ],
+          [
+            "DTFSDLWKLLPAN",
+            0.02443349123767624
+          ],
+          [
+            "DTFSDLWKLLPMN",
+            0.014848635439640656
+          ],
+          [
+            "TTFSDLWKLLPSN",
+            0.048119582732804034
+          ],
+          [
+            "TTFSDLWKLLPPN",
+            0.045558706255839354
+          ],
+          [
+            "TTFSDLWKLLPAN",
+            0.013142320668894647
+          ],
+          [
+            "TTFSDLWKLLPMN",
+            0.007986804936920278
+          ],
+          [
+            "QTFSDLWKLLPSN",
+            0.010264027295942002
+          ],
+          [
+            "QTFSDLWKLLPPN",
+            0.009717785941210089
+          ],
+          [
+            "QTFSDLWKLLPAN",
+            0.0028032898544982227
+          ],
+          [
+            "QTFSDLWKLLPMN",
+            0.0017036054600703954
+          ]
+        ],
+        "normalized_probabilities": [
+          0.271288123794062,
+          0.2568504388589746,
+          0.07409364990469419,
+          0.04502793256702859,
+          0.08946132383113263,
+          0.08470028088798413,
+          0.02443349128318718,
+          0.014848635467298404,
+          0.04811958282243377,
+          0.045558706340699084,
+          0.013142320693374135,
+          0.007986804951796865,
+          0.010264027315060249,
+          0.00971778595931088,
+          0.0028032898597197585,
+          0.0017036054632436088
+        ],
+        "selected_index": 4
+      },
+      "sequence": "DTFSDLWKLLPSN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_08",
+      "arm": "predicted_random",
+      "replicate": 8,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        2
+      ],
+      "sampling_seed": 20263018,
+      "mutation_summary": "E1L;T2M",
+      "sampling_trace": {
+        "seed": 20263018,
+        "positions": [
+          1,
+          2
+        ],
+        "alternatives": [
+          [
+            "LSFSDLWKLLPEN",
+            0.46330290164484467
+          ],
+          [
+            "LEFSDLWKLLPEN",
+            0.07493370132651389
+          ],
+          [
+            "LMFSDLWKLLPEN",
+            0.05187971833090277
+          ],
+          [
+            "LLFSDLWKLLPEN",
+            0.034210958284962345
+          ],
+          [
+            "TSFSDLWKLLPEN",
+            0.1768833401379286
+          ],
+          [
+            "TEFSDLWKLLPEN",
+            0.028608764012646448
+          ],
+          [
+            "TMFSDLWKLLPEN",
+            0.01980703732095246
+          ],
+          [
+            "TLFSDLWKLLPEN",
+            0.013061322407607712
+          ],
+          [
+            "DSFSDLWKLLPEN",
+            0.07607657715314442
+          ],
+          [
+            "DEFSDLWKLLPEN",
+            0.01230447616472563
+          ],
+          [
+            "DMFSDLWKLLPEN",
+            0.008518900659313933
+          ],
+          [
+            "DLFSDLWKLLPEN",
+            0.005617604807155008
+          ],
+          [
+            "QSFSDLWKLLPEN",
+            0.0258206362345903
+          ],
+          [
+            "QEFSDLWKLLPEN",
+            0.0041761789895858326
+          ],
+          [
+            "QMFSDLWKLLPEN",
+            0.0028913424246199138
+          ],
+          [
+            "QLFSDLWKLLPEN",
+            0.00190663323276552
+          ]
+        ],
+        "normalized_probabilities": [
+          0.4633028584964026,
+          0.07493369434776963,
+          0.051879713499227834,
+          0.0342109550988188,
+          0.17688332366438503,
+          0.028608761348247864,
+          0.019807035476278493,
+          0.013061321191177358,
+          0.07607657006796156,
+          0.01230447501878207,
+          0.00851889986592954,
+          0.005617604283974828,
+          0.02582063382985633,
+          0.004176178600648884,
+          0.002891342155342686,
+          0.0019066330551964757
+        ],
+        "selected_index": 2
+      },
+      "sequence": "LMFSDLWKLLPEN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_09",
+      "arm": "predicted_random",
+      "replicate": 9,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        1,
+        9
+      ],
+      "sampling_seed": 20263019,
+      "mutation_summary": "E1T;L9Q",
+      "sampling_trace": {
+        "seed": 20263019,
+        "positions": [
+          1,
+          9
+        ],
+        "alternatives": [
+          [
+            "LTFSDLWKQLPEN",
+            0.5183831992214252
+          ],
+          [
+            "LTFSDLWKSLPEN",
+            0.041565779761230104
+          ],
+          [
+            "LTFSDLWKKLPEN",
+            0.024221440584228038
+          ],
+          [
+            "LTFSDLWKALPEN",
+            0.012401340589450416
+          ],
+          [
+            "DTFSDLWKQLPEN",
+            0.2291343421647234
+          ],
+          [
+            "DTFSDLWKSLPEN",
+            0.01837279374882872
+          ],
+          [
+            "DTFSDLWKKLPEN",
+            0.01070629577286586
+          ],
+          [
+            "DTFSDLWKALPEN",
+            0.005481607085631335
+          ],
+          [
+            "TTFSDLWKQLPEN",
+            0.0902576057486737
+          ],
+          [
+            "TTFSDLWKSLPEN",
+            0.00723717081873021
+          ],
+          [
+            "TTFSDLWKKLPEN",
+            0.004217284121475484
+          ],
+          [
+            "TTFSDLWKALPEN",
+            0.002159243029787178
+          ],
+          [
+            "STFSDLWKQLPEN",
+            0.031161749189335453
+          ],
+          [
+            "STFSDLWKSLPEN",
+            0.0024986581465680224
+          ],
+          [
+            "STFSDLWKKLPEN",
+            0.0014560318652759863
+          ],
+          [
+            "STFSDLWKALPEN",
+            0.000745486091448172
+          ]
+        ],
+        "normalized_probabilities": [
+          0.5183831847379663,
+          0.041565778599895666,
+          0.024221439907488825,
+          0.012401340242960973,
+          0.229134335762784,
+          0.018372793235498806,
+          0.01070629547373542,
+          0.005481606932477006,
+          0.09025760322690539,
+          0.007237170616525999,
+          0.00421728400364593,
+          0.0021592429694586262,
+          0.03116174831868626,
+          0.002498658076756322,
+          0.001456031824594927,
+          0.0007454860706195318
+        ],
+        "selected_index": 8
+      },
+      "sequence": "TTFSDLWKQLPEN"
+    },
+    {
+      "peptide_id": "PREDICTED_RANDOM_P53WT_1YCR_10",
+      "arm": "predicted_random",
+      "replicate": 10,
+      "site_pool": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        13
+      ],
+      "selected_positions": [
+        2,
+        13
+      ],
+      "sampling_seed": 20263020,
+      "mutation_summary": "T2E;N13S",
+      "sampling_trace": {
+        "seed": 20263020,
+        "positions": [
+          2,
+          13
+        ],
+        "alternatives": [
+          [
+            "ESFSDLWKLLPES",
+            0.14149961976207326
+          ],
+          [
+            "ESFSDLWKLLPEA",
+            0.13073801600142776
+          ],
+          [
+            "ESFSDLWKLLPEP",
+            0.09546334269574874
+          ],
+          [
+            "ESFSDLWKLLPEE",
+            0.0494290919549929
+          ],
+          [
+            "EEFSDLWKLLPES",
+            0.11237351523046613
+          ],
+          [
+            "EEFSDLWKLLPEA",
+            0.10382706651113693
+          ],
+          [
+            "EEFSDLWKLLPEP",
+            0.07581328778416463
+          ],
+          [
+            "EEFSDLWKLLPEE",
+            0.03925466956711432
+          ],
+          [
+            "ELFSDLWKLLPES",
+            0.05412842837876353
+          ],
+          [
+            "ELFSDLWKLLPEA",
+            0.05001174806981146
+          ],
+          [
+            "ELFSDLWKLLPEP",
+            0.03651798299241227
+          ],
+          [
+            "ELFSDLWKLLPEE",
+            0.018908312744669864
+          ],
+          [
+            "EQFSDLWKLLPES",
+            0.031220239435388875
+          ],
+          [
+            "EQFSDLWKLLPEA",
+            0.028845817181243794
+          ],
+          [
+            "EQFSDLWKLLPEP",
+            0.021062872262662458
+          ],
+          [
+            "EQFSDLWKLLPEE",
+            0.010905952175020328
+          ]
+        ],
+        "normalized_probabilities": [
+          0.14149962503334504,
+          0.13073802087179853,
+          0.0954633462520355,
+          0.04942909379637012,
+          0.11237351941670591,
+          0.10382707037899669,
+          0.07581329060842977,
+          0.03925467102946476,
+          0.05412843039520468,
+          0.05001174993289431,
+          0.036517984352813185,
+          0.018908313449059428,
+          0.031220240598433462,
+          0.028845818255834255,
+          0.02106287304731562,
+          0.01090595258129872
+        ],
+        "selected_index": 4
+      },
+      "sequence": "EEFSDLWKLLPES"
+    }
+  ]
+}

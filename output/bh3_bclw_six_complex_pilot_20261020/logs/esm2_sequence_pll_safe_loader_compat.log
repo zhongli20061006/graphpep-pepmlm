@@ -1,0 +1,4 @@
+
+[2026-10-20T19:56:06+08:00] START esm2_sequence_pll_safe_loader_compat
+CMD: ['/home/g/miniconda3/envs/graphpep_env/bin/python', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll_pytorch27.py', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/esm_pll.csv', '--checkpoint', '/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt', '--device', 'cuda']
+[2026-10-20T19:56:31+08:00] END esm2_sequence_pll_safe_loader_compat rc=0 reason=None

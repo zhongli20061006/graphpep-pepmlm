@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-10-20",
+  "supersedes": "none; additive follow-up to the existing 2026-10-20 audit, with all earlier files preserved",
+  "status": "HOLD_NO_PILOT_INPUT_CONSTRUCT",
+  "pdz": {
+    "decision": "NO_GO_UNDER_FROZEN_DIRECTION_RULE",
+    "reason": "The original supplementary Table 7 has no single-mutant point estimate meeting the >=2-fold gain threshold; changing thresholds would be post hoc."
+  },
+  "homer1": {
+    "assay_direction_candidates": {
+      "DVL3_Y4F": "gain",
+      "DVL3_P0A": "loss"
+    },
+    "uncertainty_method": "homer1_ratio_interval_v1; frozen before any new scorer output",
+    "technical_uncertainty_rule_pass": true,
+    "engineering_pilot_entry": false,
+    "blocking_gap": "The 2024 assay's complete biotinylated SUMO-peptide fusion sequence, junction/linker, and fusion orientation are not reported in the article or its five supplements. A related 2022 construct is evidence for a possible lab convention, not proof of the 2024 assay input.",
+    "full_benchmark_entry": false,
+    "full_benchmark_reason": "At most 9 effect-sized label candidates including all censored rows, only 2 gain candidates, and labels derive from technical repeats of one source."
+  },
+  "independence_boundary": "Source-paper evaluation of its own predictor is not automatically leakage into this project's scorers. Project exposure, scorer training overlap, structural exposure, and assay-input correspondence are separate. Homer1 is not blind; GraphPep-family/reference exposure is disclosed and checkpoint-wide pretraining overlap remains unresolved.",
+  "new_prediction_jobs_started": 0,
+  "new_scoring_jobs_started": 0,
+  "new_model_training_jobs_started": 0,
+  "next_action": "Stop this source at the input gate. If later public evidence independently verifies the 2024 fusion sequence and a defensible peptide-versus-fusion modeling representation, freeze the exact input and command configuration before any pilot. Otherwise screen another primary-source system rather than substituting an unverified construct."
+}

@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "name": "model_free_tests",
+      "pass": true
+    },
+    {
+      "name": "frozen_input_code_model_hashes",
+      "pass": true
+    },
+    {
+      "name": "historical_artifacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "wall_budget",
+      "pass": true
+    },
+    {
+      "name": "disk_budget",
+      "pass": true
+    },
+    {
+      "name": "new_19_reused_9_base_21",
+      "pass": true
+    },
+    {
+      "name": "seven_repeat_numeric_gate",
+      "pass": true
+    },
+    {
+      "name": "all_seven_pairs_no_denominator_drops",
+      "pass": true
+    },
+    {
+      "name": "direct_raw_distribution_score_recalculation",
+      "pass": true
+    },
+    {
+      "name": "independent_prediction_rule_check",
+      "pass": true
+    },
+    {
+      "name": "sequence_site_and_source_mapping",
+      "pass": true
+    },
+    {
+      "name": "reused_distribution_values_exact",
+      "pass": true
+    },
+    {
+      "name": "formal_metrics_and_gain_ci_not_released",
+      "pass": true
+    },
+    {
+      "name": "p53_and_p27_not_in_jobs",
+      "pass": true
+    },
+    {
+      "name": "fp32_eval_tf32_off",
+      "pass": true
+    }
+  ],
+  "failed_count": 0,
+  "preservation": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/artifact_manifest.json",
+      "manifest_sha256": "c86049c4909077c6e575ca9e5cc5a0b303d478dfaf49f0ecc06ba189c63ea608",
+      "files": 22,
+      "mismatches": []
+    }
+  ],
+  "scope": "Technical and conditional-development verification only; no formal biological validation"
+}

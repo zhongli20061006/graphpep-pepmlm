@@ -1,0 +1,1680 @@
+{
+  "started_utc": "2026-10-23T04:14:06.098208+00:00",
+  "files": [
+    {
+      "path": "/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/batch.py",
+      "bytes": 94154,
+      "sha256": "a65a1fb4301ae82de8b307a8d698f327a79b8fa66c8f053f4ddeff52c87020c4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/PROJECT_HANDOFF_2026-10-20.md",
+      "bytes": 26693,
+      "sha256": "ddd3cba4aff000f38230198084dcdf264026b5f732eafa01a4c437469c00f402"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_construct_msa_audit_20261022/existing_primary_source_extracts.json",
+      "bytes": 20448,
+      "sha256": "d79212c854222cc653896af355dc24d784913f3e9a1e1b2ba0bc735d74b3a0a0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_construct_msa_audit_20261022/installed_msa_parser_excerpt.txt",
+      "bytes": 10318,
+      "sha256": "5217ba7d902b79058cd6bea54b11dbe997fdf70c93083771195eba0054c0d135"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_construct_msa_audit_20261022/scope_and_selection_frozen.json",
+      "bytes": 2514,
+      "sha256": "f5a290e2b47d584e642cfe25b433bf01e30fb36ccd1ddfb17dac4c23f999910d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_construct_msa_audit_20261022/sources/uniprot_bcl2l2_candidates.tsv",
+      "bytes": 94805,
+      "sha256": "f6948b0561fa501dfdb635a122e00d7ac5482e410e5376ab94c0b4bea643c552"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_construct_msa_audit_20261022/sources/uniprot_retrieval.json",
+      "bytes": 1797,
+      "sha256": "70c529f035d86dbe0744d6c23c1cff26ca0311efc4ffa74144d9c618408a70ad"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "bytes": 8668,
+      "sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.sha256",
+      "bytes": 89,
+      "sha256": "3768407cc13ce683de56db43cbe03a08d61a9677079ac14d578e11d0860edfd8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/budget_reconciliation.json",
+      "bytes": 764,
+      "sha256": "bc01b85c211ede513b306d62390f72294b79b6e734fe816df281752c14831510"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/completed_jobs.json",
+      "bytes": 2947,
+      "sha256": "9c8c4e4d72df991da428c180f3dd9cfb3d5630f4d9d2295f699eba94246b54d6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/decision.json",
+      "bytes": 784,
+      "sha256": "e12bf48f35dc2bab916c305ec804e4397609352bf53092e4053b921d384792b7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/execution_record.json",
+      "bytes": 6995,
+      "sha256": "bb2def76fe7e08d3ca8938db02d2836d380157070e17a9f80de2fe8097bfa37e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/final_integrity_check.json",
+      "bytes": 308,
+      "sha256": "54c86e41443ec9f5690409c75b6e5dd53307120569cbadbfd65e7d2d5b82b8ad"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/input_artifact_verification.json",
+      "bytes": 3467,
+      "sha256": "c9ae5235e882a949ed5cf0a57633ea9a12d8437048bb0c77821e1f6ea7e5850c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/predict_seed_20261008.log",
+      "bytes": 1492,
+      "sha256": "26b9f146017a502554368d49a83d575aa8dafb5f4fb38412a3d5694298a15872"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/predict_seed_20261009.log",
+      "bytes": 1492,
+      "sha256": "2b8ab14792e0e1d8b61aa431ac180a0a55c053e47f0ae96092235fb40c654063"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/relax_seed_20261008.log",
+      "bytes": 86,
+      "sha256": "34551c4a05506f0bb3ee56bdad35f8d45cf96b1ef2a5f4cc62e6fab24a301787"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/relax_seed_20261009.log",
+      "bytes": 86,
+      "sha256": "8d3772a0a742f8294542bfbfc7f6d685f4d0a3c11c1e4d92832cba3c9a22953b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/postflight_original_integrity.json",
+      "bytes": 60,
+      "sha256": "f3d00e6147bde6dfea5588425e24987a131b979a488a478b1cdb0906adc5460d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/preflight.json",
+      "bytes": 4596,
+      "sha256": "2435a3bb20d3f9815711e59d9ba8d7d16cd89b6bbc5a2402bd8c32ecf197e2c7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/prepared_protocol.json",
+      "bytes": 10209,
+      "sha256": "e8c326a8641d603836abe4ec2f119fb30c9d8a20f97a463f7cbe6149ba065e54"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/quality_gate_summary.csv",
+      "bytes": 960,
+      "sha256": "d3b381fd9cc8e01dee390746d6f22e001c8d1de26464770340892ab8b07fe495"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/quality_gate_summary.json",
+      "bytes": 29843,
+      "sha256": "44a28e73d8b0de431401896cb45e7ef1d4563a73fa49aa7e81d775e762444fde"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/report_zh.md",
+      "bytes": 2389,
+      "sha256": "897940fa23c19ba6fd6a62cf4aed6a461a76d0d839355faa40daf15e35b643f8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/run_with_budgets.py",
+      "bytes": 12954,
+      "sha256": "6f7a46fb461ae04665d0090fc062ba13987b2a571d5c05257c01319490dba353"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 232479,
+      "sha256": "a7dcb56dbbbb5a02eb99ddae7d51d3e2a62243abe7be90eccbc0fb6214fdae39"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203922,
+      "sha256": "2aa3cab671513672cd607cae4a43f290543d335cbfe61ea13211a2f5b993daf3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/relaxed/relaxation_manifest.json",
+      "bytes": 1918,
+      "sha256": "883480332f7dcdd430d70588a597772b58d876b937a9d614b15898543437c6db"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent.a3m",
+      "bytes": 397,
+      "sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "bytes": 110900,
+      "sha256": "b24612715850af04718d7dca2a0c68a01218cea0139e40d191fd88a15ba6a642"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "bytes": 78532,
+      "sha256": "7a85f3208df29936d82e8960cdb968ee290a019c69b849dea4040e4cbbec5a55"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "bytes": 237689,
+      "sha256": "37a3ea7c491a571dbb40056e6e7a8e9b145e3428d7f863fd43b9495b900914fb"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203922,
+      "sha256": "2aa3cab671513672cd607cae4a43f290543d335cbfe61ea13211a2f5b993daf3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 119232,
+      "sha256": "0dd18d099979cebb350521f9955121e944c6e31779c37b95177d938c9e129e5c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/cite.bibtex",
+      "bytes": 1020,
+      "sha256": "70e1f4116908ffd85a0cb172b6c3463da164813e71f16d98974a00ff3bc26335"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/config.json",
+      "bytes": 1172,
+      "sha256": "5cc75ed6b7d738ccceb18bdb8914cceacbef905e546a470a361db7a0c5214968"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/log.txt",
+      "bytes": 1009,
+      "sha256": "3f9bb84a7a56b16f4880ef87bbdfa9464970cda79a2394cc9736f824c35cc26b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 232479,
+      "sha256": "33c18b1bb5e7942c7df4933cd73686eacaf5a711d2b975d7dfdc24ba420c3a21"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203857,
+      "sha256": "dd0df3c8658c21e034bd83e51105b17d7d689df9a5617c772873a9109b2b779e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/relaxed/relaxation_manifest.json",
+      "bytes": 1921,
+      "sha256": "966d6333cc70703515883e6977792b8e46351699f16fdd2061b9d93032c7afca"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent.a3m",
+      "bytes": 397,
+      "sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "bytes": 113019,
+      "sha256": "8b5486967cdaccab8f7599eace641dfa8afa109fc3947ef0a4653afa137e357d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "bytes": 79551,
+      "sha256": "2a946c7c18d311cba9cace083b59530ebf42f1a7e6370f3ead1d0e8b8de7c9a2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "bytes": 237628,
+      "sha256": "4d282ca66e0c874efaec223ccd69bba0513472f28096e32d692ada5c56a47d5b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203857,
+      "sha256": "dd0df3c8658c21e034bd83e51105b17d7d689df9a5617c772873a9109b2b779e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 119232,
+      "sha256": "342d1660518b4c5897b78b2d36daeac3b1368c68a0d219bf35658d6860cafe31"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/cite.bibtex",
+      "bytes": 1020,
+      "sha256": "70e1f4116908ffd85a0cb172b6c3463da164813e71f16d98974a00ff3bc26335"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/config.json",
+      "bytes": 1172,
+      "sha256": "2389c89b7f06d808592cd074798120a5d2759addc787ab07ff95ea7b87060b80"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/log.txt",
+      "bytes": 1009,
+      "sha256": "29c26d885499f50b6fa9bf7991bdea7c9d0c533d71b102f8c28765c72a90dae4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/summarize_kernel_ablation.py",
+      "bytes": 16246,
+      "sha256": "033b0983daa5cc8239a0c7e838f70aabdca4a10d38669c22dad91f0d0a2e06a0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/RUN_CONFIG_AUDIT_zh.md",
+      "bytes": 2829,
+      "sha256": "10eb0921fab3c472c6a476b1208adcda34e700fc891a2590fb602e4ea67dd80d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/esm_pll.cpython-311.pyc",
+      "bytes": 10771,
+      "sha256": "0c8c52b5daddfb25bbe2c78327212889bc77251e902700501586aa67d9123678"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/esm_pll_pytorch27.cpython-311.pyc",
+      "bytes": 4501,
+      "sha256": "672825e4bd0821e246280842f24470847ae070229c7419379f41b9c25578db0e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/pilot_budgeted_command.cpython-311.pyc",
+      "bytes": 11998,
+      "sha256": "66af34ac921df7e26095d52de66cb020a3a592d3b8805438b5bc9cf056617e14"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/pilot_runtime_preflight.cpython-311.pyc",
+      "bytes": 9636,
+      "sha256": "1853971c7a513a6049079dfb59dccd3c598607dff5fc3fdb70a42bb341c82fcc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/run_foldx_six_complexes.cpython-311.pyc",
+      "bytes": 14185,
+      "sha256": "2bbbbeda8737dae1a47aaaf842d483969c649947f46f9276e7e2109835840d69"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/test_esm_pll.cpython-311.pyc",
+      "bytes": 6565,
+      "sha256": "e897f39a3d074ac156be45ec5bc1dce8844950a58770db24e7d0b6a92c76224c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/__pycache__/test_esm_pll_pytorch27_compat.cpython-311.pyc",
+      "bytes": 3285,
+      "sha256": "ecf3f971905a4138b281a626d6c993e8ebb1b8fb70dfa91fd4ddd6d38b4f8992"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/audit_six_complex_structures.py",
+      "bytes": 10181,
+      "sha256": "4a2d4b213f8b8b886bf62d7ce90b741cfba5ce4137e76ae2cbc4980af10187f2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/colabfold_batch_help.txt",
+      "bytes": 16734,
+      "sha256": "8837452d777c3d0ddebe2d5d4a3125136a5e28ae55efb49eb45b3de04c06cf77"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta",
+      "bytes": 639,
+      "sha256": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_loader_compat_addendum_v1.json",
+      "bytes": 1794,
+      "sha256": "c336c6b7cb3679364135e492dd476b885a2472791c47da38837d22654c96db13"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py",
+      "bytes": 5417,
+      "sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll_help.txt",
+      "bytes": 342,
+      "sha256": "f4a3d56001586e468e59dd765b113af532f03bb644fd1145035255e46288e4cf"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll_pytorch27.py",
+      "bytes": 2351,
+      "sha256": "018f06cebd0840d44dae5f251f0a950fcaa083a65a33d94ac137b8b1c784a55c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 898,
+      "sha256": "c3ab77cbce7b3d0ecfa1f83f360796308bb113baf9ea234ddc43fa5abf29434d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Interaction_input_Repair_AC.fxout",
+      "bytes": 964,
+      "sha256": "cd2dc9d92502e87d7a74c6a37a25119100db5e689eee1cdd9a2e0f95008109c1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 503,
+      "sha256": "e323fc6e654434674044874f0f7fd0283e3154901a21cbf3ad1d1180448b36e8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/Summary_input_Repair_AC.fxout",
+      "bytes": 408,
+      "sha256": "f325652bdfba36e6dbc4dfa92e47e9da624ed7a3c787e9312ea46db89fed7661"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input.pdb",
+      "bytes": 232317,
+      "sha256": "449476d90e5489d660580e8bf7f7fe27fd92977e803c60cb4532b1c19a65e82e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input_Repair.fxout",
+      "bytes": 40286,
+      "sha256": "5d6c5a7b0deb7f96ca67d55bfbd8efb110afe95a8ad9df4f8a5936a56500c4de"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "45f0a86e091f3d8d021e06171cd0b5a11c19d11f024bd683a43e978c18c340df"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/repair.stdout.txt",
+      "bytes": 1901,
+      "sha256": "9bd7c4af16ef6aeea686ed2af8b6323b34839f4b91c57f231691b873f9609865"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261008/result.json",
+      "bytes": 1018,
+      "sha256": "1e303c32f42659d002ce7fcdd5fd8bed5777f0b00dff139d1ee36a103096f400"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 911,
+      "sha256": "e5c783cfc36f1aa6817b103e70acc6cc9ba86f2e01de04535ebca8dfec00a60a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Interaction_input_Repair_AC.fxout",
+      "bytes": 975,
+      "sha256": "56882c8298f7b917d90e1a49620b7096960d7d9e135f47ce48d74cb4c0349ad1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 437,
+      "sha256": "0cbf4157936942f9576a969caf3698e9945f6335104cf629e8b5ad49c4d6eac0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/Summary_input_Repair_AC.fxout",
+      "bytes": 409,
+      "sha256": "700ffbbaa16467e31e63c68348e95c309f70e2c48641fe53e08ce0cdee98396e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input.pdb",
+      "bytes": 232317,
+      "sha256": "9eeda469f8ace2cdd744fb55570f00b1d7109f8dbf990dfbe4501441da48eaba"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input_Repair.fxout",
+      "bytes": 43432,
+      "sha256": "86a565be802a2d6c683c3f6637f89d96da2e8a584377c3b7bdbeb2b3b46e1c54"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "ce16adb3dacfb07edc655dd61f8e5931cb4ca3566b5f47b388df9762924f4c55"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/repair.stdout.txt",
+      "bytes": 1902,
+      "sha256": "008ba6f3ca2ebef131b30a317d138deb2014ae482d22544a3e847c11010fce3e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I2dM_loss_seed20261009/result.json",
+      "bytes": 1018,
+      "sha256": "0ffd7caa371befa757127840790d85b5134833a382dd4e4da8585ee1fedda005"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 903,
+      "sha256": "a53bc31d580397f8f04df4b218f967e54211d862ff83cbe5098807f39a30821b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Interaction_input_Repair_AC.fxout",
+      "bytes": 978,
+      "sha256": "87cfb2aa853ab3cbabbcab6189075b01abd32eb9ef1466998dbe6cd8c1d4f34c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 439,
+      "sha256": "206ced1babdfdaaba99faad7f607e50e30411de6a18dc8dd029e0edf5b686d5d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/Summary_input_Repair_AC.fxout",
+      "bytes": 408,
+      "sha256": "a55f3058de737c7dd63d1c138571f8a359a26c3e60dd5685a807666d8e02abb1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input.pdb",
+      "bytes": 232479,
+      "sha256": "258b5f11c4045f65486b4b502663844e183fb9a96fe4f08134342feed6e8d357"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input_Repair.fxout",
+      "bytes": 40671,
+      "sha256": "7e6ca2a2c93d610b5688dbf65118d8b5f6d1d1f24fff7df0b39181f582dde5a4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "d0481c37c4488f31beb0ce2681c32889544238e6a31c9efd04890c23e4823710"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/repair.stdout.txt",
+      "bytes": 1901,
+      "sha256": "08fc273ceb794db43881ce1bfa44f712572833296d367521249eb387ff4b81a4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261008/result.json",
+      "bytes": 1018,
+      "sha256": "2dd318fb3ec374f2ef1b18dd048a1d3590dcb589fd09e6389d2936d485f73a31"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 903,
+      "sha256": "41ff57ed8200caaba437550839fa7a060845fc6b2bead655d455ae9047d0dd87"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Interaction_input_Repair_AC.fxout",
+      "bytes": 976,
+      "sha256": "5d2b64ab6d913de9bc39dad60b9e352fbd65ae869356c15269b1c6f56fac0231"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 392,
+      "sha256": "5ba491819b3b1a981d5f96e81986ecc3ff8c287c26aa18adec6d237d806e0303"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/Summary_input_Repair_AC.fxout",
+      "bytes": 407,
+      "sha256": "4916b78cbd824c0ddb45b340ba9ab00ccc3e5e38f8939d5d6f4493ac50302796"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input.pdb",
+      "bytes": 232479,
+      "sha256": "5db266742615afcc4ae4e3f72df05c1d3132e6958d03b62196f3a009b7e5f801"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input_Repair.fxout",
+      "bytes": 41683,
+      "sha256": "dfa32b5b43e7d6bcc218b8f1b68dc367ef3d97cae5350e4000d4827564e2c0f3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "21ec39e9d277a813d6b787c6a571990735cbf4715545d60086fbe9b50a58c322"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/repair.stdout.txt",
+      "bytes": 1901,
+      "sha256": "c95aa867ac1931faee4df3362739c2f24adda1cf5aeb5966e1940dee92ee5ebb"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_I3dL_gain_seed20261009/result.json",
+      "bytes": 1018,
+      "sha256": "9a6eedfd5ef5b74366708341755dc5132a787efeb20f749965d928b9dd74ca3a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 903,
+      "sha256": "93456a593f65580f2e68f4e2daa9c9e3f0eee35d1fa0642d3db0eb143678d6f9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Interaction_input_Repair_AC.fxout",
+      "bytes": 971,
+      "sha256": "fbab1dc9a03053c44f462003031f055e64d3f3e1af13eacf270f0eefb95e57a5"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 480,
+      "sha256": "ff8cd3e4aefda7e74397c28c498aa531b53b321ac127a50d04966f2a318bfc5e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/Summary_input_Repair_AC.fxout",
+      "bytes": 408,
+      "sha256": "e531043466771d7927bbb88c09806a587f32357e88a3ac33f1362d51b7053a82"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input.pdb",
+      "bytes": 232479,
+      "sha256": "86b0db6ab8fb65442956ba35ff5374c10229fe499c91bd01d291ee9e4f83a7c7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input_Repair.fxout",
+      "bytes": 39801,
+      "sha256": "971bf40fd194eab8e0ee3a98ebdfce7c37806fff62d0372d938ae8e9422c0c15"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "068e44cb60e0b695a8e74bf67cbdfc8c518c6221ad3b63b116c51a9fbcbbb998"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/repair.stdout.txt",
+      "bytes": 1901,
+      "sha256": "32a09b3eddab33522d6258fea0ede09dd5c42df0355cf164c73bb2512521573e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261008/result.json",
+      "bytes": 1006,
+      "sha256": "5040446e453b43a6b0b4f03df020ec6e890e5c77ff91d23a410880a7d9941168"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Indiv_energies_input_Repair_AC.fxout",
+      "bytes": 902,
+      "sha256": "17908e9f9ffbc2c6ea8b0615d812a14d296e6a2d6da96c6a994002fd1acf3083"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Interaction_input_Repair_AC.fxout",
+      "bytes": 974,
+      "sha256": "11514b23636afd6720891bbe456de152253b99f2cab362cca4ef11773cc7b1c2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Interface_Residues_input_Repair_AC.fxout",
+      "bytes": 441,
+      "sha256": "7e19566f9dfc6eb8dd05dd4a366e6d337fd9d54da29942508f368cb15b0f32ca"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Summary_input_Repair_AC.fxout",
+      "bytes": 408,
+      "sha256": "304c1546296e7bd133c2dbd024c064c7e3674eee458e2c70d5bbb344fa4e5e00"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.cfg",
+      "bytes": 164,
+      "sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.command.json",
+      "bytes": 166,
+      "sha256": "5fa792bae9ca26461ebf4227b2dca27ab9f9ab699d5ca78484375a371e636bc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/analyse.stdout.txt",
+      "bytes": 979,
+      "sha256": "f849cd1a3c607f8380fa1dbfad1105e55c3b6a9c9bd60605d909aea5ade21fe1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input.pdb",
+      "bytes": 232479,
+      "sha256": "e5a1c15692e94c0938523fc4db6d4ee717044e2ab8b64af752dab45a181daeb4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input_Repair.fxout",
+      "bytes": 41375,
+      "sha256": "38ab3dc86fa174bcf3069aceae30bcb41eedaa39fbef438601fea8f081e67a64"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/input_Repair.pdb",
+      "bytes": 98454,
+      "sha256": "96e96538006c09ea91e8066f25bc169e06099933b4f9d0be8054dcc690be03fb"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.cfg",
+      "bytes": 127,
+      "sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.command.json",
+      "bytes": 165,
+      "sha256": "3dda7f336024aa89df307e5d1ab3d6c405c5cd1b72be3dd26507dfc551502e09"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/repair.stdout.txt",
+      "bytes": 1900,
+      "sha256": "16af7b4ed196cdb0f1a3d4215c5d5bb7f03dae256a8bdf95fa54501bf66b4797"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/result.json",
+      "bytes": 1006,
+      "sha256": "49f74a71056dae443f920fe55d7112f1babac5ceb11c0fa8dcfbee3e514042ab"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_protocol_template.json",
+      "bytes": 952,
+      "sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/freeze_esm_loader_addendum.py",
+      "bytes": 3920,
+      "sha256": "378ee6e5a7a66ab5aeaf8fd71e796e92050c369ca3abd6fb1a80d02d466032c6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/freeze_manifest_v1.json",
+      "bytes": 4495,
+      "sha256": "5ba52fc7d06eafab0a2d2a6878f1ff91cd8bcf8702e78c62fff32188c08513d7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/freeze_manifest_v1.sha256",
+      "bytes": 91,
+      "sha256": "0e188f22c58ade7bb5e51950423a77a9b166930ed1a546fb3108c27a024c538e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/freeze_run_config.py",
+      "bytes": 14222,
+      "sha256": "cfd563fcd3d488291ade824b400c38308a9b3c3b850c62957aeeb5d82843bfaf"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/contact_feedback.csv",
+      "bytes": 3608,
+      "sha256": "44d57460afeeb449e16acd7be7bb554b36b60c1a9c6bb5a553772e46c59de2ff"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "3e4254b12d5b48bcfbc82e1c642975a37a854e9ac4aad43ee083f6dbc7129125"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/protein.pdb",
+      "bytes": 102311,
+      "sha256": "77da664d6cf99e91d8a99e2eec4ba027d5c0d4a4b5de705be9afa1d1f99a7350"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/residue_feedback.csv",
+      "bytes": 545,
+      "sha256": "d08b3bdb3e6cfc09b42e5982a6b9e758188b1e4b2051a42df23f3c1088d149be"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/run.log",
+      "bytes": 1446,
+      "sha256": "2fc34193388bf6ad7d02a3beaa8d68342e7eb28a832550610dff8212af010f16"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/score.csv",
+      "bytes": 30,
+      "sha256": "f2a27e3f805dc9853929b4d29495028a64f143c1d288e02e11d158ca5cf48ebf"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0000_BCLW_Bim_A2eT_parent_seed20261008/score_each.csv",
+      "bytes": 1047,
+      "sha256": "1a9a0ef8909b0273337a33245fe884523030ad84909d064ec21542a30518fdff"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/contact_feedback.csv",
+      "bytes": 2824,
+      "sha256": "83bb1615323ece90108ee644315540792b601ec4bbabd0cd82e3dc03579d042a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "2b60a933ab1a0366ce6b1b8c15132646d0e1672a697c9531faa09c684255a650"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/protein.pdb",
+      "bytes": 102311,
+      "sha256": "ed8e1fdb191b37a2a2cd352e4bb30deeca488f90858d39f152fb0933b825641e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/residue_feedback.csv",
+      "bytes": 431,
+      "sha256": "14b0e768dcb79eaa697e14eb2af820dfbf9a669d583b79f1a8b32912e69f791b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/run.log",
+      "bytes": 1446,
+      "sha256": "62396075e630d4bd72801d1031c91e6638b353a59e12857141c0af82776d2f21"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/score.csv",
+      "bytes": 30,
+      "sha256": "1f9c63b96eb2c5df7a3ef6420245d4180d82ae4ac073ff05a95462f0a9b680f6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0001_BCLW_Bim_A2eT_I3dL_gain_seed20261008/score_each.csv",
+      "bytes": 792,
+      "sha256": "9a809fac56240c72bff7e59e4b8588f55293a7bceb02b106fe8c3b79a3770f1f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/contact_feedback.csv",
+      "bytes": 4459,
+      "sha256": "8b31c5b860c45463b0e718d8fd81ace20b3480843194ba8d3b676326c51bb7ae"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "ee6c60ce6f87c59185b49d9f4acda115a6da5ce0580bcafe50ee2f1e9435b152"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/protein.pdb",
+      "bytes": 102311,
+      "sha256": "b9fbe086b59f5d61666f369015adffe82d0fcb8acb82a2bacd181f3023eb8786"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/residue_feedback.csv",
+      "bytes": 581,
+      "sha256": "3fc3aa49f55a550be555666f28f8fa7e85df87b8ad0ea2955d8cc713d0bdcf69"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/run.log",
+      "bytes": 1444,
+      "sha256": "ed899a0e02b282bb01b97769d70d652173301f5f9f03336b087dc00c6d7f0ab2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/score.csv",
+      "bytes": 30,
+      "sha256": "e320b1b244f25fc0a34a480243dedb9515099d1c2b879a9b8689119fc0d694ed"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0002_BCLW_Bim_A2eT_I2dM_loss_seed20261008/score_each.csv",
+      "bytes": 1244,
+      "sha256": "d7cab7571c5e7eeebab2b2abec7d8deecd63a1294e9f76b6ff23550f6a3cea70"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/contact_feedback.csv",
+      "bytes": 2237,
+      "sha256": "e848fd0c4ced4f4ec20d6ad6992f2c326238e330ade8b2f61d996ed76d5e2879"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "496e18d68ce5331cda3a0dd9f2ed4ee7cc82d6024e71b8d2911483379b303da6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/protein.pdb",
+      "bytes": 102311,
+      "sha256": "947039952f8376890d443ec243ffdc5730c1ad790d35c728f58aace18d12bdbf"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/residue_feedback.csv",
+      "bytes": 446,
+      "sha256": "39fe875b82de9ef83afca8b8897717915819e685259cc782d1c6d502206c7647"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/run.log",
+      "bytes": 1447,
+      "sha256": "153c03c4d40038a4fd7cda397faf23ad4e871b4ae5b2eb9054fda5224e519ef6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/score.csv",
+      "bytes": 30,
+      "sha256": "bb4291ecba68e69f030e38f193ea08c1897881e6dfe172ca681adefefc7d843c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0003_BCLW_Bim_A2eT_parent_seed20261009/score_each.csv",
+      "bytes": 655,
+      "sha256": "278766b2eda18dd5f93008a05d98d2307125fe81ba347b80583bbf7a71e51c5a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/contact_feedback.csv",
+      "bytes": 2120,
+      "sha256": "cafd1db962ca73ed2439539d73d001409590bee10c259d944773e08b89679b59"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "f6c11fc8c57f8089704835009b9f20395c5c518d51084db3ecb253a1da6e3007"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/protein.pdb",
+      "bytes": 102311,
+      "sha256": "a945b2e7da7a5d753d59688225ae80afbf10536c8dc1f709682b66064b98e909"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/residue_feedback.csv",
+      "bytes": 406,
+      "sha256": "2cd20c6d0850e86bb6d9169a0e2ae1e721c87d07b8b25c601f8f4289edba9ac2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/run.log",
+      "bytes": 1447,
+      "sha256": "a7a639c332a82145594392ee75a5861242bdd18aa6b0e4dd75e195aabb6bce57"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/score.csv",
+      "bytes": 30,
+      "sha256": "359356a35822bf1f4a7e5780ed5f3fd4b01db98dd0226c34b0c304a4a5b2a431"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0004_BCLW_Bim_A2eT_I3dL_gain_seed20261009/score_each.csv",
+      "bytes": 595,
+      "sha256": "3a95beac37a01215aa1919d433ed45ee52302fd4a9b232e6e73565e177174f58"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/contact_feedback.csv",
+      "bytes": 2878,
+      "sha256": "b40ec8057321594c41607e7b22e5703e6eeb8360473aeafa92fde9c8fa819fe7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/decoys.pdb",
+      "bytes": 16716,
+      "sha256": "d80a2ab8bb0faf3e6c35fc3cf0cb63e36b5c310413a7509cf64b87864d63ea88"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/graphpep_patched.sh",
+      "bytes": 5318,
+      "sha256": "d11ea690d3c02ac32adeaf60a2e48a92af6e76e4da3d351c981125a0eb9a39b4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/protein.pdb",
+      "bytes": 102311,
+      "sha256": "609eba311ee73b84b246fb7099f234641af6b7a61a5676cf4a1bf097bec36fbe"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/residue_feedback.csv",
+      "bytes": 532,
+      "sha256": "028009b55db08da144cd0dacf7529385e4fa90b54bc5116819b81c4247f988ed"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/residue_mapping.csv",
+      "bytes": 2186,
+      "sha256": "707c7e397b9473aa45de8cf003a4c2ba020adaead603d692bf01c16617655a85"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/run.log",
+      "bytes": 1447,
+      "sha256": "1de3e048c9818701ef396c1d5eed540ef010dae68ec3045a823c37b0e18a6bfd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/score.csv",
+      "bytes": 30,
+      "sha256": "2fff97879cb80cb0061f7bee6a680a5e24b4cf7d39ca6db95c3dd28378b3e050"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs/0005_BCLW_Bim_A2eT_I2dM_loss_seed20261009/score_each.csv",
+      "bytes": 806,
+      "sha256": "bf0bb7d1afe9d2af8fddeead391661f87f6d76cc7d7c4315b2e183770ea62064"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs.csv",
+      "bytes": 2528,
+      "sha256": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py",
+      "bytes": 3873,
+      "sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/launch_preflight_v1.json",
+      "bytes": 9644,
+      "sha256": "2468dd750a0a9669ad62b2c06ac6596d67d8cc26831c4fdcec42376ef3acfdac"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/afm_seed_20261008.log",
+      "bytes": 4572,
+      "sha256": "c715a9878a718b7dceaa0a7a25e5c8ffc679f0792ac76c0c297416dcec76badc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/afm_seed_20261009.log",
+      "bytes": 4182,
+      "sha256": "d9405e62b1c58fb324730873662b190c0c211d59aa219e0f3d1666be5abeba1e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/esm2_sequence_pll.log",
+      "bytes": 2731,
+      "sha256": "73641f12b1120525ff74da2b81cb59a1d3e3e19f1698b43b818f73d0be5fd6dd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/esm2_sequence_pll_safe_loader_compat.log",
+      "bytes": 601,
+      "sha256": "a19adb1e9142ad523aec1bea89187811f9d3ebbf3422a8b1ffece80b2224c84c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/foldx_six_complexes.log",
+      "bytes": 579,
+      "sha256": "079292bd8e4a3d745417f981ee37abf3ce6246e81200793b3b36ea3fef582b6e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/graphpep_six_complexes.log",
+      "bytes": 1258,
+      "sha256": "11c089d018ace7e8a193ee9100fb1a1704edc7653f2ddcafa6d159eb57d3dc38"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/relax_seed_20261008.log",
+      "bytes": 669,
+      "sha256": "f0f2408aef597ee019d094e86326208ccfa37562720f43db8349e96efe6bbe17"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/logs/relax_seed_20261009.log",
+      "bytes": 669,
+      "sha256": "8f48134a28296c5adc642bea172a48a3509f999cf06ff3dca331c9086191cfb9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/paired_proxy_summary_v1.csv",
+      "bytes": 1399,
+      "sha256": "9a9e9fa73c88259d1c120cd2785b666d9c203ee0fe2c1dea3bb01d78464a0eb6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/paired_proxy_summary_v1.json",
+      "bytes": 7107,
+      "sha256": "f56ed27d93d0bdd9c813cccdebfc51f227db5f7486214fd6eca0cc2f241042d8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta",
+      "bytes": 150,
+      "sha256": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/pilot_budgeted_command.py",
+      "bytes": 5770,
+      "sha256": "42471a2f12d761001f44284407cf0600bcd3cf1358156dca669031f5b7efe14e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/pilot_runtime_preflight.py",
+      "bytes": 5491,
+      "sha256": "e44407aa4f3a56b5dd95aef1e586f22489a5bbf8278df714d4ce72b3c7b77477"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/relax_feedback_panel_help.txt",
+      "bytes": 214,
+      "sha256": "281296bf0bd9eaed67dcfd78bdb6cda80434d3290d9fd4a5673a5015c3dfcf2e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_config_draft.json",
+      "bytes": 12023,
+      "sha256": "613444a7e5c82372dc768105af9804a90d28c5d97cb6e40b46babf690b58fb80"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_config_freeze_report_zh.md",
+      "bytes": 4129,
+      "sha256": "20e9af422af15ae1300487d4b8d6be3f9db564f7f533099cbc86b9af49aa5b21"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_config_frozen_v1.json",
+      "bytes": 21435,
+      "sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_execution_record_v1.json",
+      "bytes": 9849,
+      "sha256": "d7d0215c069901e49969d5a8fec2af08ad57cefd9867040c2a8049761bf7b9dc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_foldx_six_complexes.py",
+      "bytes": 7824,
+      "sha256": "9a0e577ab014603861c62c46bbd9b13122b73b35af880f5ca81e067eb6f29dd3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "bytes": 54473,
+      "sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.sha256",
+      "bytes": 95,
+      "sha256": "f2af9e0f6b9bd1be5559143d3e907ec178240e157a5f65dfc4d648e0b7ec8cdf"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_report_zh.md",
+      "bytes": 5716,
+      "sha256": "dd4d8dbab04f257efbcb8531657deb57207e16b548e20038c6ef77b3e287ead0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/runtime_preflight_v1.json",
+      "bytes": 5076,
+      "sha256": "758a0bfef085071601286037fad6702278624ee2b460ab52efcdcee74e61dfca"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/esm_pll.csv",
+      "bytes": 1360,
+      "sha256": "26874ba8851a984d40beb086a6ab4f7502e5201e35138f1efb03d8f1c4c9c390"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/foldx.csv",
+      "bytes": 4393,
+      "sha256": "3d477fd740617c9791362370143b44719775d690ecdb10ca4988ca387324fe5f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/foldx_execution.json",
+      "bytes": 6727,
+      "sha256": "0da8698f60981da2e2e1640486c5e2dd2950e23893a2fc848fde2551c9bca9b5"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/graphpep.csv",
+      "bytes": 5885,
+      "sha256": "f6cba73b9e38e6b139a2cfa3cfa8df51300cef6fcec62220d4447655d83e4bc4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I2dM_loss_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 232317,
+      "sha256": "449476d90e5489d660580e8bf7f7fe27fd92977e803c60cb4532b1c19a65e82e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203846,
+      "sha256": "72561764874ea45ee46b26bdd0362eb095b2d2bbf773c8ebfa2ed96cdfd9fdcd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I3dL_gain_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 232479,
+      "sha256": "258b5f11c4045f65486b4b502663844e183fb9a96fe4f08134342feed6e8d357"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203939,
+      "sha256": "54a19b42fa9ac1213689f03b6113f94cda0956c7ba87b33ca8eec5a8fb61f723"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 232479,
+      "sha256": "86b0db6ab8fb65442956ba35ff5374c10229fe499c91bd01d291ee9e4f83a7c7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203879,
+      "sha256": "2ae9334e735ee5ba382ebcaef61a2bd03c442da88ead12dddf72efa1c86c034a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/relaxed/relaxation_manifest.json",
+      "bytes": 5471,
+      "sha256": "ef7e58035ad0a502ad77ae8b6b3327600aa0fcccbc768309374ed66d4f722e6a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss.a3m",
+      "bytes": 397,
+      "sha256": "0c0233103c7e299ff64517835577a81efb3de3f0c9ca076827bc71bf8b76961c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_pae.png",
+      "bytes": 111054,
+      "sha256": "19f362b228c60cd8d0d35fa0dbe1261456d6a25be2e16ec5672c037e3f70e61a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_plddt.png",
+      "bytes": 77783,
+      "sha256": "2bf760c0ef7090567ee45691401c7db3c539c121c9ad7e57f950be607aab26f4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_predicted_aligned_error_v1.json",
+      "bytes": 237610,
+      "sha256": "27aa97f071a1554983755bf031ae2074b4f139885a4474b8c97ba31226f9e64a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203846,
+      "sha256": "72561764874ea45ee46b26bdd0362eb095b2d2bbf773c8ebfa2ed96cdfd9fdcd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I2dM_loss_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 119232,
+      "sha256": "22f0659095e8eb56890aa59af00c91bccd6c458df5ec2394479396f150c9ce67"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain.a3m",
+      "bytes": 397,
+      "sha256": "4092f7da44eeb2e2abe1610f42fc2d7ef2d5ec2fc2a0327651296c040f43769e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_pae.png",
+      "bytes": 113126,
+      "sha256": "2ba915da91c98e9993783337737686032ee707804903cd95a75acd58719c370d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_plddt.png",
+      "bytes": 78719,
+      "sha256": "92ec37e850f7846ec96c0e39a508a1d100c463a5420d73f7c55b7d34f063aa78"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_predicted_aligned_error_v1.json",
+      "bytes": 237704,
+      "sha256": "48495592095cc1b5f8e001b5ae2f865f01e058c95c16312c8941633a7302eb40"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203939,
+      "sha256": "54a19b42fa9ac1213689f03b6113f94cda0956c7ba87b33ca8eec5a8fb61f723"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_I3dL_gain_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 119232,
+      "sha256": "33d6cba4c83ccb019c77f79107b650feca23ed2d6c7c32f3dac3ddab463f8ade"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent.a3m",
+      "bytes": 397,
+      "sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "bytes": 111426,
+      "sha256": "2395e3d339f50feee721eee2139a52ca39cbf89ca32cf6dab078dc86b9d1b0bc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "bytes": 78229,
+      "sha256": "5bc9c56a55cc12b64697cc5fe14b02b292006e9d4f7a13d6ada6d5b2ef7040fe"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "bytes": 237645,
+      "sha256": "4e534e6eea37f4fe6bc19317249235257378ae1f0148446e458e22de3b814db0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+      "bytes": 203879,
+      "sha256": "2ae9334e735ee5ba382ebcaef61a2bd03c442da88ead12dddf72efa1c86c034a"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+      "bytes": 119232,
+      "sha256": "96e479ca0e2f2dab86f0f6be6b128d7c3465ceb12f2311fbf864ccd53711473f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/cite.bibtex",
+      "bytes": 1020,
+      "sha256": "70e1f4116908ffd85a0cb172b6c3463da164813e71f16d98974a00ff3bc26335"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/config.json",
+      "bytes": 1171,
+      "sha256": "48854c610143be61169da5db25b9a5c1961672a969d418ece216ef84bd3ced1b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/log.txt",
+      "bytes": 2684,
+      "sha256": "45ed63b6d5a6dc05431dfe63e69cbdc93071d883b20fe93580c3a8faff4fa4b0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_I2dM_loss_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 232317,
+      "sha256": "9eeda469f8ace2cdd744fb55570f00b1d7109f8dbf990dfbe4501441da48eaba"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 204035,
+      "sha256": "9c401d8ea5d352e07833b34d09493c6a6284af7de07a8acadb4112f2fa33b431"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_I3dL_gain_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 232479,
+      "sha256": "5db266742615afcc4ae4e3f72df05c1d3132e6958d03b62196f3a009b7e5f801"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203872,
+      "sha256": "6f808d514b09a5fe4bd39496b155a856eca2f2c4f94faf2b8c95ec27a2cb03aa"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 232479,
+      "sha256": "e5a1c15692e94c0938523fc4db6d4ee717044e2ab8b64af752dab45a181daeb4"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203882,
+      "sha256": "0e37131a600eb4d9f3c35825b151b5b1fa54b54b8251ae35e1cb76c70835ec72"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/relaxation_manifest.json",
+      "bytes": 5474,
+      "sha256": "5d2482b356acb62c1aed57eca711bb559b8691e3fdd5104c8e4e81ca7c40c11b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss.a3m",
+      "bytes": 397,
+      "sha256": "0c0233103c7e299ff64517835577a81efb3de3f0c9ca076827bc71bf8b76961c"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_pae.png",
+      "bytes": 110782,
+      "sha256": "66b67bd71ccc9b4f3df5c3e9d6c0a38a189a0343893b9b4a4e20e90e639f14b8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_plddt.png",
+      "bytes": 81836,
+      "sha256": "a35f4549583698a47697c9bf1bed7df7397bc49d650f5bce6a715630a9f1c1c6"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_predicted_aligned_error_v1.json",
+      "bytes": 237804,
+      "sha256": "b425bad42c31c9d940a54d74dd529b9de9555d1271e61ec59e3f114b22977cdd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 204035,
+      "sha256": "9c401d8ea5d352e07833b34d09493c6a6284af7de07a8acadb4112f2fa33b431"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I2dM_loss_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 119232,
+      "sha256": "6bb438794896964507044a8e9b9877696ed20e4a41d60d55f4ad3d5689058a8d"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain.a3m",
+      "bytes": 397,
+      "sha256": "4092f7da44eeb2e2abe1610f42fc2d7ef2d5ec2fc2a0327651296c040f43769e"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_pae.png",
+      "bytes": 111547,
+      "sha256": "007a7edc66e0c5790ec72bf98eb0d557bd43b1efd201c2e837402f68769f0deb"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_plddt.png",
+      "bytes": 80349,
+      "sha256": "f4095b2c4e9ec9cbcf38e3e622157751acfed53a3e551f56431a9ea616647e15"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_predicted_aligned_error_v1.json",
+      "bytes": 237636,
+      "sha256": "0ed3b4b173da20ed8c60a579b952fe6d932f2c67b5e5855ecc3f5df91ca54fe3"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203872,
+      "sha256": "6f808d514b09a5fe4bd39496b155a856eca2f2c4f94faf2b8c95ec27a2cb03aa"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_I3dL_gain_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 119232,
+      "sha256": "b4100a288faa411d91fbf1459ad8cbf72dfd106c22989edb7b1ecad2ae197146"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent.a3m",
+      "bytes": 397,
+      "sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent.done.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_coverage.png",
+      "bytes": 56023,
+      "sha256": "d76bf1df4e9b79e319c2cce0b5b8850de50ada89fd009f2021279b5450a49fc9"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_pae.png",
+      "bytes": 113546,
+      "sha256": "259ea35d88f7a05cbb7595a3275b3fbe4500e2155f335b6a87aa591db733d0dc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_plddt.png",
+      "bytes": 79680,
+      "sha256": "065d00073993eddd75b83f63a8abe3f04b5e5342b61570c35a5b86974f7b2e08"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_predicted_aligned_error_v1.json",
+      "bytes": 237647,
+      "sha256": "6a078153b6408f924f1de5721bf864f998da6b5d8d1ed93048d4c0e5fe553b49"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+      "bytes": 203882,
+      "sha256": "0e37131a600eb4d9f3c35825b151b5b1fa54b54b8251ae35e1cb76c70835ec72"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+      "bytes": 119232,
+      "sha256": "db4ba85a59ab0e8a7b010e8b2cf5d489532c00dd9aec6ad04760d133507eb6d1"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/cite.bibtex",
+      "bytes": 1020,
+      "sha256": "70e1f4116908ffd85a0cb172b6c3463da164813e71f16d98974a00ff3bc26335"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/config.json",
+      "bytes": 1171,
+      "sha256": "658686dba6deeb09f0b26652165834e36907bd750e2327829fc6df480d3ad6bd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures/log.txt",
+      "bytes": 2676,
+      "sha256": "0c1faa54f503355035862929b1d2f4608b6de659115c905b1f766db109f7c102"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/step3_graphpep_help.txt",
+      "bytes": 773,
+      "sha256": "179afb8562a6597909a3e5badf83e73285be6fc160ec65daa4d6451f68b6a34f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/structure_gate_audit_v1.csv",
+      "bytes": 5669,
+      "sha256": "37dad639d76ccd8179a28c6ea18711f80212addd3866f0ee4919ca96ac4350c0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/structure_gate_audit_v1.json",
+      "bytes": 12051,
+      "sha256": "e4fd3350ce39afc855d4a7888520ca885346e150fc1f725024bdbf86e4d25696"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/summarize_pilot_results.py",
+      "bytes": 10581,
+      "sha256": "d3108bf56b905b850bd38e86935e17aa348cd7313ab7fcb126116eb0c6e6db3b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/test_esm_pll.py",
+      "bytes": 2562,
+      "sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/test_esm_pll_pytorch27_compat.py",
+      "bytes": 1349,
+      "sha256": "791b69626391814436238d09e6584a6718fe3d6fb8a800adf3870b771958888f"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_source_audit_20261020/receptor_core_audit.json",
+      "bytes": 841,
+      "sha256": "04b729ead1dc8aad91ec41558f385e11c31afaef6a1f9ff11c4b9b84e5fcd2a7"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_disagreement_audit_20261022/summary.json",
+      "bytes": 2311,
+      "sha256": "2d3a08bbcfd3d2418137a777ac0efd34856be5173769d2c0d6dee19fed340fb0"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/summary.json",
+      "bytes": 4484,
+      "sha256": "18c6336263cb6368a4f671d958df82b92080c8010eb6cff5a572e965801cffca"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "bytes": 7282,
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/structure_input_audit_bclw_20261020/prepared_inputs/parent_only.fasta",
+      "bytes": 211,
+      "sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/structure_input_audit_bclw_20261020/sources/Q92843_current.json",
+      "bytes": 57518,
+      "sha256": "2fc04d4c86d50c02fd1252702c0f4de17db38f3dcbaad9a17ad337303e9edd97"
+    }
+  ]
+}

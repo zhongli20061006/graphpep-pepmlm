@@ -1,0 +1,67 @@
+{
+  "biological_replicates": false,
+  "complete": true,
+  "complete_contrasts": 60,
+  "complete_pairs": 120,
+  "converged_structures": 35,
+  "diagnostic_directions": [
+    {
+      "condition": "fixed",
+      "diagnostic_direction": "correct",
+      "peptide_id": "P53_L22A",
+      "seed": 20261011
+    },
+    {
+      "condition": "fixed",
+      "diagnostic_direction": "correct",
+      "peptide_id": "P53_L22A",
+      "seed": 20261012
+    },
+    {
+      "condition": "flexible",
+      "diagnostic_direction": "correct",
+      "peptide_id": "P53_L22A",
+      "seed": 20261011
+    },
+    {
+      "condition": "flexible",
+      "diagnostic_direction": "correct",
+      "peptide_id": "P53_L22A",
+      "seed": 20261012
+    },
+    {
+      "condition": "fixed",
+      "diagnostic_direction": "incorrect",
+      "peptide_id": "P53_P27A",
+      "seed": 20261011
+    },
+    {
+      "condition": "fixed",
+      "diagnostic_direction": "inconclusive",
+      "peptide_id": "P53_P27A",
+      "seed": 20261012
+    },
+    {
+      "condition": "flexible",
+      "diagnostic_direction": "incorrect",
+      "peptide_id": "P53_P27A",
+      "seed": 20261011
+    },
+    {
+      "condition": "flexible",
+      "diagnostic_direction": "inconclusive",
+      "peptide_id": "P53_P27A",
+      "seed": 20261012
+    }
+  ],
+  "expected_contrasts": 60,
+  "expected_pairs": 120,
+  "expected_structures": 240,
+  "failure_reasons": [],
+  "gate_uses_score_direction": false,
+  "nonconverged_structures": 205,
+  "observed_structures": 240,
+  "phase": "full",
+  "technical_pass": true,
+  "valid_structures": 240
+}

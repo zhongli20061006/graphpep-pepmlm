@@ -1,0 +1,12 @@
+test_directional_opposition_is_distinct_from_abstention (__main__.AuditTests.test_directional_opposition_is_distinct_from_abstention) ... ok
+test_exact_pair_requires_both_parent_and_variant (__main__.AuditTests.test_exact_pair_requires_both_parent_and_variant) ... ok
+test_l10a_lookup_covers_complete_existing_table_not_only_curated_examples (__main__.AuditTests.test_l10a_lookup_covers_complete_existing_table_not_only_curated_examples) ... ok
+test_no_near_match_between_l10a_and_wt_parent (__main__.AuditTests.test_no_near_match_between_l10a_and_wt_parent) ... ok
+test_p53_13mer_cannot_inherit_12mer_label (__main__.AuditTests.test_p53_13mer_cannot_inherit_12mer_label) ... ok
+test_shared_receptor_name_cannot_override_full_sequence (__main__.AuditTests.test_shared_receptor_name_cannot_override_full_sequence) ... ok
+test_single_mutation_sequence_is_an_identity_key (__main__.AuditTests.test_single_mutation_sequence_is_an_identity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.355s
+
+OK

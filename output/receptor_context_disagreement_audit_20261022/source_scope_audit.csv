@@ -1,0 +1,5 @@
+source,local_pair_records,role
+Li2010 Table1/3,23,Original source pairs; no formal labels released
+Li2021 L10A MDM2 forward,22,L10A parent mismatch; undefined error semantics and termini remain HOLD
+SKEMPI 3EQS/3LNZ,11,Same Li2010 source; forward duplicates and reverse edge are not new samples
+SKEMPI 3EQY,11,MDMX receptor excluded

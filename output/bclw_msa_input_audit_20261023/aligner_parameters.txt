@@ -1,0 +1,15 @@
+Pairwise sequence aligner with parameters
+  substitution_matrix: <Array object at 0x78b8bb7465f0>
+  open_internal_insertion_score: -10.000000
+  extend_internal_insertion_score: -0.500000
+  open_left_insertion_score: -10.000000
+  extend_left_insertion_score: -0.500000
+  open_right_insertion_score: -10.000000
+  extend_right_insertion_score: -0.500000
+  open_internal_deletion_score: -10.000000
+  extend_internal_deletion_score: -0.500000
+  open_left_deletion_score: -10.000000
+  extend_left_deletion_score: -0.500000
+  open_right_deletion_score: -10.000000
+  extend_right_deletion_score: -0.500000
+  mode: global

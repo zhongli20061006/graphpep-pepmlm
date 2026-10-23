@@ -1,0 +1,224 @@
+{
+  "protocol_id": "BCLW_PARENT_KERNEL_ABLATION_V1",
+  "events": [
+    {
+      "time_utc": "2026-10-22T03:03:27.180378+00:00",
+      "name": "preflight",
+      "status": "passed",
+      "input_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+      "pilot_files": 265,
+      "gpu_memory": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 7344 MiB, 467 MiB, 32 %",
+      "disk_free_bytes": 115954098176
+    },
+    {
+      "time_utc": "2026-10-22T03:03:27.298658+00:00",
+      "name": "predict_seed_20261008",
+      "status": "started",
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+        "/mnt/e/Users/graphpep与pepmlm/output/structure_input_audit_bclw_20261020/prepared_inputs/parent_only.fasta",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures",
+        "--msa-mode",
+        "single_sequence",
+        "--model-type",
+        "alphafold2_multimer_v3",
+        "--num-models",
+        "1",
+        "--model-order",
+        "1",
+        "--num-seeds",
+        "1",
+        "--random-seed",
+        "20261008",
+        "--num-recycle",
+        "3",
+        "--recycle-early-stop-tolerance",
+        "0",
+        "--num-ensemble",
+        "1",
+        "--max-seq",
+        "256",
+        "--max-extra-seq",
+        "512",
+        "--num-relax",
+        "0",
+        "--pair-mode",
+        "unpaired",
+        "--disable-unified-memory",
+        "--no-use-fast-kernels",
+        "--compile-mode",
+        "fast",
+        "--sort-queries-by",
+        "none"
+      ],
+      "environment": {
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "wall_limit_remaining_seconds": 1800.0
+    },
+    {
+      "time_utc": "2026-10-22T03:03:55.013753+00:00",
+      "name": "predict_seed_20261008",
+      "status": "completed",
+      "category": "gpu",
+      "returncode": 0,
+      "wall_seconds": 27.498997406,
+      "pid": 548,
+      "log": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/predict_seed_20261008.log"
+    },
+    {
+      "time_utc": "2026-10-22T03:03:55.144056+00:00",
+      "name": "config_check_seed_20261008",
+      "status": "passed",
+      "changed_fields": {
+        "num_queries": {
+          "baseline": 3,
+          "new": 1
+        },
+        "use_fast_kernels": {
+          "baseline": true,
+          "new": false
+        }
+      },
+      "unexpected_changed_fields": []
+    },
+    {
+      "time_utc": "2026-10-22T03:03:55.332603+00:00",
+      "name": "relax_seed_20261008",
+      "status": "started",
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+        "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/relaxed"
+      ],
+      "environment": {
+        "JAX_PLATFORMS": "cpu",
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+        "OPENMM_CPU_THREADS": "2"
+      },
+      "wall_limit_remaining_seconds": 900.0
+    },
+    {
+      "time_utc": "2026-10-22T03:04:05.744632+00:00",
+      "name": "relax_seed_20261008",
+      "status": "completed",
+      "category": "cpu",
+      "returncode": 0,
+      "wall_seconds": 10.18029073400001,
+      "pid": 1332,
+      "log": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/relax_seed_20261008.log"
+    },
+    {
+      "time_utc": "2026-10-22T03:04:06.161704+00:00",
+      "name": "predict_seed_20261009",
+      "status": "started",
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+        "/mnt/e/Users/graphpep与pepmlm/output/structure_input_audit_bclw_20261020/prepared_inputs/parent_only.fasta",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures",
+        "--msa-mode",
+        "single_sequence",
+        "--model-type",
+        "alphafold2_multimer_v3",
+        "--num-models",
+        "1",
+        "--model-order",
+        "1",
+        "--num-seeds",
+        "1",
+        "--random-seed",
+        "20261009",
+        "--num-recycle",
+        "3",
+        "--recycle-early-stop-tolerance",
+        "0",
+        "--num-ensemble",
+        "1",
+        "--max-seq",
+        "256",
+        "--max-extra-seq",
+        "512",
+        "--num-relax",
+        "0",
+        "--pair-mode",
+        "unpaired",
+        "--disable-unified-memory",
+        "--no-use-fast-kernels",
+        "--compile-mode",
+        "fast",
+        "--sort-queries-by",
+        "none"
+      ],
+      "environment": {
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "wall_limit_remaining_seconds": 1692.255771262
+    },
+    {
+      "time_utc": "2026-10-22T03:04:29.512483+00:00",
+      "name": "predict_seed_20261009",
+      "status": "completed",
+      "category": "gpu",
+      "returncode": 0,
+      "wall_seconds": 22.972202511999996,
+      "pid": 1492,
+      "log": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/predict_seed_20261009.log"
+    },
+    {
+      "time_utc": "2026-10-22T03:04:30.184109+00:00",
+      "name": "config_check_seed_20261009",
+      "status": "passed",
+      "changed_fields": {
+        "num_queries": {
+          "baseline": 3,
+          "new": 1
+        },
+        "use_fast_kernels": {
+          "baseline": true,
+          "new": false
+        }
+      },
+      "unexpected_changed_fields": []
+    },
+    {
+      "time_utc": "2026-10-22T03:04:31.098834+00:00",
+      "name": "relax_seed_20261009",
+      "status": "started",
+      "argv": [
+        "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+        "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures",
+        "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/relaxed"
+      ],
+      "environment": {
+        "JAX_PLATFORMS": "cpu",
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+        "OPENMM_CPU_THREADS": "2"
+      },
+      "wall_limit_remaining_seconds": 861.4990941379999
+    },
+    {
+      "time_utc": "2026-10-22T03:04:48.813077+00:00",
+      "name": "relax_seed_20261009",
+      "status": "completed",
+      "category": "cpu",
+      "returncode": 0,
+      "wall_seconds": 17.47735077499999,
+      "pid": 2279,
+      "log": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/logs/relax_seed_20261009.log"
+    },
+    {
+      "time_utc": "2026-10-22T03:04:49.053525+00:00",
+      "name": "all_jobs",
+      "status": "completed",
+      "job_count": 2,
+      "gpu_prediction_wall_seconds": 72.303042745,
+      "cpu_relax_wall_seconds": 43.903039846999974
+    }
+  ],
+  "gpu_prediction_wall_seconds": 72.303042745,
+  "cpu_relax_wall_seconds": 43.903039846999974,
+  "disk_bytes_current": 2539991,
+  "disk_bytes_max": 536870912
+}

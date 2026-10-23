@@ -1,0 +1,58 @@
+/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/batch.py
+sha256=a65a1fb4301ae82de8b307a8d698f327a79b8fa66c8f053f4ddeff52c87020c4
+780:         for index in range(0, len(query_seqs_unique)):
+781:             template_feature = mk_mock_template(query_seqs_unique[index])
+782:             template_features.append(template_feature)
+783: 
+784:     if len(query_sequences) == 1:
+785:         pair_mode = "none"
+786: 
+787:     if pair_mode == "none" or pair_mode == "unpaired" or pair_mode == "unpaired_paired":
+788:         if msa_mode == "single_sequence":
+789:             a3m_lines = []
+790:             num = 101
+791:             for i, seq in enumerate(query_seqs_unique):
+792:                 a3m_lines.append(f">{num + i}\n{seq}")
+793:         else:
+794:             # find normal a3ms
+795:             a3m_lines = run_mmseqs2(
+796:                 query_seqs_unique,
+797:                 str(result_dir.joinpath(jobname)),
+798:                 use_env,
+799:                 use_pairing=False,
+800:                 host_url=host_url,
+1355:     set_if = lambda x,y: y if x is None else x
+1356:     if model_type in ["alphafold2_multimer_v1","alphafold2_multimer_v2"]:
+1357:         (max_seq, max_extra_seq) = (set_if(max_seq,252), set_if(max_extra_seq,1152))
+1358:     elif model_type == "alphafold2_multimer_v3":
+1359:         (max_seq, max_extra_seq) = (set_if(max_seq,508), set_if(max_extra_seq,2048))
+1360:     else:
+1361:         (max_seq, max_extra_seq) = (set_if(max_seq,512), set_if(max_extra_seq,5120))
+1362: 
+1363:     if msa_mode == "single_sequence":
+1364:         num_seqs = 1
+1365:         if is_complex and "multimer" not in model_type: num_seqs += max_num
+1366:         if use_templates: num_seqs += 4
+1367:         max_seq = min(num_seqs, max_seq)
+1368:         max_extra_seq = max(min(num_seqs - max_seq, max_extra_seq), 1)
+1369: 
+1370:     # sort model order
+1510:                     with open(pickled_msa_and_templates, 'wb') as f:
+1511:                         pickle.dump((unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality, template_features), f)
+1512:                     logger.info(f"Saved {pickled_msa_and_templates}")
+1513: 
+1514:             # a3m input and pickles bypass get_msa_and_templates, and num_extra_msa=1 would then sample a random homolog per seed
+1515:             if msa_mode == "single_sequence" and unpaired_msa is not None:
+1516:                 unpaired_msa = [f">{101 + i}\n{seq}" for i, seq in enumerate(query_seqs_unique)]
+1517:                 paired_msa = None
+1518: 
+1519:             # save a3m
+1520:             if not 'msa' in skip_output:
+1521:                 msa = msa_to_str(unpaired_msa, paired_msa, query_seqs_unique, query_seqs_cardinality)
+1522:                 result_dir.joinpath(f"{jobname}.a3m").write_text(msa)
+1523: 
+1524:         except Exception as e:
+1525:             logger.exception(f"Could not get MSA/templates for {jobname}: {e}")
+1526:             continue
+1527: 
+1528:         #######################

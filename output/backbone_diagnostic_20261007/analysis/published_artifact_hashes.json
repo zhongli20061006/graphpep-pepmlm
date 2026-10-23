@@ -1,0 +1,19 @@
+{
+  "analysis/backbone_summary.csv": "cf8ee512425383f1fd8242c30f1cf3c417e86325a6e94104d7cbe592cecda07a",
+  "analysis/baseline.json": "343443a38877717a513592b14e75168acbe682c81041cb31a8dbecbddefb893e",
+  "analysis/baseline_energy_term_contrasts.csv": "0ba578ae0530c2ec3ef4725d44e544a5b58b4367e32a4097fd0c88178ce41363",
+  "analysis/baseline_geometry.csv": "31ba7831978a7f993808f5a98ad4dc60ccc5a76d636280ade52f18f30a7105da",
+  "analysis/baseline_hbond_proxies.csv": "8acd675b4f8376af3b2e27cc7586ecd6d6f81c132f1e9213201fafca3ad3e7ba",
+  "analysis/baseline_torsions.csv": "fd25c0beceb4e75f6cd6e2eb3de6de93b3ca3e8f026e90ef1bf4e98806005ea7",
+  "analysis/contrasts.csv": "80a00fe2a562ffb9f2a78f79f937c4b2d10870fd3e3ccbf6737fc3291ae25a3f",
+  "analysis/decision.json": "af07f909bf0b0011cebc62b59ffce12559393ae4a33a6b55da385fecfaa8cdbd",
+  "analysis/energy_terms.csv": "fa5e7266d32783fafea03ceb292285c53da2f308937461c655389e541ed566ee",
+  "analysis/hbond_proxies.csv": "b305cd1829df56692d13e2bdc05a9cca5f8d519f32fc83aded87703c54669db7",
+  "analysis/pair_results.csv": "c1ec4037be23e3df9fd86f3cc8bee6271ccbc75c601e4605eba9145a3dbf0e09",
+  "analysis/pilot_decision.json": "2e8dd9b9f269b0099fc3361669038c7c0a9f73e17c4b48fe71df734b48cc5428",
+  "analysis/report_zh.md": "57f65067589ce4ed4ba9b0bed0ec0fd05247baca0369b37b27880e7242652743",
+  "analysis/residue_displacements.csv": "136621fa2ab677ede8ac5f0bb859f4bc6623070a475dd9dfa9a382f50df5877c",
+  "analysis/seed_summary.csv": "b06879a0670e8a95dd5f4e5ba0272850ac3d6278362f10839d7d46994109e8a2",
+  "analysis/structure_results.csv": "426ba34de89f69674122efdcd4fe42d73f2d500f98ab000896faed3db6af8415",
+  "analysis/torsions.csv": "a8036e7ffbab185c7e145fdd98d0c1c2bc788f7bd347042ea6906bdcef6106ce"
+}

@@ -1,0 +1,879 @@
+{
+  "scope": {
+    "purpose": "Supplemental audit of equal-score alignment ambiguity; never change chosen rows or first-optimum projection",
+    "scope_fixed_before_enumerating_alternatives": true,
+    "records": "All 22 final selected homologs",
+    "optimal_alignments_per_record_cap": 64,
+    "comparison": "Project each available optimum, report alternate core match/A3M rows and affected positions; recompute fixed floor metrics replacing one row at a time only",
+    "limitations": "Does not enumerate simultaneous combinations or validate biological alignment correctness",
+    "decision_policy": "Keep primary frozen metrics unchanged. Any observed one-row alternative losing an input floor is an additional future-execution HOLD concern, not permission to pick a favorable alignment.",
+    "new_predictions": 0,
+    "new_reward_calls": 0
+  },
+  "selected_homologs": 22,
+  "selected_with_multiple_optima": 8,
+  "selected_with_alternate_core_rows": 4,
+  "selected_with_alternate_a3m_rows": 6,
+  "alignment_projections_evaluated": 44,
+  "all_available_selected_optima_enumerated": true,
+  "one_row_replacement_floor_failures": [],
+  "additional_execution_hold": false,
+  "worker_wall_seconds": 0.1892521769999993,
+  "evidence": [
+    {
+      "accession": "Q1RMX3",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "P70345",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A286XQQ9",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMQPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMQPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A287AW74",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A8B7SYY8",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARSLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARSLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A9B0T9T8",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVVYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVVYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0ABM0Q8V8",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLATQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLATQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "F7IIN0",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGTGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGTGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A8C3X592",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "G3HRE9",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A2Y9EAA6",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGAAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMESLVGQVQEWMVVYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGAAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMESLVGQVQEWMVVYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0ABK0LBZ7",
+      "optimal_alignment_count": 2,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 2,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "mslfglcqyfsyiyvslsslplsaarMATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MslfglcqyfsyiyvslsslplsaarmATPASTPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETRLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A4X2LP96",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYACGTGPGEGPTTEPLHRAMRAAGDEFESRFQRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYACGTGPGEGPTTEPLHRAMRAAGDEFESRFQRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVTYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "G1TV33",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAANPLHQAMRAAGDEFETRFRQNFSDLAAQLHVTPGSAQQSFTQVCDELFQRGPNWGRVVAFFAFGAALCAESVNKEMEPLVGQVQEWMVTYLETQLAGWIHSTGGWAEFTALYGDRALEEARRLRE",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAANPLHQAMRAAGDEFETRFRQNFSDLAAQLHVTPGSAQQSFTQVCDELFQRGPNWGRVVAFFAFGAALCAESVNKEMEPLVGQVQEWMVTYLETQLAGWIHSTGGWAEFTALYGDRALEEARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "F7G6M3",
+      "optimal_alignment_count": 3,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 3,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "a3m": "MATpaPASVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MATPASVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "a3m": "MATPapASVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 2,
+          "match": "MATPASVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "a3m": "MATPApaSVSDTRALVADFVGYKLRQKGFACGAGPGEGPPAQPLHRAMRAAGDEFESRFRRAFSDLASQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQDWMVAYLDTQLADWIRSSGGWAEFTALYGDGALEDARRLRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A8C5PJB3",
+      "optimal_alignment_count": 1,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "PGLPASDLGSRPLVEDFVRYKLHQRGLV--SEPVGAPSC-ALHSAMRAAGDEFEDRFRQAFSEISTQIHVTPGTAYARFAEVAGGLFQGGVNWGRVVAFFVFGAALCAESVNKEMARLLPQIQEWMVTYLETHLRDWMQSNGGWNGFLALYGDGAIEEARRQRE",
+          "a3m": "PGLPrASDLGSRPLVEDFVRYKLHQRGLV--SEPVGAPSC-ALHSAMRAAGDEFEDRFRQAFSEISTQIHVTPGTAYARFAEVAGGLFQGGVNWGRVVAFFVFGAALCAESVNKEMARLLPQIQEWMVTYLETHLRDWMQSNGGWNGFLALYGDGAIEEARRQRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "H3AAS7",
+      "optimal_alignment_count": 3,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 3,
+      "distinct_projected_a3m_rows": 3,
+      "affected_core_positions": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "M---DSLYSNRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "a3m": "M---DSLYSNRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MD---SLYSNRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "a3m": "MD---SLYSNRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 2,
+          "match": "MDSLYS---NRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "a3m": "MDSLYS---NRGVVEDFIYYKLGQKGYSQQGAPTD-PPANPLYRAMREAGDEFEARFHRTFNSLSSHLHITPGTAYRRFAETADSLFQDGVNWGRVVALFVFSAALCVESVDKEMASLVGRIIDWTVTYVESSLQDWINHSGGWSAFVCLYGNGAVGGARRFQE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A8J0PFA0",
+      "optimal_alignment_count": 2,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 2,
+      "distinct_projected_a3m_rows": 2,
+      "affected_core_positions": [
+        3,
+        5
+      ],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MA--QSELGSRALVEDFVRYKLCQRSLV--PEPA-GAASCSLHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "a3m": "MA--QSELGSRALVEDFVRYKLCQRSLV--PEPA-GAASCSLHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MAQ--SELGSRALVEDFVRYKLCQRSLV--PEPA-GAASCSLHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "a3m": "MAQ--SELGSRALVEDFVRYKLCQRSLV--PEPA-GAASCSLHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRDWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0A8J0PW87",
+      "optimal_alignment_count": 2,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 2,
+      "distinct_projected_a3m_rows": 2,
+      "affected_core_positions": [
+        3,
+        5
+      ],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MA--QSDLGARALVEDFVRYKLCQRSLV--PEPA-GPASCALHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRGWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "a3m": "MA--QSDLGARALVEDFVRYKLCQRSLV--PEPA-GPASCALHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRGWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MAQ--SDLGARALVEDFVRYKLCQRSLV--PEPA-GPASCALHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRGWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "a3m": "MAQ--SDLGARALVEDFVRYKLCQRSLV--PEPA-GPASCALHSAMRAAGDEFEERFRQAFSEISTQIHVTPGTAYARFAEVAGSLFQGGVNWGRIVAFFVFGAALCAESVNKEMSPLLPRIQDWMVTYLETNLRGWIQSNGGWNGFLTLYGDGAIEEARRQRE",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0AAJ7U7E2",
+      "optimal_alignment_count": 12,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 3,
+      "distinct_projected_a3m_rows": 12,
+      "affected_core_positions": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MSDPY---NSREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPY---NSREIVNDFIRYKLTQRGY--GqSGPSpPPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MSDPYN---SREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYN---SREIVNDFIRYKLTQRGY--GqSGPSpPPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 2,
+          "match": "MSDPYNS---REIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYNS---REIVNDFIRYKLTQRGY--GqSGPSpPPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 3,
+          "match": "MSDPY---NSREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPY---NSREIVNDFIRYKLTQRGY--GqSGPSPpPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 4,
+          "match": "MSDPYN---SREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYN---SREIVNDFIRYKLTQRGY--GqSGPSPpPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 5,
+          "match": "MSDPYNS---REIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYNS---REIVNDFIRYKLTQRGY--GqSGPSPpPPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 6,
+          "match": "MSDPY---NSREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPY---NSREIVNDFIRYKLTQRGY--GqSGPSPPpPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 7,
+          "match": "MSDPYN---SREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYN---SREIVNDFIRYKLTQRGY--GqSGPSPPpPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 8,
+          "match": "MSDPYNS---REIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYNS---REIVNDFIRYKLTQRGY--GqSGPSPPpPSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 9,
+          "match": "MSDPY---NSREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPY---NSREIVNDFIRYKLTQRGY--GqSGPSPPPpSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 10,
+          "match": "MSDPYN---SREIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYN---SREIVNDFIRYKLTQRGY--GqSGPSPPPpSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 11,
+          "match": "MSDPYNS---REIVNDFIRYKLTQRGY--GSGPSPPPSSSPLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGGGGLAR-RRLHG",
+          "a3m": "MSDPYNS---REIVNDFIRYKLTQRGY--GqSGPSPPPpSSSPppppsssssqstaqLLRVLRAAGDEFESRYRASFSDLSQQLHVSQGCAEQRFAEVTAELFRDGVNWGRVVAFLAFGAALCAECAGKEMGFLVDGIAQWMANYLDEELRDWIQQNGGWDSFVSLYGarGGGLAR-RRLHG",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "G3V4B7",
+      "optimal_alignment_count": 3,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIaalhillqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIaalhillqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 2,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWVRSFSIaalhillqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    },
+    {
+      "accession": "A0ABQ9V5J5",
+      "optimal_alignment_count": 3,
+      "exhausted_available_optima": true,
+      "distinct_projected_match_rows": 1,
+      "distinct_projected_a3m_rows": 1,
+      "affected_core_positions": [],
+      "comparisons": [
+        {
+          "optimum_index": 0,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIaalhiplqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 1,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIaalhiplqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        },
+        {
+          "optimum_index": 2,
+          "match": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIWSPG----------",
+          "a3m": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVTYLETRLADWIHSSGGWVRSFSIaalhiplqsWSPG----------",
+          "greedy_clusters_80": 4,
+          "neff_80": 4.006535947712418,
+          "minimum_column_nongap_fraction": 0.8260869565217391,
+          "gates": {
+            "nonquery_rows": true,
+            "greedy_clusters": true,
+            "neff": true,
+            "column_nongap": true
+          }
+        }
+      ]
+    }
+  ]
+}

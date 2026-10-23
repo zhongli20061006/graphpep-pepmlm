@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-10-20",
+  "status": "HOLD_NO_PILOT",
+  "decision_scope": "independent peptide mutation affinity-direction validation",
+  "reason": "No current candidate passes all frozen pilot gates for same-WT bidirectional labels, exact construct and terminal chemistry, assay-input correspondence, and defensible uncertainty semantics.",
+  "ranked_source_file": "candidate_source_ranking.csv",
+  "top_candidate": {
+    "system": "Homer1 EVH1-DVL3 BLI",
+    "status": "HOLD_INPUT",
+    "direction_gate": "passes technical-repeat uncertainty sensitivity for DVL3 Y25F gain and P21A loss",
+    "blocker": "The complete 2024 biotinylated SUMO-peptide fusion sequence and its junction/linker/orientation are not reported; do not silently substitute free peptide or a related 2022 construct."
+  },
+  "skempi_screen": {
+    "raw_rows": 7085,
+    "unique_index_groups": 514,
+    "groups_with_both_point_ratio_directions": 125,
+    "fully_audited_skempi_short_peptide_groups": 1,
+    "pilot_qualified_fully_audited_skempi_groups": 0,
+    "top_false_balance_example": "4J2L_A_CD: apparent gain direction comes from ATXN1 receptor mutations; the two CIC21 peptide single mutants are both losses.",
+    "point_ratio": "Affinity_mut (M)/Affinity_wt (M); finite exact values only; censored rows are not imputed"
+  },
+  "frozen_criteria": {
+    "path": "output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+    "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+    "gain": "Kd_variant/Kd_WT <= 0.5 and 95% uncertainty interval wholly below 1",
+    "loss": "Kd_variant/Kd_WT >= 2 and 95% uncertainty interval wholly above 1",
+    "pilot": "same-WT verified gain and loss; WT+gain+loss in two fixed seeds; maximum 6 complexes",
+    "folding_seeds": [20261008, 20261009],
+    "main_metric": "within-system balanced direction accuracy; macro-average WT backgrounds with equal weight; stable correctness requires both seeds correct; failures/ties remain errors in denominator"
+  },
+  "budget": {
+    "source_audit_hours_max": 4,
+    "pilot_complexes_max": 6,
+    "pilot_gpu_hours_max": 2,
+    "pilot_disk_gib_max": 2,
+    "full_panel_pairs_min": 10,
+    "full_panel_gain_min": 4,
+    "full_panel_loss_min": 4,
+    "full_panel_backgrounds_min": 2,
+    "full_gpu_hours_max": 8,
+    "full_cpu_hours_max": 4,
+    "full_disk_gib_max": 5
+  },
+  "this_turn_compute": {
+    "new_structure_predictions": 0,
+    "new_scorer_runs": 0,
+    "new_model_training_runs": 0,
+    "paid_calls_or_wet_lab_orders": 0
+  },
+  "next_action": "Stop broad source screening and prediction work. Reconsider Homer1 only if public evidence independently resolves the 2024 assay fusion sequence and the exact scorer input representation before any new score is seen; otherwise select a new source with directly auditable free-peptide or fully specified fusion Kd measurements and same-WT gain/loss."
+}

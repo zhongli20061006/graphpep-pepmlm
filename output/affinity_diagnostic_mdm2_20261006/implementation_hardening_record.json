@@ -1,0 +1,6 @@
+{
+  "reason": "Implementation hardening while AFM generation runs: require finite confidence, freeze contact potential and all scorer resources, isolate embedding cache, export actual cropped contact counts",
+  "afm_prediction_started": true,
+  "graphpep_or_affinity_analysis_started": false,
+  "reference_sequences_seeds_and_decision_rule_changed": false
+}

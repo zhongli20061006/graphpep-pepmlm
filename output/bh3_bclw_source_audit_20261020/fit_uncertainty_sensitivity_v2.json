@@ -1,0 +1,18 @@
+{
+  "version": "bh3_fit_summary_sensitivity_v2",
+  "frozen_before_new_prediction_or_score": true,
+  "source_semantics": "Direct Kd values in Foight Table 2; at least three replicate curves over three days, fit to averaged anisotropy data; plotted pointwise bars are SD; table uncertainty is 95% Matlab confint on nonlinear fit.",
+  "ratio_method": "First-order delta-method interval on log(Kd_variant/Kd_parent), using reported 95% fit halfwidths as 1.96 local SEs. Report both independence and worst adverse covariance (sum of relative halfwidths) sensitivities. This is fit-conditional and approximate; it is not a source-reported ratio CI or a biological/replicate-level CI.",
+  "printed_equation_audit": {
+    "finding": "The printed direct-binding equation in Supplementary Methods appears to place 4*c*Kd under the square root, while the declared variables are peptide concentration c and receptor concentration x. The standard 1:1 mass-balance term is 4*c*x; as printed, the expression does not give zero bound fraction at x=0 for Kd>c.",
+    "interpretation": "Likely a publication/typesetting error, but without raw anisotropy points or the Matlab fitting code we cannot establish whether the implemented fits used the printed or intended expression. Do not silently refit or treat this as proof that the published Kd values are wrong.",
+    "visual_source": "figures/cb500340w_si_001_page4.png; inspected against the published supplement image"
+  },
+  "limits": [
+    "No raw replicate-level anisotropy observations, per-run Kd fits, fit covariance, or Matlab code were found in the 16-page supplement.",
+    "No division by sqrt(n); the three-day curve replicates are not three reported Kd estimates.",
+    "The fitted peptide concentration was estimated from plateaued curves and reused; lower baseline was fixed.",
+    "The ratio intervals omit uncertainty in active receptor concentration, oligomeric state, and fluorescence label effects.",
+    "No formal benchmark labels are released by this sensitivity artifact; it preserves source candidates for pre-score review."
+  ]
+}

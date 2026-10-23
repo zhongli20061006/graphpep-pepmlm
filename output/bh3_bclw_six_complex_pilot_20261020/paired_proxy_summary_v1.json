@@ -1,0 +1,160 @@
+{
+  "schema": "bclw_six_complex_pilot_paired_summary_v1",
+  "status": "ENGINEERING_PILOT_COMPLETE_NO_VALID_COMPLEX_DIRECTION",
+  "config_sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0",
+  "expected_cells": 6,
+  "observed_cells": 6,
+  "identity_pass_cells": 6,
+  "contact_pass_cells": 6,
+  "quality_pass_cells": 0,
+  "graphpep_success_rows": 6,
+  "foldx_success_rows": 6,
+  "esm_sequence_rows": 3,
+  "gpu_wall_seconds_including_failed_initial_ESM_load": 213.265,
+  "cpu_wall_seconds_for_relax_and_FoldX": 533.026,
+  "new_output_bytes_delta": 10688517,
+  "output_cap_bytes": 2147483648,
+  "gpu_budget_pass": true,
+  "output_cap_pass": true,
+  "failed_events_preserved": [
+    {
+      "label": "esm2_sequence_pll",
+      "command": [
+        "/home/g/miniconda3/envs/graphpep_env/bin/python",
+        "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py",
+        "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta",
+        "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/esm_pll.csv",
+        "--checkpoint",
+        "/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt",
+        "--device",
+        "cuda"
+      ],
+      "gpu_metered": true,
+      "started_at": "2026-10-20T19:52:35+08:00",
+      "log": "logs/esm2_sequence_pll.log",
+      "pid": 607,
+      "ended_at": "2026-10-20T19:52:42+08:00",
+      "duration_seconds": 6.428,
+      "returncode": 1,
+      "stop_reason": null,
+      "output_bytes_delta": 10648080
+    }
+  ],
+  "paired_proxy_diagnostics": [
+    {
+      "seed": 20261008,
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I3dL_gain",
+      "structure_quality_pass_for_both": false,
+      "GraphPep_parent_raw": -3.0099,
+      "GraphPep_variant_raw": -2.9444,
+      "GraphPep_parent_minus_variant_proxy_gain": -0.06550000000000011,
+      "GraphPep_proxy_sign": "negative",
+      "FoldX_parent_interaction_kcal_mol": -4.52363,
+      "FoldX_variant_interaction_kcal_mol": -7.45219,
+      "FoldX_parent_minus_variant_proxy_gain_kcal_mol": 2.92856,
+      "FoldX_proxy_sign": "positive",
+      "contact_pairs_parent": 53,
+      "contact_pairs_variant": 39,
+      "contact_pairs_variant_minus_parent": -14,
+      "pair_direction_evaluable_under_frozen_rule": false,
+      "failure_reason": "both structures fail the frozen ipTM, peptide-pLDDT, and interface-PAE gates"
+    },
+    {
+      "seed": 20261008,
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I2dM_loss",
+      "structure_quality_pass_for_both": false,
+      "GraphPep_parent_raw": -3.0099,
+      "GraphPep_variant_raw": -2.5427,
+      "GraphPep_parent_minus_variant_proxy_gain": -0.46720000000000006,
+      "GraphPep_proxy_sign": "negative",
+      "FoldX_parent_interaction_kcal_mol": -4.52363,
+      "FoldX_variant_interaction_kcal_mol": -9.98916,
+      "FoldX_parent_minus_variant_proxy_gain_kcal_mol": 5.46553,
+      "FoldX_proxy_sign": "positive",
+      "contact_pairs_parent": 53,
+      "contact_pairs_variant": 63,
+      "contact_pairs_variant_minus_parent": 10,
+      "pair_direction_evaluable_under_frozen_rule": false,
+      "failure_reason": "both structures fail the frozen ipTM, peptide-pLDDT, and interface-PAE gates"
+    },
+    {
+      "seed": 20261009,
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I3dL_gain",
+      "structure_quality_pass_for_both": false,
+      "GraphPep_parent_raw": -2.7362,
+      "GraphPep_variant_raw": -2.6184,
+      "GraphPep_parent_minus_variant_proxy_gain": -0.11780000000000035,
+      "GraphPep_proxy_sign": "negative",
+      "FoldX_parent_interaction_kcal_mol": -8.21784,
+      "FoldX_variant_interaction_kcal_mol": -5.48642,
+      "FoldX_parent_minus_variant_proxy_gain_kcal_mol": -2.731420000000001,
+      "FoldX_proxy_sign": "negative",
+      "contact_pairs_parent": 32,
+      "contact_pairs_variant": 29,
+      "contact_pairs_variant_minus_parent": -3,
+      "pair_direction_evaluable_under_frozen_rule": false,
+      "failure_reason": "both structures fail the frozen ipTM, peptide-pLDDT, and interface-PAE gates"
+    },
+    {
+      "seed": 20261009,
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I2dM_loss",
+      "structure_quality_pass_for_both": false,
+      "GraphPep_parent_raw": -2.7362,
+      "GraphPep_variant_raw": -2.7269,
+      "GraphPep_parent_minus_variant_proxy_gain": -0.009300000000000086,
+      "GraphPep_proxy_sign": "negative",
+      "FoldX_parent_interaction_kcal_mol": -8.21784,
+      "FoldX_variant_interaction_kcal_mol": -10.1564,
+      "FoldX_parent_minus_variant_proxy_gain_kcal_mol": 1.938559999999999,
+      "FoldX_proxy_sign": "positive",
+      "contact_pairs_parent": 32,
+      "contact_pairs_variant": 40,
+      "contact_pairs_variant_minus_parent": 8,
+      "pair_direction_evaluable_under_frozen_rule": false,
+      "failure_reason": "both structures fail the frozen ipTM, peptide-pLDDT, and interface-PAE gates"
+    }
+  ],
+  "sequence_prior_diagnostics": [
+    {
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I3dL_gain",
+      "parent_sum_PLL": -67.0816640854,
+      "variant_sum_PLL": -66.6369714737,
+      "variant_minus_parent_sequence_prior": 0.44469261170000607,
+      "interpretation": "sequence plausibility only; not affinity or interface score"
+    },
+    {
+      "parent_id": "BCLW_Bim_A2eT_parent",
+      "variant_id": "BCLW_Bim_A2eT_I2dM_loss",
+      "parent_sum_PLL": -67.0816640854,
+      "variant_sum_PLL": -67.477440834,
+      "variant_minus_parent_sequence_prior": -0.39577674859999945,
+      "interpretation": "sequence plausibility only; not affinity or interface score"
+    }
+  ],
+  "cross_seed_pose_diagnostics": [
+    {
+      "complex_id": "BCLW_Bim_A2eT_parent",
+      "receptor_aligned_peptide_backbone_CA_RMSD_seed09_to_seed08_A": 3.716666293870878,
+      "contact_pair_jaccard_seed08_vs_seed09": 0.5178571428571429,
+      "interpretation": "descriptive pose/geometry only; no threshold and no affinity inference"
+    },
+    {
+      "complex_id": "BCLW_Bim_A2eT_I3dL_gain",
+      "receptor_aligned_peptide_backbone_CA_RMSD_seed09_to_seed08_A": 39.69732458651274,
+      "contact_pair_jaccard_seed08_vs_seed09": 0.6190476190476191,
+      "interpretation": "descriptive pose/geometry only; no threshold and no affinity inference"
+    },
+    {
+      "complex_id": "BCLW_Bim_A2eT_I2dM_loss",
+      "receptor_aligned_peptide_backbone_CA_RMSD_seed09_to_seed08_A": 5.367271402823917,
+      "contact_pair_jaccard_seed08_vs_seed09": 0.3918918918918919,
+      "interpretation": "descriptive pose/geometry only; no threshold and no affinity inference"
+    }
+  ],
+  "interpretation_boundary": "All six complex cells failed the frozen AFM confidence gate, so none of the GraphPep/FoldX paired score differences is direction-evaluable under the frozen rule. Report raw scores and deltas only as diagnostics on failed structures. ESM2 PLL is a sequence-only prior. None of these outputs is experimental Kd or complete binding free energy."
+}

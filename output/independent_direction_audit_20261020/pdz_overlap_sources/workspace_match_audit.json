@@ -1,0 +1,27 @@
+{
+  "scanned_files": 1913,
+  "glob_scope": "md; manifest/audit json; csv;tsv;fasta;fa. Excludes tools/models/current audit/result JSON/node_modules/git",
+  "historical_cutoff": "2026-10-08: only matched paths in output/reward_direction_benchmark_20261008, no earlier dated candidate match; repository has no git history to prove chronology",
+  "hits": [
+    {
+      "path": "output\\reward_direction_benchmark_20261008\\protocol_draft_zh.md",
+      "sha256": "06da88d0b6e414de0bec54fc57e3f715029519127ba1c8b2277bcae724b0abc4",
+      "matches": [
+        {
+          "line": 75,
+          "text": "当前候选审计结论为 HOLD：2021 PMI-L10A SPR 面板测量了 22 条经 FP 富集的单点增强肽，不能提供双向标签，也属于既有 MDM2/PMI 开发家族；a1-syntrophin PDZ 需要取回补充表并核对 15 条变体逐条 Kd/误差/正反方向，且其母肽进入原模型训练数据、突变又被该论文用于模型评价，只能作披露的开发/方法选择集；SPSB2–iNOS 虽有同 assay 的 Kd 与端基信息，但缺已确认的增强单点变体，且结构与测量构建体/序列不完全匹配。现阶段不启动新折叠或评分。旧目录 output/independent_affinity_validation_20261007 保持原样。"
+        }
+      ]
+    },
+    {
+      "path": "output\\reward_direction_benchmark_20261008\\candidate_source_audit.csv",
+      "sha256": "9f99b90d21ecf1fa34d367f1308db58e691dabd0b2780db6bc88cf097f143279",
+      "matches": [
+        {
+          "line": 2,
+          "text": "\"a1synPDZ_2008\",\"10.1038/nbt.1489\",\"Chen et al 2008 Nature Biotechnology; https://pmc.ncbi.nlm.nih.gov/articles/PMC2655215/\",\"Yes: alpha-1 syntrophin PDZ; paper says N-terminal thioredoxin and His6 tags; exact boundaries not recovered\",\"3 WT backgrounds, each 10 aa: CLDTSRETDL; SPDRDRESIV; NLKAGRETTV; 5 single substitutions per WT (15 total)\",\"All assay peptides N-terminally labeled with 5(6)-carboxytetramethylrhodamine. Exact C-terminal acid/amide status is not stated in the accessible synthesis methods; PDZ recognition requires a peptide C terminus, but that does not establish the precise terminal chemistry\",\"Fluorescence polarization, 20 nM labeled peptide, 25 C; Kd reported in Supplementary Table 7; figure caption says ΔΔG values are means of three experimental replicates\",\"Paper reports one nonbinding variant and a model correlation across other 14 variants; exact per-variant Kd/error and gain/loss labels not verified because the PMC-hosted NIHMS90286 supplementary files return cache miss in available retrieval\",\"2PDZ is mouse alpha-1 syntrophin PDZ NMR complex with GVKESLV heptapeptide, not these three full 10-mers; receptor-family support but not exact assay ligand structure\",\"Published predictor mutation-effect evaluation; parent ligands were among the highest-affinity peptides in that paper's model training data. Method-selection/development only; never call blind\",\"Workspace search of output/pipeline/docs found no exact 2PDZ or syntrophin/iNOS candidate hit before this audit. WSL GraphPep training-list read was denied; no model-training exclusion claim\",\"Original Supplementary Table 7 and figure-level uncertainty; exact receptor boundaries; per-row Kd and error meaning/repeats; exact peptide C-terminal chemistry; fluorophore relation to the modeled interface; exact GraphPep training overlap\",\"CONDITIONAL_METHOD_SELECTION_ONLY; HOLD until supplement and input chemistry audit pass; not independent blind validation\""
+        }
+      ]
+    }
+  ]
+}

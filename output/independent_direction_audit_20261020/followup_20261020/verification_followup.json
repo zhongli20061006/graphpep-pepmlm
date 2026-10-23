@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-10-20",
+  "json_parse_pass": true,
+  "parsed_json_files": [
+    "output\\independent_direction_audit_20261020\\followup_20261020\\homer1_interval_method_v1.json",
+    "output\\independent_direction_audit_20261020\\followup_20261020\\homer1_ratio_interval_results.json",
+    "output\\independent_direction_audit_20261020\\followup_20261020\\decision_followup.json"
+  ],
+  "scoring_or_prediction_jobs_started": 0,
+  "frozen_criteria_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "interval_results_checked": {
+    "Y4F_gain_rule_pass": true,
+    "P0A_loss_rule_pass": true,
+    "both_pass_max_adverse_covariance_sensitivity": true
+  },
+  "decision": "HOLD_NO_PILOT_INPUT_CONSTRUCT",
+  "sha256": [
+    {
+      "file": "output\\independent_direction_audit_20261020\\followup_20261020\\report_zh.md",
+      "sha256": "b5bf84705bae3a3cfbe037082f8cd393ef8348581509cb2b265e55d1a36d3414"
+    },
+    {
+      "file": "output\\independent_direction_audit_20261020\\followup_20261020\\homer1_interval_method_v1.json",
+      "sha256": "b1f6a6ee67434ef386ed801db4185f8666494800dfc35a15a62b18080ba8fba9"
+    },
+    {
+      "file": "output\\independent_direction_audit_20261020\\followup_20261020\\homer1_ratio_interval_results.json",
+      "sha256": "4d4f2d39a5f1730e9b442b702261268d98e8f8bc58f228e44e3f895a7cb28626"
+    },
+    {
+      "file": "output\\independent_direction_audit_20261020\\followup_20261020\\decision_followup.json",
+      "sha256": "2458894107c658ef5cf328f0c7b4deb6431b5858e8b5b7888a5dca08ada6708d"
+    },
+    {
+      "file": "output\\independent_direction_audit_20261020\\report_zh.md",
+      "sha256": "cc96b4b678904201b28bd56f497091fbc8312933ffc9688e30d6bec3f996fa04"
+    },
+    {
+      "file": "output\\independent_direction_audit_20261020\\candidate_source_audit.csv",
+      "sha256": "85de23b5ab7dd0a25cd586e783f84062d91f095e8db2dc201e1850ffa6830d16"
+    },
+    {
+      "file": "output\\reward_direction_benchmark_20261008\\frozen_direction_criteria_v2.json",
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    }
+  ]
+}

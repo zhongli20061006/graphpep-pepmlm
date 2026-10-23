@@ -1,0 +1,10 @@
+role,source,model_or_audit_representation,omissions_or_limits,status
+reference,output/structure_input_audit_bclw_20261020/sources/Q92843_current.json,193-aa full reference projected to unchanged positions 1-164,Assay clone residue133 not independently recovered; preserve Q133,EXACT_LOCAL_SEQUENCE_MATCH
+parent,output/structure_input_audit_bclw_20261020/prepared_inputs/parent_only.fasta,164-aa receptor plus 23-aa Bim_A2eT parent,Fluorescein and C-amide and unrecovered receptor c-myc/TEV junction omitted,UNCHANGED_CORE_PROXY
+assay_construct,output/bclw_construct_msa_audit_20261022/existing_primary_source_extracts.json,Bcl-w 1-164 plus c-myc after MBP/TEV; labeled amidated 23mer,Full junction and exact chemical representation not reconstructed,NOT_EXACT_ASSAY_INPUT
+homolog_source,output/bclw_construct_msa_audit_20261022/sources/uniprot_bcl2l2_candidates.tsv,93 existing canonical BCL2L2-annotated vertebrate records,No full database search or independently proved orthology,ORIGINAL_SOURCE_HASH_MATCH
+homolog_selection,selected_homologs.csv,22 unique nonquery cores from distinct taxon IDs; 2 reviewed and 20 unreviewed,Small star-aligned homolog panel; equal-score ambiguity disclosed,FOUR_FROZEN_INPUT_FLOORS_PASS
+complex_input,prepared_inputs/BCLW_Bim_A2eT_parent.a3m,Receptor query plus 22 unpaired homologs; peptide query only,No nonquery peptide homologs or biological pairing,INSTALLED_PARSER_AND_IO_PASS
+experimental_structure_references,output/structure_input_audit_bclw_20261020/structure_source_input_map.csv,Only existing related-structure audit is referenced,Related BH3 complexes are not exact assay structures; no templates used,REFERENCE_ONLY
+prior_pilot,output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json,Completed six-complex pilot,0/6 frozen structural gate; no formal direction accuracy,PRESERVED
+prior_kernel,output/bclw_parent_kernel_ablation_v1/quality_gate_summary.json,Completed parent no-fast-kernel jobs at original two seeds,0/2 all diagnostic gates; reuse baseline without rerun,PRESERVED_BASELINE

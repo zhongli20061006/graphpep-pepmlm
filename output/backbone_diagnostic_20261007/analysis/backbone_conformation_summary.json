@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "interpretation": "descriptive_geometry_only; not DSSP, hydrogen-bond occupancy, or affinity",
+  "alpha_like_definition": "phi in [-100,-30] degrees and psi in [-80,-5] degrees",
+  "segment": "peptide residues 8-11; n=30 matched WT-reference/mutant AFM model-repeat pairs per condition",
+  "alpha_like": {
+    "fixed": {
+      "n_matched_pairs": 30,
+      "mutant_median_alpha_like_residues_8_11_before": 1.0,
+      "mutant_median_alpha_like_residues_8_11_after": 1.0,
+      "mutant_median_change_after_minus_before": 0.0,
+      "WT_reference_median_change_after_minus_before": 0.0,
+      "mutant_increased_unchanged_decreased": {
+        "increased": 0,
+        "unchanged": 30,
+        "decreased": 0
+      },
+      "median_mutation_specific_change_vs_WT_reference": 0.0,
+      "pairs_mutant_change_exceeds_WT_reference": 0,
+      "pairs_equal_change": 30,
+      "pairs_mutant_change_below_WT_reference": 0
+    },
+    "flexible": {
+      "n_matched_pairs": 30,
+      "mutant_median_alpha_like_residues_8_11_before": 1.0,
+      "mutant_median_alpha_like_residues_8_11_after": 2.0,
+      "mutant_median_change_after_minus_before": 1.0,
+      "WT_reference_median_change_after_minus_before": 1.0,
+      "mutant_increased_unchanged_decreased": {
+        "increased": 20,
+        "unchanged": 10,
+        "decreased": 0
+      },
+      "median_mutation_specific_change_vs_WT_reference": 0.0,
+      "pairs_mutant_change_exceeds_WT_reference": 1,
+      "pairs_equal_change": 29,
+      "pairs_mutant_change_below_WT_reference": 0
+    }
+  },
+  "O7_N11_distance_proxy": {
+    "fixed": {
+      "n_structures": 30,
+      "median_O7_N11_distance_A_before": 6.199943535650879,
+      "median_O7_N11_distance_A_after": 6.199943535650879,
+      "median_paired_distance_change_A": 0.0,
+      "proxy_within_3_5_A_before": 0,
+      "proxy_within_3_5_A_after": 0,
+      "eligible_alanine_donors": 30
+    },
+    "flexible": {
+      "n_structures": 30,
+      "median_O7_N11_distance_A_before": 6.199943535650879,
+      "median_O7_N11_distance_A_after": 6.067412434695279,
+      "median_paired_distance_change_A": -0.16009364190245323,
+      "proxy_within_3_5_A_before": 0,
+      "proxy_within_3_5_A_after": 0,
+      "eligible_alanine_donors": 30
+    }
+  },
+  "flexible_local_backbone_displacement_residues_8_11": {
+    "n_structures": 30,
+    "median_per_structure_max_A": 0.3510842663492798,
+    "maximum_per_structure_max_A": 1.0718264930843329,
+    "structures_with_any_residue_over_0_01_A": 30
+  }
+}

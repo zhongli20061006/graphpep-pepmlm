@@ -1,0 +1,5 @@
+{
+  "reason": "Second pre-score review: freeze all GraphPep Python/awk code, config and both existing scoring/ESM checkpoints; stream hashes to avoid large allocations",
+  "any_benchmark_scores_computed": false,
+  "sampling_and_analysis_rules_changed": false
+}

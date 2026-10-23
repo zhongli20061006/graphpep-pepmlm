@@ -1,0 +1,17 @@
+{
+  "source_url": "https://rest.uniprot.org/uniparc/UPI0000566AF6.fasta",
+  "accession": "UPI0000566AF6",
+  "full_length": 504,
+  "assay_range_1based_inclusive": [
+    90,
+    164
+  ],
+  "assay_75aa": "GGLGISIKGGRENKMPILISKIFKGLAADQTEALFVGDAILSVNGEDLSSATHDEAVQALKKTGKEVVLEVKYMK",
+  "assay_75aa_length": 75,
+  "reference86_contains_assay75": true,
+  "reference86_match_position_1based": 12,
+  "fullsequence_reference86_position_1based": 79,
+  "tags_and_linkers": "N-terminal Trx/His6 reported but full expressed tag/linker sequence not recovered; assay modeled input unresolved",
+  "local_receptor_chains_tested_file_count": 2509,
+  "assay75_exact_or_substring_hits": []
+}

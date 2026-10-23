@@ -1,0 +1,55 @@
+{
+  "date_local": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "status": "HOLD_DATA_AUDIT",
+  "preparation_complete": true,
+  "criteria_file": "frozen_criteria_v1.json",
+  "criteria_frozen_before_new_scores": true,
+  "scientific_entry_gate_pass": false,
+  "start_new_predictions_now": false,
+  "new_predictions": 0,
+  "new_scores": 0,
+  "primary_candidate": "MDM2_PMI_L10A_2021",
+  "conditional_candidate": "MDMX_PMI_L10A_2021",
+  "primary_score_if_released": "FoldX AnalyseComplex Interaction Energy; lower is favorable",
+  "candidate_independence": {
+    "no_exact_sequence_matches_in_audited_workspace_output_CSVs": true,
+    "complete_project_history_exclusion_proven": false,
+    "shares_previously_developed_PMI_scaffold": true,
+    "not_blinded": true,
+    "not_GraphPep_training_clean": true,
+    "two_unrelated_families": false,
+    "unbiased_loss_gain_panel": false,
+    "loss_contrasts_are_reversions_of_distinct_published_enhancers": true
+  },
+  "blocking_data_gaps": [
+    {
+      "applies_to": "both candidates",
+      "field": "peptide and synthetic receptor terminal chemistry",
+      "missing": "Explicit primary support for selected SPR reagents; Boc/HF lineage is insufficient confirmation"
+    },
+    {
+      "applies_to": "both candidates",
+      "field": "SPR Table 2 reported error definition",
+      "missing": "SD versus SEM versus fit uncertainty and independent/technical replicate aggregation"
+    },
+    {
+      "applies_to": "MDMX only",
+      "field": "exact assayed receptor sequence",
+      "missing": "WT versus Q68A/Q69A/E70A; 5UML and 3EQY deposited AAA cannot silently define SPR WT reagent"
+    }
+  ],
+  "independent_validation_evidence_gap": "Need a separate un-enriched same-assay new-scaffold Kd mutation panel with experimentally measured enhancement and loss; current enhancer reversions do not provide that sampling independence",
+  "GraphPep_training_overlap_evidence": "5umm_B in installed Training_set/list line 1837 and split_data/train.csv first line 5750, 21 rows",
+  "not_observed": {
+    "pilot_quality": "not_run",
+    "stable_direction_accuracy": null,
+    "limited_validation_pass": null,
+    "new_design_affinity": null
+  },
+  "old_P27A_continuation_pass": false,
+  "next_allowed_scientific_step": "Resolve public primary-source gaps and freeze an auditable input release; then, if all data gates pass, run only MDM2 base peptide 2 seeds x 3 models pilot within the existing budget",
+  "next_default_action_is_full_pool_prediction": false,
+  "paid_or_third_party_action": false,
+  "conclusion": "Source and input preparation complete; independent-affinity scoring validity remains unestablished. No new prediction is justified under the frozen gates today."
+}

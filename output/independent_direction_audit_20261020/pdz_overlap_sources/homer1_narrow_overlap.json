@@ -1,0 +1,165 @@
+{
+  "source_path": "/mnt/e/Users/graphpep\u4e0epepmlm/output/independent_direction_audit_20261020/homer1_screen/homer1_single_mutants.json",
+  "source_sha256": "b60f76286226360053bbe552d3146023dd760c6d1f97207cf52752f05d723e99",
+  "single_mutant_pairs": 11,
+  "unique_unfused_peptide_queries": 15,
+  "native_peptide_files": 2509,
+  "native_chains": 2509,
+  "scan_results": [
+    {
+      "query": "DIESDFPPPPEDFGAADELP",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "DIESDFPPPPEDFPAADELP",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "GDELGLPPPPPGFGPDEPSW",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "GDELGLPPPPPGFPPDEPSW",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "LNFDELPEPPATFCDPEEVE",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "LNFDELPEPPATFPDPEEVE",
+      "length": 20,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQAPPPPHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYAPPPHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPAPPHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPAPHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPPAHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPPPHPANPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPPPHPFNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPPPHPWNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    },
+    {
+      "query": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+      "length": 36,
+      "exact_matches": [],
+      "query_substring_in_native_matches": [],
+      "native_substring_in_query_matches": []
+    }
+  ],
+  "reference_pdb_1DDV_exact_list_audit": [
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+      "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+      "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+      "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+      "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+      "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+      "sha256": "bcb8fd11b05515bbda1ba502f183f82244a5d4afa11125c1ccf7a858ea5a5238",
+      "exact_1DDV_targets": []
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+      "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+      "exact_1DDV_targets": [
+        "1DDV"
+      ]
+    }
+  ],
+  "limits": [
+    "Only parent/variant peptide insert strings from the 11 single-mutant pairs were tested, not full expressed SUMO-fusion sequences.",
+    "Biotin/SUMO/tags/linkers are not represented by this sequence scan; no complete assay-sequence independence claim.",
+    "Exact-ID check only for 1DDV; no additional receptor-family or Homer1 homology audit in this narrow extension.",
+    "No model scoring or structure inference was run."
+  ]
+}

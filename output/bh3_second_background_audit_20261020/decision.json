@@ -1,0 +1,11 @@
+{
+  "audit_date": "2026-10-20",
+  "scope": "read-only source and supplement audit",
+  "prediction_or_scoring_run": false,
+  "source": "Dutta et al. 2013, ACS Chem Biol, DOI 10.1021/cb300679a, PMCID PMC3631442",
+  "decision": "HOLD_FOR_INDEPENDENT_DIRECTION_BENCHMARK",
+  "source_finding": "A second Bcl-w mutation background (Bim_D3fK) has direct binding measurements, but the public supplement contains no variant Kd table, raw curves, or uncertainty. Publicly explicit directions do not provide a qualifying enhancement pair.",
+  "supplement_sha256": "0a14618a4bf54545f7e0b661129e8784c532d6dd51809b0e8253fb3f0021602f",
+  "next_gate": "Exclude Dutta from quantitative primary analysis unless independent numerical data become public. Keep any small structure run separately labeled as an engineering reproducibility pilot and do not interpret as affinity validation.",
+  "figure4_sha256": "902fe9488e84e52dc150f84d9ed6da101523fef912a478c7f381f60a9d2a9fec"
+}

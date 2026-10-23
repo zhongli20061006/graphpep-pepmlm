@@ -1,0 +1,205 @@
+{
+  "status": "TECHNICAL_PROBE_COMPLETED",
+  "logical_inputs": 60,
+  "base_inputs": 45,
+  "repeat_inputs": 15,
+  "substitutions_before_exclusions": 285,
+  "historical_exclusions": 2,
+  "candidate_pool": 283,
+  "max_wt_self_difference": 0.0,
+  "numeric": {
+    "passed": true,
+    "tolerance_nats": 0.0001,
+    "checks": [
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 11,
+        "max_logp_delta": 1.9073486328125e-06,
+        "max_d_delta": 2.86102294921875e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 9,
+        "max_logp_delta": 3.337860107421875e-06,
+        "max_d_delta": 4.5299530029296875e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 8,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 4.351139068603516e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 6,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 2.86102294921875e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 4,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 3.4570693969726562e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 2,
+        "max_logp_delta": 3.814697265625e-06,
+        "max_d_delta": 4.5299530029296875e-06
+      },
+      {
+        "parent_id": "PMI_3EQS",
+        "site": 1,
+        "max_logp_delta": 2.86102294921875e-06,
+        "max_d_delta": 2.9802322387695312e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 13,
+        "max_logp_delta": 2.384185791015625e-06,
+        "max_d_delta": 3.814697265625e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 12,
+        "max_logp_delta": 3.814697265625e-06,
+        "max_d_delta": 5.0067901611328125e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 9,
+        "max_logp_delta": 5.7220458984375e-06,
+        "max_d_delta": 5.7220458984375e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 8,
+        "max_logp_delta": 3.814697265625e-06,
+        "max_d_delta": 4.0531158447265625e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 6,
+        "max_logp_delta": 4.291534423828125e-06,
+        "max_d_delta": 2.86102294921875e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 4,
+        "max_logp_delta": 6.198883056640625e-06,
+        "max_d_delta": 5.7220458984375e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 2,
+        "max_logp_delta": 6.198883056640625e-06,
+        "max_d_delta": 6.5267086029052734e-06
+      },
+      {
+        "parent_id": "P53WT_1YCR",
+        "site": 1,
+        "max_logp_delta": 3.337860107421875e-06,
+        "max_d_delta": 3.814697265625e-06
+      }
+    ],
+    "max_logp_delta": 6.198883056640625e-06,
+    "max_d_delta": 6.5267086029052734e-06
+  },
+  "context_effect_abs_max_nats": 8.509359180927277,
+  "context_order_effect_above_numeric_tolerance": true,
+  "parents": [
+    {
+      "parent_id": "P53WT_1YCR",
+      "mask_sites": 8,
+      "candidate_pool": 151,
+      "filter_pass_candidates": 9,
+      "filter_pass_sites": 6,
+      "target_positive_candidates": 19,
+      "control_sign_disagreement": 14,
+      "suggestions": 6,
+      "overlaps": {
+        "unadjusted_d": {
+          "k": 6,
+          "exact_mutant_overlap": 3,
+          "site_overlap": 5
+        },
+        "static_GraphPep_native_position_only": {
+          "k": 6,
+          "exact_mutant_overlap": null,
+          "site_overlap": 5
+        },
+        "uniform_random": {
+          "k": 6,
+          "exact_mutant_overlap": 1,
+          "site_overlap": 4
+        }
+      },
+      "h_min": -6.952105186879635,
+      "h_max": 2.7224926352500916,
+      "h_control_1_abs_max": 7.892911814153194,
+      "h_control_2_abs_max": 7.027239225804806
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "mask_sites": 7,
+      "candidate_pool": 132,
+      "filter_pass_candidates": 14,
+      "filter_pass_sites": 4,
+      "target_positive_candidates": 16,
+      "control_sign_disagreement": 21,
+      "suggestions": 4,
+      "overlaps": {
+        "unadjusted_d": {
+          "k": 4,
+          "exact_mutant_overlap": 3,
+          "site_overlap": 4
+        },
+        "static_GraphPep_native_position_only": {
+          "k": 4,
+          "exact_mutant_overlap": null,
+          "site_overlap": 3
+        },
+        "uniform_random": {
+          "k": 4,
+          "exact_mutant_overlap": 0,
+          "site_overlap": 2
+        }
+      },
+      "h_min": -7.132873356342316,
+      "h_max": 5.165275454521179,
+      "h_control_1_abs_max": 8.509359180927277,
+      "h_control_2_abs_max": 6.271178781986237
+    }
+  ],
+  "budget": {
+    "status": "completed",
+    "returncode": 0,
+    "wall_seconds": 20.25446725400002,
+    "output_bytes": 268122,
+    "pid": 478
+  },
+  "decision": "GO_TECHNICAL_DEVELOPMENT_ONLY",
+  "affinity_validation": "HOLD: qualified independent bidirectional labels/protocols not met",
+  "closed_loop": "HOLD: no child sequence generation or structural evaluation authorized here",
+  "preservation_after": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    }
+  ],
+  "claim_limit": "Technical context sensitivity only; no affinity, specificity, novelty or superiority validation."
+}

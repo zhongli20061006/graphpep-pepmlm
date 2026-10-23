@@ -1,0 +1,75 @@
+{
+  "time_utc": "2026-10-22T03:03:27.163117+00:00",
+  "protocol_id": "BCLW_PARENT_KERNEL_ABLATION_V1",
+  "checks": {
+    "output_root_clean_of_results": true,
+    "input_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+    "input_matches_frozen": true,
+    "batch_source_sha256": "a65a1fb4301ae82de8b307a8d698f327a79b8fa66c8f053f4ddeff52c87020c4",
+    "weights_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+    "relax_script_sha256": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+    "pilot_manifest": {
+      "count": 265,
+      "all_match": true,
+      "mismatches": []
+    },
+    "versions": {
+      "colabfold": "1.6.3",
+      "jax": "0.10.2",
+      "jaxlib": "0.10.2",
+      "openmm": "8.6.1"
+    },
+    "gpu": {
+      "gpu_snapshot": {
+        "returncode": 0,
+        "stdout": "Thu Oct 22 11:03:26 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 570.151                Driver Version: 573.22         CUDA Version: 12.8     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5060 ...    On  |   00000000:02:00.0 Off |                  N/A |\n| N/A   50C    P8              8W /   80W |     467MiB /   8151MiB |     44%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+",
+        "stderr": ""
+      },
+      "gpu_memory": {
+        "returncode": 0,
+        "stdout": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 7344 MiB, 467 MiB, 32 %",
+        "stderr": ""
+      },
+      "gpu_compute_processes": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "existing_target_processes": {
+        "returncode": 0,
+        "stdout": "539 bash -lc pgrep -af \"colabfold_batch|relax_feedback_panel.py\" || true",
+        "stderr": ""
+      }
+    },
+    "existing_target_processes": [],
+    "disk_free_bytes": 115954098176,
+    "prepared_protocol_sha256": "e8c326a8641d603836abe4ec2f119fb30c9d8a20f97a463f7cbe6149ba065e54"
+  },
+  "budgets": {
+    "new_prediction_jobs_max": 2,
+    "raw_final_structures_max": 2,
+    "restrained_relaxed_structures_max": 2,
+    "gpu_tagged_process_wall_seconds_max": 1800,
+    "cpu_relax_wall_seconds_max": 900,
+    "disk_bytes_max": 536870912,
+    "run_serially": true,
+    "budget_meaning": "Process wall-time cap, not integrated GPU utilization.",
+    "no_reward_calls": true,
+    "no_msa_or_template_service": true,
+    "no_weight_download_or_reinstall": true
+  },
+  "frozen_quality_gate": {
+    "iptm_min": 0.7,
+    "peptide_mean_plddt_min": 70,
+    "interface_pae_max_A": 10,
+    "minimum_interchain_distance_min_A": 1.5,
+    "interface_pae_definition": "Maximum PAE over all directed receptor-to-peptide and peptide-to-receptor residue pairs; pass only if <=10 A.",
+    "peptide_plddt_definition": "Mean C-alpha pLDDT over all peptide-chain residues; pass only if >=70.",
+    "iptm_definition": "AFM summary ipTM; pass only if >=0.70.",
+    "clash_definition": "Minimum heavy-atom interchain distance must be >=1.5 A; otherwise fail the structural gate."
+  },
+  "additional_diagnostic_gate": {
+    "receptor_mean_plddt_min": 70,
+    "note": "Added engineering readiness check; never retroactively changes original pilot pass count."
+  }
+}

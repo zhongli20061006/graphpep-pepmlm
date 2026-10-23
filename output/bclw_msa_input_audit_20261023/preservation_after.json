@@ -1,0 +1,15 @@
+{
+  "files_checked": 335,
+  "mismatches": [],
+  "all_match": true,
+  "old_manifest_checks": {
+    "bh3_bclw_six_complex_pilot_20261020": {
+      "entries": 265,
+      "mismatches": []
+    },
+    "bclw_parent_kernel_ablation_v1": {
+      "entries": 46,
+      "mismatches": []
+    }
+  }
+}

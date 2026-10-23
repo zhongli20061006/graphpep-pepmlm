@@ -1,0 +1,11 @@
+{
+  "purpose": "Supplemental audit of equal-score alignment ambiguity; never change chosen rows or first-optimum projection",
+  "scope_fixed_before_enumerating_alternatives": true,
+  "records": "All 22 final selected homologs",
+  "optimal_alignments_per_record_cap": 64,
+  "comparison": "Project each available optimum, report alternate core match/A3M rows and affected positions; recompute fixed floor metrics replacing one row at a time only",
+  "limitations": "Does not enumerate simultaneous combinations or validate biological alignment correctness",
+  "decision_policy": "Keep primary frozen metrics unchanged. Any observed one-row alternative losing an input floor is an additional future-execution HOLD concern, not permission to pick a favorable alignment.",
+  "new_predictions": 0,
+  "new_reward_calls": 0
+}

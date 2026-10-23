@@ -1,0 +1,17 @@
+[
+  {
+    "archive": "protocol_initial_before_score.json",
+    "checked_scientific_input_hashes": 12,
+    "scientific_inputs_seeds_and_decision_unchanged": true
+  },
+  {
+    "archive": "protocol_cache_review_before_score.json",
+    "checked_scientific_input_hashes": 12,
+    "scientific_inputs_seeds_and_decision_unchanged": true
+  },
+  {
+    "archive": "protocol_before_final_hardening.json",
+    "checked_scientific_input_hashes": 12,
+    "scientific_inputs_seeds_and_decision_unchanged": true
+  }
+]

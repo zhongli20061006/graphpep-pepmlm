@@ -1,0 +1,19 @@
+{
+  "current_versions_from_dist_metadata_no_runtime_import": {
+    "jax": "0.10.2",
+    "openmm": "8.6.1",
+    "colabfold": "1.6.3",
+    "jaxlib": "0.10.2"
+  },
+  "baseline_versions": {
+    "colabfold": "1.6.3",
+    "jax": "0.10.2",
+    "jaxlib": "0.10.2",
+    "openmm": "8.6.1"
+  },
+  "versions_match": true,
+  "batch_source_match": true,
+  "relax_source_match": true,
+  "input_py_limit": "No historical input.py hash was recorded in kernel preflight; current input.py is frozen and I/O-tested. Full environment identity beyond tracked files is not established.",
+  "weight_check": "Expected prior-run hash carried in protocol; current bulk weights not loaded/rehash-claimed. Future launch must verify."
+}

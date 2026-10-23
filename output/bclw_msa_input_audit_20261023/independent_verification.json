@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "all_93_accessions_accounted_once": true,
+    "selected_csv_matches_decision_labels": true,
+    "one_per_taxon_and_unique_core": true,
+    "query_identical_cores_excluded": true,
+    "full_sequences_identical_to_original_source": true,
+    "source_positions_match_projection_identity_and_coverage": true,
+    "selected_rows_pass_inherited_coverage_identity": true,
+    "independent_fraction_neff_agrees": true,
+    "independent_clusters_agree": true,
+    "all_column_occupancies_agree": true,
+    "independent_frozen_gate_conjunction_agrees": true,
+    "decision_counts_agree": true,
+    "complex_a3m_fixed_width_and_query": true,
+    "homologs_receptor_only_not_paired": true,
+    "installed_parser_and_io_all_pass": true,
+    "all_selected_optima_checked_without_one_row_gate_loss": true,
+    "quality_and_auxiliary_gates_unchanged": true,
+    "future_commands_only_input_output_msa_mode_changed": true,
+    "future_protocol_input_hash_and_freeze_match": true,
+    "implementation_freeze_unchanged_since_real_alignment": true,
+    "all_335_original_files_preserved": true,
+    "future_output_root_absent_no_predictions_started": true,
+    "zero_model_score_training_download_jobs": true,
+    "new_output_under_16MiB": true
+  },
+  "passed": 24,
+  "total": 24,
+  "all_pass": true,
+  "old_file_mismatches": [],
+  "independent_neff_fraction": "613/153",
+  "independent_neff": 4.006535947712418,
+  "input_floor_gates": {
+    "nonquery_rows": true,
+    "greedy_clusters": true,
+    "neff": true,
+    "column_nongap": true
+  },
+  "scope": "Independent calculation from source CSV/A3M and original-file hashes; same investigator, not an independent biological test or external review."
+}

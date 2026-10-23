@@ -1,0 +1,80 @@
+{
+  "status": "EXISTING_SCORE_DISAGREEMENT_AUDIT_COMPLETED",
+  "new_model_inputs": 0,
+  "new_structure_jobs": 0,
+  "new_reward_calls": 0,
+  "downloads": 0,
+  "training": 0,
+  "unique_base_distributions": 57,
+  "unique_mask_sites": 19,
+  "non_wt_substitutions": 361,
+  "original_generation_pool": 283,
+  "disagreement_counts": {
+    "same_direction": 277,
+    "strict_opposite": 47,
+    "H_abstains": 37
+  },
+  "by_parent": {
+    "ETFSDLWKLLPEN": {
+      "n": 152,
+      "types": {
+        "same_direction": 122,
+        "strict_opposite": 16,
+        "H_abstains": 14
+      },
+      "original_generation_pool": 151
+    },
+    "TSFAEYWNLLSP": {
+      "n": 209,
+      "types": {
+        "same_direction": 155,
+        "strict_opposite": 31,
+        "H_abstains": 23
+      },
+      "original_generation_pool": 132
+    }
+  },
+  "disagreement_subset_size": 84,
+  "exact_experimental_matches_all": 10,
+  "exact_experimental_matches_in_disagreements": 0,
+  "eligible_conditional_development_matches_in_disagreements": 0,
+  "formal_eligible_matches_in_disagreements": 0,
+  "primary_formal_metrics": null,
+  "near_match_holds": {
+    "HOLD_P53_13MER_VS_12MER": 7,
+    "HOLD_PMI_L10A_BACKGROUND_MISMATCH": 13
+  },
+  "skempi_named_rows": 22,
+  "skempi_status_counts": {
+    "DUPLICATE_LI2010_FORWARD_NOT_NEW_LABEL": 10,
+    "REVERSE_EDGE_SAME_LI2010_N8A_PAIR_NOT_NEW_SAMPLE": 1,
+    "EXCLUDE_MDMX_RECEPTOR": 11
+  },
+  "source_scope": [
+    {
+      "source": "Li2010 Table1/3",
+      "local_pair_records": 23,
+      "role": "Original source pairs; no formal labels released"
+    },
+    {
+      "source": "Li2021 L10A MDM2 forward",
+      "local_pair_records": 22,
+      "role": "L10A parent mismatch; undefined error semantics and termini remain HOLD"
+    },
+    {
+      "source": "SKEMPI 3EQS/3LNZ",
+      "local_pair_records": 11,
+      "role": "Same Li2010 source; forward duplicates and reverse edge are not new samples"
+    },
+    {
+      "source": "SKEMPI 3EQY",
+      "local_pair_records": 11,
+      "role": "MDMX receptor excluded"
+    }
+  ],
+  "posthoc_development_only": true,
+  "selection_warning": "Score-selected disagreement subset is posthoc development; never a blind or representative benchmark",
+  "decision": "HOLD_NO_ADJUDICATED_DISAGREEMENT",
+  "affinity_validation": "HOLD",
+  "closed_loop": "HOLD"
+}

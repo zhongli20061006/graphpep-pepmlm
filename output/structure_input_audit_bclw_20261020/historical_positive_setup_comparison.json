@@ -1,0 +1,78 @@
+{
+  "historical_path": "output/feedback_control_1ycr_20261006/structures/config.json",
+  "current_path": "output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures/config.json",
+  "settings": [
+    {
+      "field": "version",
+      "historical": "1.6.3",
+      "current": "1.6.3"
+    },
+    {
+      "field": "msa_mode",
+      "historical": "mmseqs2_uniref_env",
+      "current": "single_sequence"
+    },
+    {
+      "field": "max_seq",
+      "historical": 256,
+      "current": 1
+    },
+    {
+      "field": "max_extra_seq",
+      "historical": 512,
+      "current": 1
+    },
+    {
+      "field": "model_type",
+      "historical": "alphafold2_multimer_v3",
+      "current": "alphafold2_multimer_v3"
+    },
+    {
+      "field": "model_order",
+      "historical": [
+        1,
+        2,
+        3
+      ],
+      "current": [
+        1
+      ]
+    },
+    {
+      "field": "num_models",
+      "historical": 3,
+      "current": 1
+    },
+    {
+      "field": "num_recycles",
+      "historical": 3,
+      "current": 3
+    },
+    {
+      "field": "use_fast_kernels",
+      "historical": true,
+      "current": true
+    },
+    {
+      "field": "use_bfloat16",
+      "historical": true,
+      "current": true
+    },
+    {
+      "field": "use_fuse",
+      "historical": true,
+      "current": true
+    },
+    {
+      "field": "compile_mode",
+      "historical": "fast",
+      "current": "fast"
+    },
+    {
+      "field": "use_templates",
+      "historical": false,
+      "current": false
+    }
+  ],
+  "interpretation": "Different target and MSA/input data; same version/options do not establish a contemporaneous controlled positive or prove the current implementation is numerically correct."
+}

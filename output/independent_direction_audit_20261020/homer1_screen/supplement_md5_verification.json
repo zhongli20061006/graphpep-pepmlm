@@ -1,0 +1,32 @@
+[
+  {
+    "file": "PRO-33-e5094-s001.xlsx",
+    "md5": "3be4e2c09c1bb82f288c454de81a5eac",
+    "expected_xml_md5": "3be4e2c09c1bb82f288c454de81a5eac",
+    "pass": true
+  },
+  {
+    "file": "PRO-33-e5094-s002.xlsx",
+    "md5": "7e67c51723e49608eaf1f7caa29beae2",
+    "expected_xml_md5": "7e67c51723e49608eaf1f7caa29beae2",
+    "pass": true
+  },
+  {
+    "file": "PRO-33-e5094-s003.xlsx",
+    "md5": "1d80b4b333640c15a0b106b9eb9dbcb2",
+    "expected_xml_md5": "1d80b4b333640c15a0b106b9eb9dbcb2",
+    "pass": true
+  },
+  {
+    "file": "PRO-33-e5094-s004.pdf",
+    "md5": "1b7b102a2be1e5f97cbd146b0bc93e82",
+    "expected_xml_md5": "1b7b102a2be1e5f97cbd146b0bc93e82",
+    "pass": true
+  },
+  {
+    "file": "PRO-33-e5094-s005.xlsx",
+    "md5": "88a8781532e5d25260fd60d9e19ad6cc",
+    "expected_xml_md5": "88a8781532e5d25260fd60d9e19ad6cc",
+    "pass": true
+  }
+]

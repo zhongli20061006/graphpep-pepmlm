@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Foight2014",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/PMC4168798.xml",
+    "sha256": "c03d2e5f6476f61774cdcdeb3251da5d522f6dd5b66364e88746dd3aa7548ec0",
+    "selected_paragraphs": [
+      {
+        "section": "Fluorescence Anisotropy Assays",
+        "text": "The Bim variant peptides were synthesized by the MIT Biopolymers Laboratory and were 23-mers as shown in Table 1 with N-terminal 5/6-fluorescein amidite and C-terminal amidation. The crude synthesis product was validated to contain primarily the peptide of interest by mass spectrometry and purified by HPLC on a C18 column using a linear gradient of acetonitrile. FITC-AHA-NOXAA peptide was produced by the Tufts University Physiology core facility, purified by HPLC, and validated by mass spectrometry. Bcl-2 receptors were c-myc-tagged variants without the C-terminal trans-membrane region and without the N-terminal domain of Mcl-1, expressed, and purified as in Dutta et al. 24 The KSBcl-2 construct is described in the Supplementary Methods . Direct fluorescence anisotropy assays were performed in a buffer of 25 mM Tris pH 7.8, 50 mM NaCl, 1 mM EDTA, 0.001% Triton-X-100, 5% v/v DMSO. A 12-point dilution of receptor protein was added to the wells of a Corning 96-well, black, polystyrene, nonbinding surface plate, followed by the fluoresceinated peptide for a total volume of 120 μL with a final peptide concentration of 10 nM. Plates were incubated for 2 h before being read on a SpectraMax M5 plate reader (Molecular Devices) at 25 °C. Equilibration was checked by comparing curves read at 2 and 24 h. Most curves exhibited no change, so the 2-h data were used. The exceptions were the Bfl-1 curves for peptides MS3 and MS2 for which the 24-h curves were used. See Supplementary Methods for the curve-fitting protocols and competition fluorescence anisotropy methods."
+      }
+    ],
+    "supplementary_links": [
+      {
+        "text": "cb500340w_si_001.pdf",
+        "attributes": {
+          "id": "sifile1",
+          "position": "float"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "cb500340w_si_001.pdf",
+              "mimetype": "application",
+              "mime-subtype": "pdf"
+            }
+          }
+        ]
+      },
+      {
+        "text": "cb500340w_si_001.pdf",
+        "attributes": {
+          "id": "db_ds_supplementary-material1_reqid_",
+          "position": "float"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "cb500340w_si_001.pdf",
+              "mimetype": "application",
+              "mime-subtype": "pdf"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dutta2010",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/PMC2896288_efetch.xml",
+    "sha256": "e5f7a2797c6320cafdc4d57a39d164735b8d297eac85b1fef5f6d2a356e6ad45",
+    "selected_paragraphs": [
+      {
+        "section": "Yeast Surface Display of Bim-BH3 peptide",
+        "text": "We used yeast surface display as a platform to study the interactions between human pro-survival proteins and BH3 peptides. 22 We expressed a peptide encompassing 31 residues of the BH3 motif of Bim as a fusion to the yeast cell surface protein Aga2p ( Figure 1A ). Bim-BH3 is a high affinity interaction partner for both Mcl-1 and Bcl-x L that has been widely studied; several crystal structures illustrate how it forms complexes with pro-survival proteins. 6 ; 7 ; 25 Successful expression of Bim-BH3 on the surface of yeast was confirmed by fluorescence activated cell sorting (FACS), after staining with a primary antibody against a FLAG tag located at the carboxyl terminus of the BH3-peptide and a fluorescein isothiocyanate (FITC) labeled secondary antibody ( Figure 1A ; Supplemental Figure 1 ). Binding to pro-survival proteins was detected using an amino terminal c-myc tag on the pro-survival proteins, an anti-c-myc antibody and a phycoerythrein labeled secondary antibody ( Figure 1A ). In agreement with the strong interactions observed with other in vitro techniques, 13 ; 14 ; 16 ; 18 dissociation constants in the low nanomolar range were obtained when yeast cells displaying Bim-BH3 were titrated with soluble Bcl-x L or Mcl-1 ( Supplemental Table 1 ; Supplemental Figure 2 )."
+      },
+      {
+        "section": "Expression of recombinant pro-survival Bcl-2 proteins",
+        "text": "Pro-survival Bcl-2 proteins with a c-myc tag at the amino terminus were used for all studies, with the exception of yeast-display screening experiments involving Bcl-x L , where an amino terminal His-tagged protein was used. Hexa-His-tagged human Bcl-x L (residues 1-209) was expressed in Escherichia coli BL21(DE3) and purified as described previously for murine Bcl-x L . 27 All c-myc tagged Bcl-2 proteins were expressed in E. coli BL21(DE3) strains using a modified pSV282 vector (pSVM). 27 This vector was generated to express the Bcl-2 proteins as maltose binding protein (MBP) fusions, which upon tobacco etch virus (TEV) protease cleavage yield an N-terminally c-myc-tagged protein no longer fused to MBP. Human Mcl-1 (residues 172-327), Bcl-x L (residues 1-209), Bcl-2 (residues 1-217), Bcl-w (residues 1-164) and Bfl-1 (residues 1-151) were purified as follows: Cells were suspended in lysis buffer (20 mM Tris, 100 mM NaCl, pH 8.0). Hen egg lysozyme was added to the suspension to a final concentration of 1 mg/ml and incubated at 37 °C for 20-30 minutes, following which the solution was sonicated ten times for 30 seconds each. Cell debris was removed by centrifugation and sodium chloride was added to the supernatant to a final concentration of 0.5 M. The supernatant was applied to a Ni-NTA agarose (Qiagen) column, equilibrated in Tris buffer (20 mM Tris, 500 mM NaCl, pH 8.0). After washing the column, the His-tagged MBP fusion protein was eluted with buffer containing 500 mM imidazole. Eluted fractions were pooled and dialyzed against TEV cleavage buffer (50 mM Tris, 50 mM NaCl, 0.5 mM EDTA, 1 mM DTT, pH 8.0) overnight at 4 °C. The dialyzed MBP fusions at 1mg/ml were mixed with TEV protease at a ratio of 50:1 (w/w) and incubated overnight at room temperature. The TEV-cleaved reaction mix was centrifuged to remove any insoluble precipitate and purified using a second Ni-NTA column to separate the c-myc tagged Bcl-2 protein from His-tagged MBP and His-tagged TEV protease. Bcl-x L and Mcl-1 were >95% pure by Coomassie-stained SDS-PAGE after this step. Bcl-2 and Bcl-w were further purified using gel-filtration chromatography with a Sephacryl S-200 column (GE Healthcare) and Bfl-1 was purified over cation exchange resin (Q sepharose Fast Flow, Sigma-Aldrich) by eluting in 50 mM Tris buffer (pH 7.5, 400 mM NaCl). The oligomerization state of each protein after purification was analyzed using a Superdex S75 column (GE Healthcare) in 20 mM Tris, 300 mM NaCl, 10% glycerol, pH 8. With the exception of Bcl-w, all proteins were predominantly monomeric, the monomeric fraction ranging from ∼85-100%. Purified Bcl-w consisted of both monomeric (∼42%) and oligomeric fractions (∼58%). Untagged human Mcl-1 used for crystallography was purified as described previously and concentrated to ∼10 mg/ml using an Amicon concentrator (Millipore, 10 kDa cutoff). 27"
+      },
+      {
+        "section": "Flow cytometric analysis and sorting",
+        "text": "Labeled yeast cells were analyzed on a BD FACScan flow cytometer powered by CellQuest software. The yeast cell population was gated by forward light scatter to avoid analysis of clumped cells. Typically, data for 10,000 events were collected for analysis. For sorting, ∼2 × 10 7 cells (∼20 times the library size) were divided into 20 tubes each containing 10 6 cells, and incubated with Bcl-x L or Mcl-1 for ∼60 minutes at room temperature in TBS (50 mM Tris, 100 mM NaCl, pH 8.0). The cells were then pooled into two tubes, centrifuged at ∼11,000 rpm and washed with cold TBS. The cells in each tube (∼10 7 each) were labeled with primary antibodies (anti-FLAG rabbit and anti-His mouse or anti-c-myc mouse, Sigma) at 1:100 dilution in a volume of 200 μl for a period of 45-60 minutes in BSS (50mM Tris, 100mM NaCl, pH 8, 1mg/ml BSA). This was followed by another round of washing with cold BSS and further labeling of the cells using fluorescein-conjugated (FITC) goat anti-rabbit antibody and R-Phycoerythrein (PE)-conjugated goat anti-mouse IgG (Sigma) secondary antibodies at 1:100 dilution for a period of 45-60 minutes. Following this second round of labeling, cells were again washed with BSS and finally suspended in 500 μl of BSS at a concentration of ∼4 × 10 7 cells/ml for sorting. The sorted cells were collected in selective media containing glucose (SD+CAA) and grown to an O.D. of 6-10 for ∼48 hours in the presence of streptomycin/penicillin to prevent bacterial growth. Quantitative equilibrium binding experiments for yeast displayed BH3 peptides with Bcl-x L or Mcl-1 were performed as described. 23"
+      },
+      {
+        "section": "SPOT arrays",
+        "text": "Peptide array membranes were synthesized at the M.I.T. Biopolymers facility using an Intavis AutoSpot robot (Intavis AG). Peptides were synthesized by Fmoc-protection chemistry following manufacturer instructions, with cycles 1-7 being double coupled and protected, cycles 8-20 being triple coupled and protected, and cycles 21 and higher being quadruple coupled and triple protected. The 26-mer peptides had PEG3 (three ethylene glycol units) at the peptide C-terminus as a linker to the cellulose membrane. For each membrane, a few spots were synthesized using a rink linker to allow for removal of the peptide from the cellulose for verification by mass spectrometry; analysis always validated the presence of the full-length peptide. Procedures for blocking and probing SPOT membranes were modified from Cold Spring Harbor Protocols. 42 Sub-arrays were cut from the intact membrane, hydrated in 100% ethanol, then transferred to TBS (137 mM NaCl, 2.7 mM KCl, 50 mM Tris, pH 7) and incubated at room temperature for 5 minutes. Membranes were then transferred into re-sealable plastic bags with MBS (TBS with 0.2% Tween 20 and 2% dry milk) and incubated at room temperature for 16-18 hours. Following incubation, arrays were rinsed with T-TBS (TBS with 0.05% Tween-20) and then incubated with Bcl-2 probe protein in MBS for 3 hours at room temperature. Membranes were rinsed twice with T-TBS and then incubated with anti-c-myc-Cy3 antibody (Sigma Aldrich C6594) diluted 100-fold in MBS, for one hour at room temperature. Membranes were rinsed with T-TBS and scanned on a Typhoon 9400 (GE Healthcare). Images were analyzed with ImageQuant (GE Healthcare). Intensity was averaged over a circular area that was equal in size for all spots for a given membrane. No background correction was performed. For quantification, the intensity of a particular spot was normalized to the signal from wild-type Bim-BH3 by dividing the intensity by the average over all wild-type Bim-BH3 intensities on that membrane (e.g. 20 spots for the substitution arrays)."
+      }
+    ],
+    "supplementary_links": [
+      {
+        "text": "01",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD1",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-01.doc",
+              "id": "N0x216fc60N0x2e12a70",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "02",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD2",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-02.doc",
+              "id": "N0x216fc60N0x2e12b30",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "03",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD3",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-03.doc",
+              "id": "N0x216fc60N0x2e12bf0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "04",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD4",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-04.doc",
+              "id": "N0x216fc60N0x2e12cb0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "05",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD5",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-05.doc",
+              "id": "N0x216fc60N0x2e12d70",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "06",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD6",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-06.doc",
+              "id": "N0x216fc60N0x2e12e30",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "msword",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "07",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD7",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-07.xls",
+              "id": "N0x216fc60N0x2e12ef0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "vnd.ms-excel",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "08",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD8",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-08.xls",
+              "id": "N0x216fc60N0x2e12fb0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "vnd.ms-excel",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "09",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD9",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-09.pdf",
+              "id": "N0x216fc60N0x2e13070",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "10",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD10",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-10.pdf",
+              "id": "N0x216fc60N0x2e13130",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "11",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD11",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-11.pdf",
+              "id": "N0x216fc60N0x2e131f0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "12",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD12",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-12.pdf",
+              "id": "N0x216fc60N0x2e132b0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "13",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD13",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-13.pdf",
+              "id": "N0x216fc60N0x2e13370",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "14",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD14",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-14.pdf",
+              "id": "N0x216fc60N0x3270de0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      },
+      {
+        "text": "15",
+        "attributes": {
+          "content-type": "local-data",
+          "id": "SD15",
+          "position": "float",
+          "orientation": "portrait"
+        },
+        "media": [
+          {
+            "tag": "media",
+            "attrib": {
+              "{http://www.w3.org/1999/xlink}href": "NIHMS194236-supplement-15.pdf",
+              "id": "N0x216fc60N0x3270ea0",
+              "position": "anchor",
+              "mimetype": "application",
+              "mime-subtype": "pdf",
+              "orientation": "portrait"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

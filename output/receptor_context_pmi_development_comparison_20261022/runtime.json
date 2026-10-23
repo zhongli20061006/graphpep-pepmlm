@@ -1,0 +1,15 @@
+{
+  "torch": "2.7.1+cu128",
+  "transformers": "4.57.6",
+  "cuda": "12.8",
+  "parameter_dtype": "float32",
+  "eval": true,
+  "autocast": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": false,
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "model_load_wall_seconds": 6.885130963000009,
+  "logical_inputs_completed": 19,
+  "peak_cuda_allocated_bytes": 2728930304,
+  "peak_cuda_reserved_bytes": 2812280832
+}

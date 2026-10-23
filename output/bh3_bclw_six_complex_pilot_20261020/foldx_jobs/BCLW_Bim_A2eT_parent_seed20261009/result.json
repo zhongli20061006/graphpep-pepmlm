@@ -1,0 +1,16 @@
+{
+  "peptide_id": "BCLW_Bim_A2eT_parent",
+  "model_id": "seed20261009",
+  "seed": 20261009,
+  "source_pdb": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed/BCLW_Bim_A2eT_parent_relaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+  "source_sha256": "e5a1c15692e94c0938523fc4db6d4ee717044e2ab8b64af752dab45a181daeb4",
+  "status": "ok",
+  "failure_reason": "",
+  "input_sha256": "e5a1c15692e94c0938523fc4db6d4ee717044e2ab8b64af752dab45a181daeb4",
+  "repair_config_sha256": "e33d8aea7d1edc4dfee8350f0fa804a0851b98b1e285dd00a72eb39c295204ea",
+  "analyse_config_sha256": "78f5cb7a22ff2fed6fe61a19ec4da4c897cad49bc8dc1105afe2dc94eab22568",
+  "interaction_energy_kcal_mol": -8.21784,
+  "interaction_file": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009/Interaction_input_Repair_AC.fxout",
+  "repaired_pdb_sha256": "96e96538006c09ea91e8066f25bc169e06099933b4f9d0be8054dcc690be03fb",
+  "job_directory": "foldx_jobs/BCLW_Bim_A2eT_parent_seed20261009"
+}

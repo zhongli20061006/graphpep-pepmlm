@@ -1,0 +1,256 @@
+{
+  "scope": "existing distributed GraphPep native structures and listed split/reference IDs only; no model inference or weights inspected",
+  "native_files_examined": 5018,
+  "native_path_name_counts": {
+    "receptor.pdb": 2447,
+    "recb.pdb": 62,
+    "peptide.pdb": 2509
+  },
+  "missing_paths": [],
+  "manifest_sha256_mismatches": [],
+  "split_target_counts": {
+    "train": 2007,
+    "valid": 224
+  },
+  "source_manifest_sha256": "2b3da7467ba258edd571c2afbe3859bbe36d53ffa103fc08ed60886c47472479",
+  "query_peptides": {
+    "MS1": "RPEIWMTQGLRRLGDEINAYYAR",
+    "MS2": "RPEIWLTQSLQRLGDEINAYYAR",
+    "MS3": "RPEIWLTQHLQRLGDEINAYYAR",
+    "A12": "RPEIWMGQGLRRLGDEINAYYAR",
+    "B3": "RPEIWLGQSLQRLGDEINAYYAR",
+    "G9": "RPEIWLGQHLQRLGDEINAYYAR",
+    "NoxaA": "AELPPEFAAQLRKIGDKVYC",
+    "Bim": "RPEIWIAQELRRIGDEFNAYYAR",
+    "Bim_A2eT": "RPEIWITQELRRIGDEFNAYYAR",
+    "Bim_A2eT_I2dM": "RPEIWMTQELRRIGDEFNAYYAR",
+    "Bim_A2eT_E2gG": "RPEIWITQGLRRIGDEFNAYYAR",
+    "Bim_A2eT_I3dL": "RPEIWITQELRRLGDEFNAYYAR",
+    "Bim_A2eT_F4aI": "RPEIWITQELRRIGDEINAYYAR"
+  },
+  "receptor_hits_rule": "longest exact contiguous block >=70 aa, or exact/core-in-native; these are screening hits, not an exhaustive homology search",
+  "receptor_hits": [
+    {
+      "group": "Training_set",
+      "target": "2bzw_B",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "SQSNRELVVDFLSYKLSQKGYSWSQFSDIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLYGN",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 87
+    },
+    {
+      "group": "Training_set",
+      "target": "3r85_E",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "SNRELVVDFLSYKLSQKGYSWSQMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGN",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 115
+    },
+    {
+      "group": "Training_set",
+      "target": "4cim_Q",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-w",
+      "native_sequence": "PDTRALVADFVGYKLRQKGYVSGAGPGEGPAADPLGQALRAIGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYG",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 78
+    },
+    {
+      "group": "Training_set",
+      "target": "4qvf_B",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "SQSNRELVVDFLSYKLSQKGYSWSQFSDVAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYG",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 112
+    },
+    {
+      "group": "Training_set",
+      "target": "4z9v_C",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "HMSQSNRELVVDFLSYKLSQKGYSWSQMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAAAESRKGQE",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 126
+    },
+    {
+      "group": "Training_set",
+      "target": "5b1z_C",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "MSQSNRELVVDFLSYKLSQKGYSWSQMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAA",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 118
+    },
+    {
+      "group": "Training_set",
+      "target": "5fmj_B",
+      "chain": "A",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bcl-xL",
+      "native_sequence": "SMSQSNRELVVDFLSYKLSQKGYSWSQMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAAAESRKGQE",
+      "exact_core": false,
+      "core_in_native": false,
+      "native_in_core": false,
+      "longest_exact_contiguous_block": 126
+    }
+  ],
+  "peptide_hits": [
+    {
+      "group": "Training_set",
+      "target": "2vm6_B",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "query_in_native",
+      "native_sequence": "DMRPEIWIAQELRRIGDEFNAYYAR"
+    },
+    {
+      "group": "Training_set",
+      "target": "4b4s_B",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "query_in_native",
+      "native_sequence": "RPEIWIAQELRRIGDEFNAYYARR"
+    },
+    {
+      "group": "Training_set",
+      "target": "4d2m_B",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "native_fragment_in_query",
+      "native_sequence": "RPEIWIAQELRRIGDEFNAYYA"
+    },
+    {
+      "group": "Training_set",
+      "target": "4qvf_B",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "native_fragment_in_query",
+      "native_sequence": "PEIWIAQELRRIGDEFNAYYA"
+    },
+    {
+      "group": "Training_set",
+      "target": "4zie_C",
+      "chain": "C",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "native_fragment_in_query",
+      "native_sequence": "RPEIWIAQELRRIGDEFNAYYA"
+    },
+    {
+      "group": "Training_set",
+      "target": "4zif_B",
+      "chain": "B",
+      "split_membership": [
+        "valid"
+      ],
+      "query": "Bim",
+      "relation": "native_fragment_in_query",
+      "native_sequence": "PEIWIAQELRRIGDEF"
+    },
+    {
+      "group": "Training_set",
+      "target": "5wos_B",
+      "chain": "B",
+      "split_membership": [
+        "train"
+      ],
+      "query": "Bim",
+      "relation": "native_fragment_in_query",
+      "native_sequence": "PEIWIAQELRRIGDEFNAYYA"
+    }
+  ],
+  "lists": [
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/list",
+      "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+      "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+      "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+      "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+      "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+      "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    },
+    {
+      "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+      "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+      "reference_id_matches": [],
+      "reference_id_match_count": 0
+    }
+  ],
+  "limits": "Core-sequence overlap is not affinity-label leakage. Lack of exact hit does not prove complete checkpoint or pretraining independence. Exact c-myc junction and reporter chemistry are not searched as full assay species because not fully represented."
+}

@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "tolerance_nats": 0.0001,
+  "checks": [
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "max_logp_delta": 1.9073486328125e-06,
+      "max_d_delta": 2.86102294921875e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "max_logp_delta": 3.337860107421875e-06,
+      "max_d_delta": 4.5299530029296875e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "max_logp_delta": 2.86102294921875e-06,
+      "max_d_delta": 4.351139068603516e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "max_logp_delta": 2.86102294921875e-06,
+      "max_d_delta": 2.86102294921875e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "max_logp_delta": 2.86102294921875e-06,
+      "max_d_delta": 3.4570693969726562e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "max_logp_delta": 3.814697265625e-06,
+      "max_d_delta": 4.5299530029296875e-06
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "max_logp_delta": 2.86102294921875e-06,
+      "max_d_delta": 2.9802322387695312e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "max_logp_delta": 2.384185791015625e-06,
+      "max_d_delta": 3.814697265625e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "max_logp_delta": 3.814697265625e-06,
+      "max_d_delta": 5.0067901611328125e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "max_logp_delta": 5.7220458984375e-06,
+      "max_d_delta": 5.7220458984375e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "max_logp_delta": 3.814697265625e-06,
+      "max_d_delta": 4.0531158447265625e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "max_logp_delta": 4.291534423828125e-06,
+      "max_d_delta": 2.86102294921875e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "max_logp_delta": 6.198883056640625e-06,
+      "max_d_delta": 5.7220458984375e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "max_logp_delta": 6.198883056640625e-06,
+      "max_d_delta": 6.5267086029052734e-06
+    },
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "max_logp_delta": 3.337860107421875e-06,
+      "max_d_delta": 3.814697265625e-06
+    }
+  ],
+  "max_logp_delta": 6.198883056640625e-06,
+  "max_d_delta": 6.5267086029052734e-06
+}

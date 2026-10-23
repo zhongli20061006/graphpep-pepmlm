@@ -1,0 +1,102 @@
+{
+  "version": "direction_criteria_v2",
+  "supersedes_for_future_runs": "direction_criteria_v1",
+  "prior_version_preserved": true,
+  "freeze_date_local": "2026-10-08",
+  "frozen_before_new_prediction_or_score": true,
+  "new_predictions_or_scores_seen": false,
+  "historical_MDM2_scores_were_known": true,
+  "task": "binary direction prediction for same-receptor, same-assay, same-WT-background single amino-acid peptide mutations",
+  "affinity_target": {
+    "quantity": "Kd",
+    "direction": "lower Kd means stronger binding",
+    "ratio": "Kd_variant / Kd_WT",
+    "gain_rule": "ratio <= 0.5 and the 95% uncertainty interval is wholly below 1",
+    "loss_rule": "ratio >= 2 and the 95% uncertainty interval is wholly above 1",
+    "otherwise": "ambiguous or near-neutral; retain in audit, not the binary denominator",
+    "censored_no_binding": "count as loss only when a documented assay limit proves at least a 2-fold loss; never impute a point Kd",
+    "error_requirement": "identify SD/SEM/fit error, n, and replicate structure; otherwise HOLD"
+  },
+  "historical_development_controls": {
+    "status": "MDM2-PMI/p53 is DEVELOPMENT / STRESS TEST, never the independent family holdout",
+    "known_gain_examples": ["PMI_N8A", "P53_P27A"],
+    "known_loss_examples": ["PMI_W7A", "P53_L22A"],
+    "frozen_results": "retain existing GraphPep/FoldX results and the strict feedback-control outcome; do not re-run P27A or tune new rules against these examples"
+  },
+  "primary_metric": "within-system balanced direction accuracy = (gain recall + loss recall)/2; report each WT background and macro-average backgrounds with equal weight; do not pool across receptors or assays",
+  "secondary_metrics": "report coverage and all failures; optional within-system Spearman/log10(Kd) must include n and never replace the primary direction metric",
+  "candidate_scorers_equal_status": {
+    "selection_policy": "Freeze all candidate methods and score directions before any new score is inspected; no method is designated primary in advance",
+    "FoldX_AnalyseComplex_InteractionEnergy": {
+      "direction": "lower energy is predicted stronger binding",
+      "delta": "E_WT - E_variant; positive predicts gain",
+      "tie_band": "0.05 kcal/mol"
+    },
+    "GraphPep": {
+      "direction": "lower score is predicted better",
+      "delta": "score_WT - score_variant; positive is surrogate improvement, not Kd or ΔG improvement",
+      "tie_band": "0.05 score units"
+    },
+    "ESM2_sequence_log_likelihood": {
+      "checkpoint": "esm2_t33_650M_UR50D",
+      "mode": "single-sequence masked pseudo-log-likelihood: sum over each residue of log probability of the original residue when that position is masked",
+      "delta": "PLL_variant - PLL_WT; positive predicts gain; zero is tie",
+      "input_policy": "score peptide sequence alone; no receptor concatenation or label-dependent setting"
+    },
+    "interface_heavy_atom_contact_pair_count": {
+      "direction": "higher count predicts gain",
+      "delta": "contacts_variant - contacts_WT; positive predicts gain; zero is tie",
+      "definition": "distinct cross-chain heavy-atom pairs within 6.0 Å, to be frozen in code before scoring"
+    }
+  },
+  "score_configuration_gate": {
+    "required_before_first_run": true,
+    "fields": ["absolute executable/code path", "version or commit", "full command and all arguments", "input preprocessing and chain/residue mapping", "runtime environment", "model/weight path and SHA-256", "raw output path"],
+    "FoldX": "freeze licensed binary/version, RepairPDB and AnalyseComplex commands, chain assignment, pH/ionic-strength options, and matched WT/variant structure policy",
+    "GraphPep": "freeze installed code, checkpoint/feature hashes, exact inference command, score field and aggregation; no reinstall or model download",
+    "ESM2": "verify existing checkpoint path and SHA-256 before scoring; if unavailable, record scorer unavailable rather than download another model",
+    "AFM": "freeze installed ColabFold version, model 1, 3 recycles, no templates, same receptor MSA, paired peptide input, and two fixed random seeds",
+    "contact_baseline": "freeze atom selection, chain mapping, distance cutoff and pair counting rule"
+  },
+  "prediction_rule": {
+    "FoldX_and_GraphPep": "delta > tie band predicts gain; delta < negative tie band predicts loss; otherwise tie",
+    "ESM_and_contacts": "positive delta predicts gain, negative predicts loss, exact zero is tie",
+    "ties": "count incorrect in primary denominator and report separately",
+    "no_contact_or_unscorable_structure": "method failure; incorrect for that eligible label, retained in denominator",
+    "low_confidence_or_clash": "retain and report; never filter away from primary denominator",
+    "seed_flip": "count as unstable; stable correctness requires both seeds to predict the true direction"
+  },
+  "pilot": {
+    "entry_requirement": "at least one confidently labeled gain and one confidently labeled loss from the same WT background, plus resolved input chemistry and constructs",
+    "design": "one WT + one source-verified gain + one source-verified loss, each in two AFM seeds; maximum 6 complexes",
+    "purpose": "engineering feasibility and cross-seed stability only; not method selection, direction efficacy, or biological replication",
+    "folding_seeds": [20261008, 20261009]
+  },
+  "full_panel_signal_gate": {
+    "eligible_pairs": "at least 10",
+    "gain_and_loss_counts": "at least 4 confidently labeled pairs in each class",
+    "backgrounds": "at least two WT peptide backgrounds, with both classes not contributed by only one background",
+    "balanced_accuracy": 0.7,
+    "minimum_each_class_recall": 0.6,
+    "two_seed_same_direction_fraction": 0.7,
+    "interpretation": "limited method-selection signal for that single receptor-assay system only; needs confirmation in a separately selected system before any independent-validation claim"
+  },
+  "source_qualification": {
+    "construct_assay": "same receptor construct and assay within every paired comparison; distinguish Kd from Ki/IC50",
+    "peptide": "standard amino acids, one substitution, same parent background; exact termini and noncanonical modifications must be resolved",
+    "development_exposure": "record paper-level use, project-level method selection, and model-training overlap separately; disclose DEVELOPMENT whenever exposed",
+    "GraphPep_overlap": "exact-ID search with no hit is not proof of no model pretraining exposure; current WSL training-list audit remains unresolved"
+  },
+  "resource_budget": {
+    "source_audit_hours": 4,
+    "pilot_complexes_max": 6,
+    "pilot_gpu_hours_max": 2,
+    "pilot_disk_gib_max": 2,
+    "full_single_system_max": "20 single mutants plus corresponding WT backgrounds; 48 total AFM complexes including pilot",
+    "full_gpu_hours_max": 8,
+    "full_cpu_hours_max": 4,
+    "full_disk_gib_max": 5,
+    "not_included": ["large-scale PepMLM generation", "model training", "MD/free energy", "wet-lab ordering", "third-party contact", "paid services"]
+  },
+  "current_decision": "HOLD_NO_PILOT; no audited source currently meets bidirectional labels, uncertainty semantics, terminal chemistry, structure match, and development-independence requirements together"
+}

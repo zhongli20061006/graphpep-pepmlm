@@ -1,0 +1,55 @@
+{
+  "scope": "All proposal and input-preparation artifacts except manifest/checksum; no inference outputs exist.",
+  "files": [
+    {
+      "path": "context_controls.json",
+      "bytes": 909,
+      "sha256": "449b10529f0b08d53eaf77cc5277e01eeff8242f86b0bb2e6bb7d9b4c95754bd"
+    },
+    {
+      "path": "contexts_prepared.fasta",
+      "bytes": 329,
+      "sha256": "5570393b8b726b378746b05488d83725e60ed97b81e0a849e1ef3d351338546d"
+    },
+    {
+      "path": "development_input_inventory.csv",
+      "bytes": 902,
+      "sha256": "c028e460d3f2c7a57f97b833434e293cb6966ca10bc7e6b2f99d8802417ba9a6"
+    },
+    {
+      "path": "development_input_inventory.json",
+      "bytes": 2827,
+      "sha256": "38398743c24b2f247f62df232d7f382de667850c9dc8fc43278f2cb7c24bb77b"
+    },
+    {
+      "path": "existing_model_asset_manifest.json",
+      "bytes": 1171,
+      "sha256": "cb3592803acebacf33cb1e69e0a1a9c6e7cf332cc5926f138f114310fd842f0c"
+    },
+    {
+      "path": "prepare_proposal_artifacts.py",
+      "bytes": 12163,
+      "sha256": "87447ac9e3b2e4d5ac745a525747b5561210540a02546fa86982f0e082f58152"
+    },
+    {
+      "path": "proposal.json",
+      "bytes": 7338,
+      "sha256": "242fe7d4f06570421e3c1eebe551449dd85a3dcef275770942e6ef5461f78553"
+    },
+    {
+      "path": "proposal_zh.md",
+      "bytes": 7564,
+      "sha256": "6becbca15c05fecf63c08ac435b4cceb9852c99537cc81b6a402bc9b0cbb26b2"
+    },
+    {
+      "path": "source_reuse_manifest.json",
+      "bytes": 2058,
+      "sha256": "334f53bbdbe2311180369d46a4d334aa2c3e7095dd027cc28feec6d49bf828a2"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2044,
+      "sha256": "c0e9adb983af25aaec9234fba9ba5e7c5fb8ae471ab0f2fdfc7de03fefe538d2"
+    }
+  ]
+}

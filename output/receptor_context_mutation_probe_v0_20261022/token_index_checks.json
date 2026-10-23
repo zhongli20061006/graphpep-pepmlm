@@ -1,0 +1,568 @@
+{
+  "checked": 60,
+  "passed": true,
+  "aa_token_ids": {
+    "A": 5,
+    "C": 23,
+    "D": 13,
+    "E": 9,
+    "F": 18,
+    "G": 6,
+    "H": 21,
+    "I": 12,
+    "K": 15,
+    "L": 4,
+    "M": 20,
+    "N": 17,
+    "P": 14,
+    "Q": 16,
+    "R": 10,
+    "S": 8,
+    "T": 11,
+    "V": 7,
+    "W": 22,
+    "Y": 19
+  },
+  "indices": [
+    {
+      "job_id": "base_001",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_002",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_003",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_004",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_005",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_006",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_007",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_008",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_009",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_010",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_011",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_012",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_013",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_014",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_015",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_016",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_017",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_018",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_019",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 97,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_020",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 97,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_021",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 97,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_022",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 98,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_023",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 98,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_024",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 98,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "base_025",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_026",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_027",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_028",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_029",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_030",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_031",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_032",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_033",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_034",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_035",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_036",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_037",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_038",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_039",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_040",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_041",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_042",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_043",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "MDM2_target",
+      "phase": "base",
+      "mask_token_index_0based": 96,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_044",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base",
+      "mask_token_index_0based": 96,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "base_045",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base",
+      "mask_token_index_0based": 96,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_001",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 96,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_002",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_003",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_004",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_005",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_006",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_007",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 99
+    },
+    {
+      "job_id": "repeat_008",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 98,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_009",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 97,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_010",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 94,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_011",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 93,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_012",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 91,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_013",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 89,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_014",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 87,
+      "nonpad_token_count": 100
+    },
+    {
+      "job_id": "repeat_015",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "repeat",
+      "mask_token_index_0based": 86,
+      "nonpad_token_count": 100
+    }
+  ]
+}

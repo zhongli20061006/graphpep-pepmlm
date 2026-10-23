@@ -1,0 +1,188 @@
+{
+  "state": "frozen_before_offspring_scoring",
+  "parent_id": "P53WT_1YCR",
+  "parent_sequence": "ETFSDLWKLLPEN",
+  "parent_pdb": "1YCR",
+  "protected_sites": [
+    {
+      "position": 3,
+      "residue": "F",
+      "p53_pdb_residue": 19
+    },
+    {
+      "position": 7,
+      "residue": "W",
+      "p53_pdb_residue": 23
+    },
+    {
+      "position": 10,
+      "residue": "L",
+      "p53_pdb_residue": 26
+    }
+  ],
+  "feedback_source": "contact-count-weighted GraphPep residue feedback pooled over quality-passing AFM-v3 parent models",
+  "feedback_model_ids": [
+    "model_1",
+    "model_2",
+    "model_3"
+  ],
+  "feedback_profile_path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/P53WT_1YCR_predicted_ensemble_feedback.csv",
+  "feedback_profile_sha256": "7248a62fe5ddf21037686d7b46cdcd7e878f2743ac0e93025a2dde288eccc642",
+  "eligible_observed_nonanchor_positions": [
+    1,
+    2,
+    4,
+    6,
+    9,
+    11,
+    12,
+    13
+  ],
+  "guided_positions": [
+    1,
+    13
+  ],
+  "random_position_pairs": [
+    [
+      6,
+      12
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      4,
+      13
+    ],
+    [
+      1,
+      12
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      13
+    ]
+  ],
+  "random_pair_sampling": "uniform without replacement over distinct 2-site pairs from the shared eligible pool; guided pair excluded",
+  "children_per_arm": 10,
+  "mutations_per_child": 2,
+  "top_k": 4,
+  "top_k_rationale": "top-k 3 gives at most 9 unique joint sequences at the fixed guided pair; top-k 4 is the smallest shared value that permits 10 unique children",
+  "temperature": 1.0,
+  "ppl_filter": null,
+  "generation_seed": 20261010,
+  "pepmlm_draw_seeds": {
+    "predicted_guided": [
+      20262011,
+      20262012,
+      20262013,
+      20262014,
+      20262015,
+      20262016,
+      20262017,
+      20262018,
+      20262019,
+      20262020
+    ],
+    "predicted_random": [
+      20263011,
+      20263012,
+      20263013,
+      20263014,
+      20263015,
+      20263016,
+      20263017,
+      20263018,
+      20263019,
+      20263020
+    ]
+  },
+  "afm": {
+    "model_type": "alphafold2_multimer_v3",
+    "models": [
+      1,
+      2,
+      3
+    ],
+    "random_seed": 20261010,
+    "recycles": 3,
+    "recycle_early_stop_tolerance": 0,
+    "max_seq": 256,
+    "max_extra_seq": 512,
+    "templates": false,
+    "num_relax": 0,
+    "unified_memory": false
+  },
+  "amber_relaxation": {
+    "method": "ColabFold Amber restrained minimization",
+    "max_iterations": 200,
+    "max_outer_iterations": 3,
+    "tolerance": 2.39,
+    "stiffness": 10.0,
+    "use_gpu": false
+  },
+  "quality_gate": {
+    "iptm_min": 0.7,
+    "peptide_plddt_min": 70.0,
+    "interface_pae_max": 10.0,
+    "minimum_distance_min": 1.5,
+    "minimum_contacts": 1
+  },
+  "improvement_rule": {
+    "minimum_common_passing_models": 2,
+    "minimum_graphpep_gain": 0.05,
+    "minimum_matched_models_improved": 2,
+    "gain_definition": "parent GraphPep score minus child GraphPep score; positive is lower child score"
+  },
+  "source_hashes": {
+    "/mnt/e/Users/graphpep与pepmlm/pipeline/feedback_control_1ycr.py": "e6cf87e763f96f0d7e827f52fb54a1eacb4b2379f6075bb5a61ffb6e9fe0a0de",
+    "/mnt/e/Users/graphpep与pepmlm/pipeline/feedback_panel.py": "bdfcce0c3c537687b92da58eb14314df24122da04fc8704ad6916cc5c372d85e",
+    "/mnt/e/Users/graphpep与pepmlm/pipeline/shared_receptor_msa.py": "2f1c326991f89906eea35ed0415729e3854754c124eef9a41d3b8f7eedc80277",
+    "/mnt/e/Users/graphpep与pepmlm/pipeline/step1_generate.py": "b92bc0cf7f9374144359af2f0182a881bc73c0cbd1bd50e97ab247684493b14f",
+    "/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+    "/mnt/e/Users/graphpep与pepmlm/docs/superpowers/plans/2026-10-06-mdm2-1ycr-matched-feedback-control.md": "31f334db85e24220babac5274105a209ef872284f01bd216cc1a8534809ac3f9",
+    "/mnt/e/Users/graphpep与pepmlm/output/experiment0/expanded_validation/POSCTRL_MDM2_P53_native.pdb": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9",
+    "/mnt/e/Users/graphpep与pepmlm/output/experiment0/expanded_validation/results/POSCTRL_MDM2_P53.a3m": "31d086b3f9f68e408237009fe220a0c9b122d0b9dc947d91c11c8b99070ea88c",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/P53WT_1YCR_predicted_ensemble_feedback.csv": "7248a62fe5ddf21037686d7b46cdcd7e878f2743ac0e93025a2dde288eccc642",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/parent_model_scores.csv": "2389482507aea9c3d156fe288349b1f2de33ea4edfcfa81a72877437b8bff17c",
+    "/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/parent_model_metrics.csv": "197440794ad18b4a8af6ddd5d4fef6d660314a05d9479c30a52b5a0fc5cfaa78",
+    "/home/g/GraphPep_v1.3/GraphPep.sh": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+    "/home/g/GraphPep_v1.3/bin/core.py": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+    "/home/g/GraphPep_v1.3/bin/data.py": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c",
+    "/home/g/pepmlm_pipeline/models/PepMLM-650M/config.json": "a31763470199c0234da80c6d8cb01afd4e2ba375c190eff1383b95983b741ac0",
+    "/home/g/pepmlm_pipeline/models/PepMLM-650M/tokenizer_config.json": "fac07b1a114706503e83ee3888669b233ade3fe7b12cc02fe6c655c32987b0a2",
+    "/home/g/pepmlm_pipeline/models/PepMLM-650M/special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1"
+  },
+  "graphpep_source_hashes": {
+    "/home/g/GraphPep_v1.3/GraphPep.sh": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+    "/home/g/GraphPep_v1.3/bin/core.py": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+    "/home/g/GraphPep_v1.3/bin/data.py": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c"
+  },
+  "prior_parent_graphpep_metadata_sha256": "2389482507aea9c3d156fe288349b1f2de33ea4edfcfa81a72877437b8bff17c",
+  "software_plan": "/mnt/e/Users/graphpep与pepmlm/docs/superpowers/plans/2026-10-06-mdm2-1ycr-matched-feedback-control.md",
+  "source_snapshot": {
+    "pepmlm_model_dir": "/home/g/pepmlm_pipeline/models/PepMLM-650M",
+    "pepmlm_config_sha256": "a31763470199c0234da80c6d8cb01afd4e2ba375c190eff1383b95983b741ac0"
+  }
+}

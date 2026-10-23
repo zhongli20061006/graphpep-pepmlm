@@ -1,0 +1,155 @@
+{
+  "audit_kind": "Local secondary source/input/delivery cross-check, not external review or scoring validation",
+  "checked_at_utc": "2026-10-07T13:06:50.140998+00:00",
+  "checks": [
+    {
+      "check": "independent_original_Table2_extraction",
+      "passed": true,
+      "detail": {
+        "matched_tables": 1,
+        "expected_rows": 23
+      }
+    },
+    {
+      "check": "complete_source_table_not_cherry_picked_on_scores",
+      "passed": true,
+      "detail": "23 rows; Kd and Ki preserved in separate columns"
+    },
+    {
+      "check": "primary_affinity_values_against_original_source",
+      "passed": true,
+      "detail": "10 receptor-peptide observations; original SPR columns only"
+    },
+    {
+      "check": "selected_values_manual_numeric_crosscheck",
+      "passed": true,
+      "detail": "No conversion of nM to pM/uM or substitution of FP Ki"
+    },
+    {
+      "check": "unresolved_errors_and_chemistry_preserved",
+      "passed": true,
+      "detail": "Missing data not invented"
+    },
+    {
+      "check": "candidate_lengths_and_uniqueness",
+      "passed": true,
+      "detail": "10 target-peptide rows / 6 unique peptides / 5 each system"
+    },
+    {
+      "check": "single_point_pairs_and_conservative_error_sensitivity",
+      "passed": true,
+      "detail": "8 distinct unordered edges; reversions declared; mean +/- 2 reported error is not a CI"
+    },
+    {
+      "check": "within_system_primary_denominators",
+      "passed": true,
+      "detail": "4 dependent contrasts per receptor; no pooling override"
+    },
+    {
+      "check": "old_ten_peptides_preserved_as_development",
+      "passed": true,
+      "detail": "Original source fields unchanged; not rebranded blind test"
+    },
+    {
+      "check": "limited_project_exposure_claim",
+      "passed": true,
+      "detail": "Scope is the enumerated historical workspace CSVs only"
+    },
+    {
+      "check": "MDM2_sequence_and_MDMX_WT_AAA_gap",
+      "passed": true,
+      "detail": {
+        "MDM2_length": 85,
+        "MDMX_mismatches": [
+          [
+            68,
+            "Q",
+            "A"
+          ],
+          [
+            69,
+            "Q",
+            "A"
+          ],
+          [
+            70,
+            "E",
+            "A"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "deposited_entity_sequences_present_in_original_CIF",
+      "passed": true,
+      "detail": "5 source CIFs; complete deposited sequences retained"
+    },
+    {
+      "check": "related_crystals_not_used_as_candidate_Kd_structures",
+      "passed": true,
+      "detail": "M3 is not a primary candidate"
+    },
+    {
+      "check": "GraphPep_overlap_disclosure",
+      "passed": true,
+      "detail": "5umm_B training exposure prevents a training-clean claim"
+    },
+    {
+      "check": "budget_seeds_models_and_unstarted_jobs",
+      "passed": true,
+      "detail": "Two declared seeds x three models x ten target-peptide rows; not a completed experiment"
+    },
+    {
+      "check": "no_new_predictions_or_scores",
+      "passed": true,
+      "detail": {
+        "structure_outputs": []
+      }
+    },
+    {
+      "check": "criteria_not_modified_since_preparation",
+      "passed": true,
+      "detail": "8574b4b9ed1639a26a80dba0cb565547bcd255bf508043acedc9d28718edf1c4"
+    },
+    {
+      "check": "preparation_snapshot_files_unchanged",
+      "passed": true,
+      "detail": {
+        "mismatched_prepared": [],
+        "mismatched_sources": []
+      }
+    },
+    {
+      "check": "historical_evidence_unchanged",
+      "passed": true,
+      "detail": {
+        "protected_sources": 10,
+        "CSV_sources": 71,
+        "changed": []
+      }
+    },
+    {
+      "check": "source_manifest_hashes",
+      "passed": true,
+      "detail": {
+        "source_artifacts": 25
+      }
+    },
+    {
+      "check": "two_conditional_candidates_plus_rejected_sources",
+      "passed": true,
+      "detail": "No rejected Ki/IC50/modified/FEP observation filled into Kd primary panel"
+    },
+    {
+      "check": "entry_gate_failure_not_reported_as_validation_success",
+      "passed": true,
+      "detail": "Data integrity and scientific entry are different outcomes"
+    }
+  ],
+  "delivery_integrity_pass": true,
+  "scientific_entry_gate_pass": false,
+  "limited_validation_pass": null,
+  "new_predictions": 0,
+  "new_scores": 0,
+  "scope_limit": "No exhaustive hidden history, homolog or all model-training audit; no experimental affinity or free-energy validation"
+}

@@ -1,0 +1,39 @@
+{
+  "method_id": "homer1_ratio_interval_v1",
+  "frozen_before_any_new_score": true,
+  "scope": "technical-replicate uncertainty for published Homer1 BLI Kd ratios only; not biological-replicate inference",
+  "source_measurements": {
+    "summary": "arithmetic mean Kd and sample SD from n=3 technical replicates",
+    "raw_per_replicate_Kd_available": false,
+    "source_fold_change_error": "sqrt((SD_variant/mean_variant)^2 + (SD_WT/mean_WT)^2)",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11237882/"
+  },
+  "point_ratio": "r = mean_Kd_variant / mean_Kd_WT",
+  "primary_approximate_interval": {
+    "scale": "natural log ratio",
+    "standard_error": "sqrt((SD_variant/mean_variant)^2 + (SD_WT/mean_WT)^2) / sqrt(3)",
+    "critical_value": "t(0.975, df=2) = 4.3026527299",
+    "interval": "exp(log(r) +/- t_critical * SE)",
+    "assumptions": [
+      "three technical replicate Kd estimates are independent within each peptide",
+      "variant and WT technical estimates are independent for the primary interval",
+      "first-order delta approximation on log ratio is adequate"
+    ]
+  },
+  "dependence_sensitivity": {
+    "standard_error": "(SD_variant/mean_variant + SD_WT/mean_WT) / sqrt(3)",
+    "interpretation": "conservative delta-method bound for maximally adverse covariance between paired technical means, if the three runs are paired",
+    "interval": "exp(log(r) +/- t_critical * SE)",
+    "does_not_cover": [
+      "unknown effective sample size or dependence across repeated runs",
+      "curve-fit/model error not represented by reported replicate SD",
+      "systematic BLI calibration, preparation, or batch uncertainty"
+    ]
+  },
+  "label_rule": {
+    "gain": "point ratio <=0.5 and both approximate upper interval bounds <1",
+    "loss": "point ratio >=2 and both approximate lower interval bounds >1",
+    "status_semantics": "technical-precision-supported source labels for an engineering feasibility pilot only; do not generalize biologically"
+  },
+  "score_boundary": "No structural prediction or scorer output was inspected when this method was frozen."
+}

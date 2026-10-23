@@ -1,0 +1,3 @@
+arm,n_children,children_with_comparable_scores,structure_pass_models,no_contact_models,children_improved,mean_child_median_graphpep_gain,median_child_median_graphpep_gain
+predicted_guided,10,10,30,0,2,0.017139999999999756,0.016599999999999726
+predicted_random,10,10,30,0,2,0.020839999999999838,0.012549999999999839

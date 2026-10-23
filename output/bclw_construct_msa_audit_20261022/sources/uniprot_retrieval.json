@@ -1,0 +1,31 @@
+{
+  "url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ABCL2L2%29+AND+%28taxonomy_id%3A7742%29&format=tsv&fields=accession%2Cid%2Creviewed%2Cprotein_name%2Cgene_names%2Corganism_name%2Corganism_id%2Clength%2Csequence%2Cfragment%2Clineage%2Cxref_interpro%2Cannotation_score&size=500&sort=accession+asc",
+  "method": "GET",
+  "purpose": "bounded public BCL2L2-annotated canonical sequence records; no remote MSA computation",
+  "started_utc": "2026-10-22T03:16:39Z",
+  "http_status": 200,
+  "response_headers": {
+    "Vary": "accept,accept-encoding,x-uniprot-release,x-api-deployment-date, User-Agent",
+    "Cache-Control": "public, max-age=43200",
+    "x-cache": "miss cached",
+    "Content-Type": "text/plain;format=tsv",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "Link, X-Total-Results, X-UniProt-Release, X-UniProt-Release-Date, X-API-Deployment-Date",
+    "X-API-Deployment-Date": "07-October-2026",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "Date": "Thu, 22 Oct 2026 03:16:41 GMT",
+    "Access-Control-Max-Age": "1728000",
+    "X-UniProt-Release": "2026_03",
+    "X-Total-Results": "93",
+    "Transfer-Encoding": "chunked",
+    "Access-Control-Allow-Origin": "*",
+    "Connection": "close",
+    "Access-Control-Allow-Methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+    "Access-Control-Allow-Headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
+    "X-UniProt-Release-Date": "02-September-2026"
+  },
+  "path": "output/bclw_construct_msa_audit_20261022/sources/uniprot_bcl2l2_candidates.tsv",
+  "bytes": 94805,
+  "sha256": "f6948b0561fa501dfdb635a122e00d7ac5482e410e5376ab94c0b4bea643c552",
+  "status": "retrieved"
+}

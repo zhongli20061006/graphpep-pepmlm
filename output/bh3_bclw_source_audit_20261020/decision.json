@@ -1,0 +1,47 @@
+{
+  "version": "foight_bh3_source_decision_v1",
+  "frozen_v2_criteria_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "new_prediction_or_score_seen": false,
+  "source_screen": "QUALIFIES_AS_BIDIRECTIONAL_SOURCE_CANDIDATE; public and development-exposed, not blind",
+  "preferred_small_pilot_system": "Bcl-w",
+  "pilot_recommendation": "CONDITIONAL_GO_TO_RUN_CONFIGURATION_FREEZE_FOR_SIX_COMPLEX_ENGINEERING_PILOT",
+  "pilot_input_mapping_status": "FROZEN_PRE_SCORE_AS_AN_EXPLICIT_CORE_ONLY_PROXY; model input is not chemically identical to the labeled assay molecule",
+  "pilot_scope": "Bim_A2eT parent, I3dL gain candidate, I2dM loss candidate; seeds 20261008 and 20261009; six complexes maximum; no method-efficacy claim.",
+  "full_panel_decision": "NO_GO_FROM_THIS_PAPER_ALONE",
+  "systems": {
+    "Bcl-w": {
+      "source_defined_single_substitution_pairs": 7,
+      "gain_point_candidates": 2,
+      "loss_point_candidates": 5,
+      "fit_sensitivity_supported": 7
+    },
+    "Bcl-xL": {
+      "source_defined_single_substitution_pairs": 7,
+      "gain_point_candidates": 1,
+      "loss_point_candidates": 6,
+      "fit_sensitivity_supported": 7
+    }
+  },
+  "why_bclw_first": [
+    "Same Bim_A2eT parent, same receptor and direct Kd assay; source-defined gain I3dL (12 vs 39 nM; ratio 0.308) and loss I2dM (260 vs 39 nM; ratio 6.67).",
+    "The candidate mutation directions remain separated from 1 under the declared fit-conditional adverse-covariance sensitivity, while the fit limitations and printed-equation discrepancy remain explicit.",
+    "GraphPep's packaged structures include Bcl-w-family exposure (4CIM, mutated receptor/other BH3 partner) but the audit found no exact Bim_A2eT mutant peptide; this is structural exposure, not evidence that Table 2 Kd labels trained GraphPep."
+  ],
+  "why_not_full_benchmark": [
+    "Each receptor contributes only seven source-defined pairs; Bcl-w has two gains and five losses, Bcl-xL one gain and six losses. Neither reaches >=10 pairs and >=4 per class, and pooling receptors is prohibited.",
+    "GraphPep packaged training includes the Bcl-xL:Bim 4QVF complex; model-weight/pretraining sources are not exhaustively known. Do not call this a blind test."
+  ],
+  "material_limits": [
+    "Paper Table 2 is direct Kd, but reports a fit confidence interval from averaged anisotropy curves rather than independent Kd estimates; no raw curves or MATLAB code were found.",
+    "The supplement's printed quadratic binding equation appears inconsistent with the declared variables; likely typographical, but not independently resolvable from published raw data.",
+    "The complete c-myc/TEV junction is unspecified; the assay reports Bcl-w 1-164 plus N-terminal c-myc tag. The proposed model input omits that common tag and the fluorescein label and is explicitly a proxy.",
+    "Dutta et al. 2010 reported substantial Bcl-w oligomer in their preparation; this is a protocol-level warning, not a measured oligomer fraction for the Foight 2014 batch."
+  ],
+  "not_done": [
+    "no new structure prediction",
+    "no scorer execution",
+    "no model training",
+    "no paid service or external contact",
+    "no wet-lab order"
+  ]
+}

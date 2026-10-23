@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "name": "model_free_tests",
+      "pass": true
+    },
+    {
+      "name": "frozen_inputs_and_code",
+      "pass": true
+    },
+    {
+      "name": "prior_manifests_unchanged",
+      "pass": true
+    },
+    {
+      "name": "361_rows_19_sites_no_duplicate_mutants",
+      "pass": true
+    },
+    {
+      "name": "original_283_pool_preserved",
+      "pass": true
+    },
+    {
+      "name": "all_prediction_types_retained",
+      "pass": true
+    },
+    {
+      "name": "no_near_label_transfer",
+      "pass": true
+    },
+    {
+      "name": "formal_metrics_not_released",
+      "pass": true
+    },
+    {
+      "name": "p27_not_in_prediction_sites",
+      "pass": true
+    },
+    {
+      "name": "no_model_or_structure_or_reward_calls",
+      "pass": true
+    },
+    {
+      "name": "no_model_runtime_imports",
+      "pass": true
+    },
+    {
+      "name": "bounded_cpu_completion",
+      "pass": true
+    }
+  ],
+  "failed_count": 0,
+  "preservation": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/artifact_manifest.json",
+      "manifest_sha256": "c86049c4909077c6e575ca9e5cc5a0b303d478dfaf49f0ecc06ba189c63ea608",
+      "files": 22,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_pmi_development_comparison_20261022/artifact_manifest.json",
+      "manifest_sha256": "781194e54d449cae3ca245103510f1ff2136668776b30248cdf236dd038fc293",
+      "files": 24,
+      "mismatches": []
+    }
+  ],
+  "scientific_scope": "Posthoc existing-score/local-record audit; no new affinity validation"
+}

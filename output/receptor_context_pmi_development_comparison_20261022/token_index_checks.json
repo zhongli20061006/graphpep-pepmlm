@@ -1,0 +1,217 @@
+{
+  "passed": true,
+  "aa_token_ids": {
+    "A": 5,
+    "C": 23,
+    "D": 13,
+    "E": 9,
+    "F": 18,
+    "G": 6,
+    "H": 21,
+    "I": 12,
+    "K": 15,
+    "L": 4,
+    "M": 20,
+    "N": 17,
+    "P": 14,
+    "Q": 16,
+    "R": 10,
+    "S": 8,
+    "T": 11,
+    "V": 7,
+    "W": 22,
+    "Y": 19
+  },
+  "indices": [
+    {
+      "job_id": "base_004",
+      "phase": "base",
+      "site": 3,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_F3A",
+      "reuse": false,
+      "mask_token_index_0based": 88
+    },
+    {
+      "job_id": "base_005",
+      "phase": "base",
+      "site": 3,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102201",
+      "mutation_id": "PMI_F3A",
+      "reuse": false,
+      "mask_token_index_0based": 88
+    },
+    {
+      "job_id": "base_006",
+      "phase": "base",
+      "site": 3,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102202",
+      "mutation_id": "PMI_F3A",
+      "reuse": false,
+      "mask_token_index_0based": 88
+    },
+    {
+      "job_id": "base_007",
+      "phase": "base",
+      "site": 5,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_E5A",
+      "reuse": false,
+      "mask_token_index_0based": 90
+    },
+    {
+      "job_id": "base_008",
+      "phase": "base",
+      "site": 5,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102201",
+      "mutation_id": "PMI_E5A",
+      "reuse": false,
+      "mask_token_index_0based": 90
+    },
+    {
+      "job_id": "base_009",
+      "phase": "base",
+      "site": 5,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102202",
+      "mutation_id": "PMI_E5A",
+      "reuse": false,
+      "mask_token_index_0based": 90
+    },
+    {
+      "job_id": "base_013",
+      "phase": "base",
+      "site": 7,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_W7A",
+      "reuse": false,
+      "mask_token_index_0based": 92
+    },
+    {
+      "job_id": "base_014",
+      "phase": "base",
+      "site": 7,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102201",
+      "mutation_id": "PMI_W7A",
+      "reuse": false,
+      "mask_token_index_0based": 92
+    },
+    {
+      "job_id": "base_015",
+      "phase": "base",
+      "site": 7,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102202",
+      "mutation_id": "PMI_W7A",
+      "reuse": false,
+      "mask_token_index_0based": 92
+    },
+    {
+      "job_id": "base_019",
+      "phase": "base",
+      "site": 10,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_L10A",
+      "reuse": false,
+      "mask_token_index_0based": 95
+    },
+    {
+      "job_id": "base_020",
+      "phase": "base",
+      "site": 10,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102201",
+      "mutation_id": "PMI_L10A",
+      "reuse": false,
+      "mask_token_index_0based": 95
+    },
+    {
+      "job_id": "base_021",
+      "phase": "base",
+      "site": 10,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "shuffled_context_2026102202",
+      "mutation_id": "PMI_L10A",
+      "reuse": false,
+      "mask_token_index_0based": 95
+    },
+    {
+      "job_id": "repeat_001",
+      "phase": "repeat",
+      "site": 10,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_L10A",
+      "reuse": false,
+      "mask_token_index_0based": 95
+    },
+    {
+      "job_id": "repeat_002",
+      "phase": "repeat",
+      "site": 8,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_N8A",
+      "reuse": false,
+      "mask_token_index_0based": 93
+    },
+    {
+      "job_id": "repeat_003",
+      "phase": "repeat",
+      "site": 7,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_W7A",
+      "reuse": false,
+      "mask_token_index_0based": 92
+    },
+    {
+      "job_id": "repeat_004",
+      "phase": "repeat",
+      "site": 6,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_Y6A",
+      "reuse": false,
+      "mask_token_index_0based": 91
+    },
+    {
+      "job_id": "repeat_005",
+      "phase": "repeat",
+      "site": 5,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_E5A",
+      "reuse": false,
+      "mask_token_index_0based": 90
+    },
+    {
+      "job_id": "repeat_006",
+      "phase": "repeat",
+      "site": 3,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_F3A",
+      "reuse": false,
+      "mask_token_index_0based": 88
+    },
+    {
+      "job_id": "repeat_007",
+      "phase": "repeat",
+      "site": 2,
+      "parent_id": "PMI_WT_12MER",
+      "context_id": "MDM2_target",
+      "mutation_id": "PMI_S2A",
+      "reuse": false,
+      "mask_token_index_0based": 87
+    }
+  ]
+}

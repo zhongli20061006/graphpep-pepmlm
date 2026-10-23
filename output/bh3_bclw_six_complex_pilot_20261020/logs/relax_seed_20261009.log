@@ -1,0 +1,8 @@
+
+[2026-10-20T19:38:56+08:00] START relax_seed_20261009
+CMD: ['/home/g/miniconda3/envs/colabfold_exp0/bin/python', '/mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures', '/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/relaxed']
+Amber 1/3: min-distance 0.758 -> 2.543 A, CA displacement 0.555 A
+Amber 2/3: min-distance 0.922 -> 2.606 A, CA displacement 0.186 A
+Amber 3/3: min-distance 0.902 -> 2.470 A, CA displacement 0.185 A
+Relaxed 3 complexes
+[2026-10-20T19:39:23+08:00] END relax_seed_20261009 rc=0 reason=None

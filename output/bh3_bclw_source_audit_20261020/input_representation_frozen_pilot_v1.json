@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN_PRE_SCORE_ENGINEERING_PILOT_MAPPING",
+  "scope": "Six-complex engineering pilot input representation only; not a full benchmark and not an assertion that model input exactly equals assay molecule.",
+  "preferred_system": "Bcl-w fluorescence-anisotropy Kd, Foight et al. 2014 Table 2",
+  "source_parent": "Bim_A2eT",
+  "parent_sequence": "RPEIWITQELRRIGDEFNAYYAR",
+  "gain_candidate": {
+    "name": "Bim_A2eT_I3dL",
+    "sequence": "RPEIWITQELRRLGDEFNAYYAR",
+    "mutation": "I3dL",
+    "Kd_ratio_variant_over_parent": 0.3076923076923077
+  },
+  "loss_candidate": {
+    "name": "Bim_A2eT_I2dM",
+    "sequence": "RPEIWMTQELRRIGDEFNAYYAR",
+    "mutation": "I2dM",
+    "Kd_ratio_variant_over_parent": 6.666666666666667
+  },
+  "assay_target": {
+    "peptide": "23-aa peptide; N-terminal 5/6-fluorescein amidite (isomer mixture as reported); C-terminal amide. Do not substitute the N-acetyl/C-amide competition peptides because those yield Ki, not the direct Kd labels.",
+    "receptor": "human Bcl-w residues 1-164 with N-terminal c-myc tag after MBP/TEV purification; full c-myc/linker/TEV junction sequence is not recoverable from the cited methods and is left unknown.",
+    "assay": "direct fluorescence anisotropy, 25 C, 25 mM Tris pH 7.8, 50 mM NaCl, 1 mM EDTA, 0.001% Triton X-100, 5% DMSO; 2 h read after equilibration check."
+  },
+  "proposed_structure_model_input": {
+    "receptor_chain": "UniProt Q92843 residues 1-164 only; omit c-myc/linker because its exact sequence is unavailable and it is a common terminal tag, while preserving this as an explicit assay-to-model mismatch.",
+    "peptide_chain": "standard 23-aa sequence only; record N-fluorescein and C-amide in metadata, but do not claim those chemical groups were structurally modeled.",
+    "interpretation": "Any structural scores are proxies evaluated against the labeled-peptide/c-myc-receptor assay Kd direction; they are not predictions of unlabeled-peptide Kd or complete binding free energy."
+  },
+  "seed_policy": {
+    "seeds": [
+      20261008,
+      20261009
+    ],
+    "complexes_max": 6,
+    "purpose": "engineering feasibility and cross-seed stability only"
+  },
+  "entry_caveat": "Mapping frozen for the limited engineering pilot before any new score. This is an explicit core-only proxy of the labeled assay system; it does not make the modeled molecule chemically identical to the assay molecule. Keep this mismatch attached to every result.",
+  "score_or_prediction_seen_at_freeze": false
+}

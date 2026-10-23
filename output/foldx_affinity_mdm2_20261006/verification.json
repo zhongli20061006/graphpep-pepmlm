@@ -1,0 +1,49 @@
+{
+  "continuation_pass": false,
+  "counts": {
+    "failed": 0,
+    "not_run": 0,
+    "ok": 60
+  },
+  "frozen_hashes": "PASS",
+  "holdout_validation": "NOT_RUN; conditional",
+  "inputs": "PASS",
+  "panel_role": "DEVELOPMENT/SCREEN; not blind external validation",
+  "published_tables": "PASS",
+  "raw_result_reparse": "PASS",
+  "real_scoring": "COMPLETE",
+  "scoring_complete": true,
+  "seed_gates": [
+    {
+      "N8A_and_P27A_correct": false,
+      "all_seven_comparable": true,
+      "all_ten_eligible": true,
+      "correct_of_seven": 6,
+      "gate_pass": false,
+      "n_comparable_peptides": 10,
+      "rho": {
+        "PMI": 0.9999999999999999,
+        "overall": 0.9757575757575757,
+        "p53": 0.8999999999999998
+      },
+      "seed": 20261011,
+      "status": "FAIL"
+    },
+    {
+      "N8A_and_P27A_correct": true,
+      "all_seven_comparable": true,
+      "all_ten_eligible": true,
+      "correct_of_seven": 7,
+      "gate_pass": true,
+      "n_comparable_peptides": 10,
+      "rho": {
+        "PMI": 0.9999999999999999,
+        "overall": 0.8666666666666665,
+        "p53": 0.9999999999999999
+      },
+      "seed": 20261012,
+      "status": "PASS"
+    }
+  ],
+  "wet_lab_Kd": "NOT_RUN; conditional"
+}

@@ -1,0 +1,11 @@
+FoldX 5.1 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: batch
+Output type: AnalyseComplex
+List of Residues at the interface: ./input_Repair.pdb
+interface residues between A and B
+LA13	VA14	AA15	DA16	FA17	VA18	YA20	KA21	QA24	FA102	LA106	EA109	EB3	MB6	TB7	LB10	IB13	EB16	FB17	YB20	YB21	RB23	

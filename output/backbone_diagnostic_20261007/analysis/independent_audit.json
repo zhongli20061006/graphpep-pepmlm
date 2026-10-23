@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "frozen_workspace_sources": 164,
+  "frozen_external_sources": 6,
+  "structures": 240,
+  "common_hydrated_inputs": 120,
+  "raw_tables": 480,
+  "raw_numeric_terms": 8160,
+  "maximum_frozen_atom_displacement_A": 0.0,
+  "maximum_flexible_peptide_displacement_A": 1.4800354770110398,
+  "physical_potential_increased_structures": 0,
+  "statistics": {
+    "structure_rows": 240,
+    "condition_pair_rows": 120,
+    "paired_contrast_rows": 60,
+    "backbone_rows": 24,
+    "seed_rows": 8,
+    "published_interaction_terms": 6960,
+    "independently_recomputed_directions": [
+      {
+        "peptide_id": "P53_P27A",
+        "condition": "fixed",
+        "seed": "20261011",
+        "diagnostic_direction": "incorrect"
+      },
+      {
+        "peptide_id": "P53_P27A",
+        "condition": "flexible",
+        "seed": "20261011",
+        "diagnostic_direction": "incorrect"
+      },
+      {
+        "peptide_id": "P53_P27A",
+        "condition": "fixed",
+        "seed": "20261012",
+        "diagnostic_direction": "inconclusive"
+      },
+      {
+        "peptide_id": "P53_P27A",
+        "condition": "flexible",
+        "seed": "20261012",
+        "diagnostic_direction": "inconclusive"
+      },
+      {
+        "peptide_id": "P53_L22A",
+        "condition": "fixed",
+        "seed": "20261011",
+        "diagnostic_direction": "correct"
+      },
+      {
+        "peptide_id": "P53_L22A",
+        "condition": "flexible",
+        "seed": "20261011",
+        "diagnostic_direction": "correct"
+      },
+      {
+        "peptide_id": "P53_L22A",
+        "condition": "fixed",
+        "seed": "20261012",
+        "diagnostic_direction": "correct"
+      },
+      {
+        "peptide_id": "P53_L22A",
+        "condition": "flexible",
+        "seed": "20261012",
+        "diagnostic_direction": "correct"
+      }
+    ]
+  },
+  "baseline": {
+    "structures": 18,
+    "torsion_rows": 216,
+    "distance_proxy_rows": 144,
+    "original_term_contrasts": 1740
+  },
+  "geometry": {
+    "torsions_rows": 5760,
+    "hbond_proxies_rows": 3840,
+    "residue_displacements_rows": 2880
+  },
+  "audit_script_sha256": "dd003052c618ed99d87623881fc1bce84fb51e437b63708745f32b5c1bc54225",
+  "limitation": "Correct computation is not affinity/free-energy validation"
+}

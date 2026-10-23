@@ -1,0 +1,14 @@
+{
+  "Bcl-w": {
+    "native_core": "MATPASAPDTRALVADFVGYKLRQKGYVCGAGPGEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSAQQRFTQVSDELFQGGPNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVAYLETQLADWIHSSGGWAEFTALYGDGALEEARRLRE",
+    "core_length": 164,
+    "assay_construct": "N-terminal c-myc-tagged core after MBP/TEV cleavage; complete junction/scar not reconstructed",
+    "ready_as_exact_assay_input": false
+  },
+  "Bcl-xL": {
+    "native_core": "MSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEMETPSAINGNPSWHLADSPAVNGATGHSSSLDAREVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAAAESRKGQER",
+    "core_length": 209,
+    "assay_construct": "N-terminal c-myc-tagged core after MBP/TEV cleavage; complete junction/scar not reconstructed",
+    "ready_as_exact_assay_input": false
+  }
+}

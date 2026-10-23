@@ -1,0 +1,19 @@
+{
+  "scope": "existing artifacts only; no inference, relaxation, scoring, weights loading, or remote MSA",
+  "original_files_checked": 265,
+  "original_file_mismatches": 0,
+  "config_checks": 34,
+  "config_mismatches": 0,
+  "a3m_count": 6,
+  "a3m_mismatches": 0,
+  "structures": 6,
+  "identity_pass": 6,
+  "frozen_gate_pass": 0,
+  "prior_table_disagreements": 0,
+  "max_seq_explanation": "Installed batch.py lines 1363-1368 clamp single_sequence multimer to effective max_seq=1,max_extra_seq=1; CLI requested 256/512 is recorded correctly.",
+  "host_url_explanation": "Default URL field is configuration metadata, not evidence of a request. Single-sequence branch generates local query rows; no remote MSA call is indicated in logs.",
+  "runtime_environment_causality": "No contemporaneous same-environment positive control; acceleration/backend causes remain untested.",
+  "colabfold_batch_path": "/home/g/miniconda3/envs/colabfold_exp0/lib/python3.11/site-packages/colabfold/batch.py",
+  "colabfold_batch_sha256": "a65a1fb4301ae82de8b307a8d698f327a79b8fa66c8f053f4ddeff52c87020c4",
+  "frozen_direction_criteria_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+}

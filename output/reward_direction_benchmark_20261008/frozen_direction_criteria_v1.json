@@ -1,0 +1,68 @@
+{
+  "version": "direction_criteria_v1",
+  "freeze_date_local": "2026-10-08",
+  "frozen_before_new_prediction_or_score": true,
+  "new_predictions_or_scores_seen": false,
+  "historical_MDM2_scores_were_known": true,
+  "dataset_status": "prospective criteria; any source already used by an article predictor or project method selection is DEVELOPMENT, not blind",
+  "task": "classify direction of same-receptor, same-assay, same-WT-background single amino-acid peptide mutations",
+  "affinity_target": {
+    "quantity": "Kd",
+    "direction": "lower Kd means stronger binding",
+    "ratio": "Kd_variant / Kd_WT",
+    "gain_rule": "ratio <= 0.5 and 95% uncertainty interval entirely below 1",
+    "loss_rule": "ratio >= 2 and 95% uncertainty interval entirely above 1",
+    "otherwise": "ambiguous or neutral; retain in audit, not binary denominator",
+    "censored_no_binding": "include as loss only if assay detection limit proves at least 2-fold loss; never impute a point Kd",
+    "error_requirement": "must identify SD/SEM/fit error, n, and whether repeats are paired; otherwise HOLD"
+  },
+  "primary_metric": "within-system direction balanced accuracy, gain recall and loss recall weighted equally; macro-average WT backgrounds; never pool across receptors or assays",
+  "stability_metric": "stable direction accuracy: correct in both fixed folding seeds divided by all eligible labels",
+  "candidate_score_direction": {
+    "FoldX_AnalyseComplex_InteractionEnergy": "lower is better; delta = E_WT - E_variant; positive predicts gain; tie band 0.05 kcal/mol",
+    "GraphPep": "lower is better; delta = score_WT - score_variant; positive predicts gain; tie band 0.05 score units",
+    "ESM2_sequence_log_likelihood": "higher is better; delta = PLL_variant - PLL_WT; zero is tie",
+    "interface_heavy_atom_contact_pair_count": "more contacts predicts gain; delta = contacts_variant - contacts_WT; zero is tie"
+  },
+  "failure_handling": {
+    "no_contact_or_unscorable_structure": "scoring-method failure and incorrect for that labeled mutation; keep in denominator",
+    "low_confidence_or_clash": "retain and report; do not exclude from all-input primary coverage",
+    "tie_or_seed_sign_flip": "incorrect for primary direction; report separately",
+    "unresolved_assay_label_or_construct": "HOLD before prediction",
+    "technical_retry": "at most one retry with identical input, seed, and parameters; retain first attempt"
+  },
+  "folding": {
+    "seeds": [20261008, 20261009],
+    "model": "ColabFold alphafold2_multimer_v3 model 1 only",
+    "recycles": 3,
+    "templates": false,
+    "pilot_design": "one WT plus one source-verified gain and one source-verified loss from the same WT background, each in both seeds; max 6 predicted complexes",
+    "seed_interpretation": "computational robustness samples, not biological replicates"
+  },
+  "source_entry_gate": {
+    "eligible_variants": "5-20 single-point pairs preferred; minimum 10 for a direction-signal evaluation",
+    "class_counts": "at least 4 confident gains and 4 confident losses for the signal gate; at least one gain and one loss in a common WT background for the 6-structure pilot",
+    "backgrounds": "at least two WT peptide backgrounds for a signal gate; report each background and macro-average",
+    "constructs": "same receptor sequence/construct and same assay within comparisons; terminal modifications must be known and model-input mismatch explicitly resolved",
+    "development_exposure": "must be recorded; any method-selection exposure means DEVELOPMENT, not blind validation"
+  },
+  "limited_signal_gate": {
+    "eligible_pairs": "at least 10",
+    "balanced_accuracy": "at least 0.70 within the receptor-assay system",
+    "class_recall": "gain recall and loss recall each at least 0.60",
+    "stable_pairs": "at least 70% of eligible pairs have same direction in both folding seeds",
+    "interpretation": "engineering continuation gate only; not evidence of general affinity accuracy or experimental validation"
+  },
+  "budget": {
+    "source_audit_hours": 4,
+    "pilot_structures_max": 6,
+    "pilot_gpu_hours_max": 2,
+    "pilot_disk_gib_max": 2,
+    "single_system_full_cohort_max": "20 variants plus WT backgrounds; 48 AFM complexes total including pilot",
+    "full_cohort_gpu_hours_max": 8,
+    "full_cohort_cpu_hours_max": 4,
+    "full_cohort_disk_gib_max": 5,
+    "second_system": "not automatically authorized; requires first-system gate and a non-overlapping method-selection role"
+  },
+  "current_decision": "HOLD_NO_PILOT; no audited source currently meets bidirectional direction, measurement-error, terminal-chemistry, and structure-match criteria together"
+}

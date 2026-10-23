@@ -1,0 +1,16 @@
+Input checks passed; loading existing local FP32 PepMLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+Completed 2/19 new logical inputs (base)
+Completed 4/19 new logical inputs (base)
+Completed 6/19 new logical inputs (base)
+Completed 8/19 new logical inputs (base)
+Completed 10/19 new logical inputs (base)
+Completed 12/19 new logical inputs (base)
+Completed 13/19 new logical inputs (repeat)
+Completed 14/19 new logical inputs (repeat)
+Completed 15/19 new logical inputs (repeat)
+Completed 16/19 new logical inputs (repeat)
+Completed 17/19 new logical inputs (repeat)
+Completed 18/19 new logical inputs (repeat)
+Completed 19/19 new logical inputs (repeat)
+All 19 new inputs and seven numerical repeats passed

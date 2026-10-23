@@ -1,0 +1,735 @@
+{
+  "run_id": "RECEPTOR_CONTEXT_MUTATION_PROBE_V0_20261022",
+  "frozen_at_utc": "2026-10-22T10:46:27.601320+00:00",
+  "authorization": "User OK试试吧 authorizes this prepared <=60-input technical experiment only.",
+  "model_free_test_returncode": 0,
+  "proposal": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/proposal.json",
+  "proposal_sha256": "242fe7d4f06570421e3c1eebe551449dd85a3dcef275770942e6ef5461f78553",
+  "historical_proposal_status": "NOT_RUN refers to preparation time; execution is recorded here.",
+  "input_files": [
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/development_input_inventory.json",
+      "sha256": "38398743c24b2f247f62df232d7f382de667850c9dc8fc43278f2cb7c24bb77b"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/context_controls.json",
+      "sha256": "449b10529f0b08d53eaf77cc5277e01eeff8242f86b0bb2e6bb7d9b4c95754bd"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/contexts_prepared.fasta",
+      "sha256": "5570393b8b726b378746b05488d83725e60ed97b81e0a849e1ef3d351338546d"
+    }
+  ],
+  "inputs": [
+    {
+      "parent_id": "P53WT_1YCR",
+      "full_sequence": "ETFSDLWKLLPEN",
+      "full_sequence_length": 13,
+      "observed_coordinate_sequence": "ETFSDLWKLLPEN",
+      "observed_coordinate_length": 13,
+      "unresolved_positions": [],
+      "native_pdb": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/P53WT_1YCR_native.pdb",
+      "native_pdb_sha256": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9",
+      "geometry_contact_positions_le6A": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "protected_positions": [
+        3,
+        7,
+        10
+      ],
+      "protocol_excluded_positions": [
+        11
+      ],
+      "eligible_positions": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        12,
+        13
+      ],
+      "eligible_count": 8,
+      "receptor_sequence_for_PepMLM": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "receptor_length": 85,
+      "role": "TECHNICAL_DEVELOPMENT_ONLY_NO_AFFINITY_LABELS",
+      "note": "Full parent sequence is not automatically identical to the historical 12mer assay. PMI terminal P is sequence-supported but unresolved and cannot be masked in this proposal."
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "full_sequence": "TSFAEYWNLLSP",
+      "full_sequence_length": 12,
+      "observed_coordinate_sequence": "TSFAEYWNLLS",
+      "observed_coordinate_length": 11,
+      "unresolved_positions": [
+        12
+      ],
+      "native_pdb": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/PMI_3EQS_native.pdb",
+      "native_pdb_sha256": "59afb9659f5ed802a39f9c4f2729a58bb60369a6c196105262727a45a14ca089",
+      "geometry_contact_positions_le6A": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "protected_positions": [
+        3,
+        7,
+        10
+      ],
+      "protocol_excluded_positions": [],
+      "eligible_positions": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "eligible_count": 7,
+      "receptor_sequence_for_PepMLM": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "receptor_length": 85,
+      "role": "TECHNICAL_DEVELOPMENT_ONLY_NO_AFFINITY_LABELS",
+      "note": "Full parent sequence is not automatically identical to the historical 12mer assay. PMI terminal P is sequence-supported but unresolved and cannot be masked in this proposal."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "MDM2_target",
+      "sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "role": "target_context"
+    },
+    {
+      "id": "shuffled_context_2026102201",
+      "sequence": "YGTGLKMCYLILQLSEVMDQHYGQLHELDKINRRPVLKRKQTKLLELFRVKKLIYKNDEPVSYDGTFTIYKVAPTVVLMFSYSVL",
+      "role": "ARTIFICIAL_ORDER_CONTROL_NOT_EXPERIMENTAL_NONBINDER",
+      "seed": 2026102201
+    },
+    {
+      "id": "shuffled_context_2026102202",
+      "sequence": "TMRVTGLSTVILKVVKRQLLYSYLKYLNFFSDQYDEKPKGRHLLNQKFKYDETKVQKRLYDVISMGLVGLPAMPILICEVHYLET",
+      "role": "ARTIFICIAL_ORDER_CONTROL_NOT_EXPERIMENTAL_NONBINDER",
+      "seed": 2026102202
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "base_001",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_002",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_003",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_004",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_005",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_006",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_007",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_008",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_009",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_010",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_011",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_012",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_013",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_014",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_015",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_016",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_017",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_018",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_019",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_020",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_021",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_022",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_023",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_024",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_025",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_026",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_027",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_028",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_029",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_030",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_031",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_032",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_033",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_034",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_035",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_036",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_037",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_038",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_039",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_040",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_041",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_042",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_043",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "MDM2_target",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_044",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "shuffled_context_2026102201",
+      "phase": "base"
+    },
+    {
+      "job_id": "base_045",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "shuffled_context_2026102202",
+      "phase": "base"
+    },
+    {
+      "job_id": "repeat_001",
+      "parent_id": "PMI_3EQS",
+      "site": 11,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_002",
+      "parent_id": "PMI_3EQS",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_003",
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_004",
+      "parent_id": "PMI_3EQS",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_005",
+      "parent_id": "PMI_3EQS",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_006",
+      "parent_id": "PMI_3EQS",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_007",
+      "parent_id": "PMI_3EQS",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_008",
+      "parent_id": "P53WT_1YCR",
+      "site": 13,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_009",
+      "parent_id": "P53WT_1YCR",
+      "site": 12,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_010",
+      "parent_id": "P53WT_1YCR",
+      "site": 9,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_011",
+      "parent_id": "P53WT_1YCR",
+      "site": 8,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_012",
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_013",
+      "parent_id": "P53WT_1YCR",
+      "site": 4,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_014",
+      "parent_id": "P53WT_1YCR",
+      "site": 2,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    },
+    {
+      "job_id": "repeat_015",
+      "parent_id": "P53WT_1YCR",
+      "site": 1,
+      "context_id": "MDM2_target",
+      "phase": "repeat"
+    }
+  ],
+  "assets": {
+    "model_dir": "/home/g/pepmlm_pipeline/models/PepMLM-650M",
+    "runtime": "/home/g/miniconda3/envs/graphpep_env/bin/python",
+    "runtime_exists": true,
+    "assets": [
+      {
+        "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/config.json",
+        "bytes": 775,
+        "sha256": "a31763470199c0234da80c6d8cb01afd4e2ba375c190eff1383b95983b741ac0"
+      },
+      {
+        "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/pytorch_model.bin",
+        "bytes": 2609625722,
+        "sha256": "8a3225bca1f9acd9f701ca2e46597c12bab92320e32b68f380ddf3b6d3b20770"
+      },
+      {
+        "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/special_tokens_map.json",
+        "bytes": 125,
+        "sha256": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1"
+      },
+      {
+        "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/tokenizer_config.json",
+        "bytes": 135,
+        "sha256": "fac07b1a114706503e83ee3888669b233ade3fe7b12cc02fe6c655c32987b0a2"
+      },
+      {
+        "path": "/home/g/pepmlm_pipeline/models/PepMLM-650M/vocab.txt",
+        "bytes": 93,
+        "sha256": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+      }
+    ],
+    "weights_loaded": false
+  },
+  "precision": "FP32",
+  "tf32": false,
+  "autocast": false,
+  "training": false,
+  "attn_implementation": "eager",
+  "base_batch_size": 2,
+  "repeat_batch_size": 1,
+  "repeat_order": "all target jobs reversed",
+  "numeric_tolerance_nats": 0.0001,
+  "numeric_gate": "maximum canonical-amino-acid masked log-prob and derived d differences <=1e-4",
+  "torch_seed": 20261022,
+  "random_baseline_seed": 2026102203,
+  "candidate_pool": "19 non-WT canonical substitutions per eligible site; remove named exposed mutants below",
+  "historical_candidate_exclusions": [
+    {
+      "parent_id": "P53WT_1YCR",
+      "site": 6,
+      "wt": "L",
+      "alt": "A",
+      "name": "P53_L22A"
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "site": 8,
+      "wt": "N",
+      "alt": "A",
+      "name": "PMI_N8A"
+    }
+  ],
+  "other_historical_exclusions": "P53_P27A site 11 and PMI_W7A site 7 are not masked at all.",
+  "formula": "d=logp(alt)-logp(WT); H=d_target-(d_shuffle1+d_shuffle2)/2",
+  "filter": "d_target>1e-4 and H_control_1>1e-4 and H_control_2>1e-4",
+  "control_disagreement": "H_control_1 and H_control_2 have opposite signs beyond +/-1e-4",
+  "ranking": "H descending, site ascending, alt alphabetical; <=1 per site, <=6 per parent",
+  "baseline_ranking": {
+    "unadjusted_d": "same 283 candidate pool; d_target descending, site, alt; no H-based filter",
+    "static_GraphPep": "existing NATIVE-pose residue means ascending then site, alt alphabetical; position baseline only, no amino-acid preference",
+    "uniform_random": "shuffle exact same pool per parent with Python Random(2026102203); no H-based filter",
+    "top_k_comparison": "for each parent k equals H suggestion count; select <=1 per site for all arms; report exact-mutant and site overlap descriptively"
+  },
+  "baseline_sources": [
+    {
+      "parent_id": "P53WT_1YCR",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_graphpep/graphpep_inputs/0000_P53WT_1YCR_1YCR/residue_feedback.csv",
+      "sha256": "637caf8e503ba68c9bf25c23e8d08ee5a443c59aa005b932288ec35f59d18b21"
+    },
+    {
+      "parent_id": "PMI_3EQS",
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_graphpep/graphpep_inputs/0001_PMI_3EQS_3EQS/residue_feedback.csv",
+      "sha256": "9595c7726f2122c933d93823fa8076c3b9aa19d1f93509d581585702b4f4b431"
+    }
+  ],
+  "cache": "none; each logical input executes independently",
+  "gpu_process_wall_seconds_max": 600.0,
+  "disk_bytes_max": 67108864,
+  "logical_inputs_max": 60,
+  "new_structures": 0,
+  "reward_calls": 0,
+  "claim_limit": "Technical context sensitivity only; no affinity, specificity, novelty or superiority validation.",
+  "preservation_before": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    }
+  ],
+  "source_reuse_manifest": {
+    "files": [
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/parent_metadata.json",
+        "bytes": 42092,
+        "sha256": "5c363df9d3ed054f7b7ac3ef5fb45d9574847604dd62340570d7d9b7579f995d"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/feedback_control_1ycr.py",
+        "bytes": 28872,
+        "sha256": "e6cf87e763f96f0d7e827f52fb54a1eacb4b2379f6075bb5a61ffb6e9fe0a0de"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/pipeline/step1_generate.py",
+        "bytes": 13502,
+        "sha256": "b92bc0cf7f9374144359af2f0182a881bc73c0cbd1bd50e97ab247684493b14f"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+        "bytes": 7282,
+        "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/report_zh.md",
+        "bytes": 8203,
+        "sha256": "ceb979da66e97d79da04151013188373c59aae51ace1527996abb98824a84d25"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/reward_direction_source_screen_20261020/raw/skempi_v2.csv",
+        "bytes": 1602208,
+        "sha256": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/decision.json",
+        "bytes": 784,
+        "sha256": "e12bf48f35dc2bab916c305ec804e4397609352bf53092e4053b921d384792b7"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/P53WT_1YCR_native.pdb",
+        "bytes": 66429,
+        "sha256": "6844173655bb3be0686d5976f18f22d855c00e4c281dd3dec17243a77e1864d9"
+      },
+      {
+        "path": "/mnt/e/Users/graphpep与pepmlm/output/feedback_panel_mdm2_20261005/native_complexes/PMI_3EQS_native.pdb",
+        "bytes": 62547,
+        "sha256": "59afb9659f5ed802a39f9c4f2729a58bb60369a6c196105262727a45a14ca089"
+      }
+    ],
+    "all_reads_only": true
+  },
+  "gpu_before": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 513 MiB",
+  "compute_apps_before": "",
+  "code_hashes": [
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/probe_core.py",
+      "sha256": "705e08cc4489cd827d316d67058c7886de8d7044ecce8955a8e99bf8f0f9c576"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/probe_run.py",
+      "sha256": "07d068bd8ef6cbd77f5a7ed1ac01f2b54f113c208723c2bb1ff9ec7d81b37dbc"
+    },
+    {
+      "path": "/mnt/e/Users/graphpep与pepmlm/output/receptor_context_mutation_probe_v0_20261022/test_probe.py",
+      "sha256": "e25f3515a01646ff53c6296d9369cd0f84a96b3f5b0167ddef3c7d5c0ce349fd"
+    }
+  ]
+}

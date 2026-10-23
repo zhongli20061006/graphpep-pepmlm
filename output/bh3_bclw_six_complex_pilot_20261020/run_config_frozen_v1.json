@@ -1,0 +1,285 @@
+{
+  "schema": "bclw_six_complex_engineering_pilot_run_config_frozen_v1",
+  "created_date": "2026-10-20",
+  "status": "FROZEN_PRE_SCORE_NOT_RUN",
+  "decision_boundary": "Conditional go only for a six-complex engineering repeatability pilot. Not an independent affinity benchmark, blind test, or validation of any scorer against Kd.",
+  "source_audit": {
+    "directory": "output/bh3_bclw_source_audit_20261020",
+    "decision": "CONDITIONAL_GO_TO_RUN_CONFIGURATION_FREEZE_FOR_SIX_COMPLEX_ENGINEERING_PILOT",
+    "full_panel": "NO_GO_FROM_THIS_PAPER_ALONE",
+    "frozen_input_mapping": "output/bh3_bclw_source_audit_20261020/input_representation_frozen_pilot_v1.json",
+    "frozen_input_mapping_sha256": "76846081E949DAB5D2E126B0D7260985EC6BB988C8D6CE1F560261659C7BE43C",
+    "direction_criteria_v2_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+  },
+  "study_scope": {
+    "receptor": "human Bcl-w Q92843 residues 1-164 core",
+    "peptide_background": "Bim_A2eT",
+    "sequences": {
+      "parent": "RPEIWITQELRRIGDEFNAYYAR",
+      "gain_candidate": "RPEIWITQELRRLGDEFNAYYAR",
+      "loss_candidate": "RPEIWMTQELRRIGDEFNAYYAR"
+    },
+    "literature_labels": {
+      "parent_Kd_nM": "39 ± 9.4 (reported 95% fit interval)",
+      "gain_candidate_Kd_nM": "12 ± 2.6 (reported 95% fit interval)",
+      "loss_candidate_Kd_nM": "260 ± 52 (reported 95% fit interval)",
+      "uncertainty_note": "These are source-reported fit intervals, not independent replicate SD/SEM or a new experimental validation."
+    },
+    "assay_to_model_mismatch": "Assay peptide has N-terminal fluorescein and C-terminal amide; assay receptor includes an incompletely specified N-terminal c-myc/TEV junction. Model input omits these groups and is an explicit core-only proxy.",
+    "input_fasta": "output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta",
+    "input_fasta_sha256": "25C4581AAAAC01C1F3CE8EA48A2598BDCE982C61502B9A067CC9A91406BF2280",
+    "input_format": "Three FASTA records; each complex is receptor:peptide; chain A is receptor and chain B is peptide. Two seed runs yield at most six predicted complexes.",
+    "expected_complex_jobs": 6,
+    "pairing_rule": "Each mutation is compared only with parent under the identical seed; keep both seed-specific differences, do not pool directions.",
+    "source_exposure": "Public Foight labels were inspected for candidate selection; development-exposed and never blind-test data."
+  },
+  "prediction": {
+    "platform": "ColabFold local AF2-Multimer",
+    "windows_workspace_wsl_path": "/mnt/e/Users/graphpep与pepmlm",
+    "python": "/home/g/miniconda3/envs/colabfold_exp0/bin/python",
+    "cli": "/home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch",
+    "versions": {
+      "colabfold": "1.6.3",
+      "jax": "0.10.2",
+      "jaxlib": "0.10.2",
+      "openmm": "8.6.1"
+    },
+    "model_type": "alphafold2_multimer_v3",
+    "model_number": 1,
+    "model_parameter_file": "/home/g/.cache/colabfold/params/params_model_1_multimer_v3.npz",
+    "model_parameter_sha256": "611da8fc7478928f68de12e8b226260ef1f4ce62bcc29b008572e52f4f212959",
+    "templates": false,
+    "recycles": 3,
+    "recycle_early_stop_tolerance": 0,
+    "max_seq": 256,
+    "max_extra_seq": 512,
+    "num_ensemble": 1,
+    "pair_mode": "unpaired",
+    "num_relax_in_colabfold": 0,
+    "post_prediction_relaxation": "Use existing workspace pipeline/relax_feedback_panel.py with the previously used CPU restrained Amber settings (200 iterations, 3 outer iterations, tolerance 2.39, stiffness 10); run serially and retain raw plus relaxed structures.",
+    "seeds": [
+      20261008,
+      20261009
+    ],
+    "msa_policy": {
+      "proposed_mode": "single_sequence",
+      "rationale": "No local Bcl-w homolog MSA database or target-specific A3M was found. A remote MSA service has not been called; this draft avoids third-party service use.",
+      "deviation": "The earlier application draft proposed a shared receptor MSA. This local single-sequence mode is an explicit pre-score method change and must remain attached to any result.",
+      "remote_service_used": false
+    },
+    "proposed_command_template": "XLA_PYTHON_CLIENT_PREALLOCATE=false /home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta output/bh3_bclw_six_complex_pilot_20261020/seed_<SEED>/structures --msa-mode single_sequence --model-type alphafold2_multimer_v3 --num-models 1 --model-order 1 --num-seeds 1 --random-seed <SEED> --num-recycle 3 --recycle-early-stop-tolerance 0 --max-seq 256 --max-extra-seq 512 --num-relax 0 --disable-unified-memory --use-fast-kernels --compile-mode fast --pair-mode unpaired --sort-queries-by none",
+    "hardware_snapshot": "RTX 5060 Laptop; nvidia-smi reported 8151 MiB total and 7288 MiB free at audit time. This is a transient snapshot, not a reservation.",
+    "input_directory": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020",
+    "output_directories": [
+      "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261008/structures",
+      "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_20261009/structures"
+    ],
+    "commands": {
+      "seed_template": "XLA_PYTHON_CLIENT_PREALLOCATE=false /home/g/miniconda3/envs/colabfold_exp0/bin/colabfold_batch /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/complexes.fasta /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_<SEED>/structures --msa-mode single_sequence --model-type alphafold2_multimer_v3 --num-models 1 --model-order 1 --num-seeds 1 --random-seed <SEED> --num-recycle 3 --recycle-early-stop-tolerance 0 --num-ensemble 1 --max-seq 256 --max-extra-seq 512 --num-relax 0 --pair-mode unpaired --disable-unified-memory --use-fast-kernels --compile-mode fast --sort-queries-by none",
+      "serial_seeds": [
+        20261008,
+        20261009
+      ],
+      "remote_msa_or_template_service": false,
+      "relax_template": "/home/g/miniconda3/envs/colabfold_exp0/bin/python /mnt/e/Users/graphpep与pepmlm/pipeline/relax_feedback_panel.py /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_<SEED>/structures /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/seed_<SEED>/relaxed",
+      "relax_settings": {
+        "max_iterations": 200,
+        "tolerance": 2.39,
+        "stiffness": 10.0,
+        "max_outer_iterations": 3,
+        "use_gpu": false
+      }
+    }
+  },
+  "proposed_readouts_pre_score": {
+    "identity_gate": "Require exactly one receptor chain A matching the 164-aa core, one peptide chain B matching the exact 23-aa sequence, and contiguous residue mapping. Any mismatch is a failed complex and is retained in the denominator.",
+    "quality_gate": {
+      "iptm_min": 0.7,
+      "peptide_mean_plddt_min": 70,
+      "interface_pae_max_A": 10,
+      "minimum_interchain_distance_min_A": 1.5,
+      "interface_pae_definition": "Maximum PAE over all directed receptor-to-peptide and peptide-to-receptor residue pairs; pass only if <=10 A.",
+      "peptide_plddt_definition": "Mean C-alpha pLDDT over all peptide-chain residues; pass only if >=70.",
+      "iptm_definition": "AFM summary ipTM; pass only if >=0.70.",
+      "clash_definition": "Minimum heavy-atom interchain distance must be >=1.5 A; otherwise fail the structural gate."
+    },
+    "contact_definition": "Number of unique receptor-peptide residue pairs with any heavy-atom distance <= 6.0 A; zero-contact is a failure, not a missing row.",
+    "pairing": "For each candidate and seed, compare only with the parent predicted using the same seed. Do not pool receptors or average the two mutation directions.",
+    "cross_seed_rule": "Call a proxy direction seed-stable only if both seed-specific parent-minus-variant comparisons are finite, pass identity/quality/contact gates, and have the same nonzero sign. Otherwise classify unstable or failed.",
+    "interpretation": "A positive parent-minus-variant GraphPep or FoldX value means only proxy-score improvement. It does not mean lower Kd or improved complete binding free energy.",
+    "cross_seed_pose_readout": "Report receptor-aligned peptide-backbone RMSD and contact-pair Jaccard descriptively; no pass threshold and no pooled average."
+  },
+  "candidate_scorers": {
+    "GraphPep": {
+      "checkpoint": "/home/g/GraphPep_v1.3/ckpt/model_param.ckpt",
+      "checkpoint_sha256": "a32ad61df5bcabd3addbaa32f0825f9a0eb572937f31c05aa66a6be71b488e9b",
+      "esm_checkpoint": "/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt",
+      "esm_checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "direction": "lower raw PRED_SCORE is better; report parent score minus variant score per seed",
+      "command_template": "bash graphpep_patched.sh protein.pdb decoys.pdb -out score.csv -each -outeach score_each.csv",
+      "no_contact_or_execution_error": "failed row; retain in denominator; no fallback score",
+      "runtime_source_note": "Use current workspace pipeline code from /mnt/e/Users/graphpep与pepmlm/pipeline. The GraphPep installation is at /home/g/GraphPep_v1.3. Do not treat /home/g/pepmlm_pipeline as the current workspace.",
+      "package_code_sha256": {
+        "GraphPep.sh": "a559650250f573bda4e00e1c3305b6295db32c8e91df8a1ebed4f8e83e9bfd18",
+        "bin/core.py": "ebc9c02e946ecaacdada1c4cdb229ca54913ecea408276d392d3b460beedcb12",
+        "bin/data.py": "fcdc387bb832cdc86d92017a11b57bd5a72b7d3c97748fc62894f4a70d5f950c",
+        "bin/predict.py": "8ea8eaa11ad6a574b64ff9e7406373caf2201df10e4e313e0ee6462afc831f8e",
+        "bin/model.py": "1bd423d4e587bd1c9026ac64f36e2c03cfb59833cee7c74125ff8b40aa81eaf0",
+        "bin/resmap.py": "6635fd810cae881675be4c1c9cd2d8b46671383fb1884bed1059be9ce239d070",
+        "bin/itpot.csv": "57546735b1c198a88ea319466d34f6ac5d57e56f799d00724f78814d55ba43a6",
+        "compat_mapper": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5"
+      },
+      "execution_template": "PATH=/home/g/miniconda3/envs/graphpep_env/bin:$PATH /home/g/miniconda3/envs/graphpep_env/bin/python /mnt/e/Users/graphpep与pepmlm/pipeline/step3_graphpep.py --lists /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_inputs.csv --pdb-dir /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020 --scores /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/graphpep.csv --graphpep-dir /home/g/GraphPep_v1.3 --patched-resmap /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py --blue-threshold 0.70",
+      "compat_mapper": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py",
+      "compat_mapper_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "pair_metric": "parent raw PRED_SCORE minus variant raw PRED_SCORE, within seed; positive is proxy-only improvement"
+    },
+    "FoldX": {
+      "binary": "/mnt/e/Users/graphpep与pepmlm/tools/foldx/foldx5_Linux/foldx_20261231",
+      "binary_sha256": "faed5e54e47744ab6ab75f8f9ad1a1f2e2cdbeac4f0f98d4e36c97049eb14268",
+      "method": "RepairPDB followed by AnalyseComplex on chains A/B; use only actual AnalyseComplex A/B Interaction Energy (kcal/mol), lower is more favorable; report parent energy minus variant energy within each seed.",
+      "settings_to_freeze": "temperature 298 K, pH 7.4, ion strength 0.15 M, water -IGNORE, screen false, noNterm false, noCterm false",
+      "failure": "Missing/ambiguous actual Interaction output or any command/input validation error is a failed row; no BuildModel energy substitution.",
+      "protocol_template": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/foldx_protocol_template.json",
+      "protocol_template_sha256": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "pair_metric": "parent Interaction Energy minus variant Interaction Energy, within seed; positive is proxy-only improvement"
+    },
+    "ESM2_sequence_prior": {
+      "checkpoint": "/home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt",
+      "checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "proposed_formula": "Sum over 23 peptide positions of log P(observed amino acid | the same peptide with that position masked), using ESM2 t33 650M UR50D; compare variant minus parent.",
+      "meaning": "Sequence plausibility baseline only, not an interface or affinity score; report separately and do not interpret positive as improved binding.",
+      "implementation_status": "wrapper frozen and helper tests pass; no real checkpoint inference performed",
+      "executable": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py",
+      "code_sha256": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "test_file": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/test_esm_pll.py",
+      "test_sha256": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "command": "PATH=/home/g/miniconda3/envs/graphpep_env/bin:$PATH /home/g/miniconda3/envs/graphpep_env/bin/python /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/esm_pll.py /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/peptide_sequences.fasta /mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/scores/esm_pll.csv --checkpoint /home/g/GraphPep_v1.3/models/esm2_t33_650M_UR50D.pt --device cuda",
+      "output_orientation": "variant sum pseudo-log-likelihood minus parent; higher means sequence-prior preference only",
+      "scoring_scope": "one sequence-only score per peptide; not repeated per AFM seed"
+    },
+    "contacts": {
+      "formula": "Count unique receptor-peptide residue pairs having any heavy-atom pair <= 6.0 A on the same relaxed structure; report variant minus parent within seed.",
+      "meaning": "Geometry descriptor only; more contacts do not imply stronger affinity.",
+      "no_contact_rule": "zero receptor-peptide residue pairs at <=6.0 A makes the complex a failed row before any scorer",
+      "interpretation": "geometry-only; more contacts do not imply stronger affinity"
+    }
+  },
+  "runtime_and_provenance": {
+    "graphpep_environment": {
+      "python": "3.11.14",
+      "torch": "2.7.1+cu128",
+      "fair_esm": "2.0.0",
+      "biopython": "1.88",
+      "numpy": "1.26.4",
+      "pandas": "3.0.5"
+    },
+    "graphpep_code_signature": "No Git metadata in installed GraphPep directory; freeze relevant source/checkpoint hashes at run time.",
+    "workspace_code_sha256": {
+      "pipeline/feedback_panel.py": "bdfcce0c3c537687b92da58eb14314df24122da04fc8704ad6916cc5c372d85e",
+      "pipeline/step3_graphpep.py": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "pipeline/shared_receptor_msa.py": "2f1c326991f89906eea35ed0415729e3854754c124eef9a41d3b8f7eedc80277",
+      "pipeline/relax_feedback_panel.py": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "pipeline/feedback_pilot.py": "ad174675903b0d5810f2a4b8781bd2b92099d128b9bd1253e63a8a0a787400d4",
+      "pipeline/make_resmap_compat.py": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad"
+    },
+    "legacy_copy_audit": "The /home/g/pepmlm_pipeline copy of feedback_panel.py differs from the current workspace copy; shared_receptor_msa.py and relax_feedback_panel.py are absent there. No sync was run.",
+    "verified_package_versions": {
+      "colabfold": "1.6.3",
+      "jax": "0.10.2",
+      "jaxlib": "0.10.2",
+      "openmm": "8.6.1",
+      "graphpep_environment_python": "3.11.14",
+      "torch": "2.7.1+cu128",
+      "fair_esm": "2.0.0",
+      "biopython": "1.88",
+      "numpy": "1.26.4",
+      "pandas": "3.0.5"
+    },
+    "command_help_sha256": {
+      "colabfold_batch_help.txt": "8837452d777c3d0ddebe2d5d4a3125136a5e28ae55efb49eb45b3de04c06cf77",
+      "relax_feedback_panel_help.txt": "281296bf0bd9eaed67dcfd78bdb6cda80434d3290d9fd4a5673a5015c3dfcf2e",
+      "step3_graphpep_help.txt": "179afb8562a6597909a3e5badf83e73285be6fc160ec65daa4d6451f68b6a34f",
+      "esm_pll_help.txt": "f4a3d56001586e468e59dd765b113af532f03bb644fd1145035255e46288e4cf"
+    },
+    "run_artifact_sha256": {
+      "complexes.fasta": "25c4581aaaac01c1f3ce8ea48a2598bdce982c61502b9a067cc9a91406bf2280",
+      "peptide_sequences.fasta": "869b40db5b076869031a8a8b9c29530e35b9d6779521d3e4ec448ce243140fa2",
+      "graphpep_inputs.csv": "045c0ca0b86e1e38f44f63a6477ee2b286ba5c7316292eb1e8aba0cfde3e2157",
+      "foldx_protocol_template.json": "dff7e7ce4844c51e7c77933d6778d93ac08e6b64caeea0431db8c00b3d86fc9d",
+      "esm_pll.py": "0da22db4fd959cb989927350879ebf2ff50c9bbe0c9e4f219ab787dd7479bebd",
+      "test_esm_pll.py": "ed3c19de2368f5fa8afbdf331a322fbbb6d7afaebf7cbef5a5e5af4821292cc8",
+      "graphpep_patches/resmap_compat.py": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "pipeline/step3_graphpep.py": "3a77b678eb93a00fb7216114e884881b4d134ad3ff408b762c5d2bfee0326f43",
+      "pipeline/relax_feedback_panel.py": "f88c3489bf89eb279a548f500eaa4102d04f0a0113bc73271f7e74c8d07703d8",
+      "pipeline/make_resmap_compat.py": "eda8fd05504bbd45b75de28682993d3ef70d944abae97be736d4521d45ad20ad"
+    },
+    "mapper_origin": {
+      "source": "current workspace pipeline/make_resmap_compat.py BODY",
+      "generated_path": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/graphpep_patches/resmap_compat.py",
+      "generated_sha256": "2ecebd1c1488377a74b262f7b1890d45c4b7abbaefffebe5e2a999206670b3f5",
+      "legacy_home_copy_sha256_not_used": "114d306b921f9f6b3661b06d85d43eaa849fc7bfb5738225126f0e854acc4fce",
+      "note": "The runtime passes this output-local mapper explicitly; the /home/g/pepmlm_pipeline copy is not used as workspace code."
+    },
+    "preflight_scope": {
+      "cli_help_only": true,
+      "real_checkpoint_loaded": false,
+      "real_prediction_or_scoring": false,
+      "colabfold_flags_checked": [
+        "single_sequence",
+        "alphafold2_multimer_v3",
+        "num-models",
+        "model-order",
+        "num-seeds",
+        "random-seed",
+        "num-recycle",
+        "recycle-early-stop-tolerance",
+        "num-ensemble",
+        "max-seq",
+        "max-extra-seq",
+        "num-relax",
+        "pair-mode",
+        "disable-unified-memory",
+        "use-fast-kernels",
+        "compile-mode",
+        "sort-queries-by"
+      ]
+    }
+  },
+  "budgets": {
+    "max_complexes": 6,
+    "max_gpu_hours": 2,
+    "max_new_output_size_GiB": 2,
+    "two_GiB_interpretation": "Hard cap on all new files under this pilot output directory, not GPU memory.",
+    "execution_policy": "Serial local jobs only; no remote services; each new score/prediction counts toward the stated limits."
+  },
+  "stop_and_failure_policy": [
+    "Keep exactly six planned sequence-seed cells in the denominator; do not replace failed outputs, change seeds, or discard failed rows.",
+    "Any chain identity/sequence mapping error, quality-gate failure, clash, zero contact, nonfinite or missing score is failed; do not substitute another scorer's value.",
+    "A proxy direction is seed-stable only when both seed-specific same-parent comparisons are finite, pass all structural gates, and have the same nonzero sign.",
+    "Stop when cumulative accelerator wall time reaches 2 hours or new pilot artifacts exceed 2 GiB; no concurrent GPU jobs.",
+    "Do not calculate pooled correlations or claim affinity prediction from two mutation directions.",
+    "No PepMLM generation, model training, full-pool prediction, remote MSA request, or P27A minimization is included."
+  ],
+  "remaining_pre_run_items": [
+    "Recheck free GPU memory and disk headroom immediately before launch.",
+    "Recompute all frozen source/code/checkpoint hashes and verify the six exact PDB paths after prediction.",
+    "Launch only if execution is explicitly requested; preserve all failures and raw outputs."
+  ],
+  "pre_score_freeze": {
+    "frozen_before_any_new_prediction_or_score": true,
+    "execution_started": false,
+    "execution_authorized_by_this_freeze": false,
+    "source_decision": "Dutta 2013 does not add quantitative benchmark pairs; full independent direction benchmark remains on hold.",
+    "pilot_value": "Can test local input, structure, mapping, scorer execution, and cross-seed proxy stability only."
+  },
+  "run_authorization": {
+    "status": "NOT_STARTED",
+    "reason": "This turn froze the pre-score configuration only; no explicit instruction to launch the six-complex compute job was given.",
+    "pre_run_checks": [
+      "Recheck free GPU memory and disk headroom immediately before launch.",
+      "Recompute all frozen source/code/checkpoint hashes and verify the six exact PDB paths after prediction.",
+      "Launch only if execution is explicitly requested; preserve all failures and raw outputs."
+    ]
+  }
+}

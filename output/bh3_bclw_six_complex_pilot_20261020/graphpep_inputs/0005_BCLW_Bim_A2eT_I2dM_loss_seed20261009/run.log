@@ -1,0 +1,20 @@
+esm2 time: 0.009601870999972562
+generate time for decoy 1: 0.6227986019999889
+resmap_compat: 40 rows -> score_each.csv
+  peptide ids: passthrough=0 mapped=40 unresolved=0
+  protein ids: passthrough=0 mapped=40 unresolved=0
+predicting time 8
+
+STDERR
+/home/g/miniconda3/envs/graphpep_env/lib/python3.11/site-packages/lightning_fabric/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Missing logger folder: /tmp/tmp.f2f1euGdpo/lightning_logs
+Restoring states from the checkpoint path at /home/g/GraphPep_v1.3/ckpt/model_param.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from the checkpoint at /home/g/GraphPep_v1.3/ckpt/model_param.ckpt
+/home/g/miniconda3/envs/graphpep_env/lib/python3.11/site-packages/MDAnalysis/topology/PDBParser.py:376: UserWarning: Element information is missing, elements attribute will not be populated. If needed these can be guessed using universe.guess_TopologyAttrs(context='default', to_guess=['elements']).
+  warnings.warn("Element information is missing, elements attribute "

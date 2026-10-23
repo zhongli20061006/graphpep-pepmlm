@@ -1,0 +1,14 @@
+{
+  "complete_pairs": 24,
+  "converged_structures": 6,
+  "expand_to_full": true,
+  "expected_pairs": 24,
+  "expected_structures": 48,
+  "failure_reasons": [],
+  "gate_uses_score_direction": false,
+  "nonconverged_structures": 42,
+  "observed_structures": 48,
+  "phase": "pilot",
+  "technical_pass": true,
+  "valid_structures": 48
+}

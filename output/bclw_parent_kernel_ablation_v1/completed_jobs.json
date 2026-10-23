@@ -1,0 +1,55 @@
+{
+  "protocol_id": "BCLW_PARENT_KERNEL_ABLATION_V1",
+  "jobs": [
+    {
+      "seed": 20261008,
+      "prediction": {
+        "pdb": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.pdb",
+        "pdb_sha256": "0dd18d099979cebb350521f9955121e944c6e31779c37b95177d938c9e129e5c",
+        "scores": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261008.json",
+        "scores_sha256": "2aa3cab671513672cd607cae4a43f290543d335cbfe61ea13211a2f5b993daf3",
+        "config": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/config.json",
+        "config_sha256": "5cc75ed6b7d738ccceb18bdb8914cceacbef905e546a470a361db7a0c5214968",
+        "changed_fields": {
+          "num_queries": {
+            "baseline": 3,
+            "new": 1
+          },
+          "use_fast_kernels": {
+            "baseline": true,
+            "new": false
+          }
+        },
+        "unexpected_changed_fields": []
+      },
+      "relaxation_manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/relaxed/relaxation_manifest.json",
+      "relaxation_manifest_sha256": "883480332f7dcdd430d70588a597772b58d876b937a9d614b15898543437c6db"
+    },
+    {
+      "seed": 20261009,
+      "prediction": {
+        "pdb": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_unrelaxed_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.pdb",
+        "pdb_sha256": "342d1660518b4c5897b78b2d36daeac3b1368c68a0d219bf35658d6860cafe31",
+        "scores": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent_scores_rank_001_alphafold2_multimer_v3_model_1_seed_20261009.json",
+        "scores_sha256": "dd0df3c8658c21e034bd83e51105b17d7d689df9a5617c772873a9109b2b779e",
+        "config": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/config.json",
+        "config_sha256": "2389c89b7f06d808592cd074798120a5d2759addc787ab07ff95ea7b87060b80",
+        "changed_fields": {
+          "num_queries": {
+            "baseline": 3,
+            "new": 1
+          },
+          "use_fast_kernels": {
+            "baseline": true,
+            "new": false
+          }
+        },
+        "unexpected_changed_fields": []
+      },
+      "relaxation_manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/relaxed/relaxation_manifest.json",
+      "relaxation_manifest_sha256": "966d6333cc70703515883e6977792b8e46351699f16fdd2061b9d93032c7afca"
+    }
+  ],
+  "gpu_prediction_wall_seconds": 72.303042745,
+  "cpu_relax_wall_seconds": 43.903039846999974
+}

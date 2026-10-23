@@ -1,0 +1,38 @@
+{
+  "audit_id": "BCLW_MSA_INPUT_AUDIT_20261023",
+  "status": "CPU_INPUT_AUDIT_COMPLETED",
+  "source_rows": 93,
+  "aligned_rows": 72,
+  "candidate_decision_counts": {
+    "EXCLUDE_DUPLICATE_CORE": 34,
+    "SELECTED": 22,
+    "EXCLUDE_FRAGMENT": 7,
+    "EXCLUDE_LENGTH": 12,
+    "EXCLUDE_FUSION_READTHROUGH": 2,
+    "EXCLUDE_SAME_TAXON": 13,
+    "EXCLUDE_CORE_COVERAGE": 2,
+    "EXCLUDE_QUERY_IDENTICAL_CORE": 1
+  },
+  "selected_nonquery_homologs": 22,
+  "selected_reviewed": 2,
+  "primary_clusters_80": 4,
+  "primary_neff_80": 4.006535947712418,
+  "primary_minimum_column_nongap_fraction": 0.8260869565217391,
+  "input_floor_gates": {
+    "nonquery_rows": true,
+    "greedy_clusters": true,
+    "neff": true,
+    "column_nongap": true
+  },
+  "failed_input_gates": [],
+  "installed_parser_checks_pass": true,
+  "input_readiness": "GO_PREPARE_ONLY",
+  "prediction_execution": "NOT_STARTED_NOT_AUTHORIZED_BY_THIS_AUDIT",
+  "future_protocol_preparation_allowed": true,
+  "new_prediction_jobs": 0,
+  "new_relaxation_jobs": 0,
+  "new_reward_calls": 0,
+  "new_downloads": 0,
+  "new_training": 0,
+  "interpretation": "Engineering input readiness only; no experimental affinity labels, no H/d validation and no demonstrated cause of prior low-confidence predictions."
+}

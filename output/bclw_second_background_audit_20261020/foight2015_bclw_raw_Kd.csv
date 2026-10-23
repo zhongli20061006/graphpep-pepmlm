@@ -1,0 +1,34 @@
+﻿source,table,receptor,peptide,unit,raw,status,kd_nM,reported_95fitCI_halfwidth_nM,bound_or_approx_nM
+Foight2015,Supplementary Table 6,Bcl-w,BL8-9,nM,400 ± 170,finite_fit_CI,400.0,170.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL6-3,nM,260 ± 53,finite_fit_CI,260.0,53.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL6-4,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,BL6-11,nM,110 ± 22,finite_fit_CI,110.0,22.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL6prime-16,nM,11 ± 1.3,finite_fit_CI,11.0,1.3,
+Foight2015,Supplementary Table 6,Bcl-w,BL6-19,nM,72 ± 15,finite_fit_CI,72.0,15.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL6-22,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,BL6-23,nM,110 ± 22,finite_fit_CI,110.0,22.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL_a,nM,79 ± 11,finite_fit_CI,79.0,11.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL_b,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,BL_c,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,BL_d,nM,620 ± 170,finite_fit_CI,620.0,170.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL6-1,nM,10 ± 3.5,finite_fit_CI,10.0,3.5,
+Foight2015,Supplementary Table 6,Bcl-w,KL6-5,nM,110 ± 27,finite_fit_CI,110.0,27.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL6-7,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-14,nM,~3800,approximate,,,3800.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-18,nM,500 ± 170,finite_fit_CI,500.0,170.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL8-7,nM,40 ± 9.2,finite_fit_CI,40.0,9.2,
+Foight2015,Supplementary Table 6,Bcl-w,KL8-16,nM,28 ± 8.0,finite_fit_CI,28.0,8.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL8-18,nM,110 ± 30,finite_fit_CI,110.0,30.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL_a,nM,910 ± 660,finite_fit_CI,910.0,660.0,
+Foight2015,Supplementary Table 6,Bcl-w,KL_b,nM,>1000,lower_bound,,,1000.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-7_G3eC,nM,>3000,lower_bound,,,3000.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-7_Y4eK,nM,>3000,lower_bound,,,3000.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-7_D3fA,nM,>3000,lower_bound,,,3000.0
+Foight2015,Supplementary Table 6,Bcl-w,KL6-7_I2dR,nM,>3000,lower_bound,,,3000.0
+Foight2015,Supplementary Table 6,Bcl-w,KScomp,nM,1200 ± 1000,finite_fit_CI,1200.0,1000.0,
+Foight2015,Supplementary Table 6,Bcl-w,BL6-22_G3eC,nM,>3000,lower_bound,,,3000.0
+Foight2015,Supplementary Table 6,Bcl-w,BL6-22_Y4eK,nM,>3000,lower_bound,,,3000.0
+Foight2015,Table 1,Bcl-w,Bim,nM,2.6 ± 2.1,finite_fit_CI,2.6,2.1,
+Foight2015,Table 1,Bcl-w,Bim_R3bS,nM,18 ± 5.3,finite_fit_CI,18.0,5.3,
+Foight2015,Table 1,Bcl-w,Bim_A2eT,nM,40 ± 9.3,finite_fit_CI,40.0,9.3,
+Foight2015,Table 1,Bcl-w,Bim_A2eT_E2gG,nM,98 ± 35,finite_fit_CI,98.0,35.0,

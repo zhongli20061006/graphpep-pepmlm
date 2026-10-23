@@ -1,0 +1,2 @@
+peptide_id,peptide_sequence,receptor_sequence,source,model_id,complex_path
+P53WT_1YCR,ETFSDLWKLLPEN,ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV,experimental_native,1YCR,/mnt/e/Users/graphpep与pepmlm/output/feedback_control_1ycr_20261006/native_complexes/P53WT_1YCR_native.pdb

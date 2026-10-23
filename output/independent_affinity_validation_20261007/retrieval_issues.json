@@ -1,0 +1,39 @@
+{
+  "date_local": "2026-10-07",
+  "policy": "Do not treat redirects, HTML challenge pages, errors or incomplete supplementary responses as read primary evidence",
+  "issues": [
+    {
+      "resource": "PMC8463443 / PMC2896288 linked supplementary PDF attempts",
+      "result": "PMC PDF retrieval returned small HTML/challenge responses rather than a PDF",
+      "usable_pdf_saved": false,
+      "supplementary_chemistry_or_error_definition_verified": false
+    },
+    {
+      "resource": "Europe PMC supplementaryFiles ZIP endpoint",
+      "result": "Timed out; no usable archive",
+      "usable_archive_saved": false
+    },
+    {
+      "resource": "NCBI OA resource API attempts",
+      "result": "HTTP 404; no downloaded OA archive",
+      "usable_archive_saved": false
+    },
+    {
+      "resource": "Europe PMC fullTextXML attempts",
+      "result": "Server error; main primary HTML used instead",
+      "used_as_primary_numeric_source": false
+    },
+    {
+      "resource": "sources/PMC2866276_bioc.xml",
+      "result": "Response not independently validated as full paper; retain retrieval artifact, exclude from all quantitative extraction",
+      "used_as_primary_numeric_source": false
+    },
+    {
+      "resource": "PMC4138078 via web reader",
+      "result": "Challenge page; usable original paper HTML was separately retrieved with Python urllib and title checked",
+      "local_primary_snapshot": "sources/PMC4138078.html"
+    }
+  ],
+  "author_contact_made": false,
+  "paid_access_used": false
+}

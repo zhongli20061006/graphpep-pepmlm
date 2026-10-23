@@ -1,0 +1,108 @@
+{
+  "date_asia_shanghai": "2026-10-20",
+  "scope": "Single-paper bounded screen; PMC11237882 and its public supplements only; no other receptor pooled",
+  "source": {
+    "title": "Elaboration of the Homer1 recognition landscape reveals incomplete divergence of paralogous EVH1 domains",
+    "year": 2024,
+    "doi": "10.1002/pro.5094",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11237882/",
+    "fulltext_download": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11237882/fullTextXML",
+    "supplement_download": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11237882/supplementaryFiles?includeInlineImage=false"
+  },
+  "decision": "HOLD_INPUT_CHEMISTRY_AND_FULL_BENCHMARK_CLASS_BALANCE",
+  "engineering_pilot": {
+    "data_face_eligible": true,
+    "background": "DVL3",
+    "parent_kd_uM": 46,
+    "gain_candidate": "Y4F, 14 +/- 1 uM",
+    "loss_candidate": "P0A, 115 +/- 10 uM",
+    "prediction_authorized_now": false,
+    "reason": "Same-background gain/loss numeric measurements exist; exact SUMO-peptide analyte architecture and mutation-label uncertainty handling must be resolved first"
+  },
+  "full_benchmark": {
+    "single_aa_variants": 11,
+    "backgrounds": 4,
+    "direction_counts_point_estimate_2fold_only": {
+      "gain": 2,
+      "loss": 7,
+      "uncertain": 2
+    },
+    "at_least_10_pairs_by_raw_count": true,
+    "at_least_4_gain": false,
+    "at_least_4_loss_by_point_estimate": true,
+    "at_least_2_backgrounds": true,
+    "frozen_robust_labels_assigned": false,
+    "pass": false,
+    "reverse_pairs_not_double_counted": true,
+    "raw_single_aa_pairs": 11,
+    "quantitative_pairs": 8,
+    "censored_pairs": 3,
+    "point_estimate_effect_eligible_finite_pairs": 6,
+    "point_estimate_effect_uncertain_pairs_excluded_from_primary_denominator": 2,
+    "maximum_label_candidates_including_all_3_censored": 9,
+    "strict_assigned_labels": 0,
+    "raw_count_is_not_primary_denominator": true,
+    "at_least_10_eligible_labels": false,
+    "failed_full_benchmark_gates": [
+      "At most 9 effect-label candidates, fewer than 10; 2 uncertain pairs excluded",
+      "Only 2 point-estimate gain candidates, fewer than 4",
+      "Strict uncertainty/chemistry labels not assigned"
+    ]
+  },
+  "receptor": {
+    "name": "Homer1 EVH1",
+    "construct_source": "Table S4, EVH1 Domains row 2, Purpose BLI",
+    "expression_sequence": "MHHHHHHSSGVDLGTENLYFQSNAMGEQPIFSTRAHVFQIDPNTKKNWVPTSKHAVTVSYFYDSTRNVYRIISLDGSKAIINSTITPNMTFTKTSQKFGQWADSRANTVYGLGFSSEHHLSKFAEKFQEFKEAA",
+    "expression_length": 134,
+    "core_sequence": "MGEQPIFSTRAHVFQIDPNTKKNWVPTSKHAVTVSYFYDSTRNVYRIISLDGSKAIINSTITPNMTFTKTSQKFGQWADSRANTVYGLGFSSEHHLSKFAEKFQEFKEAA",
+    "core_length": 110,
+    "numbering": "Source EVH1 sequence starts at M; exact amino acid sequence audited, canonical full-protein accession mapping not independently checked in this single-paper scope",
+    "tag_removal": "Methods 4.1 reports TEV cleavage, reverse Ni-NTA and gel filtration",
+    "inferred_after_standard_TEV_Q_S_cleavage": "SNAMGEQPIFSTRAHVFQIDPNTKKNWVPTSKHAVTVSYFYDSTRNVYRIISLDGSKAIINSTITPNMTFTKTSQKFGQWADSRANTVYGLGFSSEHHLSKFAEKFQEFKEAA",
+    "inferred_length_after_standard_TEV_Q_S_cleavage": 113,
+    "tag_remnant_status": "SNA inferred from ENLYFQ|SNA; experimental mature N terminus not sequenced in source",
+    "mbp": "No MBP construct described in this paper; BLI peptide is SUMO fusion"
+  },
+  "peptide_chemistry": {
+    "assay_analyte": "Biotinylated SUMO-peptide, expressed in E. coli via pDW363, Ni-NTA purification; no SUMO cleavage reported",
+    "biotin": "In vivo biotinylation with 0.05 mM D-(+)-biotin; site and exact full fusion sequence not supplied in retrieved supplementary data",
+    "exact_sumo_sequence": null,
+    "exact_linker": null,
+    "fusion_orientation": "Not explicitly fixed by full sequence in source; do not silently infer",
+    "peptide_N_terminal_chemistry": "Not a standalone free peptide; fusion context, exact junction unspecified",
+    "peptide_C_terminal_chemistry": "Full fusion/junction sequence unspecified; do not claim synthetic amidation or free isolated peptide",
+    "spot_array_is_different": "SPOT N-terminus acetylated Gly-Ser linker, C-terminal PEG-cellulose, native Cys replaced Ala. These chemistry rules belong to SPOT only, not BLI."
+  },
+  "assay": {
+    "type": "BLI equilibrium Kd",
+    "instrument": "Octet Red96",
+    "temperature": "room temperature, exact degrees not given",
+    "buffer": "1:1 mixture of 20 mM HEPES pH 7.6 /150 mM NaCl /1 mM DTT gel filtration buffer and 1x PBS pH 7.6 /1 mM DTT /1% BSA /0.1% Tween-20",
+    "immobilization": "streptavidin tips, biotinylated SUMO-peptides target 0.5-1 nm",
+    "concentration_points": 8,
+    "association_s": 100,
+    "dissociation_s": 100,
+    "equilibrium_signal": "mean last 10s association minus mean last 10s dissociation; SUMO-only control subtracted",
+    "fit": "nonlinear least squares in Kaleidagraph; y=C*[EVH1]/(Kd+[EVH1])",
+    "n": 3,
+    "replicate_type": "technical",
+    "reported_error": "SD",
+    "raw_per_replicate_values_found": false,
+    "shared_preparation_or_pairing": "Not reported; cannot assume independent biological samples or pairing",
+    "censoring": ">150 uM entries retained as strict lower bounds; not set equal to 150",
+    "proline_cis_trans": "Authors explicitly note slow cis/trans phase and primarily measured binding to peptide population with appropriate preexisting proline conformations; assay-conditioned affinity must be preserved"
+  },
+  "structures": {
+    "1DDV": "Paper cites Homer1 complex with representative PPSTF-containing ligand; not the assayed DVL3/ABI3/FAT1 mutant series or SUMO fusion",
+    "5ZZ9": "Homer2-DBN1 complex cited by paper; paralog is not BLI Homer1, exact construct and fusion differ",
+    "matched_mutant_series_structure_found_in_source": false,
+    "pdb_database_reinspection": "Outside this single-paper-only audit; not claimed checked"
+  },
+  "independence": {
+    "project_selection_exposure": "Delegated to parent project audit, not verified here",
+    "graphpep_training_overlap": "Not audited here; cannot claim clean",
+    "publication_prior_analysis": "Publication of motif/biochemical analysis or other-model use is not by itself overlap with this project or scorer training",
+    "blind_label": "not asserted"
+  },
+  "no_computation": "No structure prediction, scoring, model download or paid/third-party contact performed"
+}

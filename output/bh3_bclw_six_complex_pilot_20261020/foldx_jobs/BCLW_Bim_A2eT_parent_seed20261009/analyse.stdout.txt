@@ -1,0 +1,31 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 5.1 (c)            ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+getInstances
+Reading config file 'analyse.cfg'
+Start FoldX AnalyseComplex >>>
+
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+RUNNING COMPLEX ANALYSIS
+Complex Analysis of ./input_Repair.pdb went fine
+

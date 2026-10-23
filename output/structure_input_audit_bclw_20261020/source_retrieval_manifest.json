@@ -1,0 +1,196 @@
+[
+  {
+    "url": "https://search.rcsb.org/rcsbsearch/v2/query",
+    "path": "output/structure_input_audit_bclw_20261020/sources/q92843_search.json",
+    "bytes": 386,
+    "sha256": "364a4c44f9be652515624d0b8a75d7239b7453bf269c0c7aeb009aeb59f3ffd0",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1MK3",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_1mk3_entry.json",
+    "bytes": 9861,
+    "sha256": "1fc6da410e67fa5e7848baf93dc946e7fc8642ccea4caddda82f1e5fa99b3a0d",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1MK3/1",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_1mk3_entity1.json",
+    "bytes": 33406,
+    "sha256": "a773a0401b36f654a3984e92e5b51094b1188ed294468bcae6727a1ff6398b2a",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1O0L",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_1o0l_entry.json",
+    "bytes": 10462,
+    "sha256": "3d43006e13c7546e96f5818b12ca63320283fb03c35ca86c3f3709f45d0d3b9d",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1O0L/1",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_1o0l_entity1.json",
+    "bytes": 34686,
+    "sha256": "70d18cf0b24d7dd7274af44bd1abc0f6124a19550e73a34ba7b9b7195296b524",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1ZY3",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_1zy3_entry.json",
+    "bytes": 13686,
+    "sha256": "0208f54436765bd13f794760538a1bcd715bdcdb0e613d93bd1e3d9aeb2d8226",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1ZY3/1",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_1zy3_entity1.json",
+    "bytes": 61684,
+    "sha256": "ac04df18bad557b2384a85cce05b62b12d4ae02279fcb88d82af0f8669009d5d",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1ZY3/2",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_1zy3_entity2.json",
+    "bytes": 71513,
+    "sha256": "646f6a07bb08f33880b1330f1928ded955a7d7798ac9956ec2e2c6d4f5b088fa",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/2Y6W",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_2y6w_entry.json",
+    "bytes": 12070,
+    "sha256": "fea57b0e3966de7b59748753e955e033160ca11f589b5091ff69b1ac8bc689b7",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2Y6W/1",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_2y6w_entity1.json",
+    "bytes": 33967,
+    "sha256": "6a2bfc0def6c4d43181c3721ecb689b30fd0ed429d47bcf0f649ff9b678cb0a0",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/3FDL",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_3fdl_entry.json",
+    "bytes": 19394,
+    "sha256": "371335c20e8038cbe860efa08499b9fe02b152799b4407d58b05686b76c0330a",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3FDL/1",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_3fdl_entity1.json",
+    "bytes": 163867,
+    "sha256": "c8ee6610b055b7a3543f8385043a1a3cacfb39645a2920625ad8a1e737068029",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3FDL/2",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_3fdl_entity2.json",
+    "bytes": 54291,
+    "sha256": "ad71ac4eed6c172754a82e1638f3615e057301118663be91fdd4a74a915ffbbd",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/4CIM",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_4cim_entry.json",
+    "bytes": 15764,
+    "sha256": "b17c989d762e162a732910df0dd3f4e7fa5b637e3fa800a918c790f62065a71d",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4CIM/1",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_4cim_entity1.json",
+    "bytes": 61268,
+    "sha256": "53399640532ff35a84e7d1970b2d5eaa45d7f461b879e2b3c510c9a05e0d4d08",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4CIM/2",
+    "path": "output/bh3_bclw_source_audit_20261020/raw/rcsb_4cim_entity2.json",
+    "bytes": 42169,
+    "sha256": "18e54edc64f2842f4488ad181d6d51addafefbdb0c0c40a6bcc048369749925a",
+    "reused_prior_source": true
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/4K5A",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5a_entry.json",
+    "bytes": 17159,
+    "sha256": "4b92f07312b360a340f35d98ce8f55e1dfa43adc1ebaf8d36232be1ebef4c76e",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4K5A/1",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5a_entity1.json",
+    "bytes": 31301,
+    "sha256": "f4fc692b39a53125672ced332955ee9849a0cec484ce5350cd9a49943c0ecc36",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4K5A/2",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5a_entity2.json",
+    "bytes": 11062,
+    "sha256": "ddb98e306dcc1f91c027ff40caafb40c20ccecbb9feba8b77f5a32e15c326fa3",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/entry/4K5B",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5b_entry.json",
+    "bytes": 16959,
+    "sha256": "a03515bf4a547aae2444d5491d35d1603babc5c4c4f012108df7c1011dda4654",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4K5B/1",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5b_entity1.json",
+    "bytes": 12267,
+    "sha256": "c677223ba6b0b49ffb16765c13ca933f967d5e81088bf7b3081dc8bcdb521d7c",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4K5B/2",
+    "path": "output/structure_input_audit_bclw_20261020/sources/rcsb_4k5b_entity2.json",
+    "bytes": 30300,
+    "sha256": "f6bbb89bfe415808bb47858ca4f3dbc889892fa32a22bcca53292385d03df98e",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://files.rcsb.org/download/1ZY3.cif",
+    "path": "output/structure_input_audit_bclw_20261020/sources/1ZY3.cif",
+    "bytes": 2630102,
+    "sha256": "6ced8761f425e6921f306924f0859189ac6dcc56ef9a02195e95f97ab02b708b",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://files.rcsb.org/download/4CIM.cif",
+    "path": "output/structure_input_audit_bclw_20261020/sources/4CIM.cif",
+    "bytes": 579947,
+    "sha256": "1f61bc6ea04e61d12204c2c47189dbd7afe08749435d9132c5f3e1c6f67ca507",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://files.rcsb.org/download/3FDL.cif",
+    "path": "output/structure_input_audit_bclw_20261020/sources/3FDL.cif",
+    "bytes": 206944,
+    "sha256": "dfd9ede8c905172299289c25e7816eaf14893ba43c96502c854258c1962ac063",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4276867/?report=xml",
+    "path": "output/structure_input_audit_bclw_20261020/sources/Lee2014_4CIM_source.html",
+    "bytes": 297985,
+    "sha256": "d8e97aac0f496cc9b15c171e8e37b960da216854091aa9ada51d60a1e99fc0ea",
+    "reused_prior_source": false
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4276867/fullTextXML",
+    "status": "earlier_attempt_failed_not_evidence",
+    "error": "HTTP 500; kept as failed retrieval; web tool primary article read separately"
+  },
+  {
+    "url": "https://rest.uniprot.org/uniprotkb/Q92843.json",
+    "path": "output/structure_input_audit_bclw_20261020/sources/Q92843_current.json",
+    "bytes": 57518,
+    "sha256": "2fc04d4c86d50c02fd1252702c0f4de17db38f3dcbaad9a17ad337303e9edd97",
+    "reused_prior_source": false
+  }
+]

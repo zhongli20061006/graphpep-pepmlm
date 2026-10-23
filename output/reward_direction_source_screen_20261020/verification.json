@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-20",
+  "all_checks_pass": true,
+  "checks": {
+    "raw_csv_rows_7085": true,
+    "screen_groups_514": true,
+    "screen_both_point_direction_groups_125": true,
+    "decision_holds_no_pilot": true,
+    "frozen_criteria_hash_matches": true,
+    "atxn1_rows_nine": true,
+    "cic21_peptide_mutants_two": true,
+    "cic21_peptide_mutants_both_losses": true,
+    "new_prediction_and_scoring_counts_zero": true
+  },
+  "raw_rows": 7085,
+  "screen_groups": 514,
+  "groups_with_both_point_directions": 125,
+  "atxn1_skempi_group_rows": 9,
+  "atxn1_cic21_peptide_variant_to_wt_point_ratios": {
+    "WC37A": 43.1638418079096,
+    "LC40S": 17.28813559322034
+  },
+  "frozen_criteria_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "artifacts_sha256": {
+    "output/reward_direction_source_screen_20261020/report_zh.md": "ceb979da66e97d79da04151013188373c59aae51ace1527996abb98824a84d25",
+    "output/reward_direction_source_screen_20261020/candidate_source_ranking.csv": "5b064ff006003666a79d855d97a74c054f5620494da0185a8aeb9270d6937a81",
+    "output/reward_direction_source_screen_20261020/decision.json": "fa54822117f6d5313b387f8b8c449506aba319aa0f8229543793995528994708",
+    "output/reward_direction_source_screen_20261020/skempi_index_screen.json": "6f930ca4e17af7ce61b20376c715eb580bc33830ae3d18cb4857a888a5ffc7ad",
+    "output/reward_direction_source_screen_20261020/screen_skempi_index.py": "b6f85f931ab1d437bbd47d7ed2c0862b6575e73b5454796eb19738fe1af30454",
+    "output/reward_direction_source_screen_20261020/verify_source_screen.py": "4f3f50e229973822f0b417dffbe2bc9acc92ba65b0b32154bfea0fe561131925",
+    "output/reward_direction_source_screen_20261020/raw/skempi_v2.csv": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d",
+    "output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+  },
+  "new_structure_predictions": 0,
+  "new_scorer_runs": 0,
+  "new_model_training_runs": 0,
+  "note": "Source-screen verification only; it does not validate scorer efficacy or experimental affinity beyond the cited source records."
+}

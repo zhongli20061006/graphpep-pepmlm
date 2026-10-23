@@ -1,0 +1,4 @@
+role,fragment_id,fragment_sequence,reported_Kd_uM,reported_SD_uM,future_fold_seeds_if_released,input_status,blocking_input
+WT,DVL3_WT,PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY,46.0,6.0,20261008;20261009,HOLD_NOT_A_JOB,biotinylated SUMO fusion sequence/junction/site; matched representation not supplied
+loss_candidate,DVL3_P21A,PLPHPGAAPWPMAFPYQYPPAPHPYNPHPGFPELGY,115.0,10.0,20261008;20261009,HOLD_NOT_A_JOB,same unresolved full SUMO fusion and assay-label uncertainty; fragment is not the assayed standalone ligand
+gain_candidate,DVL3_Y25F,PLPHPGAAPWPMAFPYQYPPPPHPFNPHPGFPELGY,14.0,1.0,20261008;20261009,HOLD_NOT_A_JOB,same unresolved full SUMO fusion and assay-label uncertainty; fragment is not the assayed standalone ligand

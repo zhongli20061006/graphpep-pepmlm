@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "scope": "independent_raw_output_and_statistics_audit",
+  "real_scored_models": 60,
+  "failed_models_retained": 0,
+  "sequence_summaries_recomputed": 40,
+  "mutation_directions_recomputed": 32,
+  "rank_correlations_recomputed": 12,
+  "frozen_gates_recomputed": 2,
+  "affinity_screen_pass": false,
+  "verification_script_sha256": "a21e5b72d02509ef52e636f607c4fb712bcb160ae199b88982c2b20b36035cf6",
+  "limitation": "Audit correctness does not establish physical free-energy accuracy or holdout generalization"
+}

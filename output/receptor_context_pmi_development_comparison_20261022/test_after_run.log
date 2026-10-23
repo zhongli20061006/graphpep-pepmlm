@@ -1,0 +1,14 @@
+test_cached_original_table_audit_handles_blank_separator_rows (__main__.PairedTests.test_cached_original_table_audit_handles_blank_separator_rows) ... ok
+test_failures_remain_in_paired_denominator (__main__.PairedTests.test_failures_remain_in_paired_denominator) ... ok
+test_frozen_code_inventory_covers_imported_execution_helpers (__main__.PairedTests.test_frozen_code_inventory_covers_imported_execution_helpers) ... ok
+test_full_cache_key_includes_receptor_peptide_and_site (__main__.PairedTests.test_full_cache_key_includes_receptor_peptide_and_site) ... ok
+test_h_control_flip_and_tie_abstain (__main__.PairedTests.test_h_control_flip_and_tie_abstain) ... ok
+test_kd_shared_exponent_converts_mean_and_sd (__main__.PairedTests.test_kd_shared_exponent_converts_mean_and_sd) ... ok
+test_rounded_printed_ratio_does_not_make_gain (__main__.PairedTests.test_rounded_printed_ratio_does_not_make_gain) ... ok
+test_sensitivity_exposes_n8a_correlation_failure (__main__.PairedTests.test_sensitivity_exposes_n8a_correlation_failure) ... ok
+test_table_colspan_keeps_kd_columns_and_truncations (__main__.PairedTests.test_table_colspan_keeps_kd_columns_and_truncations) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.257s
+
+OK

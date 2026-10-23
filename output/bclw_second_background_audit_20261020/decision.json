@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-20",
+  "status": "BOUNDED_SOURCE_AUDIT_COMPLETE_NO_NEW_MODEL_COMPUTATION",
+  "frozen_v2_sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "existing_Foight2014_Bclw": {
+    "source_directed_pairs": 7,
+    "gain_point_candidates": 2,
+    "loss_point_candidates": 5,
+    "source_parents": [
+      "A12",
+      "B3",
+      "Bim",
+      "Bim_A2eT"
+    ],
+    "gain_parent_backgrounds": [
+      "Bim_A2eT"
+    ],
+    "formal_labels_released": 0
+  },
+  "Foight2015_Bclw": {
+    "raw_measurements": 33,
+    "source_directed_single_substitution_edges": 11,
+    "source_directed_gain_point_candidates": 0,
+    "source_directed_loss_point_candidates": 4,
+    "new_edge_identity_loss_candidates": 2,
+    "both_censored_source_directed_pairs": 7,
+    "original_library_peptides": 22,
+    "unordered_single_substitution_contrasts": 10,
+    "formal_labels_released": 0
+  },
+  "full_panel_decision": "HOLD_NO_QUALIFYING_BCLW_EXPANSION",
+  "reasons": [
+    "No new source-directed Bcl-w gain candidate in another background was recovered in this bounded screen.",
+    "BL_a and BL6prime-16 are measured one-substitution neighbours (79±11 vs 11±1.3 nM), but the paper selected them from different library sequencing routes without defining parent-to-mutant orientation. Do not choose the higher-Kd sequence as a new parent to manufacture an enhancement.",
+    "Overlapping mutation-edge identities across Foight2014 and Foight2015 are not independent new benchmark pairs; assay batches and raw-curve reuse remain unresolved.",
+    "Even a purely illustrative union of 7 existing unique edge identities plus 2 new loss candidates gives only 9 pairs and retains just 2 gains concentrated in one parent. This is not an admitted pooled panel.",
+    "Public construct sequences reveal R133 versus canonical Q133 and a 19-aa post-TEV prefix; the Foight2014 exact batch mapping remains unconfirmed."
+  ],
+  "pilot_readiness": "HOLD_EXISTING_INPUT_DRAFT_PENDING_RECEPTOR_IDENTITY_RECONCILIATION_AND_RUN_CONFIGURATION_FREEZE",
+  "scope_of_hold": "Bcl-w expansion and current input draft only; not a stop to the peptide-design research project or read-only source preparation.",
+  "next_research_action": "End this bounded Bcl-w expansion round; retain the verified raw data and construct map. Prioritize another receptor-assay source with existing source-defined bidirectional Kd point-mutation tables and exact assay inputs. No automatic prediction launch.",
+  "new_predictions": 0,
+  "new_scorer_executions": 0,
+  "training_runs": 0,
+  "paid_services": 0,
+  "third_party_outreach": 0
+}

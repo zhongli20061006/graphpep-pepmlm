@@ -1,0 +1,16 @@
+{
+  "completed_at_utc": "2026-10-22T12:30:28.215009+00:00",
+  "model_free_tests_passed": true,
+  "new_inputs": 19,
+  "reused_inputs": 9,
+  "pairs_retained": 7,
+  "budget": {
+    "status": "completed",
+    "returncode": 0,
+    "wall_seconds": 21.892745421,
+    "output_bytes": 184065,
+    "pid": 452
+  },
+  "formal_validation": "HOLD",
+  "closed_loop": "HOLD"
+}

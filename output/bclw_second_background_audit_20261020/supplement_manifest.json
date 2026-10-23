@@ -1,0 +1,62 @@
+{
+  "supplements": [
+    {
+      "file": "DeBartolo2014_TableS3_Kd.docx",
+      "status": "archived_ooxml",
+      "bytes": 27136,
+      "sha256": "323dde9b31959f80d459ab882cb762ba48e126518fbcc62aa3542e13bbd1a9f4",
+      "attempts": [
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1003693.s005",
+          "resolved_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1003693/1/pcbi.1003693.s005.docx?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T081556Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=4c73f2c18c680215767cccc409c906c634a089521044b220e91d86ba8c3121ddda25e9b0b558d7b9939952298be5b7279fb016cf9dd5892d713d85c23479434eb862893e5f72243fc9a0f8719d8195c961ff8d16cbc412f9210b872050143def07debd646853f603bb5267a92927d45872f49ea499776ee25ef170cad079718d5d6b3a4cd114f7914a43271939c50510e1a6a9db344092b9ce2f0792a4839913436fa074769b3078a535ac021a6be18432eeef884f99794addb898556c8ab0294cdc973d376206e740bea9f14319983bda90b8141605968c03fa4e25a666518edcd594e5ec14359a889ef499340cbf17bd9ce7655e9f937a0affcae08ff7e017",
+          "ok": true
+        }
+      ],
+      "retrieved_utc": "2026-10-20T08:15:57.093714+00:00"
+    },
+    {
+      "file": "DeBartolo2014_TableS6_constructs.docx",
+      "status": "archived_ooxml",
+      "bytes": 14686,
+      "sha256": "1d304c846fae5fcf4e97cc485fab04dca465b6977b05f5e9a8c1d532b553ccc7",
+      "attempts": [
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1003693.s008",
+          "resolved_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1003693/1/pcbi.1003693.s008.docx?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T081556Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=42487b016f7aec3bc45dbf37429b45ebc607b78be9f6348fd2224392b105cafa8151c9ce517123cc66cf4fc006745ff2923e0d2def7350b01da6d51f4d51dbf2d56f02be8ede008a3cb6e4c19d73f4e88457a0e7f30ca392cfcf5e9bcabb0e7ef70739ce710a8d6d4fb1a029421be6a6076ae05e8af51c83fe728d133a79db88c133af27794b6f3d52b742e25ffda993cfad23e9b5aa2408297cc956e3a0467aec2100b59ee28bc1195ef266d214a2883427821ab94b836c0e64d2a1a66e6b66949cd228b4e456909c4d2ea82c32ff91575b7713f4729d692e6fbdf9c8156c148e56edb6788d538e2111191a50b391716afab7af31faa14e808741ad1cd2d890",
+          "ok": true
+        }
+      ],
+      "retrieved_utc": "2026-10-20T08:15:57.385210+00:00"
+    },
+    {
+      "file": "Foight2015_supplement1.docx",
+      "status": "archived_ooxml",
+      "bytes": 2938317,
+      "sha256": "752fbe12f7add0b41ab8e9cf9e7ca684fbfef0c131c5906a37d431955e96fc5b",
+      "attempts": [
+        {
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0022283615002995-mmc1.docx",
+          "resolved_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0022283615002995-mmc1.docx",
+          "ok": true
+        }
+      ],
+      "retrieved_utc": "2026-10-20T08:15:57.196226+00:00"
+    },
+    {
+      "file": "Foight2015_supplement2.docx",
+      "status": "retrieval_failed",
+      "attempts": [
+        {
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0022283615002995-mmc2.docx",
+          "ok": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/4520770/bin/NIHMS694099-supplement-2.docx",
+          "ok": false,
+          "error": "Expected OOXML zip, got b'\\n\\n\\n\\n<html>\\n  <head>\\n    <meta '"
+        }
+      ]
+    }
+  ]
+}

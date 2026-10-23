@@ -1,0 +1,178 @@
+{
+  "schema": "peptide_project_handoff_verification_20261020_v1",
+  "verified_at_local": "2026-10-20T20:47:22+08:00",
+  "scope": "handoff documentation and read-only source/result integrity checks; no research inference rerun",
+  "new_deliverables": [
+    {
+      "path": "E:\\Users\\graphpep与pepmlm\\PROJECT_HANDOFF_2026-10-20.md",
+      "bytes": 26693,
+      "sha256": "ddd3cba4aff000f38230198084dcdf264026b5f732eafa01a4c437469c00f402"
+    },
+    {
+      "path": "E:\\Users\\graphpep与pepmlm\\NEW_SESSION_PROMPT_2026-10-20.txt",
+      "bytes": 7535,
+      "sha256": "60155022491ecd2d9e6df780db46696c91828a07dae10e8d61349801d216e407"
+    }
+  ],
+  "referenced_sources": [
+    {
+      "path": "PROJECT_HANDOFF_2026-10-07.md",
+      "bytes": 22126,
+      "sha256": "e2cafcdcfffe289c2c7e2217e3b166719c2ee1df8742e0291196b9fe00825d4b"
+    },
+    {
+      "path": "output/feedback_control_1ycr_20261006/report_zh.md",
+      "bytes": 5009,
+      "sha256": "d32714a12431ee3497d5892137769c631ba6c43f1259ae09f42f892f046d3895"
+    },
+    {
+      "path": "output/affinity_diagnostic_mdm2_20261006/report_zh.md",
+      "bytes": 10729,
+      "sha256": "f7c0b6926b089a094ef261ab3e657ccd1f402c89f9664bff0be21161e65ab7e2"
+    },
+    {
+      "path": "output/foldx_affinity_mdm2_20261006/analysis/report_zh.md",
+      "bytes": 3381,
+      "sha256": "ffc4050a06ead38fa8defe391f05db33cdad37b60319d187832cf94b15652da7"
+    },
+    {
+      "path": "output/backbone_diagnostic_20261007/analysis/interpretation_zh.md",
+      "bytes": 5411,
+      "sha256": "38a46c807d85e88d5acd9082d5246b933056ec375170a3cd7be15b8c5da0e0df"
+    },
+    {
+      "path": "output/reward_direction_benchmark_20261008/frozen_direction_criteria_v2.json",
+      "bytes": 7282,
+      "sha256": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b"
+    },
+    {
+      "path": "output/reward_direction_benchmark_20261008/protocol_draft_zh.md",
+      "bytes": 10761,
+      "sha256": "06da88d0b6e414de0bec54fc57e3f715029519127ba1c8b2277bcae724b0abc4"
+    },
+    {
+      "path": "output/independent_direction_audit_20261020/report_zh.md",
+      "bytes": 7314,
+      "sha256": "cc96b4b678904201b28bd56f497091fbc8312933ffc9688e30d6bec3f996fa04"
+    },
+    {
+      "path": "output/independent_direction_audit_20261020/followup_20261020/report_zh.md",
+      "bytes": 3420,
+      "sha256": "b5bf84705bae3a3cfbe037082f8cd393ef8348581509cb2b265e55d1a36d3414"
+    },
+    {
+      "path": "output/independent_direction_audit_20261020/independence_addendum_zh.md",
+      "bytes": 2576,
+      "sha256": "19292e252bdeee6c381eb004b88a4704f63296fab77c456ba66e798b1333157b"
+    },
+    {
+      "path": "output/reward_direction_source_screen_20261020/report_zh.md",
+      "bytes": 8203,
+      "sha256": "ceb979da66e97d79da04151013188373c59aae51ace1527996abb98824a84d25"
+    },
+    {
+      "path": "output/bh3_bclw_source_audit_20261020/report_zh.md",
+      "bytes": 6329,
+      "sha256": "bcdf7e5b50ca572fe810d435700856e03a1167cadda68d864415871d88f4bfa1"
+    },
+    {
+      "path": "output/bh3_bclw_source_audit_20261020/input_representation_frozen_pilot_v1.json",
+      "bytes": 2537,
+      "sha256": "76846081e949dab5d2e126b0d7260985ec6bb988c8d6ce1f560261659c7be43c"
+    },
+    {
+      "path": "output/bh3_second_background_audit_20261020/supplement_followup_zh.md",
+      "bytes": 2356,
+      "sha256": "3cef648f0cadd1af31c1a40ef57edd21eef351ff1bc465fd7a1686ea9c7de058"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/run_result_report_zh.md",
+      "bytes": 5716,
+      "sha256": "dd4d8dbab04f257efbcb8531657deb57207e16b548e20038c6ef77b3e287ead0"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/run_config_frozen_v1.json",
+      "bytes": 21435,
+      "sha256": "6057fa6d5ef225cd979e9756b7760798d745f9e667aa7365670c2db9c20214d0"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/launch_preflight_v1.json",
+      "bytes": 9644,
+      "sha256": "2468dd750a0a9669ad62b2c06ac6596d67d8cc26831c4fdcec42376ef3acfdac"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/structure_gate_audit_v1.json",
+      "bytes": 12051,
+      "sha256": "e4fd3350ce39afc855d4a7888520ca885346e150fc1f725024bdbf86e4d25696"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/paired_proxy_summary_v1.json",
+      "bytes": 7107,
+      "sha256": "f56ed27d93d0bdd9c813cccdebfc51f227db5f7486214fd6eca0cc2f241042d8"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/run_execution_record_v1.json",
+      "bytes": 9849,
+      "sha256": "d7d0215c069901e49969d5a8fec2af08ad57cefd9867040c2a8049761bf7b9dc"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/esm_loader_compat_addendum_v1.json",
+      "bytes": 1794,
+      "sha256": "c336c6b7cb3679364135e492dd476b885a2472791c47da38837d22654c96db13"
+    },
+    {
+      "path": "output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "bytes": 54473,
+      "sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462"
+    }
+  ],
+  "new_handoff_local_links_checked": 16,
+  "missing_links": [],
+  "current_pilot": {
+    "status": "ENGINEERING_PILOT_COMPLETE_NO_VALID_COMPLEX_DIRECTION",
+    "execution_status": "COMPLETED_WITH_STRUCTURAL_GATE_FAILURES_AND_ESM_LOADER_COMPAT_RETRY",
+    "manifest_entries_verified": 265,
+    "manifest_mismatches": [],
+    "manifest_detached_checksum_pass": true,
+    "raw_structures": 6,
+    "relaxed_structures": 6,
+    "identity_pass_cells": 6,
+    "quality_pass_cells": 0,
+    "graphpep_rows": 6,
+    "foldx_rows": 6,
+    "esm_sequence_rows": 3,
+    "metered_gpu_command_wall_seconds": 213.265,
+    "relax_and_foldx_cpu_command_wall_seconds": 533.026,
+    "new_output_bytes": 10750530
+  },
+  "NCAM1_snapshot": {
+    "rows": 1000,
+    "unique_sequences": 976,
+    "lengths": [
+      10
+    ]
+  },
+  "disk_snapshot_during_document_preparation": {
+    "C_free_GiB": 4.17,
+    "E_free_GiB": 109.95,
+    "Ubuntu_registry_BasePath": "E:\\WSL\\Ubuntu",
+    "transient_snapshot_not_reservation": true
+  },
+  "provenance_cautions_included": [
+    "old HOLD_NO_PILOT and NOT_STARTED are time-specific; the authorized Bcl-w pilot ran",
+    "pilot single_sequence differs from original shared-receptor-MSA draft",
+    "pilot max directional PAE differs from earlier median PAE wording",
+    "atomic contact-pair vs residue-pair ambiguity must be resolved before future formal runs",
+    "raw score signs do not implement v2 0.05 tie bands",
+    "no valid complex direction is not a measured 0 percent affinity accuracy",
+    "ESM loader addendum and failed first attempt retained",
+    "hash checks and six helper tests are not independent scientific affinity validation"
+  ],
+  "new_predictions": 0,
+  "new_scores": 0,
+  "new_training_runs": 0,
+  "tests_rerun_in_handoff_turn": false,
+  "historical_numerical_audits_fully_rerun": false,
+  "old_handoff_and_experiment_files_overwritten": false,
+  "status": "HANDOFF_AND_PROMPT_COMPLETE_WITH_SOURCE_INTEGRITY_CHECKS"
+}

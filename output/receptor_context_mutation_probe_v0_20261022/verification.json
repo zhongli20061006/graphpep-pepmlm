@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "name": "model_free_tests",
+      "pass": true
+    },
+    {
+      "name": "source_model_and_code_hashes_unchanged",
+      "pass": true
+    },
+    {
+      "name": "preserved_historical_artifacts",
+      "pass": true
+    },
+    {
+      "name": "gpu_wall_budget",
+      "pass": true
+    },
+    {
+      "name": "output_budget",
+      "pass": true
+    },
+    {
+      "name": "worker_completed_60",
+      "pass": true
+    },
+    {
+      "name": "numeric_gate_frozen",
+      "pass": true
+    },
+    {
+      "name": "285_diagnostics_283_eligible",
+      "pass": true
+    },
+    {
+      "name": "suggestion_filter_and_historical_exclusion",
+      "pass": true
+    },
+    {
+      "name": "suggestion_limits",
+      "pass": true
+    },
+    {
+      "name": "wt_self_zero",
+      "pass": true
+    },
+    {
+      "name": "fp32_tf32_off_eval",
+      "pass": true
+    }
+  ],
+  "failed_count": 0,
+  "preservation": [
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/algorithm_hypothesis_plan_20261022/artifact_manifest.json",
+      "manifest_sha256": "cfed04086a91c6165591f8f5d8b4dd98f2ae777f4909e7ed0783a246ea0f3fb3",
+      "files": 10,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bh3_bclw_six_complex_pilot_20261020/run_result_manifest_v1.json",
+      "manifest_sha256": "1e099ae23c5c909dfd74b30063d5ff157311d27d48ff24a6e48b53203a928462",
+      "files": 265,
+      "mismatches": []
+    },
+    {
+      "manifest": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/artifact_manifest.json",
+      "manifest_sha256": "d116fc37192075b6e7d8cfc2dfb0b9014809099453a425c9e3906baa40229ed7",
+      "files": 46,
+      "mismatches": []
+    }
+  ],
+  "no_affinity_claim": true,
+  "scope": "Technical verification only; biological performance untested"
+}

@@ -1,0 +1,13 @@
+seed,family,score_summary,n_comparable_peptides,spearman_vs_log10_kd
+20261011,all,median_score_all,10,0.735565707852878
+20261011,all,median_score_passing,10,0.735565707852878
+20261011,PMI,median_score_all,5,0.9999999999999999
+20261011,PMI,median_score_passing,5,0.9999999999999999
+20261011,p53,median_score_all,5,0.09999999999999999
+20261011,p53,median_score_passing,5,0.09999999999999999
+20261012,all,median_score_all,10,0.6484848484848483
+20261012,all,median_score_passing,10,0.6484848484848483
+20261012,PMI,median_score_all,5,0.9999999999999999
+20261012,PMI,median_score_passing,5,0.9999999999999999
+20261012,p53,median_score_all,5,0.0
+20261012,p53,median_score_passing,5,0.0

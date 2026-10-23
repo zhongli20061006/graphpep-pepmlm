@@ -1,0 +1,107 @@
+{
+  "protocol_id": "BCLW_PARENT_KERNEL_ABLATION_V1",
+  "frozen_fasta_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+  "observed_fasta_sha256": "3e2e33b829c9ef0a1e0e5f1c4a3eece4f56244b525a3c12aa947733bc7995970",
+  "fasta_match": true,
+  "seeds": [
+    {
+      "seed": 20261008,
+      "actual_a3m": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261008/structures/BCLW_Bim_A2eT_parent.a3m",
+      "a3m_sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91",
+      "a3m_header": "#164,23\t1,1",
+      "serialized_query_rows": 2,
+      "exact_single_sequence_layout": true,
+      "homolog_sequences": 0,
+      "config_sha256": "5cc75ed6b7d738ccceb18bdb8914cceacbef905e546a470a361db7a0c5214968",
+      "effective_config": {
+        "version": "1.6.3",
+        "msa_mode": "single_sequence",
+        "use_templates": false,
+        "model_type": "alphafold2_multimer_v3",
+        "num_models": 1,
+        "num_recycles": 3,
+        "recycle_early_stop_tolerance": 0.0,
+        "num_ensemble": 1,
+        "model_order": [
+          1
+        ],
+        "num_queries": 1,
+        "max_seq": 1,
+        "pair_mode": "unpaired",
+        "random_seed": 20261008,
+        "num_seeds": 1,
+        "use_fast_kernels": false,
+        "compile_mode": "fast"
+      },
+      "config_differences_vs_same_seed_baseline": {
+        "num_queries": {
+          "baseline": 3,
+          "new": 1
+        },
+        "use_fast_kernels": {
+          "baseline": true,
+          "new": false
+        }
+      },
+      "recycles_observed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "raw_pdb_count": 1,
+      "score_file_count": 1,
+      "relaxed_pdb_count": 1
+    },
+    {
+      "seed": 20261009,
+      "actual_a3m": "/mnt/e/Users/graphpep与pepmlm/output/bclw_parent_kernel_ablation_v1/seed_20261009/structures/BCLW_Bim_A2eT_parent.a3m",
+      "a3m_sha256": "309397b00cb7f52b24c43c140a73dcb7abcbb2c3cb45eac24981f905a26cfb91",
+      "a3m_header": "#164,23\t1,1",
+      "serialized_query_rows": 2,
+      "exact_single_sequence_layout": true,
+      "homolog_sequences": 0,
+      "config_sha256": "2389c89b7f06d808592cd074798120a5d2759addc787ab07ff95ea7b87060b80",
+      "effective_config": {
+        "version": "1.6.3",
+        "msa_mode": "single_sequence",
+        "use_templates": false,
+        "model_type": "alphafold2_multimer_v3",
+        "num_models": 1,
+        "num_recycles": 3,
+        "recycle_early_stop_tolerance": 0.0,
+        "num_ensemble": 1,
+        "model_order": [
+          1
+        ],
+        "num_queries": 1,
+        "max_seq": 1,
+        "pair_mode": "unpaired",
+        "random_seed": 20261009,
+        "num_seeds": 1,
+        "use_fast_kernels": false,
+        "compile_mode": "fast"
+      },
+      "config_differences_vs_same_seed_baseline": {
+        "num_queries": {
+          "baseline": 3,
+          "new": 1
+        },
+        "use_fast_kernels": {
+          "baseline": true,
+          "new": false
+        }
+      },
+      "recycles_observed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "raw_pdb_count": 1,
+      "score_file_count": 1,
+      "relaxed_pdb_count": 1
+    }
+  ],
+  "interpretation": "Both generated A3M files contain only the single query represented in chain-separated padded rows; no homolog MSA was used. Config differs from the three-query pilot only because this branch predicts the parent alone and disables fast kernels."
+}

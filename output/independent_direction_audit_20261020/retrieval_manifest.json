@@ -1,0 +1,69 @@
+[
+  {
+    "name": "pdz_supp_data_pmc.pdf",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2655215/bin/NIHMS90286-supplement-Data.pdf",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2655215/bin/NIHMS90286-supplement-Data.pdf",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1814,
+    "valid_expected_format": false,
+    "sha256": "0b45aa13dda939343a44c23d10e8f8fac7771f91dde16680f9d7e4b8b4cc3a3e",
+    "prefix": "\n\n\n\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width"
+  },
+  {
+    "name": "pdz_supp_01_pmc.pdf",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2655215/bin/NIHMS90286-supplement-01.pdf",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2655215/bin/NIHMS90286-supplement-01.pdf",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1817,
+    "valid_expected_format": false,
+    "sha256": "b76098035bdece93550f514fc6eeb70c0306078cf26a81c9eee02b7f4d2877ca",
+    "prefix": "\n\n\n\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width"
+  },
+  {
+    "name": "pdz_supp_europepmc.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2655215/supplementaryFiles",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2655215/supplementaryFiles",
+    "status": 200,
+    "content_type": "application/xml",
+    "bytes": 296,
+    "valid_expected_format": false,
+    "sha256": "2145d191622e1539b251dc18c87ab991f72f5cde903bee20418c80089265955e",
+    "prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns4:"
+  },
+  {
+    "name": "pdz_fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2655215/fullTextXML",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "name": "pdz_publisher.html",
+    "url": "https://www.nature.com/articles/nbt.1489",
+    "final_url": "https://www.nature.com/articles/nbt.1489?error=cookies_not_supported&code=7d0e7a2b-51bb-4fa0-b7d0-5829542e16fd",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 288432,
+    "valid_expected_format": true,
+    "sha256": "3dad5da949bfe070f1c5ed6f55fcb3d3f9aa7ad3568f61d978ae0b2d726670ff",
+    "prefix": "\n\n<!DOCTYPE html>\n<html lang=\"en\" class=\"grade-c\">\n<head>\n  "
+  },
+  {
+    "name": "pdz_supplement_publisher.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnbt.1489/MediaObjects/41587_2008_BFnbt1489_MOESM436_ESM.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 658856,
+    "valid_expected_format": true,
+    "sha256": "ccc46ed840840e9d2f72fd02bbb401a1b04427397bbb484bb7e434701a35a4c7"
+  },
+  {
+    "name": "pdz_supplement_publisher.xls",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnbt.1489/MediaObjects/41587_2008_BFnbt1489_MOESM437_ESM.xls",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 1533440,
+    "valid_expected_format": true,
+    "sha256": "7edeb3fa7ca0ffd9de7d3ebd50c1f46d655a54f7b1f4224685e88e9005ecd091"
+  }
+]

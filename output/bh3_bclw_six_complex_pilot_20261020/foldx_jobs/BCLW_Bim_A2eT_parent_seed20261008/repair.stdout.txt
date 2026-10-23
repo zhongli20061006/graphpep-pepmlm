@@ -1,0 +1,59 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 5.1 (c)            ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+getInstances
+Reading config file 'repair.cfg'
+Start RepairPDB >>>
+
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+getInstances
+"input_Repair.fxout"
+Repair will take all residues into account
+Repaired
+
+BackHbond       =               -152.16
+SideHbond       =               -39.31
+Energy_VdW      =               -166.91
+Electro         =               -8.01
+Energy_SolvP    =               240.61
+Energy_SolvH    =               -217.49
+Energy_vdwclash =               21.52
+energy_torsion  =               7.20
+backbone_vdwclash=              184.67
+Entropy_sidec   =               78.55
+Entropy_mainc   =               269.23
+water bonds     =               0.00
+helix dipole    =               -0.73
+loop_entropy    =               0.00
+cis_bond        =               0.00
+disulfide       =               0.00
+kn electrostatic=               -0.02
+partial covalent interactions = 0.00
+Energy_Ionisation =             0.45
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.91
+
+End of Repair
+Output PDB ./input_Repair.pdb
+getInstances
+Cleaning RepairPDB...DONE

@@ -1,0 +1,25 @@
+{
+  "audit_id": "BCLW_CONSTRUCT_MSA_AUDIT_20261022",
+  "status": "INPUT_AUDIT_AND_PREPARATION_ONLY",
+  "new_prediction_jobs_authorized_this_turn": 0,
+  "new_reward_calls_authorized_this_turn": 0,
+  "prior_kernel_branch": "COMPLETED_0_OF_2_HOLD",
+  "retrieval_limits": {"uniprot_query": "(gene_exact:BCL2L2) AND (taxonomy_id:7742)", "canonical_records_max": 500, "response_bytes_max": 2097152, "total_new_source_bytes_max": 10485760, "no_remote_msa_service": true, "no_database_or_software_install": true},
+  "msa_selection_frozen_before_retrieval": {
+    "purpose": "Small source-audited receptor homolog alignment; not a full MMseqs database MSA or guaranteed structure remedy.",
+    "reference": "Existing Q92843 canonical full sequence; project only unchanged query positions 1-164; do not change Q133.",
+    "source": "UniProtKB canonical BCL2L2-annotated vertebrate records; reviewed and unreviewed disclosed; gene annotation plus alignment supports homolog candidates, not independently proved orthology.",
+    "full_length_inclusive": [150,250], "standard_amino_acids_only": true,
+    "reject_fragment_fusion_and_BCL2L2_PABPN1_readthrough": true,
+    "alignment": "Global Bio.Align.PairwiseAligner with BLOSUM62, open gap -10, extend gap -0.5 against full Q92843; project the first 164 reference residues; insertions lowercase in A3M.",
+    "core_coverage_min": 0.90, "core_matches_divided_by_164_min": 0.40,
+    "exclude_duplicate_query_and_duplicate_core_match_rows": true,
+    "one_per_taxon": "Prefer reviewed, then higher coverage, then higher core identity, then accession.",
+    "homolog_rows_max": 64,
+    "if_more_than_64": "Deterministic farthest-first selection on projected match-column identities including query; accession tie-break. No prediction/affinity readouts used.",
+    "readiness_floor": {"unique_nonquery_homolog_rows_min":8,"greedy_clusters_at_80pct_min":3,"neff_at_80pct_min":3.0,"each_core_column_nongap_fraction_min":0.80},
+    "floor_interpretation": "Engineering input-readiness floor fixed before retrieving sequences, not a biological guarantee. Failure keeps prediction plan HOLD; do not relax the floor to claim readiness."
+  },
+  "preserve": ["all prior pilot and kernel result files", "frozen_direction_criteria_v2.json", "old thresholds, seeds and tie definitions"],
+  "excluded": ["new AFM/ColabFold predictions", "GraphPep", "FoldX", "ESM2", "PepMLM", "new seed selection", "MD or repeated minimization", "training", "paid service", "third-party contact", "wet lab"]
+}

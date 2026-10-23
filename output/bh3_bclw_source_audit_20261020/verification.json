@@ -1,0 +1,28 @@
+{
+  "source_table2_finite_and_censored_cells": 72,
+  "source_sequences": 13,
+  "source_defined_single_mutation_edges": 7,
+  "paired_comparisons": 14,
+  "separate_system_counts": {
+    "Bcl-w": {
+      "source_defined_single_substitution_pairs": 7,
+      "gain_point_candidates": 2,
+      "loss_point_candidates": 5,
+      "fit_sensitivity_supported": 7
+    },
+    "Bcl-xL": {
+      "source_defined_single_substitution_pairs": 7,
+      "gain_point_candidates": 1,
+      "loss_point_candidates": 6,
+      "fit_sensitivity_supported": 7
+    }
+  },
+  "graphpep_native_files_examined": 5018,
+  "graphpep_missing_native_files": 0,
+  "graphpep_manifest_hash_mismatches": 0,
+  "graphpep_recB_files_included": 62,
+  "criteria_v2_sha256_current": "23f2be45ab89a718b03079f34f0832d1a6bf8f7789581c6c8c2fd5bad8d22f5b",
+  "criteria_v2_unchanged_from_frozen": true,
+  "figshare_supplement_md5_matches_api": true,
+  "new_predictions_or_scores_seen": false
+}

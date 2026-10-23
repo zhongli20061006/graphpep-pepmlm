@@ -1,0 +1,14 @@
+{
+  "version": "bh3_fit_summary_sensitivity_v1",
+  "frozen_before_new_prediction_or_score": true,
+  "source_semantics": "Kd fit to averaged anisotropy data from at least three replicates across three days; pointwise SD; Table 2 uncertainty is Matlab confint on the fit",
+  "approximation": "Treat reported symmetric 95% CI halfwidth h as 1.96 times local fit SE. Delta-method log-ratio radius is sqrt((h_mut/K_mut)^2+(h_parent/K_parent)^2), or their sum under adverse covariance. This is conditional model-based sensitivity, not raw-replicate or biological inference.",
+  "no_division_by_sqrt_n": true,
+  "limits": [
+    "Replicate-level Kd or raw anisotropy values and full covariance are unavailable",
+    "Source fits condition on a fixed lower baseline and a peptide concentration estimated from other plateaued curves",
+    "Receptor active fraction and source Bcl-w oligomerization are not included",
+    "Marginal-endpoint envelopes are not claimed to have joint 95% coverage",
+    "No formal benchmark labels or pilot execution are released by this sensitivity calculation"
+  ]
+}

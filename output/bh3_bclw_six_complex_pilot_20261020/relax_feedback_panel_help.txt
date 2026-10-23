@@ -1,0 +1,10 @@
+usage: relax_feedback_panel.py [-h] input output
+
+Apply identical restrained Amber minimization to every AFM complex.
+
+positional arguments:
+  input
+  output
+
+options:
+  -h, --help  show this help message and exit

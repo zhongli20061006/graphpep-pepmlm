@@ -1,0 +1,18 @@
+usage: step3_graphpep.py [-h] [--lists LISTS] [--pdb-dir PDB_DIR]
+                         [--scores SCORES] [--graphpep-dir GRAPHPEP_DIR]
+                         [--patched-resmap PATCHED_RESMAP]
+                         [--blue-threshold BLUE_THRESHOLD]
+
+Score each real complex with its own receptor. Raw GraphPep score: lower
+better. Different sequences cannot share a multi-MODEL topology or ESM
+feature. Optional manifest columns: complex_path, model_id, receptor_sequence.
+Confidence columns are preserved. Empty interaction graphs stay unscored.
+
+options:
+  -h, --help            show this help message and exit
+  --lists LISTS
+  --pdb-dir PDB_DIR
+  --scores SCORES
+  --graphpep-dir GRAPHPEP_DIR
+  --patched-resmap PATCHED_RESMAP
+  --blue-threshold BLUE_THRESHOLD

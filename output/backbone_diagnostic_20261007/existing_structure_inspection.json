@@ -1,0 +1,1883 @@
+{
+  "structures": [
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261011,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 135.96346151522826,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.30300378044478,
+          "psi_deg": 160.78690691173756,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.86550905694184,
+          "psi_deg": -42.6460014316738,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -62.40316506743067,
+          "psi_deg": -40.40732936497275,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -64.69249262323306,
+          "psi_deg": -48.80801986879583,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -62.2670898704986,
+          "psi_deg": -41.14637904352184,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.3292083148285,
+          "psi_deg": -34.20921691092055,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -70.08692650819312,
+          "psi_deg": -16.394513542638872,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -80.46597432683606,
+          "psi_deg": -4.761539027635638,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -60.403238960636365,
+          "psi_deg": 130.18149859617822,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -67.31926338066494,
+          "psi_deg": 132.83362699885728,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -76.64379112500741,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.241135597229004,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 130.27373248518873,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -86.71542572858448,
+          "psi_deg": 162.96515271430772,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -54.207211722266365,
+          "psi_deg": -43.97250480707782,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -60.83249527233802,
+          "psi_deg": -38.02396529268815,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -69.90478278622794,
+          "psi_deg": -49.08682363278468,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -58.94394745690213,
+          "psi_deg": -40.95142237725097,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -72.04546149148591,
+          "psi_deg": -31.146950193661905,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -64.73908428723946,
+          "psi_deg": -44.88217244664496,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -58.33534822130283,
+          "psi_deg": -29.18636971270456,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -73.11303350441865,
+          "psi_deg": -28.385392807287428,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -95.74641128243341,
+          "psi_deg": -4.834734494451846,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -78.92613234976827,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 3,
+      "O7_N11_distance_A": 3.3650407791137695,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 133.03474954957792,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.09282671064078,
+          "psi_deg": 162.4242463587501,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -54.9945437944469,
+          "psi_deg": -45.14815024909876,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -61.888357059586795,
+          "psi_deg": -36.546671450310726,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -68.68627546884896,
+          "psi_deg": -49.17646119251677,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -61.57086589659853,
+          "psi_deg": -38.69884764067329,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.95777386612492,
+          "psi_deg": -34.879852982158816,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -70.11098415601813,
+          "psi_deg": -13.877696418577319,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -84.8272093559591,
+          "psi_deg": -2.2690105873885447,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -61.06265594479041,
+          "psi_deg": 130.284356719126,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -64.54328343533493,
+          "psi_deg": 138.18723123763266,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -79.58395087139401,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.241475582122803,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261011,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 139.9590498496714,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.93391532559274,
+          "psi_deg": 162.3952006879007,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.22174428621386,
+          "psi_deg": -41.829344441375675,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -63.88467321021735,
+          "psi_deg": -40.019050808747224,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -63.80449217178979,
+          "psi_deg": -50.78652558427615,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -60.28603351087137,
+          "psi_deg": -40.24713074413066,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.8675539913451,
+          "psi_deg": -34.7335555342677,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -68.9550844724639,
+          "psi_deg": -16.970256121591564,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -82.78118555224643,
+          "psi_deg": -4.4063622301181855,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -59.30949425904881,
+          "psi_deg": 129.8893470738662,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -67.27213104326081,
+          "psi_deg": 140.55628135884913,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -77.70692064787116,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.2007527351379395,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 138.8100569139965,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.21897434451022,
+          "psi_deg": 160.55173727236894,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.545311820148065,
+          "psi_deg": -44.1692548434256,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -59.17166307115942,
+          "psi_deg": -41.099670973023045,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -67.15803294237253,
+          "psi_deg": -47.9977748182328,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -59.98447934633486,
+          "psi_deg": -38.847599935631216,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -73.24245788718099,
+          "psi_deg": -33.3358510765527,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -63.20516743655224,
+          "psi_deg": -43.487476507501576,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -60.90114690776943,
+          "psi_deg": -30.716662805489122,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -69.94105620093937,
+          "psi_deg": -28.439084109186783,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -95.01926899798002,
+          "psi_deg": -5.213271992228912,
+          "alpha_like": true
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -85.12947682356256,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 4,
+      "O7_N11_distance_A": 3.3247251510620117,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 126.75114967572507,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -82.15388858509908,
+          "psi_deg": 164.8673973770002,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -57.30406397074993,
+          "psi_deg": -43.294933075500296,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -63.19409248197872,
+          "psi_deg": -38.715926075349195,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -64.9765576006597,
+          "psi_deg": -50.53660501662132,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -61.7184269697869,
+          "psi_deg": -38.67340987840832,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -68.9029752727719,
+          "psi_deg": -35.322536855540285,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -69.55390885769555,
+          "psi_deg": -15.001205266730246,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -83.68394208940019,
+          "psi_deg": -4.024777341852689,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -60.39353650246737,
+          "psi_deg": 130.66878367665794,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -63.85105565807354,
+          "psi_deg": 147.94413833512218,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -84.28382340597702,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.187817573547363,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261011,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 144.63211829826756,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -93.67184448461782,
+          "psi_deg": 163.4132523132879,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -58.277321821413146,
+          "psi_deg": -43.600974018511124,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -60.706588511748166,
+          "psi_deg": -42.47074956967759,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -65.11093360908198,
+          "psi_deg": -49.66661647395231,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -58.276480513727364,
+          "psi_deg": -41.256960115511205,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.98198447210704,
+          "psi_deg": -34.64206839211336,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -71.37681207506112,
+          "psi_deg": -16.902886010423526,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -82.82993846516587,
+          "psi_deg": -3.3684712357753135,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -61.585966096164036,
+          "psi_deg": 130.51464796481318,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -66.79802163854562,
+          "psi_deg": 126.62389428740326,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -70.24899213794362,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.199134349822998,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 143.22799591619764,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -93.6966261457416,
+          "psi_deg": 160.9193887390402,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.14384489060824,
+          "psi_deg": -44.23439194419522,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -60.14728961158076,
+          "psi_deg": -41.48822286938603,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -68.17431466827618,
+          "psi_deg": -48.60999705568067,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -57.250177297281745,
+          "psi_deg": -42.06694889333034,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -71.52136019074722,
+          "psi_deg": -33.63658607192817,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -63.90954274446544,
+          "psi_deg": -45.50464709550594,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -57.40557585601758,
+          "psi_deg": -28.120878582007926,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -73.0328901156761,
+          "psi_deg": -27.342551700730972,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -98.77937144881773,
+          "psi_deg": -5.889070692802298,
+          "alpha_like": true
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -76.80405927663591,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 4,
+      "O7_N11_distance_A": 3.48724627494812,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 134.50181838495115,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.5677515213994,
+          "psi_deg": 163.4805046699248,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -57.16097977183781,
+          "psi_deg": -44.813621312274044,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -60.185998459048186,
+          "psi_deg": -39.91488466494166,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -66.553596041039,
+          "psi_deg": -47.97811582143635,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -62.64180371936013,
+          "psi_deg": -39.25781104093515,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -68.68822895820078,
+          "psi_deg": -35.69443907382461,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -71.0530518977242,
+          "psi_deg": -14.713047001195543,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -82.74591721527842,
+          "psi_deg": -5.409217223742202,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -58.72375613618988,
+          "psi_deg": 128.82108464442393,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -61.48421378710468,
+          "psi_deg": 139.37026994478407,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -81.10925460293167,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 2,
+      "O7_N11_distance_A": 6.143153667449951,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261012,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 133.33384755943945,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.73877279309481,
+          "psi_deg": 161.36957911476495,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.47766956620161,
+          "psi_deg": -42.23394927718234,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -62.99426298667144,
+          "psi_deg": -40.183960554547575,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -65.17183714633886,
+          "psi_deg": -49.51661751557763,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -60.32688027690855,
+          "psi_deg": -42.615922121614624,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -67.57961050230459,
+          "psi_deg": -33.968109949928035,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -70.03248265228807,
+          "psi_deg": -13.761778803210682,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -81.96377502914017,
+          "psi_deg": -4.608815005866241,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -61.31702179076415,
+          "psi_deg": 129.8418557249738,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -62.740035691772206,
+          "psi_deg": 138.40747803908553,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -82.62781523878701,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.204657077789307,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 132.91928858495805,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -86.27418728390033,
+          "psi_deg": 160.87269079524933,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.56907822519162,
+          "psi_deg": -42.76479967540891,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -61.38326254945766,
+          "psi_deg": -41.26455051078036,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -65.69544212711268,
+          "psi_deg": -48.69499911946486,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -60.49456381286074,
+          "psi_deg": -40.3120301466579,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -72.82601042737234,
+          "psi_deg": -30.792941991446693,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -64.52768228136537,
+          "psi_deg": -44.31300815267791,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -58.597433484514575,
+          "psi_deg": -31.73164202391283,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -69.61030628325513,
+          "psi_deg": -30.129261870173007,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -94.13647826385359,
+          "psi_deg": 0.9885924813728443,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -82.87400607222031,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 3,
+      "O7_N11_distance_A": 3.315769910812378,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 1,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 130.1905182742436,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -83.40879612128815,
+          "psi_deg": 162.4009626750155,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -56.04814583573183,
+          "psi_deg": -43.080455889435726,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -63.48149132657284,
+          "psi_deg": -38.470363784263625,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -66.10518613533667,
+          "psi_deg": -48.365361543432975,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -63.55486049446819,
+          "psi_deg": -40.715191770466845,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -66.58019625201202,
+          "psi_deg": -36.677412515575,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -68.54111285852078,
+          "psi_deg": -13.223034176751405,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -84.58027877156066,
+          "psi_deg": -3.077356354920633,
+          "alpha_like": false
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -60.95950823998276,
+          "psi_deg": 131.67472458661786,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -60.748036188976414,
+          "psi_deg": 143.74575036307348,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -84.32832163479014,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 1,
+      "O7_N11_distance_A": 6.169544219970703,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261012,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 141.79523112275743,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -87.55736612910131,
+          "psi_deg": 160.56762565294017,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -53.6757004905835,
+          "psi_deg": -40.63280307494336,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -65.03505839369613,
+          "psi_deg": -37.526510233504176,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -66.87461555932876,
+          "psi_deg": -50.22362887002677,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -60.483766822349956,
+          "psi_deg": -40.494649353953676,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.49201185972119,
+          "psi_deg": -34.33924431026357,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -68.45385488640062,
+          "psi_deg": -16.74761785056899,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -82.14298950464317,
+          "psi_deg": -5.043530009841172,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -59.39728019397356,
+          "psi_deg": 132.065138928681,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -65.06650967588317,
+          "psi_deg": 142.44184776638767,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -81.80912148286694,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 2,
+      "O7_N11_distance_A": 6.175027847290039,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 139.10516011330972,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -85.40019747631392,
+          "psi_deg": 162.33983882488275,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -54.57598645653869,
+          "psi_deg": -40.973207373038164,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -64.01698636418217,
+          "psi_deg": -41.71499312867832,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -64.949788777599,
+          "psi_deg": -48.57747969614896,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -60.49909652881144,
+          "psi_deg": -38.775571702222436,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -73.39926609411408,
+          "psi_deg": -31.885502243507403,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -63.87797256257139,
+          "psi_deg": -44.26969762004138,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -59.47492302565186,
+          "psi_deg": -27.405472299497465,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -75.18842845248538,
+          "psi_deg": -28.08136569765825,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -96.2928911823634,
+          "psi_deg": -3.2160358133912976,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -84.41841799850458,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 3,
+      "O7_N11_distance_A": 3.354440450668335,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 2,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 124.91673747770342,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -80.23173352288434,
+          "psi_deg": 164.65672013453775,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -57.29424444753575,
+          "psi_deg": -43.20633911248645,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -65.68897204995591,
+          "psi_deg": -34.59651395459074,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -67.23049589487212,
+          "psi_deg": -51.42630705275653,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -60.01940813955137,
+          "psi_deg": -39.52600481384336,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -68.5029633738344,
+          "psi_deg": -34.86235807841893,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -69.66150850432088,
+          "psi_deg": -14.825134065320853,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -82.73983357241573,
+          "psi_deg": -5.460001503975462,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -59.36194017459558,
+          "psi_deg": 129.06570960388345,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -64.56158757007181,
+          "psi_deg": 138.56995031801216,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -75.16922857702892,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 2,
+      "O7_N11_distance_A": 6.198357105255127,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_WT",
+      "seed": 20261012,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 144.31831700052652,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -92.05655038092382,
+          "psi_deg": 162.82426732092574,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -57.33710631709604,
+          "psi_deg": -43.26639177792609,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -61.659637845211236,
+          "psi_deg": -41.029623862281646,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -65.45871035350365,
+          "psi_deg": -49.651345037282404,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -59.116812913358245,
+          "psi_deg": -42.255374174077815,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -67.5930534706295,
+          "psi_deg": -36.312703416316914,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -70.56285971021633,
+          "psi_deg": -18.057727230641454,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -80.46913607888862,
+          "psi_deg": -5.316806144328115,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -61.38786056079148,
+          "psi_deg": 133.84834536941472,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -66.72271926496649,
+          "psi_deg": 130.46242861886932,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -80.44806452704346,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 2,
+      "O7_N11_distance_A": 6.167664527893066,
+      "N11_is_possible_amide_donor": false
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 143.20159774323162,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -93.41150165774462,
+          "psi_deg": 161.59813744328792,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -55.38000641481468,
+          "psi_deg": -41.9844105792547,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -63.186624042849566,
+          "psi_deg": -40.46051969170846,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -67.29025007831606,
+          "psi_deg": -49.11798768819333,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "LEU",
+          "phi_deg": -57.37153955189402,
+          "psi_deg": -39.871038016806786,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -74.48100038344569,
+          "psi_deg": -33.02725136185274,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -63.736783691404455,
+          "psi_deg": -46.18978781778772,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -58.167653871143855,
+          "psi_deg": -27.12350324334244,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -74.51704658752354,
+          "psi_deg": -27.916951426398878,
+          "alpha_like": true
+        },
+        {
+          "position": 11,
+          "residue": "ALA",
+          "phi_deg": -97.36438785295718,
+          "psi_deg": -6.324300230386829,
+          "alpha_like": true
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -75.50489242560849,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 4,
+      "O7_N11_distance_A": 3.4311983585357666,
+      "N11_is_possible_amide_donor": true
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 3,
+      "torsions": [
+        {
+          "position": 1,
+          "residue": "GLU",
+          "phi_deg": null,
+          "psi_deg": 136.2471139941886,
+          "alpha_like": false
+        },
+        {
+          "position": 2,
+          "residue": "THR",
+          "phi_deg": -86.30938639879136,
+          "psi_deg": 163.31163859284666,
+          "alpha_like": false
+        },
+        {
+          "position": 3,
+          "residue": "PHE",
+          "phi_deg": -56.565594239703415,
+          "psi_deg": -42.30049796395361,
+          "alpha_like": true
+        },
+        {
+          "position": 4,
+          "residue": "SER",
+          "phi_deg": -63.05140443230887,
+          "psi_deg": -41.3771620692991,
+          "alpha_like": true
+        },
+        {
+          "position": 5,
+          "residue": "ASP",
+          "phi_deg": -63.882065026154955,
+          "psi_deg": -49.736365902741746,
+          "alpha_like": true
+        },
+        {
+          "position": 6,
+          "residue": "ALA",
+          "phi_deg": -61.757644620562154,
+          "psi_deg": -38.83126570252693,
+          "alpha_like": true
+        },
+        {
+          "position": 7,
+          "residue": "TRP",
+          "phi_deg": -69.70083309278337,
+          "psi_deg": -35.97181519264844,
+          "alpha_like": true
+        },
+        {
+          "position": 8,
+          "residue": "LYS",
+          "phi_deg": -69.87841642617016,
+          "psi_deg": -15.317420740996962,
+          "alpha_like": true
+        },
+        {
+          "position": 9,
+          "residue": "LEU",
+          "phi_deg": -80.88707372470992,
+          "psi_deg": -5.929512155661522,
+          "alpha_like": true
+        },
+        {
+          "position": 10,
+          "residue": "LEU",
+          "phi_deg": -61.76819951654637,
+          "psi_deg": 130.43332627535622,
+          "alpha_like": false
+        },
+        {
+          "position": 11,
+          "residue": "PRO",
+          "phi_deg": -63.826158122241154,
+          "psi_deg": 132.6860486725493,
+          "alpha_like": false
+        },
+        {
+          "position": 12,
+          "residue": "GLU",
+          "phi_deg": -80.30729077445476,
+          "psi_deg": null,
+          "alpha_like": false
+        }
+      ],
+      "alpha_like_B8_11": 2,
+      "O7_N11_distance_A": 6.152032375335693,
+      "N11_is_possible_amide_donor": false
+    }
+  ],
+  "aligned_comparisons": [
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 1,
+      "all_CA_rmsd_A": 1.8937490737890526,
+      "B8_12_CA_rmsd_A": 2.9186105284097774,
+      "A_backbone_rmsd_A": 0.07571372989635544,
+      "B_backbone_rmsd_A": 1.9678108763377262,
+      "B8_12_backbone_rmsd_A": 2.990073259547203
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 1,
+      "all_CA_rmsd_A": 0.35975355570418327,
+      "B8_12_CA_rmsd_A": 0.24693347005503186,
+      "A_backbone_rmsd_A": 0.07917907340858191,
+      "B_backbone_rmsd_A": 0.3456946013062977,
+      "B8_12_backbone_rmsd_A": 0.24637898833841312
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 2,
+      "all_CA_rmsd_A": 1.9028057502897577,
+      "B8_12_CA_rmsd_A": 2.9377901663390382,
+      "A_backbone_rmsd_A": 0.08933951158646168,
+      "B_backbone_rmsd_A": 2.003898306874997,
+      "B8_12_backbone_rmsd_A": 3.05073075811922
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 2,
+      "all_CA_rmsd_A": 0.47752160470409905,
+      "B8_12_CA_rmsd_A": 0.3899946091120103,
+      "A_backbone_rmsd_A": 0.07198546969415726,
+      "B_backbone_rmsd_A": 0.45819904681380624,
+      "B8_12_backbone_rmsd_A": 0.38170487104849626
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261011,
+      "model": 3,
+      "all_CA_rmsd_A": 1.7650195131292805,
+      "B8_12_CA_rmsd_A": 2.7229068902494866,
+      "A_backbone_rmsd_A": 0.08387226856835274,
+      "B_backbone_rmsd_A": 1.87597541639499,
+      "B8_12_backbone_rmsd_A": 2.85490928483799
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261011,
+      "model": 3,
+      "all_CA_rmsd_A": 0.43388143251947614,
+      "B8_12_CA_rmsd_A": 0.39679901436173187,
+      "A_backbone_rmsd_A": 0.08059015961914505,
+      "B_backbone_rmsd_A": 0.4275246838960091,
+      "B8_12_backbone_rmsd_A": 0.4017982322441682
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 1,
+      "all_CA_rmsd_A": 1.8541338898258912,
+      "B8_12_CA_rmsd_A": 2.8576846449890856,
+      "A_backbone_rmsd_A": 0.08175518651093663,
+      "B_backbone_rmsd_A": 1.9462860996545541,
+      "B8_12_backbone_rmsd_A": 2.9580896765960936
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 1,
+      "all_CA_rmsd_A": 0.3293719502152728,
+      "B8_12_CA_rmsd_A": 0.2270761903306502,
+      "A_backbone_rmsd_A": 0.08176522640901553,
+      "B_backbone_rmsd_A": 0.3216113260349907,
+      "B8_12_backbone_rmsd_A": 0.23135914316320705
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 2,
+      "all_CA_rmsd_A": 1.856042601417226,
+      "B8_12_CA_rmsd_A": 2.8650426060161904,
+      "A_backbone_rmsd_A": 0.08673255665072417,
+      "B_backbone_rmsd_A": 1.9311839841703138,
+      "B8_12_backbone_rmsd_A": 2.9389900270043148
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 2,
+      "all_CA_rmsd_A": 0.45918689196882345,
+      "B8_12_CA_rmsd_A": 0.3461392559168499,
+      "A_backbone_rmsd_A": 0.07579808248357144,
+      "B_backbone_rmsd_A": 0.43813338180005124,
+      "B8_12_backbone_rmsd_A": 0.3334632913050239
+    },
+    {
+      "peptide_id": "P53_P27A",
+      "seed": 20261012,
+      "model": 3,
+      "all_CA_rmsd_A": 1.7837826149836338,
+      "B8_12_CA_rmsd_A": 2.7578430274917873,
+      "A_backbone_rmsd_A": 0.0811774187937159,
+      "B_backbone_rmsd_A": 1.8750500386100328,
+      "B8_12_backbone_rmsd_A": 2.8578468660034537
+    },
+    {
+      "peptide_id": "P53_L22A",
+      "seed": 20261012,
+      "model": 3,
+      "all_CA_rmsd_A": 0.44052975374549447,
+      "B8_12_CA_rmsd_A": 0.4206538901344236,
+      "A_backbone_rmsd_A": 0.07708744239089095,
+      "B_backbone_rmsd_A": 0.4262281378724523,
+      "B8_12_backbone_rmsd_A": 0.40140743558167935
+    }
+  ],
+  "pooled_descriptive_term_contrasts": {
+    "P53_P27A": {
+      "Backbone Hbond": 0.0,
+      "Electrostatics": 0.0,
+      "Entropy Complex": 0.0,
+      "Interaction Energy": -0.8921000000000028,
+      "Interface Residues": 0.0,
+      "Interface Residues BB Clashing": 0.0,
+      "Interface Residues Clashing": 0.0,
+      "Interface Residues VdW Clashing": 0.0,
+      "IntraclashesGroup1": 0.0,
+      "IntraclashesGroup2": -0.0039799999999998725,
+      "Number of Residues": 0.0,
+      "Sidechain Hbond": 0.0,
+      "Solvation Hydrophobic": -0.5297000000000001,
+      "Solvation Polar": -0.09686999999999957,
+      "Van der Waals": -0.27245000000000097,
+      "Van der Waals clashes": 0.0012179999999999969,
+      "backbone clash": 0.04744499999999996,
+      "cis_bond": 0.0,
+      "disulfide": 0.0,
+      "electrostatic kon": 0.0,
+      "energy Ionisation": 0.0,
+      "entropy mainchain": -0.14251000000000003,
+      "entropy sidechain": 0.10046000000000044,
+      "helix dipole": 0.0,
+      "mloop_entropy": 0.0,
+      "partial covalent bonds": 0.0,
+      "sloop_entropy": 0.0,
+      "torsional clash": 0.0007332500000000013,
+      "water bridge": 0.0
+    },
+    "P53_L22A": {
+      "Backbone Hbond": 0.06126000000000009,
+      "Electrostatics": 0.059760499999999994,
+      "Entropy Complex": 0.0,
+      "Interaction Energy": -1.6402000000000019,
+      "Interface Residues": -1.0,
+      "Interface Residues BB Clashing": 0.0,
+      "Interface Residues Clashing": 0.0,
+      "Interface Residues VdW Clashing": 0.0,
+      "IntraclashesGroup1": -0.0003700000000002035,
+      "IntraclashesGroup2": 0.008124499999999979,
+      "Number of Residues": 0.0,
+      "Sidechain Hbond": 0.0,
+      "Solvation Hydrophobic": -1.6971500000000006,
+      "Solvation Polar": 0.05406000000000022,
+      "Van der Waals": -0.7417000000000007,
+      "Van der Waals clashes": 0.0007079999999999864,
+      "backbone clash": 0.32218500000000017,
+      "cis_bond": 0.0,
+      "disulfide": 0.0,
+      "electrostatic kon": 0.03911135,
+      "energy Ionisation": 0.0,
+      "entropy mainchain": 0.150845,
+      "entropy sidechain": 0.48301499999999997,
+      "helix dipole": -4.6700000000000214e-05,
+      "mloop_entropy": 0.0,
+      "partial covalent bonds": 0.0,
+      "sloop_entropy": 0.0,
+      "torsional clash": -0.002007250000000009,
+      "water bridge": 0.0
+    }
+  },
+  "caution": "Geometry proxies and pooled component medians are exploratory; not measured helicity, no energy-component sum assumption, not the primary aggregation"
+}

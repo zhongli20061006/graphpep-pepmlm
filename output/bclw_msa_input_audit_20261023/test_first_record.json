@@ -1,0 +1,9 @@
+{
+  "command": "/home/g/miniconda3/envs/graphpep_env/bin/python -m unittest discover -s output/bclw_msa_input_audit_20261023 -p test_msa_core.py -v",
+  "phase": "BEFORE_IMPLEMENTATION",
+  "exit_code": 1,
+  "tests_run": 9,
+  "failures": 9,
+  "observed_failure": "AssertionError: unexpectedly None : MSA implementation has not been written",
+  "source": "Direct tool execution observed before msa_core.py was created; this is a concise record, not a copied raw log."
+}

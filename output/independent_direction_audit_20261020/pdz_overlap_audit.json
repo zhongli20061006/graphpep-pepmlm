@@ -1,0 +1,1318 @@
+{
+  "audit_date": "2026-10-20",
+  "scope": "Read-only exact-ID, peptide/receptor-sequence and receptor-family audit; no model inference or scoring; source records downloaded only from RCSB public APIs",
+  "agents": {
+    "E:/AGENTS.md": "read, FastAPI-specific; no FastAPI work in this audit",
+    "workspace_or_output_AGENTS": "none found at workspace or ancestors below E:/",
+    "WSL_GraphPep_ancestors_AGENTS": "none found at / /home /home/g /home/g/GraphPep_v1.3"
+  },
+  "original_paper_ownership": {
+    "doi": "10.1038/nbt.1489",
+    "pmcid": "PMC2655215",
+    "finding": "The original paper selected three parent peptides among its high-affinity training peptides and used their single mutations to assess that paper's own predictor. This documents exposure for that predictor, not automatic exposure for GraphPep, FoldX or this project.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2655215/"
+  },
+  "local_project_exposure": {
+    "scanned_files": 1913,
+    "scope": "md; manifest/audit json; csv;tsv;fasta;fa. Excludes tools/models/current audit/result JSON/node_modules/git",
+    "matched_files": [
+      {
+        "path": "output\\reward_direction_benchmark_20261008\\protocol_draft_zh.md",
+        "sha256": "06da88d0b6e414de0bec54fc57e3f715029519127ba1c8b2277bcae724b0abc4",
+        "matches": [
+          {
+            "line": 75,
+            "text": "当前候选审计结论为 HOLD：2021 PMI-L10A SPR 面板测量了 22 条经 FP 富集的单点增强肽，不能提供双向标签，也属于既有 MDM2/PMI 开发家族；a1-syntrophin PDZ 需要取回补充表并核对 15 条变体逐条 Kd/误差/正反方向，且其母肽进入原模型训练数据、突变又被该论文用于模型评价，只能作披露的开发/方法选择集；SPSB2–iNOS 虽有同 assay 的 Kd 与端基信息，但缺已确认的增强单点变体，且结构与测量构建体/序列不完全匹配。现阶段不启动新折叠或评分。旧目录 output/independent_affinity_validation_20261007 保持原样。"
+          }
+        ]
+      },
+      {
+        "path": "output\\reward_direction_benchmark_20261008\\candidate_source_audit.csv",
+        "sha256": "9f99b90d21ecf1fa34d367f1308db58e691dabd0b2780db6bc88cf097f143279",
+        "matches": [
+          {
+            "line": 2,
+            "text": "\"a1synPDZ_2008\",\"10.1038/nbt.1489\",\"Chen et al 2008 Nature Biotechnology; https://pmc.ncbi.nlm.nih.gov/articles/PMC2655215/\",\"Yes: alpha-1 syntrophin PDZ; paper says N-terminal thioredoxin and His6 tags; exact boundaries not recovered\",\"3 WT backgrounds, each 10 aa: CLDTSRETDL; SPDRDRESIV; NLKAGRETTV; 5 single substitutions per WT (15 total)\",\"All assay peptides N-terminally labeled with 5(6)-carboxytetramethylrhodamine. Exact C-terminal acid/amide status is not stated in the accessible synthesis methods; PDZ recognition requires a peptide C terminus, but that does not establish the precise terminal chemistry\",\"Fluorescence polarization, 20 nM labeled peptide, 25 C; Kd reported in Supplementary Table 7; figure caption says ΔΔG values are means of three experimental replicates\",\"Paper reports one nonbinding variant and a model correlation across other 14 variants; exact per-variant Kd/error and gain/loss labels not verified because the PMC-hosted NIHMS90286 supplementary files return cache miss in available retrieval\",\"2PDZ is mouse alpha-1 syntrophin PDZ NMR complex with GVKESLV heptapeptide, not these three full 10-mers; receptor-family support but not exact assay ligand structure\",\"Published predictor mutation-effect evaluation; parent ligands were among the highest-affinity peptides in that paper's model training data. Method-selection/development only; never call blind\",\"Workspace search of output/pipeline/docs found no exact 2PDZ or syntrophin/iNOS candidate hit before this audit. WSL GraphPep training-list read was denied; no model-training exclusion claim\",\"Original Supplementary Table 7 and figure-level uncertainty; exact receptor boundaries; per-row Kd and error meaning/repeats; exact peptide C-terminal chemistry; fluorophore relation to the modeled interface; exact GraphPep training overlap\",\"CONDITIONAL_METHOD_SELECTION_ONLY; HOLD until supplement and input chemistry audit pass; not independent blind validation\""
+          }
+        ]
+      }
+    ],
+    "before_2026_10_08": "No matching earlier-dated report/manifest/input found in this limited current-filesystem search. Dates in paths are not trusted version history; no git history available.",
+    "on_2026_10_08": "Candidate source and planning exposure confirmed in the two listed files. It is now a source-audited candidate, not prospectively source-blind.",
+    "scoring_exposure": "No candidate prediction/scoring input/output found within audited glob scope; no exhaustive binary/job-log/machine-wide claim."
+  },
+  "graphpep_exact_id": {
+    "lists": [
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/list",
+        "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+        "line_count": 2231,
+        "unique_targets": 2231,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+        "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+        "line_count": 32667,
+        "unique_targets": 2007,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+        "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+        "line_count": 3636,
+        "unique_targets": 224,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+        "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+        "line_count": 99,
+        "unique_targets": 99,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+        "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+        "line_count": 53,
+        "unique_targets": 53,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+        "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+        "line_count": 64,
+        "unique_targets": 64,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+        "sha256": "bcb8fd11b05515bbda1ba502f183f82244a5d4afa11125c1ccf7a858ea5a5238",
+        "line_count": 121,
+        "unique_targets": 121,
+        "exact_pdb_2pdz": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+        "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+        "line_count": 62,
+        "unique_targets": 62,
+        "exact_pdb_2pdz": []
+      }
+    ],
+    "finding": "2PDZ absent from listed local training/validation/test manifests. This is not evidence of no receptor-family overlap or of actual checkpoint provenance."
+  },
+  "graphpep_sequence": {
+    "reference": {
+      "sequence": "RRRVTVRKADAGGLGISIKGGRENKMPILISKIFKGLAADQTEALFVGDAILSVNGEDLSSATHDEAVQALKKTGKEVVLEVKYMK",
+      "length": 86,
+      "source_url": "https://www.rcsb.org/fasta/entry/2PDZ/display",
+      "note": "Reference/example 86aa only; S2 declared assay75 maps to UniParc positions90-164, corresponding reference86 positions12-86. Not an internal contradiction; full expression tags/linkers unresolved."
+    },
+    "query_core10": [
+      "CLDTSRETDL",
+      "SPDRDRESIV",
+      "NLKAGRETTV"
+    ],
+    "query_full13": [
+      "NNGCLDTSRETDL",
+      "NNGSPDRDRESIV",
+      "NNGNLKAGRETTV"
+    ],
+    "peptide_chemistry_note": "Exact residue-string scan cannot represent TAMRA chemistry; assays use N-terminal TAMRA-NNG plus core10 and C-terminal free acid per source audit. PDB database description may say GVKESLV, while RCSB 2PDZ canonical polymer FASTA returns modeled KESLV; neither equals assay peptides.",
+    "total_pairs": 2509,
+    "groups": {
+      "Training_set": 2231,
+      "LEADS-PEP_docking_decoys": 53,
+      "ADCP99_decoys": 99,
+      "nr_epitope_minus_AF3_decoys": 64,
+      "Local_62_docking_decoys": 62
+    },
+    "exact_reference_receptor_matches": [],
+    "exact_or_substring_peptide_matches": [],
+    "method": "First MODEL CA records, canonical 20 aa plus MSE=>M; residue IDs deduplicated; heavy/binary feature files not scanned. Local62 uses bound recb.pdb."
+  },
+  "graphpep_receptor_family": {
+    "method": "RCSB sequence service with results_verbosity=verbose, reference86, identity_cutoff 0.30, evalue_cutoff 0.01, return_all_hits; entry-level intersection, then per-hit polymer metadata read.",
+    "query_url": "https://search.rcsb.org/rcsbsearch/v2/query",
+    "remote_polymer_hits": 265,
+    "remote_entry_hits": 263,
+    "training_split_matches": {
+      "train": {
+        "target_count": 35,
+        "targets": [
+          "1be9_B",
+          "1tp3_B",
+          "2qt5_X",
+          "3diw_C",
+          "3nfk_C",
+          "3nfl_E",
+          "3rl7_G",
+          "3sfj_B",
+          "4e34_C",
+          "4e35_C",
+          "4e3b_C",
+          "4joe_C",
+          "4jof_C",
+          "4jog_C",
+          "4joh_D",
+          "4joj_C",
+          "4jok_C",
+          "4jor_C",
+          "4k6y_C",
+          "4k72_C",
+          "4k75_B",
+          "4k76_E",
+          "4k78_B",
+          "4nnl_C",
+          "4wyu_D",
+          "5eyz_E",
+          "5hed_B",
+          "5hey_B",
+          "5hf1_B",
+          "5hfb_B",
+          "5k4f_C",
+          "5vwi_C",
+          "6ms1_D",
+          "6ov7_C",
+          "6spz_P"
+        ]
+      },
+      "valid": {
+        "target_count": 4,
+        "targets": [
+          "4jop_C",
+          "5ez0_E",
+          "5wou_V",
+          "6hks_G"
+        ]
+      }
+    },
+    "test_list_matches": [
+      {
+        "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+        "matches": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+        "matches": [
+          "1n7f",
+          "3lny",
+          "3nfk",
+          "4nnm",
+          "4q6h"
+        ]
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+        "matches": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+        "matches": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+        "matches": [
+          "1n7f",
+          "1tp5"
+        ]
+      }
+    ],
+    "confirmed_metadata_examples": [
+      {
+        "pdb": "4E34",
+        "target": "4e34_C",
+        "protein": "CAL PDZ / UniProt Q9HD26",
+        "split": "train"
+      },
+      {
+        "pdb": "4JOE",
+        "target": "4joe_C",
+        "protein": "CAL PDZ / UniProt Q9HD26",
+        "split": "train"
+      },
+      {
+        "pdb": "6MS1",
+        "target": "6ms1_D",
+        "protein": "Scribble PDZ1 / UniProt Q14160",
+        "split": "train"
+      },
+      {
+        "pdb": "1BE9",
+        "target": "1be9_B",
+        "protein": "PSD95 PDZ3 / UniProt P31016",
+        "split": "train"
+      }
+    ],
+    "finding": "PDZ-family exposure is present in distributed GraphPep training/validation datasets. Exact a1-syntrophin receptor training exposure is not established. Do not label this receptor-family holdout.",
+    "identity_and_coverage": {
+      "train": [
+        {
+          "entity": "4E34_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4E35_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOE_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOF_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOG_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOH_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOJ_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "4JOK_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        }
+      ],
+      "valid": [
+        {
+          "entity": "4JOP_1",
+          "identity": 0.5,
+          "query_coverage": 0.9767441860465116,
+          "alignment_length": 84,
+          "query_beg": 2,
+          "query_end": 85,
+          "evalue": 1.055e-15
+        },
+        {
+          "entity": "5WOU_1",
+          "identity": 0.397,
+          "query_coverage": 0.8372093023255814,
+          "alignment_length": 78,
+          "query_beg": 11,
+          "query_end": 82,
+          "evalue": 0.0001137
+        },
+        {
+          "entity": "6HKS_1",
+          "identity": 0.35700000000000004,
+          "query_coverage": 0.8023255813953488,
+          "alignment_length": 70,
+          "query_beg": 4,
+          "query_end": 72,
+          "evalue": 3.74e-07
+        },
+        {
+          "entity": "5EZ0_1",
+          "identity": 0.32799999999999996,
+          "query_coverage": 0.8023255813953488,
+          "alignment_length": 70,
+          "query_beg": 4,
+          "query_end": 72,
+          "evalue": 2.946e-08
+        }
+      ]
+    },
+    "all_39_polymer_metadata_checked": {
+      "count": 39,
+      "retrieval_errors": [],
+      "snta1_or_alpha1_syntrophin_matches": [],
+      "finding": "No SNTA1 / alpha1-syntrophin protein or gene text in the 39 intersecting polymer metadata. Highest identity is 50.0%, query coverage 84/86 (97.67%), CAL PDZ. This establishes family neighborhood exposure, not exact receptor training exposure."
+    }
+  },
+  "pretraining_and_checkpoint_limits": [
+    "Not proven that local distributed splits exactly reconstruct the provenance of the selected deployed GraphPep checkpoint.",
+    "ESM-2 pretraining exact-sequence membership not audited; absence from GraphPep structural manifests does not imply absence from ESM pretraining.",
+    "AFM/AF2 structural pretraining membership not audited; 2PDZ is a historical public structure, so structural-source independence is not established.",
+    "No exact ID match does not exclude homologous receptors, chemically modified peptides or related binders.",
+    "All 18 PDZ row core10 and full13 sequences were checked in the narrow extension. The residue-string scan still cannot rule out chemically modified peptide or opaque pretraining membership."
+  ],
+  "interpretation": "Potential future use must disclose candidate-selection exposure and GraphPep PDZ-family exposure. Original paper usage alone does not make it this project's development panel. Current no-pilot decision instead follows missing qualifying >=2x enhancing labels and unresolved full input construct, as evaluated by parent task.",
+  "structure_input_count": 5018,
+  "sources": [
+    {
+      "path": "pdz_overlap_sources/1be9_entry.json",
+      "sha256": "9d6b4be268b5085ebd44dd2fbfe0b5cae043542312e6aedf5ba09ded3f101b15",
+      "bytes": 12024
+    },
+    {
+      "path": "pdz_overlap_sources/1be9_polymer_1.json",
+      "sha256": "6515876bbaa25665c8e4ad25a518e7b63d5a165a923b516e29dd2f12674665bd",
+      "bytes": 81288
+    },
+    {
+      "path": "pdz_overlap_sources/1be9_polymer_2.json",
+      "sha256": "13d1509d90adb6dfcc5950850db14eebded1653c15ddc96decbf5d51fefd9658",
+      "bytes": 1083
+    },
+    {
+      "path": "pdz_overlap_sources/2PDZ.fasta",
+      "sha256": "0411fd4e89ce16e466550f82e85f56f37f439f9e36b444fd8d721d93d50079ef",
+      "bytes": 174
+    },
+    {
+      "path": "pdz_overlap_sources/4e34_entry.json",
+      "sha256": "b5083c86e23cb0ab4d81530d8d19a3920e042f12f83fca66a6c57bbd9cc42825",
+      "bytes": 12471
+    },
+    {
+      "path": "pdz_overlap_sources/4e34_polymer_1.json",
+      "sha256": "a6b1e666b679724086dfdd971fa3e5812a868104eadd879291d0d81f693b16c9",
+      "bytes": 36464
+    },
+    {
+      "path": "pdz_overlap_sources/4e34_polymer_2.json",
+      "sha256": "d92ce00a7dd02315255587f016647d3891c608a606a2e02021a61dc3832c9957",
+      "bytes": 2815
+    },
+    {
+      "path": "pdz_overlap_sources/4joe_entry.json",
+      "sha256": "7faf1cba9f5d1fa4dc8d6557f3bd0af0b77f14e8392d93c7240ecb2fef33d191",
+      "bytes": 13277
+    },
+    {
+      "path": "pdz_overlap_sources/4joe_polymer_1.json",
+      "sha256": "1e9116e597b37d4ded6c18392bc11b047bdc3f3d4bb9b74a0519e3d3f5da37dc",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/4joe_polymer_2.json",
+      "sha256": "155eb4730a20b4c4ead0aa7498909dd4d53ffb916d6f9521d00e76f2e00b00b7",
+      "bytes": 2706
+    },
+    {
+      "path": "pdz_overlap_sources/4k6y_entry.json",
+      "sha256": "047b7d1ab250dd2ac5271647cf982063cc4770624171bfcd715782c54e28597d",
+      "bytes": 14288
+    },
+    {
+      "path": "pdz_overlap_sources/4k6y_polymer_1.json",
+      "sha256": "6f5c9e5198e50cab86d073c9f3f4e26ac32549f4180a42d1bf7075f1ab0c39a0",
+      "bytes": 36436
+    },
+    {
+      "path": "pdz_overlap_sources/4k6y_polymer_2.json",
+      "sha256": "261b53c9c116a449c2dfd96ad32d253026257f5e74bb5a595a428a5e04f89db1",
+      "bytes": 2710
+    },
+    {
+      "path": "pdz_overlap_sources/5k4f_entry.json",
+      "sha256": "b56e4f2e8e80cbd782f0141035b2cdb687c5ffab48d1ae09acf5f45e97f5d189",
+      "bytes": 10828
+    },
+    {
+      "path": "pdz_overlap_sources/5k4f_polymer_1.json",
+      "sha256": "a1083a354a9288d3bab43b6872c0d7e913b541c9e23b49da87280b2b382dbf37",
+      "bytes": 36766
+    },
+    {
+      "path": "pdz_overlap_sources/5k4f_polymer_2.json",
+      "sha256": "5e5b1cb84ea0f22b69e0020fb7fa71af42dd6f027bca7e942255feb070b7785d",
+      "bytes": 15931
+    },
+    {
+      "path": "pdz_overlap_sources/6ms1_entry.json",
+      "sha256": "aea750c113bc4c199f4899667da796589ed142d0bbee4b01755bc53a44a6ad4f",
+      "bytes": 11929
+    },
+    {
+      "path": "pdz_overlap_sources/6ms1_polymer_1.json",
+      "sha256": "2fe78bd1451ee1d2b17f7be08a8e02e8093318aa9e03b6f8463130bea4e44090",
+      "bytes": 47087
+    },
+    {
+      "path": "pdz_overlap_sources/6ms1_polymer_2.json",
+      "sha256": "10209e6df8b42ea95c07a153be156a530ac90c5411ef219270a58725068c85c9",
+      "bytes": 4723
+    },
+    {
+      "path": "pdz_overlap_sources/6ov7_entry.json",
+      "sha256": "ee08630eb431bb4f124a51b999349fa26b96f2955656c82b12e83e00b67756c2",
+      "bytes": 16099
+    },
+    {
+      "path": "pdz_overlap_sources/6ov7_polymer_1.json",
+      "sha256": "112bb3f6b2a16341455f796e6c42343b66c8df5b18337ef2394b80fca1a72428",
+      "bytes": 36597
+    },
+    {
+      "path": "pdz_overlap_sources/6ov7_polymer_2.json",
+      "sha256": "dfe80268e1e1030026c8e6cce9619cdd4ff04b32654603d7abb0ff8e2b56c65f",
+      "bytes": 4019
+    },
+    {
+      "path": "pdz_overlap_sources/UPI0000566AF6.fasta",
+      "sha256": "3431323e3ca6923e14d80564a8d7bd70fbd947b4c49d4e5c06bc77fffba8a449",
+      "bytes": 544
+    },
+    {
+      "path": "pdz_overlap_sources/all18_pdz_peptide_overlap.json",
+      "sha256": "2be9ffe1df1fddb901b3bc521d100ab10d5eb9a8bfe9522e170a1ebbb4984bbf",
+      "bytes": 9538
+    },
+    {
+      "path": "pdz_overlap_sources/assay75_mapping.json",
+      "sha256": "70d67eed037f87f885415ac0564bb28b6665b05fbb3b025a392a879a856c6587",
+      "bytes": 671
+    },
+    {
+      "path": "pdz_overlap_sources/entry_1eg4.json",
+      "sha256": "be5e331d3a475f39915a274c4a35064175a8b102ad5140804fa551416bc06a02",
+      "bytes": 9277
+    },
+    {
+      "path": "pdz_overlap_sources/family_1BE9_1.json",
+      "sha256": "6515876bbaa25665c8e4ad25a518e7b63d5a165a923b516e29dd2f12674665bd",
+      "bytes": 81288
+    },
+    {
+      "path": "pdz_overlap_sources/family_1TP3_1.json",
+      "sha256": "6581c68ea457617ec031e0a6db8605963fa280866bb704c925cf52a679fa28a2",
+      "bytes": 82469
+    },
+    {
+      "path": "pdz_overlap_sources/family_2QT5_1.json",
+      "sha256": "16bf6bcb1d7aa1e0ad0ce1c3096c5c9cae5b7096cbf040e0abfa7f948466e474",
+      "bytes": 64015
+    },
+    {
+      "path": "pdz_overlap_sources/family_3DIW_1.json",
+      "sha256": "1e12cc20b027aba7025a937183870017a6c34441a3babb10ff8919e5b95acad2",
+      "bytes": 21930
+    },
+    {
+      "path": "pdz_overlap_sources/family_3NFK_1.json",
+      "sha256": "dbd0b24d18f89ea4d996b72353280207e711254f273e2a2d54bf21a8d9c5afaf",
+      "bytes": 26320
+    },
+    {
+      "path": "pdz_overlap_sources/family_3NFL_1.json",
+      "sha256": "6b0524e75977aed754537876a1f822f25d76ffe8eb1c8265720393901e343fa7",
+      "bytes": 26340
+    },
+    {
+      "path": "pdz_overlap_sources/family_3RL7_1.json",
+      "sha256": "83e0e697fdfc572bbe15504a942ce13e5220a785331c15c44b3951d73b47e6b5",
+      "bytes": 75839
+    },
+    {
+      "path": "pdz_overlap_sources/family_3SFJ_1.json",
+      "sha256": "8cba6ef10cee786c10bbced2fe904205816055cb52c4623570fa688bb046d2f3",
+      "bytes": 21721
+    },
+    {
+      "path": "pdz_overlap_sources/family_4E34_1.json",
+      "sha256": "a6b1e666b679724086dfdd971fa3e5812a868104eadd879291d0d81f693b16c9",
+      "bytes": 36464
+    },
+    {
+      "path": "pdz_overlap_sources/family_4E35_1.json",
+      "sha256": "29d6719009e8c156be413220bb35daf9c2406f3ad0754f152fa3277aad759f15",
+      "bytes": 36464
+    },
+    {
+      "path": "pdz_overlap_sources/family_4E3B_1.json",
+      "sha256": "b6ee4c472476687af2002105a56f7cfe3d83139b389325075933181b988fda3a",
+      "bytes": 21410
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOE_1.json",
+      "sha256": "1e9116e597b37d4ded6c18392bc11b047bdc3f3d4bb9b74a0519e3d3f5da37dc",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOF_1.json",
+      "sha256": "9fa07812ab27743e4af2c143fb5c181e1c2e6ef31c90afaaf014819417d339ba",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOG_1.json",
+      "sha256": "61048fa7d9141e61e2f7de6ac6cd087fe598528dcbe47c443f9ef83dc1ceaaeb",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOH_1.json",
+      "sha256": "e7291fa8f07a6b0b08b573ff786b25e26865ad2448c8b652a011413eb23877cc",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOJ_1.json",
+      "sha256": "45331c1e2a872fba6d776a0438d18dfbeca5b10a40b003758700aafd1124fde7",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOK_1.json",
+      "sha256": "0f31493a0fc6aaeac32dd29dd5ef8ab50fd29eed911e59d7cc89ca53e62bc4cf",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOP_1.json",
+      "sha256": "fd2e73a4500411ebe7987231ed159c2338f7be4a0e92a83331c6e1d60779dc31",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4JOR_1.json",
+      "sha256": "f6ec507118b8cd57a1dfbe2f9d87b2aca7d42f7b193b475e1ef4865864489c7d",
+      "bytes": 35891
+    },
+    {
+      "path": "pdz_overlap_sources/family_4K6Y_1.json",
+      "sha256": "6f5c9e5198e50cab86d073c9f3f4e26ac32549f4180a42d1bf7075f1ab0c39a0",
+      "bytes": 36436
+    },
+    {
+      "path": "pdz_overlap_sources/family_4K72_1.json",
+      "sha256": "932deac24460a3afd261f6727dc54b409969a61aa1ba400bad8a2c1a1365e898",
+      "bytes": 36436
+    },
+    {
+      "path": "pdz_overlap_sources/family_4K75_1.json",
+      "sha256": "a8c27392b76a9f68ccb3cd0bb0503cd2e9ffaa7544448b4183adca4caa5a1397",
+      "bytes": 36814
+    },
+    {
+      "path": "pdz_overlap_sources/family_4K76_1.json",
+      "sha256": "d5d155c909d07915f045234bfba476d15ba174ed2a4439b94809be96da33e68b",
+      "bytes": 36456
+    },
+    {
+      "path": "pdz_overlap_sources/family_4K78_1.json",
+      "sha256": "210efbaad2a0536bd971974d4c0e52f0ba05a6667111eb777a52990cde6c0126",
+      "bytes": 37064
+    },
+    {
+      "path": "pdz_overlap_sources/family_4NNL_1.json",
+      "sha256": "5aa306a4ed9f8744ea2e6e4511d5afae4fb70441ba9215168238f56d90797f69",
+      "bytes": 21471
+    },
+    {
+      "path": "pdz_overlap_sources/family_4WYU_1.json",
+      "sha256": "ef9f2e7c627864cddb6fe1d56dc4c4d0a0a83fe64d2edc1cc225ff089d518abc",
+      "bytes": 49454
+    },
+    {
+      "path": "pdz_overlap_sources/family_5EYZ_1.json",
+      "sha256": "7ef7cc9f6d670435b995c410d040afc33ba14c5513033595030b5f6cf1c059ae",
+      "bytes": 26438
+    },
+    {
+      "path": "pdz_overlap_sources/family_5EZ0_1.json",
+      "sha256": "69213a1e2d34a5a597f593669f34a7c2e4217fdb9a42e6bf124dff69419915a3",
+      "bytes": 26407
+    },
+    {
+      "path": "pdz_overlap_sources/family_5HED_1.json",
+      "sha256": "bfa948e2e6d8ac39f95b6e850b2c97371faf3aaf257971dd01b16b0600f2d1e8",
+      "bytes": 82635
+    },
+    {
+      "path": "pdz_overlap_sources/family_5HEY_1.json",
+      "sha256": "94ade71322c674298fdc23f0b536ce985372baddb1a6603b1a16241d927f51e4",
+      "bytes": 82860
+    },
+    {
+      "path": "pdz_overlap_sources/family_5HF1_1.json",
+      "sha256": "12971242eb6e90f08252b35dfe8ca1cc3008864f4a9249098a82a5965b167c45",
+      "bytes": 82860
+    },
+    {
+      "path": "pdz_overlap_sources/family_5HFB_1.json",
+      "sha256": "2b164298d7b417e06d81046bed73185b6e56680da4e39af153b52b66b28d8452",
+      "bytes": 82860
+    },
+    {
+      "path": "pdz_overlap_sources/family_5K4F_1.json",
+      "sha256": "a1083a354a9288d3bab43b6872c0d7e913b541c9e23b49da87280b2b382dbf37",
+      "bytes": 36766
+    },
+    {
+      "path": "pdz_overlap_sources/family_5VWI_1.json",
+      "sha256": "490fd76616d5881c6e2479fb5b0671fc0ced44a10eb603232031394d18354a58",
+      "bytes": 47195
+    },
+    {
+      "path": "pdz_overlap_sources/family_5WOU_1.json",
+      "sha256": "1aa2e774d0a0579b24000d4af0bf5b06ae7143ec874d71959b23b151bbb7c720",
+      "bytes": 62777
+    },
+    {
+      "path": "pdz_overlap_sources/family_6HKS_1.json",
+      "sha256": "8083c59df944402629def9025dc9c3b4950db407b34f5ebbbe52f8286b9be564",
+      "bytes": 33602
+    },
+    {
+      "path": "pdz_overlap_sources/family_6MS1_1.json",
+      "sha256": "2fe78bd1451ee1d2b17f7be08a8e02e8093318aa9e03b6f8463130bea4e44090",
+      "bytes": 47087
+    },
+    {
+      "path": "pdz_overlap_sources/family_6OV7_1.json",
+      "sha256": "112bb3f6b2a16341455f796e6c42343b66c8df5b18337ef2394b80fca1a72428",
+      "bytes": 36597
+    },
+    {
+      "path": "pdz_overlap_sources/family_6SPZ_1.json",
+      "sha256": "05927f306d13c4016c62ed368c4dc98a72415712e4eb839bed02943f51330738",
+      "bytes": 69421
+    },
+    {
+      "path": "pdz_overlap_sources/family_name_gene_audit.json",
+      "sha256": "5987ad7b69e809c294112a04eaca3e89426f40b9c2a201de05056377e0d9f9f1",
+      "bytes": 325048
+    },
+    {
+      "path": "pdz_overlap_sources/graphpep_sequence_scan.json",
+      "sha256": "2c128c77174ad7610d071a98d61daabba1bdf0490ed9621cf19b28543b0c6d09",
+      "bytes": 17696
+    },
+    {
+      "path": "pdz_overlap_sources/homer1_narrow_overlap.json",
+      "sha256": "bf61f93ac25507cfb8ad3e61c46061da98b6b297a31eb7c09c2da5d5691c0ecb",
+      "bytes": 5492
+    },
+    {
+      "path": "pdz_overlap_sources/metadata_summary.json",
+      "sha256": "8fd189530b97d868cc3028344aab3e45d33a5fb62ca11cba89ed86aaf65a5100",
+      "bytes": 5721
+    },
+    {
+      "path": "pdz_overlap_sources/polymer_entity_1eg4_1.json",
+      "sha256": "48ed1fbbf6b51f804e8695ce479ffb64ce1612af22b87c82cfa6cc5849a9f662",
+      "bytes": 72870
+    },
+    {
+      "path": "pdz_overlap_sources/polymer_entity_1eg4_2.json",
+      "sha256": "dcb4ad79c6400fb55b1f315591847d9ffcb3f472145a0c0850547002322ea047",
+      "bytes": 83387
+    },
+    {
+      "path": "pdz_overlap_sources/rcsb_sequence_overlap_summary.json",
+      "sha256": "f41b59c1b937675607edd5f630a076dd2fbd75910eb4923f13fe06e537aafd87",
+      "bytes": 2157
+    },
+    {
+      "path": "pdz_overlap_sources/rcsb_sequence_search_30pct.json",
+      "sha256": "e39e07450bb6a5ac472c4c5168b13b4b23e6583c948405b3410cc6c854f10734",
+      "bytes": 14915
+    },
+    {
+      "path": "pdz_overlap_sources/rcsb_sequence_search_30pct_verbose.json",
+      "sha256": "48be597efe9fd7cb9ab36517fd999c44e902b7c299fcb25dfd5f7a59d0f56226",
+      "bytes": 235012
+    },
+    {
+      "path": "pdz_overlap_sources/rcsb_syntrophin_text_search.json",
+      "sha256": "395c1b7a14279e60dfdb8189963b333c30b88d9adfdc9b21c365cc1708e10752",
+      "bytes": 1587
+    },
+    {
+      "path": "pdz_overlap_sources/sequence_identity_summary.json",
+      "sha256": "f9e5eadbc6ea6bb37405ef2423b2a8c9f26607269881340867f9e0b05ddf38ae",
+      "bytes": 11838
+    },
+    {
+      "path": "pdz_overlap_sources/split_family_matches.json",
+      "sha256": "f4bc08ab5d1262412e22689b4be4e69306d695b43c539396197144791c8e0661",
+      "bytes": 753
+    },
+    {
+      "path": "pdz_overlap_sources/structure_input_hashes.json",
+      "sha256": "2b3da7467ba258edd571c2afbe3859bbe36d53ffa103fc08ed60886c47472479",
+      "bytes": 903954
+    },
+    {
+      "path": "pdz_overlap_sources/workspace_match_audit.json",
+      "sha256": "0bf434626c41faf8c2c2aa14de2247e60e7d92b4f3869b694fb1db4ffff7e032",
+      "bytes": 3568
+    }
+  ],
+  "assay_construct_mapping": {
+    "source_url": "https://rest.uniprot.org/uniparc/UPI0000566AF6.fasta",
+    "accession": "UPI0000566AF6",
+    "full_length": 504,
+    "assay_range_1based_inclusive": [
+      90,
+      164
+    ],
+    "assay_75aa": "GGLGISIKGGRENKMPILISKIFKGLAADQTEALFVGDAILSVNGEDLSSATHDEAVQALKKTGKEVVLEVKYMK",
+    "assay_75aa_length": 75,
+    "reference86_contains_assay75": true,
+    "reference86_match_position_1based": 12,
+    "fullsequence_reference86_position_1based": 79,
+    "tags_and_linkers": "N-terminal Trx/His6 reported but full expressed tag/linker sequence not recovered; assay modeled input unresolved",
+    "local_receptor_chains_tested_file_count": 2509,
+    "assay75_exact_or_substring_hits": []
+  },
+  "all18_pdz_ligand_extension": {
+    "source_path": "/mnt/e/Users/graphpep与pepmlm/output/independent_direction_audit_20261020/pdz_ligand_input_audit.csv",
+    "source_sha256": "00a9be9e25c3708c2a1bf2944a04fd09c885c31850fc94a7339441d65adc3d40",
+    "source_rows": 18,
+    "queries": [
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSRETDL",
+        "core10": "CLDTSRETDL",
+        "full13": "NNGCLDTSRETDL"
+      },
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSKETDL",
+        "core10": "CLDTSKETDL",
+        "full13": "NNGCLDTSKETDL"
+      },
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSRDTDL",
+        "core10": "CLDTSRDTDL",
+        "full13": "NNGCLDTSRDTDL"
+      },
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSRESDL",
+        "core10": "CLDTSRESDL",
+        "full13": "NNGCLDTSRESDL"
+      },
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSRETWL",
+        "core10": "CLDTSRETWL",
+        "full13": "NNGCLDTSRETWL"
+      },
+      {
+        "ligand_id": "a1syn_Kv1.5_CLDTSRETDV",
+        "core10": "CLDTSRETDV",
+        "full13": "NNGCLDTSRETDV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDRESIV",
+        "core10": "SPDRDRESIV",
+        "full13": "NNGSPDRDRESIV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDMESIV",
+        "core10": "SPDRDMESIV",
+        "full13": "NNGSPDRDMESIV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDRRSIV",
+        "core10": "SPDRDRRSIV",
+        "full13": "NNGSPDRDRRSIV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDRETIV",
+        "core10": "SPDRDRETIV",
+        "full13": "NNGSPDRDRETIV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDRESDV",
+        "core10": "SPDRDRESDV",
+        "full13": "NNGSPDRDRESDV"
+      },
+      {
+        "ligand_id": "a1syn_Nav1.5_SPDRDRESIL",
+        "core10": "SPDRDRESIL",
+        "full13": "NNGSPDRDRESIL"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGRETTV",
+        "core10": "NLKAGRETTV",
+        "full13": "NNGNLKAGRETTV"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGTETTV",
+        "core10": "NLKAGTETTV",
+        "full13": "NNGNLKAGTETTV"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGRSTTV",
+        "core10": "NLKAGRSTTV",
+        "full13": "NNGNLKAGRSTTV"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGREYTV",
+        "core10": "NLKAGREYTV",
+        "full13": "NNGNLKAGREYTV"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGRETQV",
+        "core10": "NLKAGRETQV",
+        "full13": "NNGNLKAGRETQV"
+      },
+      {
+        "ligand_id": "a1syn_KIF1B_NLKAGRETTL",
+        "core10": "NLKAGRETTL",
+        "full13": "NNGNLKAGRETTL"
+      }
+    ],
+    "native_peptide_files": 2509,
+    "native_chains": 2509,
+    "scan_results": [
+      {
+        "query": "CLDTSKETDL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "CLDTSRDTDL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "CLDTSRESDL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "CLDTSRETDL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "CLDTSRETDV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "CLDTSRETWL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGRETQV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGRETTL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGRETTV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGREYTV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGRSTTV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NLKAGTETTV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSKETDL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSRDTDL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSRESDL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSRETDL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSRETDV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGCLDTSRETWL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGRETQV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGRETTL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGRETTV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGREYTV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGRSTTV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGNLKAGTETTV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDMESIV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDRESDV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDRESIL",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDRESIV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDRETIV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "NNGSPDRDRRSIV",
+        "length": 13,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDMESIV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDRESDV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDRESIL",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDRESIV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDRETIV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "SPDRDRRSIV",
+        "length": 10,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      }
+    ],
+    "direction_note": "Exact query==native and query-in-native reported separately. Native fragment in query (>=6aa) is exploratory structural motif exposure, not exact full assay sequence membership.",
+    "source_refresh_note": "After receptor-description-only parent CSV revision, all 18 ordered row IDs and 36 core10/full13 query strings were re-read and asserted exactly equal to scanned queries; native scan results unchanged."
+  },
+  "homer1_narrow_extension": {
+    "source_path": "/mnt/e/Users/graphpep与pepmlm/output/independent_direction_audit_20261020/homer1_screen/homer1_single_mutants.json",
+    "source_sha256": "b60f76286226360053bbe552d3146023dd760c6d1f97207cf52752f05d723e99",
+    "single_mutant_pairs": 11,
+    "unique_unfused_peptide_queries": 15,
+    "native_peptide_files": 2509,
+    "native_chains": 2509,
+    "scan_results": [
+      {
+        "query": "DIESDFPPPPEDFGAADELP",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "DIESDFPPPPEDFPAADELP",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "GDELGLPPPPPGFGPDEPSW",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "GDELGLPPPPPGFPPDEPSW",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "LNFDELPEPPATFCDPEEVE",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "LNFDELPEPPATFPDPEEVE",
+        "length": 20,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQAPPPPHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYAPPPHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPAPPHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPAPHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPPAHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPPPHPANPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPPPHPFNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPPPHPWNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      },
+      {
+        "query": "PLPHPGAAPWPMAFPYQYPPPPHPYNPHPGFPELGY",
+        "length": 36,
+        "exact_matches": [],
+        "query_substring_in_native_matches": [],
+        "native_substring_in_query_matches": []
+      }
+    ],
+    "reference_pdb_1DDV_exact_list_audit": [
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/list",
+        "sha256": "3c1be8551214abeaf81b1c7dff58f471cc647cc231fd79d18db57b4b04b67650",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/train.csv",
+        "sha256": "56fc06f737a5032066a5f8d4cf0b71b15b2050b501f38310fbb2fed73901b11c",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Training_set/split_data/valid.csv",
+        "sha256": "1bce03aa62c167212e8b16c8dff2d78635ab93e685811391355df50773e7829c",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/ADCP99_decoys/list",
+        "sha256": "597d31c94ffe7ada1829250b15467820857d0301b70fcd11050f79cff635d430",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/LEADS-PEP_docking_decoys/list",
+        "sha256": "674f19289a5374036e5f2482a3404bcb07b12a090e0c7371aa81c0e3cd283642",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list",
+        "sha256": "018b598e4b377354195ef51eaa468b02889845de26e1245b0c59ce30e1467aef",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/nr_epitope_minus_AF3_decoys/list_all",
+        "sha256": "bcb8fd11b05515bbda1ba502f183f82244a5d4afa11125c1ccf7a858ea5a5238",
+        "exact_1DDV_targets": []
+      },
+      {
+        "path": "/home/g/GraphPep_v1.3/Local_62_docking_decoys/list",
+        "sha256": "cc627c2da09c89141b542281e134a402c0459ca2401cdc16f079fa623135158d",
+        "exact_1DDV_targets": [
+          "1DDV"
+        ]
+      }
+    ],
+    "limits": [
+      "Only parent/variant peptide insert strings from the 11 single-mutant pairs were tested, not full expressed SUMO-fusion sequences.",
+      "Biotin/SUMO/tags/linkers are not represented by this sequence scan; no complete assay-sequence independence claim.",
+      "Exact-ID check only for 1DDV; no additional receptor-family or Homer1 homology audit in this narrow extension.",
+      "No model scoring or structure inference was run."
+    ],
+    "local_project_source_exposure": {
+      "finding": "No Homer1 / exact word 1DDV / PMC11237882 hit in prior-workspace bounded md, manifest/audit json, csv/tsv/fasta/fa search excluding current audit. Original GraphPep Local62 test manifest contains 1DDV, which is external distribution test-structure exposure, not proof of present project method selection or GraphPep training exposure.",
+      "current_round": "The source and single-mutant labels are visible to source audit in this round; no new model score was viewed.",
+      "original_paper_ownership": "This extension does not audit the original paper model-development ownership; do not infer from absence of project hits."
+    }
+  }
+}
